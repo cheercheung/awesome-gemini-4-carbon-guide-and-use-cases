@@ -1,0 +1,160 @@
+{
+  "language": "tr",
+  "copy": {
+    "introduction": "Giriş",
+    "overview": "Genel bakış",
+    "quick_start": "Hızlı başlangıç",
+    "menu": "İçindekiler",
+    "case": "Örnek",
+    "category": "Kategori",
+    "type": "Tür",
+    "date": "Tarih",
+    "by": "paylaşan",
+    "video": "Kaynak videoyu izle",
+    "comparison_video": "Özgün model karşılaştırmasını izle",
+    "image": "Kaynak görseli aç",
+    "related": "İlgili depolar",
+    "acknowledge": "Teşekkür",
+    "categories": {
+      "mechanical": "Mekanik ve 3B nesneler",
+      "voxel": "Voksel dünyalar ve manzaralar",
+      "svg": "SVG ve etkileşimli grafikler",
+      "games": "Oyunlar ve animasyon sahneleri",
+      "comparison": "Model karşılaştırması"
+    },
+    "intro": "Erken kullanıma açılma döneminde paylaşanların Gemini 4 Carbon ile ilişkilendirdiği herkese açık topluluk gösterimlerinden oluşan bir koleksiyon.",
+    "purpose": "Özgün kaynaklar üzerinden somut görevleri, görünür çıktıları ve pratik sınırları inceleyin.",
+    "stats": "5 kategoride 25 kullanım örneği. Yeniden paylaşımlar ilgili eserle birleştirilir; mevcut çıktının karşılaştırması aynı örnekte tutulur.",
+    "evidence": "Model adları, üretim süreleri ve kalite yorumları kaynakların beyanıdır. Arena görünen adı arka uç sürümünü kanıtlamaz. Kayıt, çalıştırılabilir kodu, tüm etkileşimleri veya tekrarlanabilir başarıyı kanıtlamaz.",
+    "steps": "1. İçindekilerden bir görev seçin.\n2. Video ya da görseli açıp örnek başlığından özgün paylaşıma gidin.\n3. Görünen sonucu görev ve sınırlarla karşılaştırın.",
+    "thanks": "Gösterimleri paylaşan şu kişilere teşekkürler:",
+    "corrections": "Atıflar bağlantılı kaynaklara dayanır ve düzeltilmesi gerekebilir. Eksik atıf, yinelenen eser, yanlış iddia veya kaldırma isteği için issue açın. Üçüncü taraf medyanın hakları sahiplerinde kalır."
+  },
+  "cases": [
+    [
+      "Mekanik çiçek",
+      "three.js çiçeğinin malzemelerini, ışığını ve küçük arısını inceleyin.",
+      "Üretici yaklaşık 1 saat 43 dakika sürdüğünü ve açık uçlu istekten sonra arının eklendiğini söylüyor. Süre kendi beyanıdır."
+    ],
+    [
+      "Mekanik arı",
+      "Mekanik arının animasyonunu ve sekiz biçimli hareketini inceleyin.",
+      "Üretici Argon'a göre daha iyi işçilik bildirmiş ve önceki testi göstermiştir. Ortak süre ölçümü veya başarı oranı yoktur."
+    ],
+    [
+      "Mekanik canlılar ve örümcek ağı",
+      "Mekanik canlılar, örümcek ağı ve kanatlı aygıt içeren video dizisini inceleyin.",
+      "Örneklenen üç kare farklı sahneler gösteriyor. Kısa açıklama girdileri, süreci veya tek üretimden gelip gelmediklerini ortaya koymuyor."
+    ],
+    [
+      "Kristal narenciye",
+      "Etkileşimli narenciye modelinin katmanlarını, ışığını ve hareketli görünümlerini inceleyin.",
+      "Yazar yaklaşık 20 dakika sürdüğünü, Arena adının gemini-4-argon olduğunu bildiriyor. Carbon kimliği yazarın iddiasıdır."
+    ],
+    [
+      "Hogwarts voksel yapısı",
+      "Voksel kalenin iç ve dış görünümlerini keşfedin.",
+      "Kaynak açıkça best of 4 diyor. Bu seçilmiş bir sonuçtur, ilk denemede başarı kanıtı değildir."
+    ],
+    [
+      "Voksel kale ve manzara",
+      "Kaleyi gündüz, gece ve havadan inceleyin.",
+      "Video farklı bir kale çıktısı gösteriyor. Opus karşılaştırması görüş niteliğindedir; kontrollü kıyaslama veya üretim süreci verilmemiştir."
+    ],
+    [
+      "Fuji bahçesi",
+      "Kelebek bakış açısını da içeren minyatür Japon bahçesini keşfedin.",
+      "Kaynak yansımaları ve hareketli insanları anlatıyor. Kareler farklı görünümleri gösteriyor; tüm etkileşimler test edilmedi."
+    ],
+    [
+      "Voksel nehir ve hava",
+      "Voksel vadideki yansımaları ve hava değişimlerini inceleyin.",
+      "Yazar Argon'dan 2–3 kat uzun sürdüğünü bildiriyor. Ortak ölçüm protokolü olmayan kişisel bir karşılaştırmadır."
+    ],
+    [
+      "Voksel pagoda",
+      "Pagoda adasını farklı ışık koşullarında inceleyin.",
+      "Üretici göreve bağlı olarak 2–4 kat yavaşlık bildiriyor; bu genel model gecikmesi ölçümü değildir. Aynı kişinin üç başka modelle karşılaştırması özgün etiketlerle bu örneğe eklenir, yeni Carbon üretimi sayılmaz."
+    ],
+    [
+      "Beş katlı voksel pagoda",
+      "Başka bir pagodanın ışık animasyonunu ve yakın görünümlerini inceleyin.",
+      "Bu sunum LuminaBench örneğinden farklıdır. Aynı konu aynı üretim demek değildir."
+    ],
+    [
+      "Voksel deniz feneri adası",
+      "Deniz fenerini gece, gündüz ve hava değişimlerinde keşfedin.",
+      "Kaynak voksel detayını övüyor. Karelerde fener tanımlanabiliyor; kod veya tam girdiler sunulmuyor."
+    ],
+    [
+      "Mekanik kraken dioraması",
+      "Pirinç mekanik kraken ile denizaltı voksel sahnesini inceleyin.",
+      "Kaynak steampunk kraken, Viktorya dönemi denizaltısı ve hidrotermal baca belirtir. Arena'da Argon görünen kontrol noktasını Carbon olarak adlandırır."
+    ],
+    [
+      "Gökyüzü demiryolu şehri",
+      "Tren, yükseltilmiş raylar ve kulelerden oluşan fantastik sahneyi keşfedin.",
+      "Görev genel açıklamadan değil videodan belirlenmiştir. Çıkış tahminleri ve model sıralaması bu sahnenin başarısını kanıtlamaz."
+    ],
+    [
+      "SVG kola şişesi",
+      "Üreticinin SVG olarak tanımladığı üç boyutlu kola şişesini inceleyin.",
+      "Üretici Arena'da yaklaşık beş dakika bildiriyor. Video sonucu gösteriyor; SVG uygulaması ve Opus karşılaştırması bağımsız tekrarlanmadı."
+    ],
+    [
+      "Etkileşimli PS5 kumandası",
+      "Kumanda SVG'sinin yakın görünümlerini ve farklı durumlarını inceleyin.",
+      "Yazar uzun bekleme ve gemini-4-argon adı altında Carbon bildirmiştir. Kayıt arka uç modelini bağımsız doğrulamaz."
+    ],
+    [
+      "Xbox tarzı kumanda",
+      "Ayrıntılı Xbox tarzı kumanda görüntüsünü inceleyin.",
+      "Kaynak çıktıyı Carbon olarak etiketler ve Arena'da Argon göründüğünü söyler. Aynı tasarımı gösteren sonraki haber paylaşımı bu örnekle birleştirilir."
+    ],
+    [
+      "SVG spor otomobil",
+      "Beyaz spor otomobilin yandan görünümündeki tekerlek ve gövde detaylarını inceleyin.",
+      "Görsel aracı gösteriyor; bağlantılı testçi bunu SVG testi olarak adlandırıyor. Çalıştırılabilir kod veya etkileşim kanıtı yoktur."
+    ],
+    [
+      "Gün batımında bisikletli pelikan",
+      "Gün batımı kıyısındaki pelikan bisiklet animasyonunu inceleyin.",
+      "Kaynak SVG çıktısı diyor. LuminaBench'in liman sürümünden farklıdır; ikisi de tekrarlanabilir kod teslimi olarak değerlendirilmez."
+    ],
+    [
+      "Dört mevsimde bisikletli pelikan",
+      "Bisikletli pelikanın dört mevsim görünümünü keşfedin.",
+      "Kaynak dört mevsim SVG ve Arena'da Argon adı belirtir. Arka uç kimliği kaynağın beyanı olarak kalır."
+    ],
+    [
+      "Pastel bisikletli pelikan",
+      "Pastel bisiklet sahnesindeki kanat hareketini inceleyin.",
+      "Yazar kanat çırpma ve pençeleri vurgular. Başka pelikan testleriyle aynı konu, aynı çıktı anlamına gelmez."
+    ],
+    [
+      "Liman pelikanı ve arayüz sınırları",
+      "Liman SVG'sini kullanılabilirlik ve yanıt süresi açısından inceleyin.",
+      "Testçi arayüzün kötü, üretimin çok yavaş olduğunu açıkça söylüyor. Görünen animasyonla birlikte bu eksiler de korunur."
+    ],
+    [
+      "Super Mario tarzı platform oyunu",
+      "Açık alan ve yeraltı bölümlerinin kaydını inceleyin.",
+      "Üretici yaklaşık 30 dakika ve ilk denemede başarı bildirir. Kayıt tüm çarpışmaları, kuralları veya yeniden başlatma yollarını doğrulamaz."
+    ],
+    [
+      "Blok dünyası sanal alanı",
+      "Blok araç çubuklu Minecraft tarzı birinci şahıs dünyayı inceleyin.",
+      "Kareler gezinme ve blok yerleştirmeyi gösterir. Kaynak Argon adı altında Carbon der; tüm oyun mantığı test edilmedi."
+    ],
+    [
+      "Kaykaylı kurbağa sahnesi",
+      "Stilize sahnede kaykay üzerindeki kurbağa animasyonunu inceleyin.",
+      "Genel açıklamaya rağmen somut görev medyada görülür. Olumlu hız izlenimi süre ölçümü değildir."
+    ],
+    [
+      "Üç modelde bisiklet animasyonu",
+      "Kaynakta birlikte gösterilen Carbon, Argon ve GPT-6 Astra çıktılarını karşılaştırın.",
+      "Video özgün model adlarını ve çıktıları birlikte korur. Paylaşan Carbon'u tercih eder; ortak ayarlar, deneme sayıları veya çalışma günlükleri sunmaz."
+    ]
+  ]
+}

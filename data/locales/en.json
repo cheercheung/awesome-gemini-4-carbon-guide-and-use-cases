@@ -1,0 +1,160 @@
+{
+  "language": "en",
+  "copy": {
+    "introduction": "Introduction",
+    "overview": "Overview",
+    "quick_start": "Quick Start",
+    "menu": "Menu",
+    "case": "Case",
+    "category": "Category",
+    "type": "Type",
+    "date": "Date",
+    "by": "by",
+    "video": "Watch source video",
+    "comparison_video": "Watch the original model comparison",
+    "image": "Open source image",
+    "related": "Related Repositories",
+    "acknowledge": "Acknowledge",
+    "categories": {
+      "mechanical": "Mechanical and 3D Objects",
+      "voxel": "Voxel Worlds and Scenery",
+      "svg": "SVG and Interactive Graphics",
+      "games": "Games and Animated Scenes",
+      "comparison": "Model Comparison"
+    },
+    "intro": "A collection of public community demonstrations attributed by their publishers to Gemini 4 Carbon during its early rollout.",
+    "purpose": "Explore concrete tasks, visible outputs and practical limits through their original sources.",
+    "stats": "25 usecases across 5 categories. Reposts are grouped with their underlying work; a comparison of an existing output is kept with that case.",
+    "evidence": "Model names, generation times and quality judgments are source-reported. An Arena display name does not establish the backend version. A recording does not prove runnable code, complete interaction or repeatable success.",
+    "steps": "1. Choose a task in the Menu.\n2. Open its video or image, then follow the source-linked case title.\n3. Compare the visible result with the stated task and limitations.",
+    "thanks": "Thanks to the publishers whose demonstrations make this collection possible:",
+    "corrections": "Attribution follows the linked sources and may need correction. Please open an issue for missing credit, duplicate work, inaccurate claims or removal requests. Third-party media retains its original ownership."
+  },
+  "cases": [
+    [
+      "Mechanical flower",
+      "Inspect a three.js flower with changing materials, lighting and a small bee.",
+      "The creator reports about 1 hour 43 minutes and says the bee was added after an open-ended request. The timing is self-reported."
+    ],
+    [
+      "Mechanical bee",
+      "Inspect a mechanical bee animation and its figure-eight movement.",
+      "The creator reports improved polish over Argon and points to an earlier Argon test. The comparison has no controlled timing or success-rate data."
+    ],
+    [
+      "Mechanical creatures and a spiderweb",
+      "Explore a video sequence of mechanical creatures, a spiderweb and a winged device.",
+      "The three sampled frames show distinct scenes. The short source caption does not establish their prompts, workflow or whether they came from one generation."
+    ],
+    [
+      "Crystal citrus",
+      "Inspect an interactive citrus model with layers, lighting and animated views.",
+      "The author reports roughly 20 minutes and an Arena display name of gemini-4-argon. The identification as Carbon is the author's claim."
+    ],
+    [
+      "Hogwarts voxel build",
+      "Explore a voxel castle through changing interior and exterior views.",
+      "The source explicitly says best of 4. This is a selected result, not evidence of first-attempt success."
+    ],
+    [
+      "Voxel castle landscape",
+      "Inspect a castle scene across daylight, nighttime and aerial views.",
+      "The media shows a distinct castle output. The poster's comparison with Opus is an opinion; no controlled benchmark or generation process is supplied."
+    ],
+    [
+      "Fuji Garden",
+      "Explore a miniature Japanese garden, including a butterfly viewpoint.",
+      "The source describes reflections, moving people and a tiny living world. Sampled frames show the garden from several viewpoints; full interaction was not tested."
+    ],
+    [
+      "Voxel river and weather",
+      "Inspect a voxel river landscape with reflections and changing weather.",
+      "The author reports taking 2–3 times longer than Argon. This is an individual comparison without a common timing protocol."
+    ],
+    [
+      "Voxel pagoda",
+      "Inspect a detailed pagoda island through several lighting conditions.",
+      "The creator reports being 2–4 times slower than Argon depending on the task. This estimate is not a measured model-wide latency claim. The same creator also places this pagoda beside three other model outputs. The comparison media retains the original labels and is grouped here rather than counted as another Carbon generation."
+    ],
+    [
+      "Five-story pagoda",
+      "Inspect a second pagoda output with animated lighting and close-up views.",
+      "The video contains a different pagoda presentation from the LuminaBench example. Similar subject matter does not establish the same generation."
+    ],
+    [
+      "Voxel lighthouse island",
+      "Explore a lighthouse scene across daylight, nighttime and weather changes.",
+      "The source praises voxel detail; sampled frames identify the concrete lighthouse scene. The prompt and code are not provided."
+    ],
+    [
+      "Mechanical kraken diorama",
+      "Inspect a brass mechanical kraken and submarine voxel scene.",
+      "The source specifies a steampunk kraken, Victorian submarine and hydrothermal vent. It calls the Arena checkpoint Carbon despite the Argon display name."
+    ],
+    [
+      "Sky railway city",
+      "Explore a fantastical rail scene with a train, elevated tracks and towers.",
+      "The task is identified from the video rather than the generic caption. The caption's release prediction and model ranking are not evidence about this scene."
+    ],
+    [
+      "Cola bottle SVG",
+      "Inspect a dimensional cola-bottle presentation described by its creator as SVG.",
+      "The creator reports around five minutes in Arena. The recording shows the result, but the SVG implementation and comparison with Opus were not independently reproduced."
+    ],
+    [
+      "Interactive PS5 controller",
+      "Inspect a controller SVG with close-up and alternate display states.",
+      "The author reports a long wait and claims Carbon was displayed as gemini-4-argon. The recording does not independently verify backend model identity."
+    ],
+    [
+      "Xbox controller",
+      "Inspect a detailed Xbox-style controller rendering.",
+      "The source labels the result Carbon and claims an Argon display name in Arena. A later news-style post shows the same controller design and is grouped with this case."
+    ],
+    [
+      "Sports-car SVG",
+      "Inspect a white sports-car side view and its detailed wheels and bodywork.",
+      "The image shows the vehicle; a related tester calls it an SVG test. The sparse source does not supply runnable code or prove interactive behavior."
+    ],
+    [
+      "Coastal pelican cyclist",
+      "Inspect a pelican cyclist animation against a sunset waterfront.",
+      "The source calls the output SVG. Its scene differs from the separate LuminaBench harbor version; neither is treated as a reproducible code delivery."
+    ],
+    [
+      "Four-season pelican cyclist",
+      "Explore four seasonal presentations of a pelican riding a bicycle.",
+      "The source explicitly describes a four-season SVG and names an Arena checkpoint displayed as Argon. Backend identification remains source-reported."
+    ],
+    [
+      "Pastel pelican cyclist",
+      "Inspect wing movement in a pastel-colored pelican bicycle scene.",
+      "The author highlights flapping wings and claws. Shared subject matter with other pelican tests does not imply a shared output."
+    ],
+    [
+      "Harbor pelican and UI limits",
+      "Inspect a harbor pelican SVG while considering usability and response time.",
+      "The tester explicitly calls the UI poor and the generation very slow. Preserve these drawbacks alongside the visible animation."
+    ],
+    [
+      "Super Mario-style platformer",
+      "Inspect a platform game recording across outdoor and underground areas.",
+      "The creator reports about 30 minutes and a successful first attempt. The recording does not verify every collision, level rule or restart path."
+    ],
+    [
+      "Block-world sandbox",
+      "Inspect a Minecraft-style first-person world with a block toolbar.",
+      "Sampled frames show navigation and block placement. The source calls this a Carbon checkpoint in Arena under the Argon name; complete game logic was not tested."
+    ],
+    [
+      "Frog skateboard scene",
+      "Inspect an animated frog on a skateboard moving through a stylized scene.",
+      "The concrete task is visible in the media despite a broad caption. The author's favorable speed impression is not a timed measurement."
+    ],
+    [
+      "Bicycle animation across three models",
+      "Compare the source's grouped Carbon, Argon and GPT-6 Astra bicycle outputs.",
+      "The recording keeps the model labels and outputs together. The poster prefers Carbon, but shared settings, retries and execution logs are not supplied."
+    ]
+  ]
+}

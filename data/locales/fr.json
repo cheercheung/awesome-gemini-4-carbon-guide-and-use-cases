@@ -1,0 +1,160 @@
+{
+  "language": "fr",
+  "copy": {
+    "introduction": "Introduction",
+    "overview": "Vue d’ensemble",
+    "quick_start": "Démarrage rapide",
+    "menu": "Sommaire",
+    "case": "Cas",
+    "category": "Catégorie",
+    "type": "Type",
+    "date": "Date",
+    "by": "par",
+    "video": "Voir la vidéo originale",
+    "comparison_video": "Voir la comparaison originale des modèles",
+    "image": "Ouvrir l’image originale",
+    "related": "Dépôts associés",
+    "acknowledge": "Remerciements",
+    "categories": {
+      "mechanical": "Objets mécaniques et 3D",
+      "voxel": "Mondes et paysages en voxels",
+      "svg": "SVG et graphismes interactifs",
+      "games": "Jeux et scènes animées",
+      "comparison": "Comparaison de modèles"
+    },
+    "intro": "Une collection de démonstrations publiques attribuées par leurs auteurs à Gemini 4 Carbon durant son déploiement initial.",
+    "purpose": "Explorez des tâches concrètes, des résultats visibles et des limites pratiques à partir des sources originales.",
+    "stats": "25 cas répartis en 5 catégories. Les republications sont regroupées avec l’œuvre correspondante ; les comparaisons d’un résultat existant restent dans son cas.",
+    "evidence": "Les noms de modèle, durées et jugements de qualité viennent des sources. Le nom affiché dans Arena ne prouve pas la version réelle. Un enregistrement ne démontre ni code exécutable, ni interaction complète, ni réussite reproductible.",
+    "steps": "1. Choisissez une tâche dans le sommaire.\n2. Ouvrez sa vidéo ou son image, puis suivez le titre vers la publication originale.\n3. Comparez le résultat visible à la tâche et à ses limites.",
+    "thanks": "Merci aux personnes qui ont publié ces démonstrations :",
+    "corrections": "L’attribution suit les sources liées et peut nécessiter des corrections. Ouvrez une issue pour signaler un crédit manquant, un doublon, une affirmation incorrecte ou demander un retrait. Les médias tiers restent la propriété de leurs ayants droit."
+  },
+  "cases": [
+    [
+      "Fleur mécanique",
+      "Examinez les matériaux, l’éclairage et la petite abeille d’une fleur en three.js.",
+      "Le créateur annonce environ 1 h 43 min et explique que l’abeille a été ajoutée après une demande ouverte. Cette durée est déclarative."
+    ],
+    [
+      "Abeille mécanique",
+      "Observez l’animation d’une abeille mécanique et son déplacement en huit.",
+      "Le créateur juge la finition meilleure qu’avec Argon et cite un ancien essai. Il ne fournit ni chronométrage commun ni taux de réussite."
+    ],
+    [
+      "Créatures mécaniques et toile",
+      "Explorez une séquence de créatures mécaniques, de toile et d’appareil ailé.",
+      "Les trois images échantillonnées montrent des scènes distinctes. Le court texte n’établit ni les instructions, ni la méthode, ni une génération unique."
+    ],
+    [
+      "Agrume de cristal",
+      "Examinez les couches, l’éclairage et les vues animées d’un agrume interactif.",
+      "L’auteur annonce environ 20 minutes et le nom gemini-4-argon dans Arena. L’identification comme Carbon est son affirmation."
+    ],
+    [
+      "Poudlard en voxels",
+      "Parcourez les vues intérieures et extérieures d’un château voxel.",
+      "La source indique best of 4. Il s’agit d’un résultat sélectionné, pas d’une preuve de réussite au premier essai."
+    ],
+    [
+      "Château voxel et paysage",
+      "Observez un château de jour, de nuit et depuis les airs.",
+      "La vidéo montre un autre château. La comparaison avec Opus est une opinion sans protocole contrôlé ni processus documenté."
+    ],
+    [
+      "Jardin Fuji",
+      "Explorez un jardin japonais miniature depuis le point de vue d’un papillon.",
+      "La source décrit reflets et personnages animés. Les images montrent plusieurs vues ; l’interaction complète n’a pas été testée."
+    ],
+    [
+      "Rivière voxel et météo",
+      "Observez les reflets et les variations météo d’une vallée voxel.",
+      "L’auteur annonce un temps 2–3 fois supérieur à Argon. C’est une comparaison individuelle sans protocole commun de mesure."
+    ],
+    [
+      "Pagode voxel",
+      "Examinez une île à pagode sous plusieurs éclairages.",
+      "Le créateur indique une durée 2–4 fois supérieure selon la tâche, pas une latence générale mesurée. Sa comparaison avec trois autres modèles conserve les étiquettes d’origine et reste ici sans compter une nouvelle génération Carbon."
+    ],
+    [
+      "Pagode voxel à cinq étages",
+      "Observez une autre pagode avec éclairage animé et gros plans.",
+      "Cette représentation diffère de celle de LuminaBench. Un sujet identique ne prouve pas une génération commune."
+    ],
+    [
+      "Île au phare voxel",
+      "Explorez un phare avec alternance jour-nuit et changements météo.",
+      "La source apprécie les détails voxel. Les images permettent d’identifier le phare ; code et instructions complètes ne sont pas fournis."
+    ],
+    [
+      "Diorama de kraken mécanique",
+      "Examinez un kraken en laiton et un sous-marin dans une scène voxel.",
+      "La source précise un kraken steampunk, un sous-marin victorien et une source hydrothermale. Elle appelle Carbon le checkpoint Arena affiché comme Argon."
+    ],
+    [
+      "Cité ferroviaire dans le ciel",
+      "Explorez une scène fantastique avec train, voies surélevées et tours.",
+      "La tâche est identifiée à partir de la vidéo, pas du texte générique. Les prévisions de sortie et classements ne prouvent pas les capacités de cette scène."
+    ],
+    [
+      "Bouteille de cola en SVG",
+      "Observez une bouteille en relief décrite par son créateur comme du SVG.",
+      "Le créateur annonce environ cinq minutes dans Arena. La vidéo montre le résultat, mais ni l’implémentation SVG ni la comparaison avec Opus n’ont été reproduites indépendamment."
+    ],
+    [
+      "Manette PS5 interactive",
+      "Examinez les gros plans et différents états d’affichage d’une manette SVG.",
+      "L’auteur signale une longue attente et Carbon affiché comme gemini-4-argon. L’enregistrement ne vérifie pas indépendamment le modèle réel."
+    ],
+    [
+      "Manette de style Xbox",
+      "Examinez le rendu détaillé d’une manette de style Xbox.",
+      "La source indique Carbon avec Argon affiché dans Arena. Une publication d’actualité ultérieure montrant le même design est regroupée ici."
+    ],
+    [
+      "Voiture de sport en SVG",
+      "Examinez les roues et la carrosserie d’un coupé blanc de profil.",
+      "L’image montre le véhicule ; un testeur lié parle de test SVG. Aucun code exécutable ni comportement interactif n’est établi."
+    ],
+    [
+      "Pélican cycliste au couchant",
+      "Observez un pélican à vélo sur une côte au coucher du soleil.",
+      "La source parle de SVG. La scène diffère de la version portuaire de LuminaBench ; aucune n’est considérée comme une livraison de code reproductible."
+    ],
+    [
+      "Pélican cycliste des quatre saisons",
+      "Explorez quatre présentations saisonnières d’un pélican à vélo.",
+      "La source précise un SVG des quatre saisons et le nom Argon dans Arena. L’identité réelle reste une affirmation de la source."
+    ],
+    [
+      "Pélican cycliste pastel",
+      "Observez les ailes dans une scène cycliste aux couleurs pastel.",
+      "L’auteur souligne le battement des ailes et les griffes. Un thème partagé avec d’autres essais ne signifie pas un résultat identique."
+    ],
+    [
+      "Pélican du port et limites d’interface",
+      "Examinez le SVG portuaire sous l’angle de l’usage et du temps de réponse.",
+      "Le testeur critique explicitement l’interface et la grande lenteur. Ces défauts sont conservés aux côtés de l’animation visible."
+    ],
+    [
+      "Jeu de plateformes façon Super Mario",
+      "Observez un jeu avec zones extérieures et souterraines.",
+      "Le créateur annonce environ 30 minutes et une réussite au premier essai. La vidéo ne valide pas toutes les collisions, règles ou possibilités de redémarrage."
+    ],
+    [
+      "Bac à sable de blocs",
+      "Observez un monde façon Minecraft à la première personne avec barre de blocs.",
+      "Les images montrent déplacement et placement de blocs. La source l’attribue à Carbon affiché comme Argon ; toute la logique du jeu n’a pas été testée."
+    ],
+    [
+      "Grenouille sur un skateboard",
+      "Observez une grenouille animée sur un skateboard dans une scène stylisée.",
+      "La tâche est visible malgré un texte général. L’impression favorable sur la vitesse n’est pas une mesure chronométrée."
+    ],
+    [
+      "Animation cycliste avec trois modèles",
+      "Comparez les sorties groupées de Carbon, Argon et GPT-6 Astra.",
+      "La vidéo garde les noms de modèles et les résultats ensemble. L’auteur préfère Carbon sans fournir de réglages communs, de nombre d’essais ou de journaux d’exécution."
+    ]
+  ]
+}
