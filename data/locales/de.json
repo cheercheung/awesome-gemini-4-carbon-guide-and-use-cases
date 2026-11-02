@@ -28,7 +28,11 @@
     "evidence": "Modellnamen, Erstellungszeiten und Qualitätsurteile sind Angaben der Quellen. Der Anzeigename in Arena belegt keine Backend-Version. Eine Aufnahme beweist weder ausführbaren Code noch vollständige Interaktion oder wiederholbaren Erfolg.",
     "steps": "1. Wähle eine Aufgabe im Inhaltsverzeichnis.\n2. Öffne Video oder Bild und folge dem Falltitel zum Originalbeitrag.\n3. Vergleiche das sichtbare Ergebnis mit Aufgabe und Einschränkungen.",
     "thanks": "Danke an die folgenden Herausgeber der Demos:",
-    "corrections": "Die Zuschreibung folgt den verlinkten Quellen und kann Korrekturen erfordern. Bitte melde fehlende Urheberangaben, Duplikate, falsche Aussagen oder Löschwünsche per Issue. Medien Dritter behalten ihre ursprünglichen Rechte."
+    "corrections": "Die Zuschreibung folgt den verlinkten Quellen und kann Korrekturen erfordern. Bitte melde fehlende Urheberangaben, Duplikate, falsche Aussagen oder Löschwünsche per Issue. Medien Dritter behalten ihre ursprünglichen Rechte.",
+    "candidates_heading": "Kandidaten zur weiteren Prüfung",
+    "candidate": "Kandidat",
+    "candidate_status": "Prüfung ausstehend",
+    "candidates_notice": "Diese fünf Kandidaten sind von den 25 kuratierten Fällen getrennt. Originalbeiträge und Medien wurden nicht unabhängig überprüft; die visuelle Prüfung ist unvollständig. Die Beschreibungen geben Angaben der Quellen wieder. Es werden nur Links zu Originalmedien bereitgestellt; neue Medien werden weder kopiert noch eingebettet."
   },
   "cases": [
     [
@@ -155,6 +159,33 @@
       "Fahrradanimation in drei Modellen",
       "Vergleiche die gemeinsam gezeigten Ausgaben von Carbon, Argon und GPT-6 Astra.",
       "Das Video erhält Modellbeschriftungen und Ergebnisse zusammen. Der Verfasser bevorzugt Carbon, liefert aber keine gemeinsamen Einstellungen, Wiederholungszahlen oder Ausführungsprotokolle."
+    ]
+  ],
+  "candidates": [
+    [
+      "Roboterauge mit Explosionsansicht",
+      "Untersuche die Demonstration eines Roboterauges mit Blinzeln, Fokussierung und Explosionsansicht.",
+      "Der Ersteller nennt einen einzigen Prompt und 29 Minuten 49 Sekunden. Die Originalaufnahme ist verlinkt; ausführbarer Code, vollständige Interaktion und Wiederholbarkeit wurden nicht unabhängig überprüft."
+    ],
+    [
+      "Café-Racer-Ansichten mit zwei Modellen",
+      "Vergleiche die Motorradansichten, die der Beitrag Carbon und Opus 5.5 zuschreibt.",
+      "Der Verfasser berichtet von demselben Prompt und einem Versuch pro Modell für Röntgen-, Schnitt- und Explosionsansichten. Diese Bedingungen sind Angaben der Quelle; gemeinsame Ausführungsprotokolle oder eine unabhängige Reproduktion für eine allgemeine Modellrangfolge fehlen."
+    ],
+    [
+      "Regenszene mit Musikschleife",
+      "Erkunde die JavaScript-Schlafmusikschleife mit SVG-Regenszene im Originalbeitrag.",
+      "Der Ersteller schreibt Musik und Regenszene Carbon zu und berichtet von etwa 4.000 Zeilen in einem Versuch. Codeumfang, musikalische Originalität und vollständige Wiedergabefunktion wurden nicht unabhängig überprüft."
+    ],
+    [
+      "Burg und Drache nach weiteren Prompts",
+      "Vergleiche eine Burg-und-Drachen-Szene vor und nach drei weiteren Prompts.",
+      "Der Ersteller zeigt dieselbe Insel, Burg und denselben Drachen nach dem ersten und drei weiteren Prompts und hebt das Feuer hervor. Die Folgeprompts und Ausführungsprotokolle fehlen; dies ist der Vergleich eines Autors, kein kontrollierter Test der Erfolgsquote."
+    ],
+    [
+      "Mechanischer Kiefer mit drei Modellen",
+      "Vergleiche mechanische Kiefer und bewegliche Zähne von Carbon, Opus 5.5 und GPT-6 Astra.",
+      "Der Ersteller berichtet von einem gemeinsamen Prompt und einzeln beweglichen Zähnen sowie Zeiten von 29m 9s für Carbon, 35m 17s für Opus 5.5 und 26m 7s für GPT-6 Astra. Zeitangaben, Modellidentität und vollständige Interaktion stammen von der Quelle und wurden nicht unabhängig reproduziert."
     ]
   ]
 }

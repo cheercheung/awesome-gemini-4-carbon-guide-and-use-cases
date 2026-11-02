@@ -407,6 +407,86 @@ Tipo: Evaluation | Fecha: 2026-10-21
 
 ---
 
+<a id="pending-candidates"></a>
+## 🧪 Candidatos pendientes de verificación
+
+Estos cinco candidatos están separados de los 25 casos seleccionados. Sus publicaciones y medios originales no se han verificado de forma independiente y la revisión visual está incompleta. Las descripciones reflejan lo declarado por las fuentes. Solo se incluyen enlaces a los medios originales; no se copian ni se insertan medios nuevos.
+
+<a id="candidate-1"></a>
+### Candidato 1: [Ojo robótico con vista despiece](https://x.com/noclipepe/status/2115556254101692515) (por [@noclipepe](https://x.com/noclipepe))
+
+**Pendiente de verificación**
+
+Examina una demostración de un ojo robótico que parpadea, enfoca y muestra sus piezas separadas.
+
+El creador afirma haber usado una sola instrucción y tardado 29 minutos y 49 segundos. Se enlaza la grabación original; el código ejecutable, la interacción completa y la repetibilidad no se han verificado de forma independiente.
+
+[Ver vídeo original](https://x.com/noclipepe/status/2115556254101692515/video/1)
+
+Tipo: Demo | Fecha: 2026-10-28
+
+---
+
+<a id="candidate-2"></a>
+### Candidato 2: [Inspección de una café racer con dos modelos](https://x.com/dromexa/status/2115802517942497491) (por [@dromexa](https://x.com/dromexa))
+
+**Pendiente de verificación**
+
+Compara las demostraciones de inspección de una motocicleta atribuidas a Carbon y Opus 5.5.
+
+El autor declara haber usado la misma instrucción y un intento por modelo para las vistas de rayos X, corte y despiece. Son condiciones declaradas por la fuente; no hay registros compartidos ni una reproducción independiente que establezcan una clasificación general de los modelos.
+
+[Ver vídeo original](https://x.com/dromexa/status/2115802517942497491/video/1)
+
+Tipo: Evaluation | Fecha: 2026-10-29
+
+---
+
+<a id="candidate-3"></a>
+### Candidato 3: [Escena de lluvia con bucle musical](https://x.com/chetaslua/status/2115935747798950069) (por [@chetaslua](https://x.com/chetaslua))
+
+**Pendiente de verificación**
+
+Explora el bucle de música para dormir en JavaScript con una escena de lluvia SVG de la fuente.
+
+El creador atribuye la música y la escena a Carbon y afirma haber obtenido unas 4.000 líneas en un intento. La longitud del código, la originalidad de la música y el funcionamiento completo de la reproducción no se han verificado de forma independiente.
+
+[Ver vídeo original](https://x.com/chetaslua/status/2115935747798950069/video/1)
+
+Tipo: Demo | Fecha: 2026-10-29
+
+---
+
+<a id="candidate-4"></a>
+### Candidato 4: [Castillo y dragón tras instrucciones adicionales](https://x.com/semichenkko/status/2116198626187706722) (por [@semichenkko](https://x.com/semichenkko))
+
+**Pendiente de verificación**
+
+Compara una escena de castillo y dragón antes y después de tres instrucciones adicionales.
+
+El creador presenta la misma isla, castillo y dragón tras la primera instrucción y después de tres más, destacando el fuego. No aporta el texto de esas instrucciones ni registros de ejecución; es la comparación de un autor, no una prueba controlada de la tasa de éxito.
+
+[Ver vídeo original](https://x.com/semichenkko/status/2116198626187706722/video/1)
+
+Tipo: Evaluation | Fecha: 2026-10-30
+
+---
+
+<a id="candidate-5"></a>
+### Candidato 5: [Mandíbula mecánica con tres modelos](https://x.com/noclipepe/status/2116109757865930787) (por [@noclipepe](https://x.com/noclipepe))
+
+**Pendiente de verificación**
+
+Compara las demostraciones de mandíbula mecánica y dientes móviles de Carbon, Opus 5.5 y GPT-6 Astra.
+
+El creador declara una instrucción común y movimiento individual de los dientes, con tiempos de 29m 9s para Carbon, 35m 17s para Opus 5.5 y 26m 7s para GPT-6 Astra. El tiempo, la identidad de los modelos y la interacción completa son datos de la fuente sin reproducción independiente.
+
+[Ver vídeo original](https://x.com/noclipepe/status/2116109757865930787/video/1)
+
+Tipo: Evaluation | Fecha: 2026-10-30
+
+---
+
 <a id="related-repositories"></a>
 ## Repositorios relacionados
 

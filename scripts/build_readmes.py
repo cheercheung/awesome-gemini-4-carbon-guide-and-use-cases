@@ -23,7 +23,7 @@ NAV={
 
 def render(data,locale):
     cases=data['cases'];translations=locale['cases'];g=locale['copy'];nav=NAV[locale['language']];banner=data.get('banner_url','assets/banner.svg')
-    assert len(cases)==len(translations)==25
+    assert len(cases)==len(translations)==data['case_count']
     chunks=[f'<div align="center">\n\n<a href="{LANDING}"><img src="{banner}" alt="Gemini 4 Carbon — {nav[0]}" width="760"></a>\n\n[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)\n\n{BADGES}\n\n</div>\n',f'## 🍌 {g["introduction"]}\n\n{g["intro"]}\n\n**{g["purpose"]}**\n',f'## 📊 {g["overview"]}\n\n{g["stats"]}\n\n> [!NOTE]\n> {g["evidence"]}\n',f'<a id="quick-start"></a>\n## ⚡ {g["quick_start"]}\n\n{g["steps"]}\n',f'## 📑 {g["menu"]}\n\n| {g["case"]} | {g["category"]} | {g["type"]} |\n|---|---|---|']
     for c,t in zip(cases,translations):chunks.append(f'| [{c["number"]}. {t[0]}](#case-{c["number"]}) | {g["categories"][c["category"]]} | {c["type"]} |')
     chunks.append('')
@@ -40,6 +40,16 @@ def render(data,locale):
                 label=g['comparison_video'] if m.get('role')=='model-comparison' else (g['video'] if m['type']=='video' else g['image'])
                 cells.append(f'<td align="center"><a href="{url}"><img src="{poster}" alt="{t[0]} — {index}" width="560"></a><br>{label}</td>')
             chunks.append('<table><tr>'+''.join(cells)+'</tr></table>\n')
+            chunks.append(f'{g["type"]}: {c["type"]} | {g["date"]}: {c["date"]}\n\n---\n')
+    candidates=data.get('candidates',[]);candidate_copy=locale.get('candidates',[])
+    assert len(candidates)==len(candidate_copy)==data.get('candidate_count',0)
+    if candidates:
+        chunks.append(f'<a id="pending-candidates"></a>\n## 🧪 {g["candidates_heading"]}\n\n{g["candidates_notice"]}\n')
+        for index,(c,t) in enumerate(zip(candidates,candidate_copy),1):
+            chunks.append(f'<a id="candidate-{index}"></a>\n### {g["candidate"]} {index}: [{t[0]}]({c["source_url"]}) ({g["by"]} [@{c["author_handle"]}]({c["author_url"]}))\n\n**{g["candidate_status"]}**\n\n{t[1]}\n\n{t[2]}\n')
+            for m in c['media']:
+                label=g['video'] if m['type']=='video' else g['image']
+                chunks.append(f'[{label}]({m["source_media_url"]})\n')
             chunks.append(f'{g["type"]}: {c["type"]} | {g["date"]}: {c["date"]}\n\n---\n')
     chunks.append(f'<a id="related-repositories"></a>\n## {g["related"]}\n\n- [Gemini 3.6 Flash — {nav[1]}](https://github.com/Evolink-AI/awesome-gemini-3.6-flash-guide-and-use-cases)\n- [Gemini Omni — {nav[2]}](https://github.com/Evolink-AI/awesome-gemini-omni-guide-api-and-prompt)\n')
     authors=list(dict.fromkeys((c['author_handle'],c['author_url']) for c in cases))

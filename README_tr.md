@@ -407,6 +407,86 @@ Tür: Evaluation | Tarih: 2026-10-21
 
 ---
 
+<a id="pending-candidates"></a>
+## 🧪 Doğrulama bekleyen adaylar
+
+Bu beş aday, seçilmiş 25 örnekten ayrıdır. Özgün gönderiler ve medya bağımsız olarak doğrulanmadı; görsel inceleme de tamamlanmadı. Açıklamalar kaynakların beyanlarına dayanır. Yalnızca özgün medya bağlantıları verilir; yeni medya kopyalanmaz veya gömülmez.
+
+<a id="candidate-1"></a>
+### Aday 1: [Patlatılmış görünümü olan robot göz](https://x.com/noclipepe/status/2115556254101692515) (paylaşan [@noclipepe](https://x.com/noclipepe))
+
+**Doğrulama bekliyor**
+
+Göz kırpma, odaklanma ve parçaların ayrıldığı görünümü birleştiren robot göz gösterimini inceleyin.
+
+Üretici tek istem kullandığını ve 29 dakika 49 saniye sürdüğünü bildiriyor. Özgün kayıt bağlantısı veriliyor; çalıştırılabilir kod, tüm etkileşimler ve tekrarlanabilirlik bağımsız olarak doğrulanmadı.
+
+[Kaynak videoyu izle](https://x.com/noclipepe/status/2115556254101692515/video/1)
+
+Tür: Demo | Tarih: 2026-10-28
+
+---
+
+<a id="candidate-2"></a>
+### Aday 2: [İki modelle café racer incelemesi](https://x.com/dromexa/status/2115802517942497491) (paylaşan [@dromexa](https://x.com/dromexa))
+
+**Doğrulama bekliyor**
+
+Kaynağın Carbon ve Opus 5.5 için sunduğu motosiklet inceleme gösterimlerini karşılaştırın.
+
+Yayıncı röntgen, kesit ve parçaların ayrıldığı görünümler için aynı istemi ve model başına tek denemeyi bildirdi. Bunlar kaynağın beyanlarıdır; ortak yürütme kayıtları veya bağımsız tekrar genel bir model sıralaması ortaya koymuyor.
+
+[Kaynak videoyu izle](https://x.com/dromexa/status/2115802517942497491/video/1)
+
+Tür: Evaluation | Tarih: 2026-10-29
+
+---
+
+<a id="candidate-3"></a>
+### Aday 3: [Müzik döngüsüyle yağmur sahnesi](https://x.com/chetaslua/status/2115935747798950069) (paylaşan [@chetaslua](https://x.com/chetaslua))
+
+**Doğrulama bekliyor**
+
+Kaynağın SVG yağmur sahneli JavaScript uyku müziği döngüsünü keşfedin.
+
+Üretici müziği ve yağmur sahnesini Carbon’a atfediyor ve tek denemede yaklaşık 4.000 satır üretildiğini bildiriyor. Kod uzunluğu, müziğin özgünlüğü ve oynatmanın tüm işlevleri bağımsız olarak doğrulanmadı.
+
+[Kaynak videoyu izle](https://x.com/chetaslua/status/2115935747798950069/video/1)
+
+Tür: Demo | Tarih: 2026-10-29
+
+---
+
+<a id="candidate-4"></a>
+### Aday 4: [Ek istemlerden sonra kale ve ejderha](https://x.com/semichenkko/status/2116198626187706722) (paylaşan [@semichenkko](https://x.com/semichenkko))
+
+**Doğrulama bekliyor**
+
+Üç ek istemden önceki ve sonraki kale ve ejderha sahnesini karşılaştırın.
+
+Üretici aynı ada, kale ve ejderhayı ilk istemden sonra ve üç ek istemin ardından göstererek ateş efektini vurguluyor. Ek istemlerin metni ve yürütme kayıtları sunulmuyor; bu, bir yazarın karşılaştırmasıdır, kontrollü bir başarı oranı testi değildir.
+
+[Kaynak videoyu izle](https://x.com/semichenkko/status/2116198626187706722/video/1)
+
+Tür: Evaluation | Tarih: 2026-10-30
+
+---
+
+<a id="candidate-5"></a>
+### Aday 5: [Üç modelle mekanik çene](https://x.com/noclipepe/status/2116109757865930787) (paylaşan [@noclipepe](https://x.com/noclipepe))
+
+**Doğrulama bekliyor**
+
+Carbon, Opus 5.5 ve GPT-6 Astra’nın mekanik çene ve hareketli diş gösterimlerini karşılaştırın.
+
+Üretici ortak istem ve bağımsız diş hareketleri bildirdi; süreler Carbon için 29m 9s, Opus 5.5 için 35m 17s, GPT-6 Astra için 26m 7s olarak verildi. Süreler, model kimliği ve tüm etkileşimler kaynağın beyanıdır ve bağımsız olarak tekrarlanmadı.
+
+[Kaynak videoyu izle](https://x.com/noclipepe/status/2116109757865930787/video/1)
+
+Tür: Evaluation | Tarih: 2026-10-30
+
+---
+
 <a id="related-repositories"></a>
 ## İlgili depolar
 

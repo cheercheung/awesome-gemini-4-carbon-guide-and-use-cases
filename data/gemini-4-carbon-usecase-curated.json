@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "model": "Gemini 4 Carbon",
-  "updated_at": "2026-10-22",
+  "updated_at": "2026-11-02",
   "case_count": 25,
   "cases": [
     {
@@ -1208,5 +1208,138 @@
   "scope": "Source-attributed community usecases: concrete tasks and visible outputs, without a prompt requirement.",
   "banner_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/banner/banner-owner-6aea570af8a4.png",
   "media_hosting": "R2; source URLs preserved with each media record.",
-  "banner_policy": "shared-r2"
+  "banner_policy": "shared-r2",
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "id": "carbon-candidate-001",
+      "source_id": "2115556254101692515",
+      "category": "mechanical",
+      "title": "Robotic eye with an exploded view",
+      "takeaway": "Inspect a robotic-eye demonstration that combines blinking, focusing and an exploded view.",
+      "body_notes": [
+        "The creator reports one prompt and 29 minutes 49 seconds. The source recording is linked; runnable code, complete interaction and repeatability have not been independently verified."
+      ],
+      "type": "Demo",
+      "date": "2026-10-28",
+      "source_url": "https://x.com/noclipepe/status/2115556254101692515",
+      "author_handle": "noclipepe",
+      "author_url": "https://x.com/noclipepe",
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2115556214058745856",
+          "type": "video",
+          "source_media_url": "https://x.com/noclipepe/status/2115556254101692515/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": [],
+      "status": "pending-verification"
+    },
+    {
+      "id": "carbon-candidate-002",
+      "source_id": "2115802517942497491",
+      "category": "mechanical",
+      "title": "Café racer inspection across two models",
+      "takeaway": "Compare the source’s Carbon and Opus 5.5 motorcycle inspection demonstrations.",
+      "body_notes": [
+        "The publisher reports the same prompt and one attempt per model for X-ray, cutaway and exploded views. These are source-reported conditions; no shared execution logs or independent reproduction establish a general model ranking."
+      ],
+      "type": "Evaluation",
+      "date": "2026-10-29",
+      "source_url": "https://x.com/dromexa/status/2115802517942497491",
+      "author_handle": "dromexa",
+      "author_url": "https://x.com/dromexa",
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2115800356542119936",
+          "type": "video",
+          "source_media_url": "https://x.com/dromexa/status/2115802517942497491/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": [],
+      "status": "pending-verification"
+    },
+    {
+      "id": "carbon-candidate-003",
+      "source_id": "2115935747798950069",
+      "category": "svg",
+      "title": "Rain scene with a music loop",
+      "takeaway": "Explore the source’s JavaScript sleep-music loop with an SVG rain scene.",
+      "body_notes": [
+        "The creator attributes the music and rain scene to Carbon and reports roughly 4,000 lines in one attempt. Code length, music originality and complete playback behavior have not been independently verified."
+      ],
+      "type": "Demo",
+      "date": "2026-10-29",
+      "source_url": "https://x.com/chetaslua/status/2115935747798950069",
+      "author_handle": "chetaslua",
+      "author_url": "https://x.com/chetaslua",
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2115933204481982464",
+          "type": "video",
+          "source_media_url": "https://x.com/chetaslua/status/2115935747798950069/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": [],
+      "status": "pending-verification"
+    },
+    {
+      "id": "carbon-candidate-004",
+      "source_id": "2116198626187706722",
+      "category": "voxel",
+      "title": "Castle and dragon after follow-up prompts",
+      "takeaway": "Compare a castle-and-dragon scene before and after three follow-up prompts.",
+      "body_notes": [
+        "The creator presents the same island, castle and dragon on the first prompt and after three more prompts, highlighting the fire effect. The follow-up text and execution logs are not provided; this is one author’s comparison, not a controlled success-rate test."
+      ],
+      "type": "Evaluation",
+      "date": "2026-10-30",
+      "source_url": "https://x.com/semichenkko/status/2116198626187706722",
+      "author_handle": "semichenkko",
+      "author_url": "https://x.com/semichenkko",
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2116198574132219904",
+          "type": "video",
+          "source_media_url": "https://x.com/semichenkko/status/2116198626187706722/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": [],
+      "status": "pending-verification"
+    },
+    {
+      "id": "carbon-candidate-005",
+      "source_id": "2116109757865930787",
+      "category": "comparison",
+      "title": "Mechanical jaw across three models",
+      "takeaway": "Compare mechanical-jaw and moving-tooth demonstrations across Carbon, Opus 5.5 and GPT-6 Astra.",
+      "body_notes": [
+        "The creator reports a common prompt and individual tooth movement, with times of 29m 9s for Carbon, 35m 17s for Opus 5.5 and 26m 7s for GPT-6 Astra. Timing, model identity and complete interaction remain source-reported and have not been independently reproduced."
+      ],
+      "type": "Evaluation",
+      "date": "2026-10-30",
+      "source_url": "https://x.com/noclipepe/status/2116109757865930787",
+      "author_handle": "noclipepe",
+      "author_url": "https://x.com/noclipepe",
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2116108716214779904",
+          "type": "video",
+          "source_media_url": "https://x.com/noclipepe/status/2116109757865930787/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": [],
+      "status": "pending-verification"
+    }
+  ]
 }

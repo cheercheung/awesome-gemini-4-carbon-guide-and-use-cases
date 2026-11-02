@@ -28,7 +28,11 @@
     "evidence": "Model names, generation times and quality judgments are source-reported. An Arena display name does not establish the backend version. A recording does not prove runnable code, complete interaction or repeatable success.",
     "steps": "1. Choose a task in the Menu.\n2. Open its video or image, then follow the source-linked case title.\n3. Compare the visible result with the stated task and limitations.",
     "thanks": "Thanks to the publishers whose demonstrations make this collection possible:",
-    "corrections": "Attribution follows the linked sources and may need correction. Please open an issue for missing credit, duplicate work, inaccurate claims or removal requests. Third-party media retains its original ownership."
+    "corrections": "Attribution follows the linked sources and may need correction. Please open an issue for missing credit, duplicate work, inaccurate claims or removal requests. Third-party media retains its original ownership.",
+    "candidates_heading": "Pending verification candidates",
+    "candidate": "Candidate",
+    "candidate_status": "Pending verification",
+    "candidates_notice": "These five candidates are separate from the 25 curated cases. Their original posts and media have not been independently verified, and visual QA is incomplete. Descriptions reflect source-reported claims. Only original media links are provided; no new media is copied or embedded."
   },
   "cases": [
     [
@@ -155,6 +159,33 @@
       "Bicycle animation across three models",
       "Compare the source's grouped Carbon, Argon and GPT-6 Astra bicycle outputs.",
       "The recording keeps the model labels and outputs together. The poster prefers Carbon, but shared settings, retries and execution logs are not supplied."
+    ]
+  ],
+  "candidates": [
+    [
+      "Robotic eye with an exploded view",
+      "Inspect a robotic-eye demonstration that combines blinking, focusing and an exploded view.",
+      "The creator reports one prompt and 29 minutes 49 seconds. The source recording is linked; runnable code, complete interaction and repeatability have not been independently verified."
+    ],
+    [
+      "Café racer inspection across two models",
+      "Compare the source’s Carbon and Opus 5.5 motorcycle inspection demonstrations.",
+      "The publisher reports the same prompt and one attempt per model for X-ray, cutaway and exploded views. These are source-reported conditions; no shared execution logs or independent reproduction establish a general model ranking."
+    ],
+    [
+      "Rain scene with a music loop",
+      "Explore the source’s JavaScript sleep-music loop with an SVG rain scene.",
+      "The creator attributes the music and rain scene to Carbon and reports roughly 4,000 lines in one attempt. Code length, music originality and complete playback behavior have not been independently verified."
+    ],
+    [
+      "Castle and dragon after follow-up prompts",
+      "Compare a castle-and-dragon scene before and after three follow-up prompts.",
+      "The creator presents the same island, castle and dragon on the first prompt and after three more prompts, highlighting the fire effect. The follow-up text and execution logs are not provided; this is one author’s comparison, not a controlled success-rate test."
+    ],
+    [
+      "Mechanical jaw across three models",
+      "Compare mechanical-jaw and moving-tooth demonstrations across Carbon, Opus 5.5 and GPT-6 Astra.",
+      "The creator reports a common prompt and individual tooth movement, with times of 29m 9s for Carbon, 35m 17s for Opus 5.5 and 26m 7s for GPT-6 Astra. Timing, model identity and complete interaction remain source-reported and have not been independently reproduced."
     ]
   ]
 }
