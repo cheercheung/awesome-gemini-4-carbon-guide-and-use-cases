@@ -407,6 +407,86 @@ Tipo: Evaluation | Data: 2026-10-21
 
 ---
 
+<a id="pending-candidates"></a>
+## 🧪 Candidatos aguardando verificação
+
+Estes cinco candidatos estão separados dos 25 casos selecionados. As publicações e mídias originais não foram verificadas de forma independente, e a revisão visual está incompleta. As descrições refletem relatos das fontes. Há apenas links para as mídias originais; nenhuma nova mídia é copiada ou incorporada.
+
+<a id="candidate-1"></a>
+### Candidato 1: [Olho robótico com vista explodida](https://x.com/noclipepe/status/2115556254101692515) (por [@noclipepe](https://x.com/noclipepe))
+
+**Verificação pendente**
+
+Examine uma demonstração de olho robótico que pisca, foca e separa as peças numa vista explodida.
+
+O criador relata uma única instrução e 29 minutos e 49 segundos. A gravação original está vinculada; o código executável, a interação completa e a repetibilidade não foram verificados de forma independente.
+
+[Ver vídeo original](https://x.com/noclipepe/status/2115556254101692515/video/1)
+
+Tipo: Demo | Data: 2026-10-28
+
+---
+
+<a id="candidate-2"></a>
+### Candidato 2: [Inspeção de uma café racer com dois modelos](https://x.com/dromexa/status/2115802517942497491) (por [@dromexa](https://x.com/dromexa))
+
+**Verificação pendente**
+
+Compare as demonstrações de inspeção de motocicleta atribuídas a Carbon e Opus 5.5.
+
+O autor relata a mesma instrução e uma tentativa por modelo para vistas de raio X, corte e peças separadas. São condições declaradas pela fonte; não há registros compartilhados nem reprodução independente que sustentem uma classificação geral dos modelos.
+
+[Ver vídeo original](https://x.com/dromexa/status/2115802517942497491/video/1)
+
+Tipo: Evaluation | Data: 2026-10-29
+
+---
+
+<a id="candidate-3"></a>
+### Candidato 3: [Cena de chuva com música em loop](https://x.com/chetaslua/status/2115935747798950069) (por [@chetaslua](https://x.com/chetaslua))
+
+**Verificação pendente**
+
+Explore o loop de música para dormir em JavaScript com uma cena de chuva em SVG apresentado pela fonte.
+
+O criador atribui a música e a cena a Carbon e relata cerca de 4.000 linhas numa tentativa. O tamanho do código, a originalidade da música e o funcionamento completo da reprodução não foram verificados de forma independente.
+
+[Ver vídeo original](https://x.com/chetaslua/status/2115935747798950069/video/1)
+
+Tipo: Demo | Data: 2026-10-29
+
+---
+
+<a id="candidate-4"></a>
+### Candidato 4: [Castelo e dragão após novas instruções](https://x.com/semichenkko/status/2116198626187706722) (por [@semichenkko](https://x.com/semichenkko))
+
+**Verificação pendente**
+
+Compare uma cena de castelo e dragão antes e depois de três instruções adicionais.
+
+O criador apresenta a mesma ilha, castelo e dragão na primeira instrução e após mais três, destacando o fogo. O texto das novas instruções e os registros de execução não foram fornecidos; trata-se da comparação de um autor, não de um teste controlado da taxa de sucesso.
+
+[Ver vídeo original](https://x.com/semichenkko/status/2116198626187706722/video/1)
+
+Tipo: Evaluation | Data: 2026-10-30
+
+---
+
+<a id="candidate-5"></a>
+### Candidato 5: [Mandíbula mecânica com três modelos](https://x.com/noclipepe/status/2116109757865930787) (por [@noclipepe](https://x.com/noclipepe))
+
+**Verificação pendente**
+
+Compare demonstrações de mandíbula mecânica e dentes móveis com Carbon, Opus 5.5 e GPT-6 Astra.
+
+O criador relata uma instrução comum e movimento individual dos dentes, com tempos de 29m 9s para Carbon, 35m 17s para Opus 5.5 e 26m 7s para GPT-6 Astra. Os tempos, a identidade dos modelos e a interação completa são relatos da fonte sem reprodução independente.
+
+[Ver vídeo original](https://x.com/noclipepe/status/2116109757865930787/video/1)
+
+Tipo: Evaluation | Data: 2026-10-30
+
+---
+
 <a id="related-repositories"></a>
 ## Repositórios relacionados
 

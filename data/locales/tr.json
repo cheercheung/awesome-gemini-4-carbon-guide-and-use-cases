@@ -28,7 +28,11 @@
     "evidence": "Model adları, üretim süreleri ve kalite yorumları kaynakların beyanıdır. Arena görünen adı arka uç sürümünü kanıtlamaz. Kayıt, çalıştırılabilir kodu, tüm etkileşimleri veya tekrarlanabilir başarıyı kanıtlamaz.",
     "steps": "1. İçindekilerden bir görev seçin.\n2. Video ya da görseli açıp örnek başlığından özgün paylaşıma gidin.\n3. Görünen sonucu görev ve sınırlarla karşılaştırın.",
     "thanks": "Gösterimleri paylaşan şu kişilere teşekkürler:",
-    "corrections": "Atıflar bağlantılı kaynaklara dayanır ve düzeltilmesi gerekebilir. Eksik atıf, yinelenen eser, yanlış iddia veya kaldırma isteği için issue açın. Üçüncü taraf medyanın hakları sahiplerinde kalır."
+    "corrections": "Atıflar bağlantılı kaynaklara dayanır ve düzeltilmesi gerekebilir. Eksik atıf, yinelenen eser, yanlış iddia veya kaldırma isteği için issue açın. Üçüncü taraf medyanın hakları sahiplerinde kalır.",
+    "candidates_heading": "Doğrulama bekleyen adaylar",
+    "candidate": "Aday",
+    "candidate_status": "Doğrulama bekliyor",
+    "candidates_notice": "Bu beş aday, seçilmiş 25 örnekten ayrıdır. Özgün gönderiler ve medya bağımsız olarak doğrulanmadı; görsel inceleme de tamamlanmadı. Açıklamalar kaynakların beyanlarına dayanır. Yalnızca özgün medya bağlantıları verilir; yeni medya kopyalanmaz veya gömülmez."
   },
   "cases": [
     [
@@ -155,6 +159,33 @@
       "Üç modelde bisiklet animasyonu",
       "Kaynakta birlikte gösterilen Carbon, Argon ve GPT-6 Astra çıktılarını karşılaştırın.",
       "Video özgün model adlarını ve çıktıları birlikte korur. Paylaşan Carbon'u tercih eder; ortak ayarlar, deneme sayıları veya çalışma günlükleri sunmaz."
+    ]
+  ],
+  "candidates": [
+    [
+      "Patlatılmış görünümü olan robot göz",
+      "Göz kırpma, odaklanma ve parçaların ayrıldığı görünümü birleştiren robot göz gösterimini inceleyin.",
+      "Üretici tek istem kullandığını ve 29 dakika 49 saniye sürdüğünü bildiriyor. Özgün kayıt bağlantısı veriliyor; çalıştırılabilir kod, tüm etkileşimler ve tekrarlanabilirlik bağımsız olarak doğrulanmadı."
+    ],
+    [
+      "İki modelle café racer incelemesi",
+      "Kaynağın Carbon ve Opus 5.5 için sunduğu motosiklet inceleme gösterimlerini karşılaştırın.",
+      "Yayıncı röntgen, kesit ve parçaların ayrıldığı görünümler için aynı istemi ve model başına tek denemeyi bildirdi. Bunlar kaynağın beyanlarıdır; ortak yürütme kayıtları veya bağımsız tekrar genel bir model sıralaması ortaya koymuyor."
+    ],
+    [
+      "Müzik döngüsüyle yağmur sahnesi",
+      "Kaynağın SVG yağmur sahneli JavaScript uyku müziği döngüsünü keşfedin.",
+      "Üretici müziği ve yağmur sahnesini Carbon’a atfediyor ve tek denemede yaklaşık 4.000 satır üretildiğini bildiriyor. Kod uzunluğu, müziğin özgünlüğü ve oynatmanın tüm işlevleri bağımsız olarak doğrulanmadı."
+    ],
+    [
+      "Ek istemlerden sonra kale ve ejderha",
+      "Üç ek istemden önceki ve sonraki kale ve ejderha sahnesini karşılaştırın.",
+      "Üretici aynı ada, kale ve ejderhayı ilk istemden sonra ve üç ek istemin ardından göstererek ateş efektini vurguluyor. Ek istemlerin metni ve yürütme kayıtları sunulmuyor; bu, bir yazarın karşılaştırmasıdır, kontrollü bir başarı oranı testi değildir."
+    ],
+    [
+      "Üç modelle mekanik çene",
+      "Carbon, Opus 5.5 ve GPT-6 Astra’nın mekanik çene ve hareketli diş gösterimlerini karşılaştırın.",
+      "Üretici ortak istem ve bağımsız diş hareketleri bildirdi; süreler Carbon için 29m 9s, Opus 5.5 için 35m 17s, GPT-6 Astra için 26m 7s olarak verildi. Süreler, model kimliği ve tüm etkileşimler kaynağın beyanıdır ve bağımsız olarak tekrarlanmadı."
     ]
   ]
 }

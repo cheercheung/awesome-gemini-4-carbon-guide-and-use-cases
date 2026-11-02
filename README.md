@@ -407,6 +407,86 @@ Type: Evaluation | Date: 2026-10-21
 
 ---
 
+<a id="pending-candidates"></a>
+## 🧪 Pending verification candidates
+
+These five candidates are separate from the 25 curated cases. Their original posts and media have not been independently verified, and visual QA is incomplete. Descriptions reflect source-reported claims. Only original media links are provided; no new media is copied or embedded.
+
+<a id="candidate-1"></a>
+### Candidate 1: [Robotic eye with an exploded view](https://x.com/noclipepe/status/2115556254101692515) (by [@noclipepe](https://x.com/noclipepe))
+
+**Pending verification**
+
+Inspect a robotic-eye demonstration that combines blinking, focusing and an exploded view.
+
+The creator reports one prompt and 29 minutes 49 seconds. The source recording is linked; runnable code, complete interaction and repeatability have not been independently verified.
+
+[Watch source video](https://x.com/noclipepe/status/2115556254101692515/video/1)
+
+Type: Demo | Date: 2026-10-28
+
+---
+
+<a id="candidate-2"></a>
+### Candidate 2: [Café racer inspection across two models](https://x.com/dromexa/status/2115802517942497491) (by [@dromexa](https://x.com/dromexa))
+
+**Pending verification**
+
+Compare the source’s Carbon and Opus 5.5 motorcycle inspection demonstrations.
+
+The publisher reports the same prompt and one attempt per model for X-ray, cutaway and exploded views. These are source-reported conditions; no shared execution logs or independent reproduction establish a general model ranking.
+
+[Watch source video](https://x.com/dromexa/status/2115802517942497491/video/1)
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="candidate-3"></a>
+### Candidate 3: [Rain scene with a music loop](https://x.com/chetaslua/status/2115935747798950069) (by [@chetaslua](https://x.com/chetaslua))
+
+**Pending verification**
+
+Explore the source’s JavaScript sleep-music loop with an SVG rain scene.
+
+The creator attributes the music and rain scene to Carbon and reports roughly 4,000 lines in one attempt. Code length, music originality and complete playback behavior have not been independently verified.
+
+[Watch source video](https://x.com/chetaslua/status/2115935747798950069/video/1)
+
+Type: Demo | Date: 2026-10-29
+
+---
+
+<a id="candidate-4"></a>
+### Candidate 4: [Castle and dragon after follow-up prompts](https://x.com/semichenkko/status/2116198626187706722) (by [@semichenkko](https://x.com/semichenkko))
+
+**Pending verification**
+
+Compare a castle-and-dragon scene before and after three follow-up prompts.
+
+The creator presents the same island, castle and dragon on the first prompt and after three more prompts, highlighting the fire effect. The follow-up text and execution logs are not provided; this is one author’s comparison, not a controlled success-rate test.
+
+[Watch source video](https://x.com/semichenkko/status/2116198626187706722/video/1)
+
+Type: Evaluation | Date: 2026-10-30
+
+---
+
+<a id="candidate-5"></a>
+### Candidate 5: [Mechanical jaw across three models](https://x.com/noclipepe/status/2116109757865930787) (by [@noclipepe](https://x.com/noclipepe))
+
+**Pending verification**
+
+Compare mechanical-jaw and moving-tooth demonstrations across Carbon, Opus 5.5 and GPT-6 Astra.
+
+The creator reports a common prompt and individual tooth movement, with times of 29m 9s for Carbon, 35m 17s for Opus 5.5 and 26m 7s for GPT-6 Astra. Timing, model identity and complete interaction remain source-reported and have not been independently reproduced.
+
+[Watch source video](https://x.com/noclipepe/status/2116109757865930787/video/1)
+
+Type: Evaluation | Date: 2026-10-30
+
+---
+
 <a id="related-repositories"></a>
 ## Related Repositories
 

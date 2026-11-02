@@ -28,7 +28,11 @@
     "evidence": "Les noms de modèle, durées et jugements de qualité viennent des sources. Le nom affiché dans Arena ne prouve pas la version réelle. Un enregistrement ne démontre ni code exécutable, ni interaction complète, ni réussite reproductible.",
     "steps": "1. Choisissez une tâche dans le sommaire.\n2. Ouvrez sa vidéo ou son image, puis suivez le titre vers la publication originale.\n3. Comparez le résultat visible à la tâche et à ses limites.",
     "thanks": "Merci aux personnes qui ont publié ces démonstrations :",
-    "corrections": "L’attribution suit les sources liées et peut nécessiter des corrections. Ouvrez une issue pour signaler un crédit manquant, un doublon, une affirmation incorrecte ou demander un retrait. Les médias tiers restent la propriété de leurs ayants droit."
+    "corrections": "L’attribution suit les sources liées et peut nécessiter des corrections. Ouvrez une issue pour signaler un crédit manquant, un doublon, une affirmation incorrecte ou demander un retrait. Les médias tiers restent la propriété de leurs ayants droit.",
+    "candidates_heading": "Candidats en attente de vérification",
+    "candidate": "Candidat",
+    "candidate_status": "Vérification en attente",
+    "candidates_notice": "Ces cinq candidats sont distincts des 25 cas sélectionnés. Leurs publications et médias originaux n’ont pas été vérifiés indépendamment et la vérification visuelle reste incomplète. Les descriptions reprennent les déclarations des sources. Seuls des liens vers les médias originaux sont fournis ; aucun nouveau média n’est copié ou intégré."
   },
   "cases": [
     [
@@ -155,6 +159,33 @@
       "Animation cycliste avec trois modèles",
       "Comparez les sorties groupées de Carbon, Argon et GPT-6 Astra.",
       "La vidéo garde les noms de modèles et les résultats ensemble. L’auteur préfère Carbon sans fournir de réglages communs, de nombre d’essais ou de journaux d’exécution."
+    ]
+  ],
+  "candidates": [
+    [
+      "Œil robotique avec vue éclatée",
+      "Examinez une démonstration d’œil robotique combinant clignement, mise au point et vue éclatée.",
+      "Le créateur rapporte une seule instruction et 29 minutes 49 secondes. L’enregistrement original est lié ; le code exécutable, l’interaction complète et la reproductibilité n’ont pas été vérifiés indépendamment."
+    ],
+    [
+      "Inspection d’une café racer avec deux modèles",
+      "Comparez les démonstrations d’inspection de moto attribuées à Carbon et Opus 5.5.",
+      "L’auteur rapporte une même instruction et un essai par modèle pour les vues aux rayons X, en coupe et éclatées. Ces conditions sont déclarées par la source ; aucun journal d’exécution commun ni reproduction indépendante n’établit un classement général des modèles."
+    ],
+    [
+      "Scène de pluie avec boucle musicale",
+      "Explorez la boucle de musique pour dormir en JavaScript accompagnée d’une scène de pluie SVG dans la source.",
+      "Le créateur attribue la musique et la scène à Carbon et rapporte environ 4 000 lignes en un essai. La longueur du code, l’originalité musicale et le fonctionnement complet de la lecture n’ont pas été vérifiés indépendamment."
+    ],
+    [
+      "Château et dragon après des instructions supplémentaires",
+      "Comparez une scène de château et de dragon avant et après trois instructions supplémentaires.",
+      "Le créateur présente les mêmes île, château et dragon après la première instruction puis trois autres, en soulignant le feu. Le texte des instructions supplémentaires et les journaux d’exécution ne sont pas fournis ; c’est la comparaison d’un auteur, pas un test contrôlé du taux de réussite."
+    ],
+    [
+      "Mâchoire mécanique avec trois modèles",
+      "Comparez les démonstrations de mâchoire mécanique et de dents mobiles de Carbon, Opus 5.5 et GPT-6 Astra.",
+      "Le créateur rapporte une instruction commune et des dents mobiles individuellement, avec des durées de 29m 9s pour Carbon, 35m 17s pour Opus 5.5 et 26m 7s pour GPT-6 Astra. Les durées, l’identité des modèles et l’interaction complète restent des déclarations de la source sans reproduction indépendante."
     ]
   ]
 }

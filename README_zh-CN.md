@@ -407,6 +407,86 @@
 
 ---
 
+<a id="pending-candidates"></a>
+## 🧪 待核候选
+
+以下5条候选与原25个已策展案例分开。原帖及媒体尚未独立核验，视觉检查也未完成。简介仅转述来源自报内容。仅提供原始媒体链接，不复制或嵌入新增媒体。
+
+<a id="candidate-1"></a>
+### 候选 1: [机械眼与爆炸视图](https://x.com/noclipepe/status/2115556254101692515) (作者 [@noclipepe](https://x.com/noclipepe))
+
+**待核验**
+
+查看结合眨眼、对焦和零件拆解的机械眼演示。
+
+作者自报一次提示完成，用时29分49秒。此处链接原始录屏；可运行代码、完整交互和可重复性尚未独立核验。
+
+[观看来源视频](https://x.com/noclipepe/status/2115556254101692515/video/1)
+
+类型: Demo | 日期: 2026-10-28
+
+---
+
+<a id="candidate-2"></a>
+### 候选 2: [两种模型的咖啡赛车拆解](https://x.com/dromexa/status/2115802517942497491) (作者 [@dromexa](https://x.com/dromexa))
+
+**待核验**
+
+比较来源展示的Carbon与Opus 5.5摩托车内部观察演示。
+
+发布者自报使用相同提示，每个模型尝试一次，展示X光、剖面和爆炸视图。这些条件仅来自来源陈述；没有共同执行日志或独立复现支持普遍的模型排名。
+
+[观看来源视频](https://x.com/dromexa/status/2115802517942497491/video/1)
+
+类型: Evaluation | 日期: 2026-10-29
+
+---
+
+<a id="candidate-3"></a>
+### 候选 3: [雨景与音乐循环](https://x.com/chetaslua/status/2115935747798950069) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**待核验**
+
+查看来源展示的JavaScript助眠音乐循环与SVG雨景。
+
+作者将音乐和雨景归于Carbon，自报一次尝试生成约4,000行。代码行数、音乐原创性和完整播放行为尚未独立核验。
+
+[观看来源视频](https://x.com/chetaslua/status/2115935747798950069/video/1)
+
+类型: Demo | 日期: 2026-10-29
+
+---
+
+<a id="candidate-4"></a>
+### 候选 4: [追加提示前后的城堡与龙](https://x.com/semichenkko/status/2116198626187706722) (作者 [@semichenkko](https://x.com/semichenkko))
+
+**待核验**
+
+比较追加三次提示前后的城堡与龙场景。
+
+作者展示相同岛屿、城堡和龙在首轮及追加三次提示后的结果，强调火焰变化。未提供追加提示原文和执行日志；这是一位作者的对比，不是受控的成功率测试。
+
+[观看来源视频](https://x.com/semichenkko/status/2116198626187706722/video/1)
+
+类型: Evaluation | 日期: 2026-10-30
+
+---
+
+<a id="candidate-5"></a>
+### 候选 5: [三种模型的机械下颌](https://x.com/noclipepe/status/2116109757865930787) (作者 [@noclipepe](https://x.com/noclipepe))
+
+**待核验**
+
+比较Carbon、Opus 5.5与GPT-6 Astra的机械下颌及独立牙齿运动演示。
+
+作者自报使用相同提示、每颗牙齿独立运动，并列出Carbon 29m 9s、Opus 5.5 35m 17s、GPT-6 Astra 26m 7s。用时、模型身份和完整交互均为来源自报，未独立复现。
+
+[观看来源视频](https://x.com/noclipepe/status/2116109757865930787/video/1)
+
+类型: Evaluation | 日期: 2026-10-30
+
+---
+
 <a id="related-repositories"></a>
 ## 相关仓库
 

@@ -407,6 +407,86 @@ Typ: Evaluation | Datum: 2026-10-21
 
 ---
 
+<a id="pending-candidates"></a>
+## 🧪 Kandidaten zur weiteren Prüfung
+
+Diese fünf Kandidaten sind von den 25 kuratierten Fällen getrennt. Originalbeiträge und Medien wurden nicht unabhängig überprüft; die visuelle Prüfung ist unvollständig. Die Beschreibungen geben Angaben der Quellen wieder. Es werden nur Links zu Originalmedien bereitgestellt; neue Medien werden weder kopiert noch eingebettet.
+
+<a id="candidate-1"></a>
+### Kandidat 1: [Roboterauge mit Explosionsansicht](https://x.com/noclipepe/status/2115556254101692515) (von [@noclipepe](https://x.com/noclipepe))
+
+**Prüfung ausstehend**
+
+Untersuche die Demonstration eines Roboterauges mit Blinzeln, Fokussierung und Explosionsansicht.
+
+Der Ersteller nennt einen einzigen Prompt und 29 Minuten 49 Sekunden. Die Originalaufnahme ist verlinkt; ausführbarer Code, vollständige Interaktion und Wiederholbarkeit wurden nicht unabhängig überprüft.
+
+[Originalvideo ansehen](https://x.com/noclipepe/status/2115556254101692515/video/1)
+
+Typ: Demo | Datum: 2026-10-28
+
+---
+
+<a id="candidate-2"></a>
+### Kandidat 2: [Café-Racer-Ansichten mit zwei Modellen](https://x.com/dromexa/status/2115802517942497491) (von [@dromexa](https://x.com/dromexa))
+
+**Prüfung ausstehend**
+
+Vergleiche die Motorradansichten, die der Beitrag Carbon und Opus 5.5 zuschreibt.
+
+Der Verfasser berichtet von demselben Prompt und einem Versuch pro Modell für Röntgen-, Schnitt- und Explosionsansichten. Diese Bedingungen sind Angaben der Quelle; gemeinsame Ausführungsprotokolle oder eine unabhängige Reproduktion für eine allgemeine Modellrangfolge fehlen.
+
+[Originalvideo ansehen](https://x.com/dromexa/status/2115802517942497491/video/1)
+
+Typ: Evaluation | Datum: 2026-10-29
+
+---
+
+<a id="candidate-3"></a>
+### Kandidat 3: [Regenszene mit Musikschleife](https://x.com/chetaslua/status/2115935747798950069) (von [@chetaslua](https://x.com/chetaslua))
+
+**Prüfung ausstehend**
+
+Erkunde die JavaScript-Schlafmusikschleife mit SVG-Regenszene im Originalbeitrag.
+
+Der Ersteller schreibt Musik und Regenszene Carbon zu und berichtet von etwa 4.000 Zeilen in einem Versuch. Codeumfang, musikalische Originalität und vollständige Wiedergabefunktion wurden nicht unabhängig überprüft.
+
+[Originalvideo ansehen](https://x.com/chetaslua/status/2115935747798950069/video/1)
+
+Typ: Demo | Datum: 2026-10-29
+
+---
+
+<a id="candidate-4"></a>
+### Kandidat 4: [Burg und Drache nach weiteren Prompts](https://x.com/semichenkko/status/2116198626187706722) (von [@semichenkko](https://x.com/semichenkko))
+
+**Prüfung ausstehend**
+
+Vergleiche eine Burg-und-Drachen-Szene vor und nach drei weiteren Prompts.
+
+Der Ersteller zeigt dieselbe Insel, Burg und denselben Drachen nach dem ersten und drei weiteren Prompts und hebt das Feuer hervor. Die Folgeprompts und Ausführungsprotokolle fehlen; dies ist der Vergleich eines Autors, kein kontrollierter Test der Erfolgsquote.
+
+[Originalvideo ansehen](https://x.com/semichenkko/status/2116198626187706722/video/1)
+
+Typ: Evaluation | Datum: 2026-10-30
+
+---
+
+<a id="candidate-5"></a>
+### Kandidat 5: [Mechanischer Kiefer mit drei Modellen](https://x.com/noclipepe/status/2116109757865930787) (von [@noclipepe](https://x.com/noclipepe))
+
+**Prüfung ausstehend**
+
+Vergleiche mechanische Kiefer und bewegliche Zähne von Carbon, Opus 5.5 und GPT-6 Astra.
+
+Der Ersteller berichtet von einem gemeinsamen Prompt und einzeln beweglichen Zähnen sowie Zeiten von 29m 9s für Carbon, 35m 17s für Opus 5.5 und 26m 7s für GPT-6 Astra. Zeitangaben, Modellidentität und vollständige Interaktion stammen von der Quelle und wurden nicht unabhängig reproduziert.
+
+[Originalvideo ansehen](https://x.com/noclipepe/status/2116109757865930787/video/1)
+
+Typ: Evaluation | Datum: 2026-10-30
+
+---
+
 <a id="related-repositories"></a>
 ## Verwandte Repositories
 

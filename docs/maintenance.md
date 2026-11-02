@@ -6,6 +6,12 @@
 
 Each case has a stable `case-N` anchor, source-linked heading, author, bold practical takeaway, source-grounded notes, media, and type/date. Types remain `Demo`, `Tutorial`, `Evaluation`, `Integration`, `Benchmark` or `Limit` in every language.
 
+## Pending candidates
+
+The dataset's separate `candidates` array and `candidate_count` hold source-attributed items awaiting verification. Their status is `pending-verification`, their IDs use `carbon-candidate-NNN`, and they do not have curated case numbers. Each locale has separate candidate copy and visible pending labels. The README appendix uses `candidate-N` anchors; candidates never enter the curated Menu, case count, `case-N` anchors or curated QA totals.
+
+Candidate media entries use `presentation: "source-link"` and link to the original publisher without copying, embedding or rehosting media. Before promoting a candidate, independently review its source, media, attribution, model-label limits and duplicate relationship, complete wide/narrow visual QA, and follow the curated-case workflow below. A passing structure check does not establish source validity or visual quality.
+
 ## Updating
 
 1. Review each candidate's text and media. Require a concrete task/output with clear source attribution; a complete prompt is optional.

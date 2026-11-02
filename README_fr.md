@@ -407,6 +407,86 @@ Type: Evaluation | Date: 2026-10-21
 
 ---
 
+<a id="pending-candidates"></a>
+## 🧪 Candidats en attente de vérification
+
+Ces cinq candidats sont distincts des 25 cas sélectionnés. Leurs publications et médias originaux n’ont pas été vérifiés indépendamment et la vérification visuelle reste incomplète. Les descriptions reprennent les déclarations des sources. Seuls des liens vers les médias originaux sont fournis ; aucun nouveau média n’est copié ou intégré.
+
+<a id="candidate-1"></a>
+### Candidat 1: [Œil robotique avec vue éclatée](https://x.com/noclipepe/status/2115556254101692515) (par [@noclipepe](https://x.com/noclipepe))
+
+**Vérification en attente**
+
+Examinez une démonstration d’œil robotique combinant clignement, mise au point et vue éclatée.
+
+Le créateur rapporte une seule instruction et 29 minutes 49 secondes. L’enregistrement original est lié ; le code exécutable, l’interaction complète et la reproductibilité n’ont pas été vérifiés indépendamment.
+
+[Voir la vidéo originale](https://x.com/noclipepe/status/2115556254101692515/video/1)
+
+Type: Demo | Date: 2026-10-28
+
+---
+
+<a id="candidate-2"></a>
+### Candidat 2: [Inspection d’une café racer avec deux modèles](https://x.com/dromexa/status/2115802517942497491) (par [@dromexa](https://x.com/dromexa))
+
+**Vérification en attente**
+
+Comparez les démonstrations d’inspection de moto attribuées à Carbon et Opus 5.5.
+
+L’auteur rapporte une même instruction et un essai par modèle pour les vues aux rayons X, en coupe et éclatées. Ces conditions sont déclarées par la source ; aucun journal d’exécution commun ni reproduction indépendante n’établit un classement général des modèles.
+
+[Voir la vidéo originale](https://x.com/dromexa/status/2115802517942497491/video/1)
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="candidate-3"></a>
+### Candidat 3: [Scène de pluie avec boucle musicale](https://x.com/chetaslua/status/2115935747798950069) (par [@chetaslua](https://x.com/chetaslua))
+
+**Vérification en attente**
+
+Explorez la boucle de musique pour dormir en JavaScript accompagnée d’une scène de pluie SVG dans la source.
+
+Le créateur attribue la musique et la scène à Carbon et rapporte environ 4 000 lignes en un essai. La longueur du code, l’originalité musicale et le fonctionnement complet de la lecture n’ont pas été vérifiés indépendamment.
+
+[Voir la vidéo originale](https://x.com/chetaslua/status/2115935747798950069/video/1)
+
+Type: Demo | Date: 2026-10-29
+
+---
+
+<a id="candidate-4"></a>
+### Candidat 4: [Château et dragon après des instructions supplémentaires](https://x.com/semichenkko/status/2116198626187706722) (par [@semichenkko](https://x.com/semichenkko))
+
+**Vérification en attente**
+
+Comparez une scène de château et de dragon avant et après trois instructions supplémentaires.
+
+Le créateur présente les mêmes île, château et dragon après la première instruction puis trois autres, en soulignant le feu. Le texte des instructions supplémentaires et les journaux d’exécution ne sont pas fournis ; c’est la comparaison d’un auteur, pas un test contrôlé du taux de réussite.
+
+[Voir la vidéo originale](https://x.com/semichenkko/status/2116198626187706722/video/1)
+
+Type: Evaluation | Date: 2026-10-30
+
+---
+
+<a id="candidate-5"></a>
+### Candidat 5: [Mâchoire mécanique avec trois modèles](https://x.com/noclipepe/status/2116109757865930787) (par [@noclipepe](https://x.com/noclipepe))
+
+**Vérification en attente**
+
+Comparez les démonstrations de mâchoire mécanique et de dents mobiles de Carbon, Opus 5.5 et GPT-6 Astra.
+
+Le créateur rapporte une instruction commune et des dents mobiles individuellement, avec des durées de 29m 9s pour Carbon, 35m 17s pour Opus 5.5 et 26m 7s pour GPT-6 Astra. Les durées, l’identité des modèles et l’interaction complète restent des déclarations de la source sans reproduction indépendante.
+
+[Voir la vidéo originale](https://x.com/noclipepe/status/2116109757865930787/video/1)
+
+Type: Evaluation | Date: 2026-10-30
+
+---
+
 <a id="related-repositories"></a>
 ## Dépôts associés
 

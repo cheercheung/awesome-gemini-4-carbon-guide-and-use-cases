@@ -407,6 +407,86 @@
 
 ---
 
+<a id="pending-candidates"></a>
+## 🧪 待查證候選
+
+以下5條候選與原25個已策展案例分開。原始貼文及媒體尚未獨立查證，視覺檢查也未完成。簡介僅轉述來源自述內容。僅提供原始媒體連結，不複製或嵌入新增媒體。
+
+<a id="candidate-1"></a>
+### 候選 1: [機械眼與爆炸視圖](https://x.com/noclipepe/status/2115556254101692515) (作者 [@noclipepe](https://x.com/noclipepe))
+
+**待查證**
+
+查看結合眨眼、對焦和零件拆解的機械眼示範。
+
+作者自述以一次提示完成，耗時29分49秒。此處連結原始錄影；可執行程式碼、完整互動和可重現性尚未獨立驗證。
+
+[觀看來源影片](https://x.com/noclipepe/status/2115556254101692515/video/1)
+
+類型: Demo | 日期: 2026-10-28
+
+---
+
+<a id="candidate-2"></a>
+### 候選 2: [兩種模型的咖啡賽車拆解](https://x.com/dromexa/status/2115802517942497491) (作者 [@dromexa](https://x.com/dromexa))
+
+**待查證**
+
+比較來源展示的Carbon與Opus 5.5摩托車內部觀察示範。
+
+發布者自述使用相同提示，每個模型嘗試一次，展示X光、剖面和爆炸視圖。這些條件僅來自來源陳述；沒有共同執行紀錄或獨立重現支持普遍的模型排名。
+
+[觀看來源影片](https://x.com/dromexa/status/2115802517942497491/video/1)
+
+類型: Evaluation | 日期: 2026-10-29
+
+---
+
+<a id="candidate-3"></a>
+### 候選 3: [雨景與音樂循環](https://x.com/chetaslua/status/2115935747798950069) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**待查證**
+
+查看來源展示的JavaScript助眠音樂循環與SVG雨景。
+
+作者將音樂和雨景歸於Carbon，自述一次嘗試產生約4,000行。程式碼行數、音樂原創性和完整播放行為尚未獨立驗證。
+
+[觀看來源影片](https://x.com/chetaslua/status/2115935747798950069/video/1)
+
+類型: Demo | 日期: 2026-10-29
+
+---
+
+<a id="candidate-4"></a>
+### 候選 4: [追加提示前後的城堡與龍](https://x.com/semichenkko/status/2116198626187706722) (作者 [@semichenkko](https://x.com/semichenkko))
+
+**待查證**
+
+比較追加三次提示前後的城堡與龍場景。
+
+作者展示相同島嶼、城堡和龍在首輪及追加三次提示後的結果，強調火焰變化。未提供追加提示原文和執行紀錄；這是一位作者的比較，不是受控的成功率測試。
+
+[觀看來源影片](https://x.com/semichenkko/status/2116198626187706722/video/1)
+
+類型: Evaluation | 日期: 2026-10-30
+
+---
+
+<a id="candidate-5"></a>
+### 候選 5: [三種模型的機械下顎](https://x.com/noclipepe/status/2116109757865930787) (作者 [@noclipepe](https://x.com/noclipepe))
+
+**待查證**
+
+比較Carbon、Opus 5.5與GPT-6 Astra的機械下顎及獨立牙齒運動示範。
+
+作者自述使用相同提示、每顆牙齒獨立運動，並列出Carbon 29m 9s、Opus 5.5 35m 17s、GPT-6 Astra 26m 7s。耗時、模型身分和完整互動均為來源自述，未獨立重現。
+
+[觀看來源影片](https://x.com/noclipepe/status/2116109757865930787/video/1)
+
+類型: Evaluation | 日期: 2026-10-30
+
+---
+
 <a id="related-repositories"></a>
 ## 相關儲存庫
 
