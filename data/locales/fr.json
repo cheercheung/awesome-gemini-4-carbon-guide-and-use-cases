@@ -24,15 +24,11 @@
     },
     "intro": "Une collection de démonstrations publiques attribuées par leurs auteurs à Gemini 4 Carbon durant son déploiement initial.",
     "purpose": "Explorez des tâches concrètes, des résultats visibles et des limites pratiques à partir des sources originales.",
-    "stats": "25 cas répartis en 5 catégories. Les republications sont regroupées avec l’œuvre correspondante ; les comparaisons d’un résultat existant restent dans son cas.",
+    "stats": "30 cas répartis en 5 catégories. Les republications sont regroupées avec l’œuvre correspondante ; les comparaisons d’un résultat existant restent dans son cas.",
     "evidence": "Les noms de modèle, durées et jugements de qualité viennent des sources. Le nom affiché dans Arena ne prouve pas la version réelle. Un enregistrement ne démontre ni code exécutable, ni interaction complète, ni réussite reproductible.",
     "steps": "1. Choisissez une tâche dans le sommaire.\n2. Ouvrez sa vidéo ou son image, puis suivez le titre vers la publication originale.\n3. Comparez le résultat visible à la tâche et à ses limites.",
     "thanks": "Merci aux personnes qui ont publié ces démonstrations :",
-    "corrections": "L’attribution suit les sources liées et peut nécessiter des corrections. Ouvrez une issue pour signaler un crédit manquant, un doublon, une affirmation incorrecte ou demander un retrait. Les médias tiers restent la propriété de leurs ayants droit.",
-    "candidates_heading": "Candidats en attente de vérification",
-    "candidate": "Candidat",
-    "candidate_status": "Vérification en attente",
-    "candidates_notice": "Ces cinq candidats sont distincts des 25 cas sélectionnés. Leurs publications et médias originaux n’ont pas été vérifiés indépendamment et la vérification visuelle reste incomplète. Les descriptions reprennent les déclarations des sources. Seuls des liens vers les médias originaux sont fournis ; aucun nouveau média n’est copié ou intégré."
+    "corrections": "L’attribution suit les sources liées et peut nécessiter des corrections. Ouvrez une issue pour signaler un crédit manquant, un doublon, une affirmation incorrecte ou demander un retrait. Les médias tiers restent la propriété de leurs ayants droit."
   },
   "cases": [
     [
@@ -159,9 +155,7 @@
       "Animation cycliste avec trois modèles",
       "Comparez les sorties groupées de Carbon, Argon et GPT-6 Astra.",
       "La vidéo garde les noms de modèles et les résultats ensemble. L’auteur préfère Carbon sans fournir de réglages communs, de nombre d’essais ou de journaux d’exécution."
-    ]
-  ],
-  "candidates": [
+    ],
     [
       "Œil robotique avec vue éclatée",
       "Examinez une démonstration d’œil robotique combinant clignement, mise au point et vue éclatée.",

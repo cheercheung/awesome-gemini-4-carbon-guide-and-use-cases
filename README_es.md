@@ -26,7 +26,7 @@ Una colección de demostraciones públicas que sus autores atribuyen a Gemini 4 
 
 ## 📊 Resumen
 
-25 casos en 5 categorías. Las republicaciones se agrupan con la obra correspondiente; las comparaciones de un resultado existente permanecen en su caso.
+30 casos en 5 categorías. Las republicaciones se agrupan con la obra correspondiente; las comparaciones de un resultado existente permanecen en su caso.
 
 > [!NOTE]
 > Los nombres de modelo, tiempos y valoraciones proceden de las fuentes. El nombre mostrado en Arena no acredita la versión interna. Una grabación no demuestra código ejecutable, interacción completa ni éxito reproducible.
@@ -67,6 +67,11 @@ Una colección de demostraciones públicas que sus autores atribuyen a Gemini 4 
 | [23. Mundo de bloques en primera persona](#case-23) | Juegos y escenas animadas | Demo |
 | [24. Rana en monopatín](#case-24) | Juegos y escenas animadas | Demo |
 | [25. Animación ciclista en tres modelos](#case-25) | Comparación de modelos | Evaluation |
+| [26. Ojo robótico con vista despiece](#case-26) | Objetos mecánicos y 3D | Demo |
+| [27. Inspección de una café racer con dos modelos](#case-27) | Objetos mecánicos y 3D | Evaluation |
+| [28. Escena de lluvia con bucle musical](#case-28) | SVG y gráficos interactivos | Demo |
+| [29. Castillo y dragón tras instrucciones adicionales](#case-29) | Mundos y paisajes vóxel | Evaluation |
+| [30. Mandíbula mecánica con tres modelos](#case-30) | Comparación de modelos | Evaluation |
 
 ## ⚙️ Objetos mecánicos y 3D
 
@@ -119,6 +124,35 @@ El autor declara unos 20 minutos y el nombre gemini-4-argon en Arena. La identif
 <table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/2112945233822617600-6e32038ca6b9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/2112945233822617600-ada2f593eab5.jpg" alt="Cítrico de cristal — 1" width="560"></a><br>Ver vídeo original</td></tr></table>
 
 Tipo: Demo | Fecha: 2026-10-21
+
+---
+
+<a id="pending-candidates"></a>
+<a id="candidate-1"></a>
+<a id="case-26"></a>
+### Caso 26: [Ojo robótico con vista despiece](https://x.com/noclipepe/status/2115556254101692515) (por [@noclipepe](https://x.com/noclipepe))
+
+**Examina una demostración de un ojo robótico que parpadea, enfoca y muestra sus piezas separadas.**
+
+El creador afirma haber usado una sola instrucción y tardado 29 minutos y 49 segundos. Se enlaza la grabación original; el código ejecutable, la interacción completa y la repetibilidad no se han verificado de forma independiente.
+
+[Ver vídeo original](https://x.com/noclipepe/status/2115556254101692515/video/1)
+
+Tipo: Demo | Fecha: 2026-10-28
+
+---
+
+<a id="candidate-2"></a>
+<a id="case-27"></a>
+### Caso 27: [Inspección de una café racer con dos modelos](https://x.com/dromexa/status/2115802517942497491) (por [@dromexa](https://x.com/dromexa))
+
+**Compara las demostraciones de inspección de una motocicleta atribuidas a Carbon y Opus 5.5.**
+
+El autor declara haber usado la misma instrucción y un intento por modelo para las vistas de rayos X, corte y despiece. Son condiciones declaradas por la fuente; no hay registros compartidos ni una reproducción independiente que establezcan una clasificación general de los modelos.
+
+[Ver vídeo original](https://x.com/dromexa/status/2115802517942497491/video/1)
+
+Tipo: Evaluation | Fecha: 2026-10-29
 
 ---
 
@@ -243,6 +277,20 @@ Tipo: Demo | Fecha: 2026-10-21
 
 ---
 
+<a id="candidate-4"></a>
+<a id="case-29"></a>
+### Caso 29: [Castillo y dragón tras instrucciones adicionales](https://x.com/semichenkko/status/2116198626187706722) (por [@semichenkko](https://x.com/semichenkko))
+
+**Compara una escena de castillo y dragón antes y después de tres instrucciones adicionales.**
+
+El creador presenta la misma isla, castillo y dragón tras la primera instrucción y después de tres más, destacando el fuego. No aporta el texto de esas instrucciones ni registros de ejecución; es la comparación de un autor, no una prueba controlada de la tasa de éxito.
+
+[Ver vídeo original](https://x.com/semichenkko/status/2116198626187706722/video/1)
+
+Tipo: Evaluation | Fecha: 2026-10-30
+
+---
+
 ## 🎨 SVG y gráficos interactivos
 
 <a id="case-14"></a>
@@ -351,6 +399,20 @@ Tipo: Limit | Fecha: 2026-10-21
 
 ---
 
+<a id="candidate-3"></a>
+<a id="case-28"></a>
+### Caso 28: [Escena de lluvia con bucle musical](https://x.com/chetaslua/status/2115935747798950069) (por [@chetaslua](https://x.com/chetaslua))
+
+**Explora el bucle de música para dormir en JavaScript con una escena de lluvia SVG de la fuente.**
+
+El creador atribuye la música y la escena a Carbon y afirma haber obtenido unas 4.000 líneas en un intento. La longitud del código, la originalidad de la música y el funcionamiento completo de la reproducción no se han verificado de forma independiente.
+
+[Ver vídeo original](https://x.com/chetaslua/status/2115935747798950069/video/1)
+
+Tipo: Demo | Fecha: 2026-10-29
+
+---
+
 ## 🎮 Juegos y escenas animadas
 
 <a id="case-22"></a>
@@ -407,77 +469,11 @@ Tipo: Evaluation | Fecha: 2026-10-21
 
 ---
 
-<a id="pending-candidates"></a>
-## 🧪 Candidatos pendientes de verificación
-
-Estos cinco candidatos están separados de los 25 casos seleccionados. Sus publicaciones y medios originales no se han verificado de forma independiente y la revisión visual está incompleta. Las descripciones reflejan lo declarado por las fuentes. Solo se incluyen enlaces a los medios originales; no se copian ni se insertan medios nuevos.
-
-<a id="candidate-1"></a>
-### Candidato 1: [Ojo robótico con vista despiece](https://x.com/noclipepe/status/2115556254101692515) (por [@noclipepe](https://x.com/noclipepe))
-
-**Pendiente de verificación**
-
-Examina una demostración de un ojo robótico que parpadea, enfoca y muestra sus piezas separadas.
-
-El creador afirma haber usado una sola instrucción y tardado 29 minutos y 49 segundos. Se enlaza la grabación original; el código ejecutable, la interacción completa y la repetibilidad no se han verificado de forma independiente.
-
-[Ver vídeo original](https://x.com/noclipepe/status/2115556254101692515/video/1)
-
-Tipo: Demo | Fecha: 2026-10-28
-
----
-
-<a id="candidate-2"></a>
-### Candidato 2: [Inspección de una café racer con dos modelos](https://x.com/dromexa/status/2115802517942497491) (por [@dromexa](https://x.com/dromexa))
-
-**Pendiente de verificación**
-
-Compara las demostraciones de inspección de una motocicleta atribuidas a Carbon y Opus 5.5.
-
-El autor declara haber usado la misma instrucción y un intento por modelo para las vistas de rayos X, corte y despiece. Son condiciones declaradas por la fuente; no hay registros compartidos ni una reproducción independiente que establezcan una clasificación general de los modelos.
-
-[Ver vídeo original](https://x.com/dromexa/status/2115802517942497491/video/1)
-
-Tipo: Evaluation | Fecha: 2026-10-29
-
----
-
-<a id="candidate-3"></a>
-### Candidato 3: [Escena de lluvia con bucle musical](https://x.com/chetaslua/status/2115935747798950069) (por [@chetaslua](https://x.com/chetaslua))
-
-**Pendiente de verificación**
-
-Explora el bucle de música para dormir en JavaScript con una escena de lluvia SVG de la fuente.
-
-El creador atribuye la música y la escena a Carbon y afirma haber obtenido unas 4.000 líneas en un intento. La longitud del código, la originalidad de la música y el funcionamiento completo de la reproducción no se han verificado de forma independiente.
-
-[Ver vídeo original](https://x.com/chetaslua/status/2115935747798950069/video/1)
-
-Tipo: Demo | Fecha: 2026-10-29
-
----
-
-<a id="candidate-4"></a>
-### Candidato 4: [Castillo y dragón tras instrucciones adicionales](https://x.com/semichenkko/status/2116198626187706722) (por [@semichenkko](https://x.com/semichenkko))
-
-**Pendiente de verificación**
-
-Compara una escena de castillo y dragón antes y después de tres instrucciones adicionales.
-
-El creador presenta la misma isla, castillo y dragón tras la primera instrucción y después de tres más, destacando el fuego. No aporta el texto de esas instrucciones ni registros de ejecución; es la comparación de un autor, no una prueba controlada de la tasa de éxito.
-
-[Ver vídeo original](https://x.com/semichenkko/status/2116198626187706722/video/1)
-
-Tipo: Evaluation | Fecha: 2026-10-30
-
----
-
 <a id="candidate-5"></a>
-### Candidato 5: [Mandíbula mecánica con tres modelos](https://x.com/noclipepe/status/2116109757865930787) (por [@noclipepe](https://x.com/noclipepe))
+<a id="case-30"></a>
+### Caso 30: [Mandíbula mecánica con tres modelos](https://x.com/noclipepe/status/2116109757865930787) (por [@noclipepe](https://x.com/noclipepe))
 
-**Pendiente de verificación**
-
-Compara las demostraciones de mandíbula mecánica y dientes móviles de Carbon, Opus 5.5 y GPT-6 Astra.
+**Compara las demostraciones de mandíbula mecánica y dientes móviles de Carbon, Opus 5.5 y GPT-6 Astra.**
 
 El creador declara una instrucción común y movimiento individual de los dientes, con tiempos de 29m 9s para Carbon, 35m 17s para Opus 5.5 y 26m 7s para GPT-6 Astra. El tiempo, la identidad de los modelos y la interacción completa son datos de la fuente sin reproducción independiente.
 
@@ -498,6 +494,6 @@ Tipo: Evaluation | Fecha: 2026-10-30
 
 Gracias a quienes publicaron estas demostraciones:
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko)
 
 La atribución sigue las fuentes enlazadas y puede necesitar correcciones. Abre un issue para indicar créditos omitidos, duplicados, afirmaciones incorrectas o solicitudes de retirada. Los medios de terceros conservan su titularidad original.

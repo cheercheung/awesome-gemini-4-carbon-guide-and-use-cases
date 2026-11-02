@@ -26,7 +26,7 @@ Erken kullanıma açılma döneminde paylaşanların Gemini 4 Carbon ile ilişki
 
 ## 📊 Genel bakış
 
-5 kategoride 25 kullanım örneği. Yeniden paylaşımlar ilgili eserle birleştirilir; mevcut çıktının karşılaştırması aynı örnekte tutulur.
+5 kategoride 30 kullanım örneği. Yeniden paylaşımlar ilgili eserle birleştirilir; mevcut çıktının karşılaştırması aynı örnekte tutulur.
 
 > [!NOTE]
 > Model adları, üretim süreleri ve kalite yorumları kaynakların beyanıdır. Arena görünen adı arka uç sürümünü kanıtlamaz. Kayıt, çalıştırılabilir kodu, tüm etkileşimleri veya tekrarlanabilir başarıyı kanıtlamaz.
@@ -67,6 +67,11 @@ Erken kullanıma açılma döneminde paylaşanların Gemini 4 Carbon ile ilişki
 | [23. Blok dünyası sanal alanı](#case-23) | Oyunlar ve animasyon sahneleri | Demo |
 | [24. Kaykaylı kurbağa sahnesi](#case-24) | Oyunlar ve animasyon sahneleri | Demo |
 | [25. Üç modelde bisiklet animasyonu](#case-25) | Model karşılaştırması | Evaluation |
+| [26. Patlatılmış görünümü olan robot göz](#case-26) | Mekanik ve 3B nesneler | Demo |
+| [27. İki modelle café racer incelemesi](#case-27) | Mekanik ve 3B nesneler | Evaluation |
+| [28. Müzik döngüsüyle yağmur sahnesi](#case-28) | SVG ve etkileşimli grafikler | Demo |
+| [29. Ek istemlerden sonra kale ve ejderha](#case-29) | Voksel dünyalar ve manzaralar | Evaluation |
+| [30. Üç modelle mekanik çene](#case-30) | Model karşılaştırması | Evaluation |
 
 ## ⚙️ Mekanik ve 3B nesneler
 
@@ -119,6 +124,35 @@ Yazar yaklaşık 20 dakika sürdüğünü, Arena adının gemini-4-argon olduğu
 <table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/2112945233822617600-6e32038ca6b9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/2112945233822617600-ada2f593eab5.jpg" alt="Kristal narenciye — 1" width="560"></a><br>Kaynak videoyu izle</td></tr></table>
 
 Tür: Demo | Tarih: 2026-10-21
+
+---
+
+<a id="pending-candidates"></a>
+<a id="candidate-1"></a>
+<a id="case-26"></a>
+### Örnek 26: [Patlatılmış görünümü olan robot göz](https://x.com/noclipepe/status/2115556254101692515) (paylaşan [@noclipepe](https://x.com/noclipepe))
+
+**Göz kırpma, odaklanma ve parçaların ayrıldığı görünümü birleştiren robot göz gösterimini inceleyin.**
+
+Üretici tek istem kullandığını ve 29 dakika 49 saniye sürdüğünü bildiriyor. Özgün kayıt bağlantısı veriliyor; çalıştırılabilir kod, tüm etkileşimler ve tekrarlanabilirlik bağımsız olarak doğrulanmadı.
+
+[Kaynak videoyu izle](https://x.com/noclipepe/status/2115556254101692515/video/1)
+
+Tür: Demo | Tarih: 2026-10-28
+
+---
+
+<a id="candidate-2"></a>
+<a id="case-27"></a>
+### Örnek 27: [İki modelle café racer incelemesi](https://x.com/dromexa/status/2115802517942497491) (paylaşan [@dromexa](https://x.com/dromexa))
+
+**Kaynağın Carbon ve Opus 5.5 için sunduğu motosiklet inceleme gösterimlerini karşılaştırın.**
+
+Yayıncı röntgen, kesit ve parçaların ayrıldığı görünümler için aynı istemi ve model başına tek denemeyi bildirdi. Bunlar kaynağın beyanlarıdır; ortak yürütme kayıtları veya bağımsız tekrar genel bir model sıralaması ortaya koymuyor.
+
+[Kaynak videoyu izle](https://x.com/dromexa/status/2115802517942497491/video/1)
+
+Tür: Evaluation | Tarih: 2026-10-29
 
 ---
 
@@ -243,6 +277,20 @@ Tür: Demo | Tarih: 2026-10-21
 
 ---
 
+<a id="candidate-4"></a>
+<a id="case-29"></a>
+### Örnek 29: [Ek istemlerden sonra kale ve ejderha](https://x.com/semichenkko/status/2116198626187706722) (paylaşan [@semichenkko](https://x.com/semichenkko))
+
+**Üç ek istemden önceki ve sonraki kale ve ejderha sahnesini karşılaştırın.**
+
+Üretici aynı ada, kale ve ejderhayı ilk istemden sonra ve üç ek istemin ardından göstererek ateş efektini vurguluyor. Ek istemlerin metni ve yürütme kayıtları sunulmuyor; bu, bir yazarın karşılaştırmasıdır, kontrollü bir başarı oranı testi değildir.
+
+[Kaynak videoyu izle](https://x.com/semichenkko/status/2116198626187706722/video/1)
+
+Tür: Evaluation | Tarih: 2026-10-30
+
+---
+
 ## 🎨 SVG ve etkileşimli grafikler
 
 <a id="case-14"></a>
@@ -351,6 +399,20 @@ Tür: Limit | Tarih: 2026-10-21
 
 ---
 
+<a id="candidate-3"></a>
+<a id="case-28"></a>
+### Örnek 28: [Müzik döngüsüyle yağmur sahnesi](https://x.com/chetaslua/status/2115935747798950069) (paylaşan [@chetaslua](https://x.com/chetaslua))
+
+**Kaynağın SVG yağmur sahneli JavaScript uyku müziği döngüsünü keşfedin.**
+
+Üretici müziği ve yağmur sahnesini Carbon’a atfediyor ve tek denemede yaklaşık 4.000 satır üretildiğini bildiriyor. Kod uzunluğu, müziğin özgünlüğü ve oynatmanın tüm işlevleri bağımsız olarak doğrulanmadı.
+
+[Kaynak videoyu izle](https://x.com/chetaslua/status/2115935747798950069/video/1)
+
+Tür: Demo | Tarih: 2026-10-29
+
+---
+
 ## 🎮 Oyunlar ve animasyon sahneleri
 
 <a id="case-22"></a>
@@ -407,77 +469,11 @@ Tür: Evaluation | Tarih: 2026-10-21
 
 ---
 
-<a id="pending-candidates"></a>
-## 🧪 Doğrulama bekleyen adaylar
-
-Bu beş aday, seçilmiş 25 örnekten ayrıdır. Özgün gönderiler ve medya bağımsız olarak doğrulanmadı; görsel inceleme de tamamlanmadı. Açıklamalar kaynakların beyanlarına dayanır. Yalnızca özgün medya bağlantıları verilir; yeni medya kopyalanmaz veya gömülmez.
-
-<a id="candidate-1"></a>
-### Aday 1: [Patlatılmış görünümü olan robot göz](https://x.com/noclipepe/status/2115556254101692515) (paylaşan [@noclipepe](https://x.com/noclipepe))
-
-**Doğrulama bekliyor**
-
-Göz kırpma, odaklanma ve parçaların ayrıldığı görünümü birleştiren robot göz gösterimini inceleyin.
-
-Üretici tek istem kullandığını ve 29 dakika 49 saniye sürdüğünü bildiriyor. Özgün kayıt bağlantısı veriliyor; çalıştırılabilir kod, tüm etkileşimler ve tekrarlanabilirlik bağımsız olarak doğrulanmadı.
-
-[Kaynak videoyu izle](https://x.com/noclipepe/status/2115556254101692515/video/1)
-
-Tür: Demo | Tarih: 2026-10-28
-
----
-
-<a id="candidate-2"></a>
-### Aday 2: [İki modelle café racer incelemesi](https://x.com/dromexa/status/2115802517942497491) (paylaşan [@dromexa](https://x.com/dromexa))
-
-**Doğrulama bekliyor**
-
-Kaynağın Carbon ve Opus 5.5 için sunduğu motosiklet inceleme gösterimlerini karşılaştırın.
-
-Yayıncı röntgen, kesit ve parçaların ayrıldığı görünümler için aynı istemi ve model başına tek denemeyi bildirdi. Bunlar kaynağın beyanlarıdır; ortak yürütme kayıtları veya bağımsız tekrar genel bir model sıralaması ortaya koymuyor.
-
-[Kaynak videoyu izle](https://x.com/dromexa/status/2115802517942497491/video/1)
-
-Tür: Evaluation | Tarih: 2026-10-29
-
----
-
-<a id="candidate-3"></a>
-### Aday 3: [Müzik döngüsüyle yağmur sahnesi](https://x.com/chetaslua/status/2115935747798950069) (paylaşan [@chetaslua](https://x.com/chetaslua))
-
-**Doğrulama bekliyor**
-
-Kaynağın SVG yağmur sahneli JavaScript uyku müziği döngüsünü keşfedin.
-
-Üretici müziği ve yağmur sahnesini Carbon’a atfediyor ve tek denemede yaklaşık 4.000 satır üretildiğini bildiriyor. Kod uzunluğu, müziğin özgünlüğü ve oynatmanın tüm işlevleri bağımsız olarak doğrulanmadı.
-
-[Kaynak videoyu izle](https://x.com/chetaslua/status/2115935747798950069/video/1)
-
-Tür: Demo | Tarih: 2026-10-29
-
----
-
-<a id="candidate-4"></a>
-### Aday 4: [Ek istemlerden sonra kale ve ejderha](https://x.com/semichenkko/status/2116198626187706722) (paylaşan [@semichenkko](https://x.com/semichenkko))
-
-**Doğrulama bekliyor**
-
-Üç ek istemden önceki ve sonraki kale ve ejderha sahnesini karşılaştırın.
-
-Üretici aynı ada, kale ve ejderhayı ilk istemden sonra ve üç ek istemin ardından göstererek ateş efektini vurguluyor. Ek istemlerin metni ve yürütme kayıtları sunulmuyor; bu, bir yazarın karşılaştırmasıdır, kontrollü bir başarı oranı testi değildir.
-
-[Kaynak videoyu izle](https://x.com/semichenkko/status/2116198626187706722/video/1)
-
-Tür: Evaluation | Tarih: 2026-10-30
-
----
-
 <a id="candidate-5"></a>
-### Aday 5: [Üç modelle mekanik çene](https://x.com/noclipepe/status/2116109757865930787) (paylaşan [@noclipepe](https://x.com/noclipepe))
+<a id="case-30"></a>
+### Örnek 30: [Üç modelle mekanik çene](https://x.com/noclipepe/status/2116109757865930787) (paylaşan [@noclipepe](https://x.com/noclipepe))
 
-**Doğrulama bekliyor**
-
-Carbon, Opus 5.5 ve GPT-6 Astra’nın mekanik çene ve hareketli diş gösterimlerini karşılaştırın.
+**Carbon, Opus 5.5 ve GPT-6 Astra’nın mekanik çene ve hareketli diş gösterimlerini karşılaştırın.**
 
 Üretici ortak istem ve bağımsız diş hareketleri bildirdi; süreler Carbon için 29m 9s, Opus 5.5 için 35m 17s, GPT-6 Astra için 26m 7s olarak verildi. Süreler, model kimliği ve tüm etkileşimler kaynağın beyanıdır ve bağımsız olarak tekrarlanmadı.
 
@@ -498,6 +494,6 @@ Tür: Evaluation | Tarih: 2026-10-30
 
 Gösterimleri paylaşan şu kişilere teşekkürler:
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko)
 
 Atıflar bağlantılı kaynaklara dayanır ve düzeltilmesi gerekebilir. Eksik atıf, yinelenen eser, yanlış iddia veya kaldırma isteği için issue açın. Üçüncü taraf medyanın hakları sahiplerinde kalır.

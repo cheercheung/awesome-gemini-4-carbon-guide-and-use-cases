@@ -24,15 +24,11 @@
     },
     "intro": "Erken kullanıma açılma döneminde paylaşanların Gemini 4 Carbon ile ilişkilendirdiği herkese açık topluluk gösterimlerinden oluşan bir koleksiyon.",
     "purpose": "Özgün kaynaklar üzerinden somut görevleri, görünür çıktıları ve pratik sınırları inceleyin.",
-    "stats": "5 kategoride 25 kullanım örneği. Yeniden paylaşımlar ilgili eserle birleştirilir; mevcut çıktının karşılaştırması aynı örnekte tutulur.",
+    "stats": "5 kategoride 30 kullanım örneği. Yeniden paylaşımlar ilgili eserle birleştirilir; mevcut çıktının karşılaştırması aynı örnekte tutulur.",
     "evidence": "Model adları, üretim süreleri ve kalite yorumları kaynakların beyanıdır. Arena görünen adı arka uç sürümünü kanıtlamaz. Kayıt, çalıştırılabilir kodu, tüm etkileşimleri veya tekrarlanabilir başarıyı kanıtlamaz.",
     "steps": "1. İçindekilerden bir görev seçin.\n2. Video ya da görseli açıp örnek başlığından özgün paylaşıma gidin.\n3. Görünen sonucu görev ve sınırlarla karşılaştırın.",
     "thanks": "Gösterimleri paylaşan şu kişilere teşekkürler:",
-    "corrections": "Atıflar bağlantılı kaynaklara dayanır ve düzeltilmesi gerekebilir. Eksik atıf, yinelenen eser, yanlış iddia veya kaldırma isteği için issue açın. Üçüncü taraf medyanın hakları sahiplerinde kalır.",
-    "candidates_heading": "Doğrulama bekleyen adaylar",
-    "candidate": "Aday",
-    "candidate_status": "Doğrulama bekliyor",
-    "candidates_notice": "Bu beş aday, seçilmiş 25 örnekten ayrıdır. Özgün gönderiler ve medya bağımsız olarak doğrulanmadı; görsel inceleme de tamamlanmadı. Açıklamalar kaynakların beyanlarına dayanır. Yalnızca özgün medya bağlantıları verilir; yeni medya kopyalanmaz veya gömülmez."
+    "corrections": "Atıflar bağlantılı kaynaklara dayanır ve düzeltilmesi gerekebilir. Eksik atıf, yinelenen eser, yanlış iddia veya kaldırma isteği için issue açın. Üçüncü taraf medyanın hakları sahiplerinde kalır."
   },
   "cases": [
     [
@@ -159,9 +155,7 @@
       "Üç modelde bisiklet animasyonu",
       "Kaynakta birlikte gösterilen Carbon, Argon ve GPT-6 Astra çıktılarını karşılaştırın.",
       "Video özgün model adlarını ve çıktıları birlikte korur. Paylaşan Carbon'u tercih eder; ortak ayarlar, deneme sayıları veya çalışma günlükleri sunmaz."
-    ]
-  ],
-  "candidates": [
+    ],
     [
       "Patlatılmış görünümü olan robot göz",
       "Göz kırpma, odaklanma ve parçaların ayrıldığı görünümü birleştiren robot göz gösterimini inceleyin.",

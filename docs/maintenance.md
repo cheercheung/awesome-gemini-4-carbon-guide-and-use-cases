@@ -6,11 +6,11 @@
 
 Each case has a stable `case-N` anchor, source-linked heading, author, bold practical takeaway, source-grounded notes, media, and type/date. Types remain `Demo`, `Tutorial`, `Evaluation`, `Integration`, `Benchmark` or `Limit` in every language.
 
-## Pending candidates
+## Community cases and original media
 
-The dataset's separate `candidates` array and `candidate_count` hold source-attributed items awaiting verification. Their status is `pending-verification`, their IDs use `carbon-candidate-NNN`, and they do not have curated case numbers. Each locale has separate candidate copy and visible pending labels. The README appendix uses `candidate-N` anchors; candidates never enter the curated Menu, case count, `case-N` anchors or curated QA totals.
+All entries are source-attributed community cases in the shared `cases` array and count. Case counts describe the collection, not a count of independently tested or verified outputs. Preserve source-reported limitations and model labels when updating the presentation.
 
-Candidate media entries use `presentation: "source-link"` and link to the original publisher without copying, embedding or rehosting media. Before promoting a candidate, independently review its source, media, attribution, model-label limits and duplicate relationship, complete wide/narrow visual QA, and follow the curated-case workflow below. A passing structure check does not establish source validity or visual quality.
+Media entries with `presentation: "source-link"` link to the original publisher without copying, embedding or rehosting media. Existing `candidate-N` and section links are retained as invisible `legacy_anchors` beside the corresponding `case-N` anchors. A passing structure check does not establish source validity, repeatability or visual quality.
 
 ## Updating
 
@@ -18,7 +18,7 @@ Candidate media entries use `presentation: "source-link"` and link to the origin
 2. Reconcile reposts and existing works. Group comparisons of an existing output with its original case.
 3. Preserve source-reported timing, failed attempts, model-identity uncertainty and selection bias.
 4. Update the English source copy, then every locale without changing identifiers, source URLs, dates or media.
-5. Keep every distinct retained view of a work, including comparison panels and alternate angles. Public posters, images, videos and the shared cover are hosted on R2; retain the original source URLs in the dataset.
+5. Keep every distinct retained view of a work, including comparison panels and alternate angles. Existing public posters, images, videos and the shared cover are hosted on R2; source-link entries point directly to original media pages. Retain original source URLs in the dataset.
 6. Rebuild, verify and inspect wide and narrow rendered pages before publication.
 
 ```sh

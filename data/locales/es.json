@@ -24,15 +24,11 @@
     },
     "intro": "Una colección de demostraciones públicas que sus autores atribuyen a Gemini 4 Carbon durante su despliegue inicial.",
     "purpose": "Explora tareas concretas, resultados visibles y límites prácticos a través de sus fuentes originales.",
-    "stats": "25 casos en 5 categorías. Las republicaciones se agrupan con la obra correspondiente; las comparaciones de un resultado existente permanecen en su caso.",
+    "stats": "30 casos en 5 categorías. Las republicaciones se agrupan con la obra correspondiente; las comparaciones de un resultado existente permanecen en su caso.",
     "evidence": "Los nombres de modelo, tiempos y valoraciones proceden de las fuentes. El nombre mostrado en Arena no acredita la versión interna. Una grabación no demuestra código ejecutable, interacción completa ni éxito reproducible.",
     "steps": "1. Elige una tarea en el índice.\n2. Abre el vídeo o la imagen y sigue el título hasta la publicación original.\n3. Contrasta el resultado visible con la tarea y sus limitaciones.",
     "thanks": "Gracias a quienes publicaron estas demostraciones:",
-    "corrections": "La atribución sigue las fuentes enlazadas y puede necesitar correcciones. Abre un issue para indicar créditos omitidos, duplicados, afirmaciones incorrectas o solicitudes de retirada. Los medios de terceros conservan su titularidad original.",
-    "candidates_heading": "Candidatos pendientes de verificación",
-    "candidate": "Candidato",
-    "candidate_status": "Pendiente de verificación",
-    "candidates_notice": "Estos cinco candidatos están separados de los 25 casos seleccionados. Sus publicaciones y medios originales no se han verificado de forma independiente y la revisión visual está incompleta. Las descripciones reflejan lo declarado por las fuentes. Solo se incluyen enlaces a los medios originales; no se copian ni se insertan medios nuevos."
+    "corrections": "La atribución sigue las fuentes enlazadas y puede necesitar correcciones. Abre un issue para indicar créditos omitidos, duplicados, afirmaciones incorrectas o solicitudes de retirada. Los medios de terceros conservan su titularidad original."
   },
   "cases": [
     [
@@ -159,9 +155,7 @@
       "Animación ciclista en tres modelos",
       "Compara los resultados agrupados de Carbon, Argon y GPT-6 Astra.",
       "El vídeo conserva etiquetas y resultados juntos. El autor prefiere Carbon, pero no aporta ajustes comunes, reintentos ni registros de ejecución."
-    ]
-  ],
-  "candidates": [
+    ],
     [
       "Ojo robótico con vista despiece",
       "Examina una demostración de un ojo robótico que parpadea, enfoca y muestra sus piezas separadas.",

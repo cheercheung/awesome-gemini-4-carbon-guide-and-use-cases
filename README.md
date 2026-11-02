@@ -26,7 +26,7 @@ A collection of public community demonstrations attributed by their publishers t
 
 ## 📊 Overview
 
-25 usecases across 5 categories. Reposts are grouped with their underlying work; a comparison of an existing output is kept with that case.
+30 usecases across 5 categories. Reposts are grouped with their underlying work; a comparison of an existing output is kept with that case.
 
 > [!NOTE]
 > Model names, generation times and quality judgments are source-reported. An Arena display name does not establish the backend version. A recording does not prove runnable code, complete interaction or repeatable success.
@@ -67,6 +67,11 @@ A collection of public community demonstrations attributed by their publishers t
 | [23. Block-world sandbox](#case-23) | Games and Animated Scenes | Demo |
 | [24. Frog skateboard scene](#case-24) | Games and Animated Scenes | Demo |
 | [25. Bicycle animation across three models](#case-25) | Model Comparison | Evaluation |
+| [26. Robotic eye with an exploded view](#case-26) | Mechanical and 3D Objects | Demo |
+| [27. Café racer inspection across two models](#case-27) | Mechanical and 3D Objects | Evaluation |
+| [28. Rain scene with a music loop](#case-28) | SVG and Interactive Graphics | Demo |
+| [29. Castle and dragon after follow-up prompts](#case-29) | Voxel Worlds and Scenery | Evaluation |
+| [30. Mechanical jaw across three models](#case-30) | Model Comparison | Evaluation |
 
 ## ⚙️ Mechanical and 3D Objects
 
@@ -119,6 +124,35 @@ The author reports roughly 20 minutes and an Arena display name of gemini-4-argo
 <table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/2112945233822617600-6e32038ca6b9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/2112945233822617600-ada2f593eab5.jpg" alt="Crystal citrus — 1" width="560"></a><br>Watch source video</td></tr></table>
 
 Type: Demo | Date: 2026-10-21
+
+---
+
+<a id="pending-candidates"></a>
+<a id="candidate-1"></a>
+<a id="case-26"></a>
+### Case 26: [Robotic eye with an exploded view](https://x.com/noclipepe/status/2115556254101692515) (by [@noclipepe](https://x.com/noclipepe))
+
+**Inspect a robotic-eye demonstration that combines blinking, focusing and an exploded view.**
+
+The creator reports one prompt and 29 minutes 49 seconds. The source recording is linked; runnable code, complete interaction and repeatability have not been independently verified.
+
+[Watch source video](https://x.com/noclipepe/status/2115556254101692515/video/1)
+
+Type: Demo | Date: 2026-10-28
+
+---
+
+<a id="candidate-2"></a>
+<a id="case-27"></a>
+### Case 27: [Café racer inspection across two models](https://x.com/dromexa/status/2115802517942497491) (by [@dromexa](https://x.com/dromexa))
+
+**Compare the source’s Carbon and Opus 5.5 motorcycle inspection demonstrations.**
+
+The publisher reports the same prompt and one attempt per model for X-ray, cutaway and exploded views. These are source-reported conditions; no shared execution logs or independent reproduction establish a general model ranking.
+
+[Watch source video](https://x.com/dromexa/status/2115802517942497491/video/1)
+
+Type: Evaluation | Date: 2026-10-29
 
 ---
 
@@ -243,6 +277,20 @@ Type: Demo | Date: 2026-10-21
 
 ---
 
+<a id="candidate-4"></a>
+<a id="case-29"></a>
+### Case 29: [Castle and dragon after follow-up prompts](https://x.com/semichenkko/status/2116198626187706722) (by [@semichenkko](https://x.com/semichenkko))
+
+**Compare a castle-and-dragon scene before and after three follow-up prompts.**
+
+The creator presents the same island, castle and dragon on the first prompt and after three more prompts, highlighting the fire effect. The follow-up text and execution logs are not provided; this is one author’s comparison, not a controlled success-rate test.
+
+[Watch source video](https://x.com/semichenkko/status/2116198626187706722/video/1)
+
+Type: Evaluation | Date: 2026-10-30
+
+---
+
 ## 🎨 SVG and Interactive Graphics
 
 <a id="case-14"></a>
@@ -351,6 +399,20 @@ Type: Limit | Date: 2026-10-21
 
 ---
 
+<a id="candidate-3"></a>
+<a id="case-28"></a>
+### Case 28: [Rain scene with a music loop](https://x.com/chetaslua/status/2115935747798950069) (by [@chetaslua](https://x.com/chetaslua))
+
+**Explore the source’s JavaScript sleep-music loop with an SVG rain scene.**
+
+The creator attributes the music and rain scene to Carbon and reports roughly 4,000 lines in one attempt. Code length, music originality and complete playback behavior have not been independently verified.
+
+[Watch source video](https://x.com/chetaslua/status/2115935747798950069/video/1)
+
+Type: Demo | Date: 2026-10-29
+
+---
+
 ## 🎮 Games and Animated Scenes
 
 <a id="case-22"></a>
@@ -407,77 +469,11 @@ Type: Evaluation | Date: 2026-10-21
 
 ---
 
-<a id="pending-candidates"></a>
-## 🧪 Pending verification candidates
-
-These five candidates are separate from the 25 curated cases. Their original posts and media have not been independently verified, and visual QA is incomplete. Descriptions reflect source-reported claims. Only original media links are provided; no new media is copied or embedded.
-
-<a id="candidate-1"></a>
-### Candidate 1: [Robotic eye with an exploded view](https://x.com/noclipepe/status/2115556254101692515) (by [@noclipepe](https://x.com/noclipepe))
-
-**Pending verification**
-
-Inspect a robotic-eye demonstration that combines blinking, focusing and an exploded view.
-
-The creator reports one prompt and 29 minutes 49 seconds. The source recording is linked; runnable code, complete interaction and repeatability have not been independently verified.
-
-[Watch source video](https://x.com/noclipepe/status/2115556254101692515/video/1)
-
-Type: Demo | Date: 2026-10-28
-
----
-
-<a id="candidate-2"></a>
-### Candidate 2: [Café racer inspection across two models](https://x.com/dromexa/status/2115802517942497491) (by [@dromexa](https://x.com/dromexa))
-
-**Pending verification**
-
-Compare the source’s Carbon and Opus 5.5 motorcycle inspection demonstrations.
-
-The publisher reports the same prompt and one attempt per model for X-ray, cutaway and exploded views. These are source-reported conditions; no shared execution logs or independent reproduction establish a general model ranking.
-
-[Watch source video](https://x.com/dromexa/status/2115802517942497491/video/1)
-
-Type: Evaluation | Date: 2026-10-29
-
----
-
-<a id="candidate-3"></a>
-### Candidate 3: [Rain scene with a music loop](https://x.com/chetaslua/status/2115935747798950069) (by [@chetaslua](https://x.com/chetaslua))
-
-**Pending verification**
-
-Explore the source’s JavaScript sleep-music loop with an SVG rain scene.
-
-The creator attributes the music and rain scene to Carbon and reports roughly 4,000 lines in one attempt. Code length, music originality and complete playback behavior have not been independently verified.
-
-[Watch source video](https://x.com/chetaslua/status/2115935747798950069/video/1)
-
-Type: Demo | Date: 2026-10-29
-
----
-
-<a id="candidate-4"></a>
-### Candidate 4: [Castle and dragon after follow-up prompts](https://x.com/semichenkko/status/2116198626187706722) (by [@semichenkko](https://x.com/semichenkko))
-
-**Pending verification**
-
-Compare a castle-and-dragon scene before and after three follow-up prompts.
-
-The creator presents the same island, castle and dragon on the first prompt and after three more prompts, highlighting the fire effect. The follow-up text and execution logs are not provided; this is one author’s comparison, not a controlled success-rate test.
-
-[Watch source video](https://x.com/semichenkko/status/2116198626187706722/video/1)
-
-Type: Evaluation | Date: 2026-10-30
-
----
-
 <a id="candidate-5"></a>
-### Candidate 5: [Mechanical jaw across three models](https://x.com/noclipepe/status/2116109757865930787) (by [@noclipepe](https://x.com/noclipepe))
+<a id="case-30"></a>
+### Case 30: [Mechanical jaw across three models](https://x.com/noclipepe/status/2116109757865930787) (by [@noclipepe](https://x.com/noclipepe))
 
-**Pending verification**
-
-Compare mechanical-jaw and moving-tooth demonstrations across Carbon, Opus 5.5 and GPT-6 Astra.
+**Compare mechanical-jaw and moving-tooth demonstrations across Carbon, Opus 5.5 and GPT-6 Astra.**
 
 The creator reports a common prompt and individual tooth movement, with times of 29m 9s for Carbon, 35m 17s for Opus 5.5 and 26m 7s for GPT-6 Astra. Timing, model identity and complete interaction remain source-reported and have not been independently reproduced.
 
@@ -498,6 +494,6 @@ Type: Evaluation | Date: 2026-10-30
 
 Thanks to the publishers whose demonstrations make this collection possible:
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko)
 
 Attribution follows the linked sources and may need correction. Please open an issue for missing credit, duplicate work, inaccurate claims or removal requests. Third-party media retains its original ownership.

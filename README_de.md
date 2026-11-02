@@ -26,7 +26,7 @@ Eine Sammlung öffentlicher Community-Demos, die ihre Verfasser während der fr�
 
 ## 📊 Überblick
 
-25 Anwendungsfälle in 5 Kategorien. Weiterveröffentlichungen sind dem jeweiligen Werk zugeordnet; Vergleiche bestehender Ergebnisse bleiben beim ursprünglichen Fall.
+30 Anwendungsfälle in 5 Kategorien. Weiterveröffentlichungen sind dem jeweiligen Werk zugeordnet; Vergleiche bestehender Ergebnisse bleiben beim ursprünglichen Fall.
 
 > [!NOTE]
 > Modellnamen, Erstellungszeiten und Qualitätsurteile sind Angaben der Quellen. Der Anzeigename in Arena belegt keine Backend-Version. Eine Aufnahme beweist weder ausführbaren Code noch vollständige Interaktion oder wiederholbaren Erfolg.
@@ -67,6 +67,11 @@ Eine Sammlung öffentlicher Community-Demos, die ihre Verfasser während der fr�
 | [23. Blockwelt-Sandbox](#case-23) | Spiele und animierte Szenen | Demo |
 | [24. Frosch auf dem Skateboard](#case-24) | Spiele und animierte Szenen | Demo |
 | [25. Fahrradanimation in drei Modellen](#case-25) | Modellvergleich | Evaluation |
+| [26. Roboterauge mit Explosionsansicht](#case-26) | Mechanische und 3D-Objekte | Demo |
+| [27. Café-Racer-Ansichten mit zwei Modellen](#case-27) | Mechanische und 3D-Objekte | Evaluation |
+| [28. Regenszene mit Musikschleife](#case-28) | SVG und interaktive Grafiken | Demo |
+| [29. Burg und Drache nach weiteren Prompts](#case-29) | Voxelwelten und Landschaften | Evaluation |
+| [30. Mechanischer Kiefer mit drei Modellen](#case-30) | Modellvergleich | Evaluation |
 
 ## ⚙️ Mechanische und 3D-Objekte
 
@@ -119,6 +124,35 @@ Der Autor nennt rund 20 Minuten und den Arena-Anzeigenamen gemini-4-argon. Die I
 <table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/2112945233822617600-6e32038ca6b9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/2112945233822617600-ada2f593eab5.jpg" alt="Kristallzitrus — 1" width="560"></a><br>Originalvideo ansehen</td></tr></table>
 
 Typ: Demo | Datum: 2026-10-21
+
+---
+
+<a id="pending-candidates"></a>
+<a id="candidate-1"></a>
+<a id="case-26"></a>
+### Fall 26: [Roboterauge mit Explosionsansicht](https://x.com/noclipepe/status/2115556254101692515) (von [@noclipepe](https://x.com/noclipepe))
+
+**Untersuche die Demonstration eines Roboterauges mit Blinzeln, Fokussierung und Explosionsansicht.**
+
+Der Ersteller nennt einen einzigen Prompt und 29 Minuten 49 Sekunden. Die Originalaufnahme ist verlinkt; ausführbarer Code, vollständige Interaktion und Wiederholbarkeit wurden nicht unabhängig überprüft.
+
+[Originalvideo ansehen](https://x.com/noclipepe/status/2115556254101692515/video/1)
+
+Typ: Demo | Datum: 2026-10-28
+
+---
+
+<a id="candidate-2"></a>
+<a id="case-27"></a>
+### Fall 27: [Café-Racer-Ansichten mit zwei Modellen](https://x.com/dromexa/status/2115802517942497491) (von [@dromexa](https://x.com/dromexa))
+
+**Vergleiche die Motorradansichten, die der Beitrag Carbon und Opus 5.5 zuschreibt.**
+
+Der Verfasser berichtet von demselben Prompt und einem Versuch pro Modell für Röntgen-, Schnitt- und Explosionsansichten. Diese Bedingungen sind Angaben der Quelle; gemeinsame Ausführungsprotokolle oder eine unabhängige Reproduktion für eine allgemeine Modellrangfolge fehlen.
+
+[Originalvideo ansehen](https://x.com/dromexa/status/2115802517942497491/video/1)
+
+Typ: Evaluation | Datum: 2026-10-29
 
 ---
 
@@ -243,6 +277,20 @@ Typ: Demo | Datum: 2026-10-21
 
 ---
 
+<a id="candidate-4"></a>
+<a id="case-29"></a>
+### Fall 29: [Burg und Drache nach weiteren Prompts](https://x.com/semichenkko/status/2116198626187706722) (von [@semichenkko](https://x.com/semichenkko))
+
+**Vergleiche eine Burg-und-Drachen-Szene vor und nach drei weiteren Prompts.**
+
+Der Ersteller zeigt dieselbe Insel, Burg und denselben Drachen nach dem ersten und drei weiteren Prompts und hebt das Feuer hervor. Die Folgeprompts und Ausführungsprotokolle fehlen; dies ist der Vergleich eines Autors, kein kontrollierter Test der Erfolgsquote.
+
+[Originalvideo ansehen](https://x.com/semichenkko/status/2116198626187706722/video/1)
+
+Typ: Evaluation | Datum: 2026-10-30
+
+---
+
 ## 🎨 SVG und interaktive Grafiken
 
 <a id="case-14"></a>
@@ -351,6 +399,20 @@ Typ: Limit | Datum: 2026-10-21
 
 ---
 
+<a id="candidate-3"></a>
+<a id="case-28"></a>
+### Fall 28: [Regenszene mit Musikschleife](https://x.com/chetaslua/status/2115935747798950069) (von [@chetaslua](https://x.com/chetaslua))
+
+**Erkunde die JavaScript-Schlafmusikschleife mit SVG-Regenszene im Originalbeitrag.**
+
+Der Ersteller schreibt Musik und Regenszene Carbon zu und berichtet von etwa 4.000 Zeilen in einem Versuch. Codeumfang, musikalische Originalität und vollständige Wiedergabefunktion wurden nicht unabhängig überprüft.
+
+[Originalvideo ansehen](https://x.com/chetaslua/status/2115935747798950069/video/1)
+
+Typ: Demo | Datum: 2026-10-29
+
+---
+
 ## 🎮 Spiele und animierte Szenen
 
 <a id="case-22"></a>
@@ -407,77 +469,11 @@ Typ: Evaluation | Datum: 2026-10-21
 
 ---
 
-<a id="pending-candidates"></a>
-## 🧪 Kandidaten zur weiteren Prüfung
-
-Diese fünf Kandidaten sind von den 25 kuratierten Fällen getrennt. Originalbeiträge und Medien wurden nicht unabhängig überprüft; die visuelle Prüfung ist unvollständig. Die Beschreibungen geben Angaben der Quellen wieder. Es werden nur Links zu Originalmedien bereitgestellt; neue Medien werden weder kopiert noch eingebettet.
-
-<a id="candidate-1"></a>
-### Kandidat 1: [Roboterauge mit Explosionsansicht](https://x.com/noclipepe/status/2115556254101692515) (von [@noclipepe](https://x.com/noclipepe))
-
-**Prüfung ausstehend**
-
-Untersuche die Demonstration eines Roboterauges mit Blinzeln, Fokussierung und Explosionsansicht.
-
-Der Ersteller nennt einen einzigen Prompt und 29 Minuten 49 Sekunden. Die Originalaufnahme ist verlinkt; ausführbarer Code, vollständige Interaktion und Wiederholbarkeit wurden nicht unabhängig überprüft.
-
-[Originalvideo ansehen](https://x.com/noclipepe/status/2115556254101692515/video/1)
-
-Typ: Demo | Datum: 2026-10-28
-
----
-
-<a id="candidate-2"></a>
-### Kandidat 2: [Café-Racer-Ansichten mit zwei Modellen](https://x.com/dromexa/status/2115802517942497491) (von [@dromexa](https://x.com/dromexa))
-
-**Prüfung ausstehend**
-
-Vergleiche die Motorradansichten, die der Beitrag Carbon und Opus 5.5 zuschreibt.
-
-Der Verfasser berichtet von demselben Prompt und einem Versuch pro Modell für Röntgen-, Schnitt- und Explosionsansichten. Diese Bedingungen sind Angaben der Quelle; gemeinsame Ausführungsprotokolle oder eine unabhängige Reproduktion für eine allgemeine Modellrangfolge fehlen.
-
-[Originalvideo ansehen](https://x.com/dromexa/status/2115802517942497491/video/1)
-
-Typ: Evaluation | Datum: 2026-10-29
-
----
-
-<a id="candidate-3"></a>
-### Kandidat 3: [Regenszene mit Musikschleife](https://x.com/chetaslua/status/2115935747798950069) (von [@chetaslua](https://x.com/chetaslua))
-
-**Prüfung ausstehend**
-
-Erkunde die JavaScript-Schlafmusikschleife mit SVG-Regenszene im Originalbeitrag.
-
-Der Ersteller schreibt Musik und Regenszene Carbon zu und berichtet von etwa 4.000 Zeilen in einem Versuch. Codeumfang, musikalische Originalität und vollständige Wiedergabefunktion wurden nicht unabhängig überprüft.
-
-[Originalvideo ansehen](https://x.com/chetaslua/status/2115935747798950069/video/1)
-
-Typ: Demo | Datum: 2026-10-29
-
----
-
-<a id="candidate-4"></a>
-### Kandidat 4: [Burg und Drache nach weiteren Prompts](https://x.com/semichenkko/status/2116198626187706722) (von [@semichenkko](https://x.com/semichenkko))
-
-**Prüfung ausstehend**
-
-Vergleiche eine Burg-und-Drachen-Szene vor und nach drei weiteren Prompts.
-
-Der Ersteller zeigt dieselbe Insel, Burg und denselben Drachen nach dem ersten und drei weiteren Prompts und hebt das Feuer hervor. Die Folgeprompts und Ausführungsprotokolle fehlen; dies ist der Vergleich eines Autors, kein kontrollierter Test der Erfolgsquote.
-
-[Originalvideo ansehen](https://x.com/semichenkko/status/2116198626187706722/video/1)
-
-Typ: Evaluation | Datum: 2026-10-30
-
----
-
 <a id="candidate-5"></a>
-### Kandidat 5: [Mechanischer Kiefer mit drei Modellen](https://x.com/noclipepe/status/2116109757865930787) (von [@noclipepe](https://x.com/noclipepe))
+<a id="case-30"></a>
+### Fall 30: [Mechanischer Kiefer mit drei Modellen](https://x.com/noclipepe/status/2116109757865930787) (von [@noclipepe](https://x.com/noclipepe))
 
-**Prüfung ausstehend**
-
-Vergleiche mechanische Kiefer und bewegliche Zähne von Carbon, Opus 5.5 und GPT-6 Astra.
+**Vergleiche mechanische Kiefer und bewegliche Zähne von Carbon, Opus 5.5 und GPT-6 Astra.**
 
 Der Ersteller berichtet von einem gemeinsamen Prompt und einzeln beweglichen Zähnen sowie Zeiten von 29m 9s für Carbon, 35m 17s für Opus 5.5 und 26m 7s für GPT-6 Astra. Zeitangaben, Modellidentität und vollständige Interaktion stammen von der Quelle und wurden nicht unabhängig reproduziert.
 
@@ -498,6 +494,6 @@ Typ: Evaluation | Datum: 2026-10-30
 
 Danke an die folgenden Herausgeber der Demos:
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko)
 
 Die Zuschreibung folgt den verlinkten Quellen und kann Korrekturen erfordern. Bitte melde fehlende Urheberangaben, Duplikate, falsche Aussagen oder Löschwünsche per Issue. Medien Dritter behalten ihre ursprünglichen Rechte.

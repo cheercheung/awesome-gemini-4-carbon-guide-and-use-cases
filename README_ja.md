@@ -26,7 +26,7 @@
 
 ## 📊 概要
 
-5分類、25事例。転載は同じ作品にまとめ、既存出力の比較は元の事例に添えています。
+5分類、30事例。転載は同じ作品にまとめ、既存出力の比較は元の事例に添えています。
 
 > [!NOTE]
 > モデル名、生成時間、品質評価は情報源の自己申告です。Arena の表示名ではバックエンドの版を確認できません。録画だけではコードの実行、全操作の正しさ、再現性は証明できません。
@@ -67,6 +67,11 @@
 | [23. ブロック世界のサンドボックス](#case-23) | ゲームとアニメーション | Demo |
 | [24. カエルのスケートボード](#case-24) | ゲームとアニメーション | Demo |
 | [25. 3モデルの自転車アニメーション比較](#case-25) | モデル比較 | Evaluation |
+| [26. 分解表示付きのロボットの目](#case-26) | 機械と3Dオブジェクト | Demo |
+| [27. 2モデルによるカフェレーサーの内部表示](#case-27) | 機械と3Dオブジェクト | Evaluation |
+| [28. 音楽ループ付きの雨の風景](#case-28) | SVGとインタラクティブ画像 | Demo |
+| [29. 追加プロンプト前後の城とドラゴン](#case-29) | ボクセル世界と風景 | Evaluation |
+| [30. 3モデルによる機械の顎](#case-30) | モデル比較 | Evaluation |
 
 ## ⚙️ 機械と3Dオブジェクト
 
@@ -119,6 +124,35 @@
 <table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/2112945233822617600-6e32038ca6b9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/2112945233822617600-ada2f593eab5.jpg" alt="水晶の柑橘 — 1" width="560"></a><br>元の動画を見る</td></tr></table>
 
 タイプ: Demo | 日付: 2026-10-21
+
+---
+
+<a id="pending-candidates"></a>
+<a id="candidate-1"></a>
+<a id="case-26"></a>
+### 事例 26: [分解表示付きのロボットの目](https://x.com/noclipepe/status/2115556254101692515) (投稿者 [@noclipepe](https://x.com/noclipepe))
+
+**まばたき、焦点調整、部品の分解表示を組み合わせたロボットの目のデモを確認できます。**
+
+作者は1回のプロンプトで29分49秒かかったと報告しています。元の録画へのリンクを掲載していますが、実行可能なコード、操作全体、再現性は独立に検証していません。
+
+[元の動画を見る](https://x.com/noclipepe/status/2115556254101692515/video/1)
+
+タイプ: Demo | 日付: 2026-10-28
+
+---
+
+<a id="candidate-2"></a>
+<a id="case-27"></a>
+### 事例 27: [2モデルによるカフェレーサーの内部表示](https://x.com/dromexa/status/2115802517942497491) (投稿者 [@dromexa](https://x.com/dromexa))
+
+**CarbonとOpus 5.5によるバイクの内部表示デモを比較できます。**
+
+投稿者は、X線表示、断面表示、分解表示に同じプロンプトを使い、各モデルで1回ずつ試したと述べています。条件は投稿者の申告であり、共通の実行ログや独立した再現検証に基づく総合順位ではありません。
+
+[元の動画を見る](https://x.com/dromexa/status/2115802517942497491/video/1)
+
+タイプ: Evaluation | 日付: 2026-10-29
 
 ---
 
@@ -243,6 +277,20 @@ LuminaBench の事例とは異なる塔の映像です。同じ題材でも同�
 
 ---
 
+<a id="candidate-4"></a>
+<a id="case-29"></a>
+### 事例 29: [追加プロンプト前後の城とドラゴン](https://x.com/semichenkko/status/2116198626187706722) (投稿者 [@semichenkko](https://x.com/semichenkko))
+
+**3回の追加プロンプトの前後で城とドラゴンの風景を比較できます。**
+
+作者は同じ島、城、ドラゴンについて、最初のプロンプトと、その後3回追加した結果を並べ、炎の変化を強調しています。追加プロンプトの本文と実行ログは公開されておらず、1人の作者による比較であって成功率の統制試験ではありません。
+
+[元の動画を見る](https://x.com/semichenkko/status/2116198626187706722/video/1)
+
+タイプ: Evaluation | 日付: 2026-10-30
+
+---
+
 ## 🎨 SVGとインタラクティブ画像
 
 <a id="case-14"></a>
@@ -351,6 +399,20 @@ LuminaBench の事例とは異なる塔の映像です。同じ題材でも同�
 
 ---
 
+<a id="candidate-3"></a>
+<a id="case-28"></a>
+### 事例 28: [音楽ループ付きの雨の風景](https://x.com/chetaslua/status/2115935747798950069) (投稿者 [@chetaslua](https://x.com/chetaslua))
+
+**SVGの雨の風景を伴うJavaScript製の睡眠用音楽ループを元の投稿で確認できます。**
+
+作者は音楽と雨の風景をCarbonで作り、1回の試行で約4,000行を生成したと述べています。コードの行数、音楽の独創性、再生機能全体は独立に検証していません。
+
+[元の動画を見る](https://x.com/chetaslua/status/2115935747798950069/video/1)
+
+タイプ: Demo | 日付: 2026-10-29
+
+---
+
 ## 🎮 ゲームとアニメーション
 
 <a id="case-22"></a>
@@ -407,77 +469,11 @@ LuminaBench の事例とは異なる塔の映像です。同じ題材でも同�
 
 ---
 
-<a id="pending-candidates"></a>
-## 🧪 検証待ちの候補
-
-以下の5件は、選定済みの25事例とは別の候補です。元の投稿とメディアは独立に検証しておらず、表示の目視確認も未完了です。説明は出典側の申告に基づきます。元のメディアへのリンクのみを掲載し、新たなメディアのコピーや埋め込みは行っていません。
-
-<a id="candidate-1"></a>
-### 候補 1: [分解表示付きのロボットの目](https://x.com/noclipepe/status/2115556254101692515) (投稿者 [@noclipepe](https://x.com/noclipepe))
-
-**検証待ち**
-
-まばたき、焦点調整、部品の分解表示を組み合わせたロボットの目のデモを確認できます。
-
-作者は1回のプロンプトで29分49秒かかったと報告しています。元の録画へのリンクを掲載していますが、実行可能なコード、操作全体、再現性は独立に検証していません。
-
-[元の動画を見る](https://x.com/noclipepe/status/2115556254101692515/video/1)
-
-タイプ: Demo | 日付: 2026-10-28
-
----
-
-<a id="candidate-2"></a>
-### 候補 2: [2モデルによるカフェレーサーの内部表示](https://x.com/dromexa/status/2115802517942497491) (投稿者 [@dromexa](https://x.com/dromexa))
-
-**検証待ち**
-
-CarbonとOpus 5.5によるバイクの内部表示デモを比較できます。
-
-投稿者は、X線表示、断面表示、分解表示に同じプロンプトを使い、各モデルで1回ずつ試したと述べています。条件は投稿者の申告であり、共通の実行ログや独立した再現検証に基づく総合順位ではありません。
-
-[元の動画を見る](https://x.com/dromexa/status/2115802517942497491/video/1)
-
-タイプ: Evaluation | 日付: 2026-10-29
-
----
-
-<a id="candidate-3"></a>
-### 候補 3: [音楽ループ付きの雨の風景](https://x.com/chetaslua/status/2115935747798950069) (投稿者 [@chetaslua](https://x.com/chetaslua))
-
-**検証待ち**
-
-SVGの雨の風景を伴うJavaScript製の睡眠用音楽ループを元の投稿で確認できます。
-
-作者は音楽と雨の風景をCarbonで作り、1回の試行で約4,000行を生成したと述べています。コードの行数、音楽の独創性、再生機能全体は独立に検証していません。
-
-[元の動画を見る](https://x.com/chetaslua/status/2115935747798950069/video/1)
-
-タイプ: Demo | 日付: 2026-10-29
-
----
-
-<a id="candidate-4"></a>
-### 候補 4: [追加プロンプト前後の城とドラゴン](https://x.com/semichenkko/status/2116198626187706722) (投稿者 [@semichenkko](https://x.com/semichenkko))
-
-**検証待ち**
-
-3回の追加プロンプトの前後で城とドラゴンの風景を比較できます。
-
-作者は同じ島、城、ドラゴンについて、最初のプロンプトと、その後3回追加した結果を並べ、炎の変化を強調しています。追加プロンプトの本文と実行ログは公開されておらず、1人の作者による比較であって成功率の統制試験ではありません。
-
-[元の動画を見る](https://x.com/semichenkko/status/2116198626187706722/video/1)
-
-タイプ: Evaluation | 日付: 2026-10-30
-
----
-
 <a id="candidate-5"></a>
-### 候補 5: [3モデルによる機械の顎](https://x.com/noclipepe/status/2116109757865930787) (投稿者 [@noclipepe](https://x.com/noclipepe))
+<a id="case-30"></a>
+### 事例 30: [3モデルによる機械の顎](https://x.com/noclipepe/status/2116109757865930787) (投稿者 [@noclipepe](https://x.com/noclipepe))
 
-**検証待ち**
-
-Carbon、Opus 5.5、GPT-6 Astraによる機械の顎と動く歯のデモを比較できます。
+**Carbon、Opus 5.5、GPT-6 Astraによる機械の顎と動く歯のデモを比較できます。**
 
 作者は共通のプロンプトと歯ごとの動きを報告し、所要時間をCarbonは29m 9s、Opus 5.5は35m 17s、GPT-6 Astraは26m 7sとしています。時間、モデルの識別、操作全体は出典側の申告で、独立した再現検証はありません。
 
@@ -498,6 +494,6 @@ Carbon、Opus 5.5、GPT-6 Astraによる機械の顎と動く歯のデモを比�
 
 デモを公開した以下の投稿者に感謝します。
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko)
 
 帰属はリンク先の情報に基づき、訂正が必要な場合があります。クレジット漏れ、重複、誤記、削除依頼は issue でお知らせください。第三者のメディアの権利は元の権利者に帰属します。

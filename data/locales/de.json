@@ -24,15 +24,11 @@
     },
     "intro": "Eine Sammlung öffentlicher Community-Demos, die ihre Verfasser während der frühen Einführung Gemini 4 Carbon zuschreiben.",
     "purpose": "Erkunde konkrete Aufgaben, sichtbare Ergebnisse und praktische Grenzen anhand der Originalquellen.",
-    "stats": "25 Anwendungsfälle in 5 Kategorien. Weiterveröffentlichungen sind dem jeweiligen Werk zugeordnet; Vergleiche bestehender Ergebnisse bleiben beim ursprünglichen Fall.",
+    "stats": "30 Anwendungsfälle in 5 Kategorien. Weiterveröffentlichungen sind dem jeweiligen Werk zugeordnet; Vergleiche bestehender Ergebnisse bleiben beim ursprünglichen Fall.",
     "evidence": "Modellnamen, Erstellungszeiten und Qualitätsurteile sind Angaben der Quellen. Der Anzeigename in Arena belegt keine Backend-Version. Eine Aufnahme beweist weder ausführbaren Code noch vollständige Interaktion oder wiederholbaren Erfolg.",
     "steps": "1. Wähle eine Aufgabe im Inhaltsverzeichnis.\n2. Öffne Video oder Bild und folge dem Falltitel zum Originalbeitrag.\n3. Vergleiche das sichtbare Ergebnis mit Aufgabe und Einschränkungen.",
     "thanks": "Danke an die folgenden Herausgeber der Demos:",
-    "corrections": "Die Zuschreibung folgt den verlinkten Quellen und kann Korrekturen erfordern. Bitte melde fehlende Urheberangaben, Duplikate, falsche Aussagen oder Löschwünsche per Issue. Medien Dritter behalten ihre ursprünglichen Rechte.",
-    "candidates_heading": "Kandidaten zur weiteren Prüfung",
-    "candidate": "Kandidat",
-    "candidate_status": "Prüfung ausstehend",
-    "candidates_notice": "Diese fünf Kandidaten sind von den 25 kuratierten Fällen getrennt. Originalbeiträge und Medien wurden nicht unabhängig überprüft; die visuelle Prüfung ist unvollständig. Die Beschreibungen geben Angaben der Quellen wieder. Es werden nur Links zu Originalmedien bereitgestellt; neue Medien werden weder kopiert noch eingebettet."
+    "corrections": "Die Zuschreibung folgt den verlinkten Quellen und kann Korrekturen erfordern. Bitte melde fehlende Urheberangaben, Duplikate, falsche Aussagen oder Löschwünsche per Issue. Medien Dritter behalten ihre ursprünglichen Rechte."
   },
   "cases": [
     [
@@ -159,9 +155,7 @@
       "Fahrradanimation in drei Modellen",
       "Vergleiche die gemeinsam gezeigten Ausgaben von Carbon, Argon und GPT-6 Astra.",
       "Das Video erhält Modellbeschriftungen und Ergebnisse zusammen. Der Verfasser bevorzugt Carbon, liefert aber keine gemeinsamen Einstellungen, Wiederholungszahlen oder Ausführungsprotokolle."
-    ]
-  ],
-  "candidates": [
+    ],
     [
       "Roboterauge mit Explosionsansicht",
       "Untersuche die Demonstration eines Roboterauges mit Blinzeln, Fokussierung und Explosionsansicht.",

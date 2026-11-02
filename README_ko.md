@@ -26,7 +26,7 @@
 
 ## 📊 개요
 
-5개 분류의 사례 25개입니다. 재게시물은 해당 작품에 합쳤으며 기존 결과의 비교도 원래 사례에 첨부했습니다.
+5개 분류의 사례 30개입니다. 재게시물은 해당 작품에 합쳤으며 기존 결과의 비교도 원래 사례에 첨부했습니다.
 
 > [!NOTE]
 > 모델명, 생성 시간, 품질 평가는 출처의 주장입니다. Arena 표시명은 실제 백엔드 버전을 입증하지 않습니다. 녹화만으로 코드 실행, 모든 상호작용의 정확성, 재현성을 확인할 수 없습니다.
@@ -67,6 +67,11 @@
 | [23. 블록 세계 샌드박스](#case-23) | 게임과 애니메이션 | Demo |
 | [24. 개구리 스케이트보드 장면](#case-24) | 게임과 애니메이션 | Demo |
 | [25. 세 모델 자전거 애니메이션 비교](#case-25) | 모델 비교 | Evaluation |
+| [26. 분해 보기가 있는 로봇 눈](#case-26) | 기계와 3D 객체 | Demo |
+| [27. 두 모델의 카페 레이서 내부 보기](#case-27) | 기계와 3D 객체 | Evaluation |
+| [28. 음악 루프가 있는 빗속 풍경](#case-28) | SVG와 인터랙티브 그래픽 | Demo |
+| [29. 추가 프롬프트 전후의 성과 용](#case-29) | 복셀 세계와 풍경 | Evaluation |
+| [30. 세 모델의 기계 턱](#case-30) | 모델 비교 | Evaluation |
 
 ## ⚙️ 기계와 3D 객체
 
@@ -119,6 +124,35 @@
 <table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/2112945233822617600-6e32038ca6b9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/2112945233822617600-ada2f593eab5.jpg" alt="수정 감귤 — 1" width="560"></a><br>원본 동영상 보기</td></tr></table>
 
 유형: Demo | 날짜: 2026-10-21
+
+---
+
+<a id="pending-candidates"></a>
+<a id="candidate-1"></a>
+<a id="case-26"></a>
+### 사례 26: [분해 보기가 있는 로봇 눈](https://x.com/noclipepe/status/2115556254101692515) (작성자 [@noclipepe](https://x.com/noclipepe))
+
+**깜빡임, 초점 조절, 부품 분해 보기를 결합한 로봇 눈 시연을 살펴보세요.**
+
+제작자는 프롬프트 한 번으로 29분 49초가 걸렸다고 보고합니다. 원본 녹화 링크를 제공하며, 실행 가능한 코드와 전체 상호작용, 재현성은 독립적으로 검증하지 않았습니다.
+
+[원본 동영상 보기](https://x.com/noclipepe/status/2115556254101692515/video/1)
+
+유형: Demo | 날짜: 2026-10-28
+
+---
+
+<a id="candidate-2"></a>
+<a id="case-27"></a>
+### 사례 27: [두 모델의 카페 레이서 내부 보기](https://x.com/dromexa/status/2115802517942497491) (작성자 [@dromexa](https://x.com/dromexa))
+
+**Carbon과 Opus 5.5의 오토바이 내부 보기 시연을 비교하세요.**
+
+게시자는 X선, 단면, 분해 보기에 같은 프롬프트를 사용하고 모델별로 한 번씩 시도했다고 말합니다. 이는 출처의 자체 보고이며, 공통 실행 로그나 독립 재현으로 일반적인 모델 순위를 입증한 결과는 아닙니다.
+
+[원본 동영상 보기](https://x.com/dromexa/status/2115802517942497491/video/1)
+
+유형: Evaluation | 날짜: 2026-10-29
 
 ---
 
@@ -243,6 +277,20 @@ LuminaBench 사례와 다른 탑 표현입니다. 같은 소재라고 동일 생
 
 ---
 
+<a id="candidate-4"></a>
+<a id="case-29"></a>
+### 사례 29: [추가 프롬프트 전후의 성과 용](https://x.com/semichenkko/status/2116198626187706722) (작성자 [@semichenkko](https://x.com/semichenkko))
+
+**추가 프롬프트 세 번 전후의 성과 용 장면을 비교하세요.**
+
+제작자는 같은 섬, 성, 용을 첫 프롬프트 결과와 세 번 더 요청한 결과로 제시하며 불 효과를 강조합니다. 추가 프롬프트 원문과 실행 로그는 제공되지 않았습니다. 한 제작자의 비교이며 성공률을 측정한 통제 실험은 아닙니다.
+
+[원본 동영상 보기](https://x.com/semichenkko/status/2116198626187706722/video/1)
+
+유형: Evaluation | 날짜: 2026-10-30
+
+---
+
 ## 🎨 SVG와 인터랙티브 그래픽
 
 <a id="case-14"></a>
@@ -351,6 +399,20 @@ LuminaBench 사례와 다른 탑 표현입니다. 같은 소재라고 동일 생
 
 ---
 
+<a id="candidate-3"></a>
+<a id="case-28"></a>
+### 사례 28: [음악 루프가 있는 빗속 풍경](https://x.com/chetaslua/status/2115935747798950069) (작성자 [@chetaslua](https://x.com/chetaslua))
+
+**SVG 빗속 풍경과 함께 제공되는 JavaScript 수면 음악 루프를 원본에서 살펴보세요.**
+
+제작자는 음악과 빗속 풍경을 Carbon으로 만들고 한 번의 시도로 약 4,000줄을 생성했다고 말합니다. 코드 길이, 음악의 독창성, 전체 재생 동작은 독립적으로 검증하지 않았습니다.
+
+[원본 동영상 보기](https://x.com/chetaslua/status/2115935747798950069/video/1)
+
+유형: Demo | 날짜: 2026-10-29
+
+---
+
 ## 🎮 게임과 애니메이션
 
 <a id="case-22"></a>
@@ -407,77 +469,11 @@ LuminaBench 사례와 다른 탑 표현입니다. 같은 소재라고 동일 생
 
 ---
 
-<a id="pending-candidates"></a>
-## 🧪 검증 대기 후보
-
-다음 다섯 후보는 기존 선정 사례 25개와 별개입니다. 원본 게시물과 미디어를 독립적으로 검증하지 않았으며 화면 표시 검토도 완료되지 않았습니다. 설명은 출처의 자체 보고에 근거합니다. 원본 미디어 링크만 제공하며 새 미디어를 복사하거나 삽입하지 않습니다.
-
-<a id="candidate-1"></a>
-### 후보 1: [분해 보기가 있는 로봇 눈](https://x.com/noclipepe/status/2115556254101692515) (작성자 [@noclipepe](https://x.com/noclipepe))
-
-**검증 대기**
-
-깜빡임, 초점 조절, 부품 분해 보기를 결합한 로봇 눈 시연을 살펴보세요.
-
-제작자는 프롬프트 한 번으로 29분 49초가 걸렸다고 보고합니다. 원본 녹화 링크를 제공하며, 실행 가능한 코드와 전체 상호작용, 재현성은 독립적으로 검증하지 않았습니다.
-
-[원본 동영상 보기](https://x.com/noclipepe/status/2115556254101692515/video/1)
-
-유형: Demo | 날짜: 2026-10-28
-
----
-
-<a id="candidate-2"></a>
-### 후보 2: [두 모델의 카페 레이서 내부 보기](https://x.com/dromexa/status/2115802517942497491) (작성자 [@dromexa](https://x.com/dromexa))
-
-**검증 대기**
-
-Carbon과 Opus 5.5의 오토바이 내부 보기 시연을 비교하세요.
-
-게시자는 X선, 단면, 분해 보기에 같은 프롬프트를 사용하고 모델별로 한 번씩 시도했다고 말합니다. 이는 출처의 자체 보고이며, 공통 실행 로그나 독립 재현으로 일반적인 모델 순위를 입증한 결과는 아닙니다.
-
-[원본 동영상 보기](https://x.com/dromexa/status/2115802517942497491/video/1)
-
-유형: Evaluation | 날짜: 2026-10-29
-
----
-
-<a id="candidate-3"></a>
-### 후보 3: [음악 루프가 있는 빗속 풍경](https://x.com/chetaslua/status/2115935747798950069) (작성자 [@chetaslua](https://x.com/chetaslua))
-
-**검증 대기**
-
-SVG 빗속 풍경과 함께 제공되는 JavaScript 수면 음악 루프를 원본에서 살펴보세요.
-
-제작자는 음악과 빗속 풍경을 Carbon으로 만들고 한 번의 시도로 약 4,000줄을 생성했다고 말합니다. 코드 길이, 음악의 독창성, 전체 재생 동작은 독립적으로 검증하지 않았습니다.
-
-[원본 동영상 보기](https://x.com/chetaslua/status/2115935747798950069/video/1)
-
-유형: Demo | 날짜: 2026-10-29
-
----
-
-<a id="candidate-4"></a>
-### 후보 4: [추가 프롬프트 전후의 성과 용](https://x.com/semichenkko/status/2116198626187706722) (작성자 [@semichenkko](https://x.com/semichenkko))
-
-**검증 대기**
-
-추가 프롬프트 세 번 전후의 성과 용 장면을 비교하세요.
-
-제작자는 같은 섬, 성, 용을 첫 프롬프트 결과와 세 번 더 요청한 결과로 제시하며 불 효과를 강조합니다. 추가 프롬프트 원문과 실행 로그는 제공되지 않았습니다. 한 제작자의 비교이며 성공률을 측정한 통제 실험은 아닙니다.
-
-[원본 동영상 보기](https://x.com/semichenkko/status/2116198626187706722/video/1)
-
-유형: Evaluation | 날짜: 2026-10-30
-
----
-
 <a id="candidate-5"></a>
-### 후보 5: [세 모델의 기계 턱](https://x.com/noclipepe/status/2116109757865930787) (작성자 [@noclipepe](https://x.com/noclipepe))
+<a id="case-30"></a>
+### 사례 30: [세 모델의 기계 턱](https://x.com/noclipepe/status/2116109757865930787) (작성자 [@noclipepe](https://x.com/noclipepe))
 
-**검증 대기**
-
-Carbon, Opus 5.5, GPT-6 Astra의 기계 턱과 움직이는 치아 시연을 비교하세요.
+**Carbon, Opus 5.5, GPT-6 Astra의 기계 턱과 움직이는 치아 시연을 비교하세요.**
 
 제작자는 같은 프롬프트와 치아별 움직임을 보고하며 Carbon 29m 9s, Opus 5.5 35m 17s, GPT-6 Astra 26m 7s가 걸렸다고 말합니다. 소요 시간, 모델 정체, 전체 상호작용은 출처의 자체 보고이며 독립적으로 재현하지 않았습니다.
 
@@ -498,6 +494,6 @@ Carbon, Opus 5.5, GPT-6 Astra의 기계 턱과 움직이는 치아 시연을 비
 
 데모를 공개한 다음 게시자에게 감사드립니다.
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko)
 
 저자 표기는 연결된 출처를 따르며 수정이 필요할 수 있습니다. 출처 누락, 중복, 잘못된 주장이나 삭제 요청은 issue로 알려주세요. 제3자 미디어의 권리는 원 권리자에게 있습니다.

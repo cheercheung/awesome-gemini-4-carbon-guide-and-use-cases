@@ -26,7 +26,7 @@
 
 ## 📊 概覽
 
-共 25 個 usecase，涵蓋 5 類。轉載歸併到對應作品；既有產物的比較附在原案例內。
+共 30 個 usecase，涵蓋 5 類。轉載歸併到對應作品；既有產物的比較附在原案例內。
 
 > [!NOTE]
 > 型號、生成耗時及品質判斷均來自來源自述。Arena 顯示名稱不能證明後端版本，錄影也不能證明程式碼可執行、完整互動正確或結果可重現。
@@ -67,6 +67,11 @@
 | [23. 方塊世界沙盒](#case-23) | 遊戲與動畫場景 | Demo |
 | [24. 青蛙滑板場景](#case-24) | 遊戲與動畫場景 | Demo |
 | [25. 三模型騎行動畫比較](#case-25) | 模型比較 | Evaluation |
+| [26. 機械眼與爆炸視圖](#case-26) | 機械與三維物體 | Demo |
+| [27. 兩種模型的咖啡賽車拆解](#case-27) | 機械與三維物體 | Evaluation |
+| [28. 雨景與音樂循環](#case-28) | SVG 與互動圖形 | Demo |
+| [29. 追加提示前後的城堡與龍](#case-29) | 體素世界與風景 | Evaluation |
+| [30. 三種模型的機械下顎](#case-30) | 模型比較 | Evaluation |
 
 ## ⚙️ 機械與三維物體
 
@@ -119,6 +124,35 @@
 <table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/2112945233822617600-6e32038ca6b9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/2112945233822617600-ada2f593eab5.jpg" alt="水晶柑橘 — 1" width="560"></a><br>觀看來源影片</td></tr></table>
 
 類型: Demo | 日期: 2026-10-21
+
+---
+
+<a id="pending-candidates"></a>
+<a id="candidate-1"></a>
+<a id="case-26"></a>
+### 案例 26: [機械眼與爆炸視圖](https://x.com/noclipepe/status/2115556254101692515) (作者 [@noclipepe](https://x.com/noclipepe))
+
+**查看結合眨眼、對焦和零件拆解的機械眼示範。**
+
+作者自述以一次提示完成，耗時29分49秒。此處連結原始錄影；可執行程式碼、完整互動和可重現性尚未獨立驗證。
+
+[觀看來源影片](https://x.com/noclipepe/status/2115556254101692515/video/1)
+
+類型: Demo | 日期: 2026-10-28
+
+---
+
+<a id="candidate-2"></a>
+<a id="case-27"></a>
+### 案例 27: [兩種模型的咖啡賽車拆解](https://x.com/dromexa/status/2115802517942497491) (作者 [@dromexa](https://x.com/dromexa))
+
+**比較來源展示的Carbon與Opus 5.5摩托車內部觀察示範。**
+
+發布者自述使用相同提示，每個模型嘗試一次，展示X光、剖面和爆炸視圖。這些條件僅來自來源陳述；沒有共同執行紀錄或獨立重現支持普遍的模型排名。
+
+[觀看來源影片](https://x.com/dromexa/status/2115802517942497491/video/1)
+
+類型: Evaluation | 日期: 2026-10-29
 
 ---
 
@@ -243,6 +277,20 @@
 
 ---
 
+<a id="candidate-4"></a>
+<a id="case-29"></a>
+### 案例 29: [追加提示前後的城堡與龍](https://x.com/semichenkko/status/2116198626187706722) (作者 [@semichenkko](https://x.com/semichenkko))
+
+**比較追加三次提示前後的城堡與龍場景。**
+
+作者展示相同島嶼、城堡和龍在首輪及追加三次提示後的結果，強調火焰變化。未提供追加提示原文和執行紀錄；這是一位作者的比較，不是受控的成功率測試。
+
+[觀看來源影片](https://x.com/semichenkko/status/2116198626187706722/video/1)
+
+類型: Evaluation | 日期: 2026-10-30
+
+---
+
 ## 🎨 SVG 與互動圖形
 
 <a id="case-14"></a>
@@ -351,6 +399,20 @@
 
 ---
 
+<a id="candidate-3"></a>
+<a id="case-28"></a>
+### 案例 28: [雨景與音樂循環](https://x.com/chetaslua/status/2115935747798950069) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**查看來源展示的JavaScript助眠音樂循環與SVG雨景。**
+
+作者將音樂和雨景歸於Carbon，自述一次嘗試產生約4,000行。程式碼行數、音樂原創性和完整播放行為尚未獨立驗證。
+
+[觀看來源影片](https://x.com/chetaslua/status/2115935747798950069/video/1)
+
+類型: Demo | 日期: 2026-10-29
+
+---
+
 ## 🎮 遊戲與動畫場景
 
 <a id="case-22"></a>
@@ -407,77 +469,11 @@
 
 ---
 
-<a id="pending-candidates"></a>
-## 🧪 待查證候選
-
-以下5條候選與原25個已策展案例分開。原始貼文及媒體尚未獨立查證，視覺檢查也未完成。簡介僅轉述來源自述內容。僅提供原始媒體連結，不複製或嵌入新增媒體。
-
-<a id="candidate-1"></a>
-### 候選 1: [機械眼與爆炸視圖](https://x.com/noclipepe/status/2115556254101692515) (作者 [@noclipepe](https://x.com/noclipepe))
-
-**待查證**
-
-查看結合眨眼、對焦和零件拆解的機械眼示範。
-
-作者自述以一次提示完成，耗時29分49秒。此處連結原始錄影；可執行程式碼、完整互動和可重現性尚未獨立驗證。
-
-[觀看來源影片](https://x.com/noclipepe/status/2115556254101692515/video/1)
-
-類型: Demo | 日期: 2026-10-28
-
----
-
-<a id="candidate-2"></a>
-### 候選 2: [兩種模型的咖啡賽車拆解](https://x.com/dromexa/status/2115802517942497491) (作者 [@dromexa](https://x.com/dromexa))
-
-**待查證**
-
-比較來源展示的Carbon與Opus 5.5摩托車內部觀察示範。
-
-發布者自述使用相同提示，每個模型嘗試一次，展示X光、剖面和爆炸視圖。這些條件僅來自來源陳述；沒有共同執行紀錄或獨立重現支持普遍的模型排名。
-
-[觀看來源影片](https://x.com/dromexa/status/2115802517942497491/video/1)
-
-類型: Evaluation | 日期: 2026-10-29
-
----
-
-<a id="candidate-3"></a>
-### 候選 3: [雨景與音樂循環](https://x.com/chetaslua/status/2115935747798950069) (作者 [@chetaslua](https://x.com/chetaslua))
-
-**待查證**
-
-查看來源展示的JavaScript助眠音樂循環與SVG雨景。
-
-作者將音樂和雨景歸於Carbon，自述一次嘗試產生約4,000行。程式碼行數、音樂原創性和完整播放行為尚未獨立驗證。
-
-[觀看來源影片](https://x.com/chetaslua/status/2115935747798950069/video/1)
-
-類型: Demo | 日期: 2026-10-29
-
----
-
-<a id="candidate-4"></a>
-### 候選 4: [追加提示前後的城堡與龍](https://x.com/semichenkko/status/2116198626187706722) (作者 [@semichenkko](https://x.com/semichenkko))
-
-**待查證**
-
-比較追加三次提示前後的城堡與龍場景。
-
-作者展示相同島嶼、城堡和龍在首輪及追加三次提示後的結果，強調火焰變化。未提供追加提示原文和執行紀錄；這是一位作者的比較，不是受控的成功率測試。
-
-[觀看來源影片](https://x.com/semichenkko/status/2116198626187706722/video/1)
-
-類型: Evaluation | 日期: 2026-10-30
-
----
-
 <a id="candidate-5"></a>
-### 候選 5: [三種模型的機械下顎](https://x.com/noclipepe/status/2116109757865930787) (作者 [@noclipepe](https://x.com/noclipepe))
+<a id="case-30"></a>
+### 案例 30: [三種模型的機械下顎](https://x.com/noclipepe/status/2116109757865930787) (作者 [@noclipepe](https://x.com/noclipepe))
 
-**待查證**
-
-比較Carbon、Opus 5.5與GPT-6 Astra的機械下顎及獨立牙齒運動示範。
+**比較Carbon、Opus 5.5與GPT-6 Astra的機械下顎及獨立牙齒運動示範。**
 
 作者自述使用相同提示、每顆牙齒獨立運動，並列出Carbon 29m 9s、Opus 5.5 35m 17s、GPT-6 Astra 26m 7s。耗時、模型身分和完整互動均為來源自述，未獨立重現。
 
@@ -498,6 +494,6 @@
 
 感謝以下公開分享展示的發布者：
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko)
 
 署名依據連結來源，可能需要更正。如有遺漏署名、重複作品、表述錯誤或移除需求，請提交 issue。第三方媒體權利歸原權利人。

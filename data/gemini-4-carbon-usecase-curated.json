@@ -2,7 +2,7 @@
   "schema_version": 1,
   "model": "Gemini 4 Carbon",
   "updated_at": "2026-11-02",
-  "case_count": 25,
+  "case_count": 30,
   "cases": [
     {
       "number": 1,
@@ -1203,16 +1203,9 @@
           "url": "https://x.com/i/status/2112976986066878614"
         }
       ]
-    }
-  ],
-  "scope": "Source-attributed community usecases: concrete tasks and visible outputs, without a prompt requirement.",
-  "banner_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/banner/banner-owner-6aea570af8a4.png",
-  "media_hosting": "R2; source URLs preserved with each media record.",
-  "banner_policy": "shared-r2",
-  "candidate_count": 5,
-  "candidates": [
+    },
     {
-      "id": "carbon-candidate-001",
+      "id": "carbon-case-026",
       "source_id": "2115556254101692515",
       "category": "mechanical",
       "title": "Robotic eye with an exploded view",
@@ -1235,10 +1228,14 @@
         }
       ],
       "also_reported_by": [],
-      "status": "pending-verification"
+      "number": 26,
+      "legacy_anchors": [
+        "pending-candidates",
+        "candidate-1"
+      ]
     },
     {
-      "id": "carbon-candidate-002",
+      "id": "carbon-case-027",
       "source_id": "2115802517942497491",
       "category": "mechanical",
       "title": "Café racer inspection across two models",
@@ -1261,10 +1258,13 @@
         }
       ],
       "also_reported_by": [],
-      "status": "pending-verification"
+      "number": 27,
+      "legacy_anchors": [
+        "candidate-2"
+      ]
     },
     {
-      "id": "carbon-candidate-003",
+      "id": "carbon-case-028",
       "source_id": "2115935747798950069",
       "category": "svg",
       "title": "Rain scene with a music loop",
@@ -1287,10 +1287,13 @@
         }
       ],
       "also_reported_by": [],
-      "status": "pending-verification"
+      "number": 28,
+      "legacy_anchors": [
+        "candidate-3"
+      ]
     },
     {
-      "id": "carbon-candidate-004",
+      "id": "carbon-case-029",
       "source_id": "2116198626187706722",
       "category": "voxel",
       "title": "Castle and dragon after follow-up prompts",
@@ -1313,10 +1316,13 @@
         }
       ],
       "also_reported_by": [],
-      "status": "pending-verification"
+      "number": 29,
+      "legacy_anchors": [
+        "candidate-4"
+      ]
     },
     {
-      "id": "carbon-candidate-005",
+      "id": "carbon-case-030",
       "source_id": "2116109757865930787",
       "category": "comparison",
       "title": "Mechanical jaw across three models",
@@ -1339,7 +1345,14 @@
         }
       ],
       "also_reported_by": [],
-      "status": "pending-verification"
+      "number": 30,
+      "legacy_anchors": [
+        "candidate-5"
+      ]
     }
-  ]
+  ],
+  "scope": "Source-attributed community usecases: concrete tasks and visible outputs, without a prompt requirement.",
+  "banner_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/banner/banner-owner-6aea570af8a4.png",
+  "media_hosting": "Existing hosted media remains on R2. Source-link media entries link to the original publisher without copying or rehosting third-party media.",
+  "banner_policy": "shared-r2"
 }

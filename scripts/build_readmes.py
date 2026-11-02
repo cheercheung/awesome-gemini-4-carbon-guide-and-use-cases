@@ -31,25 +31,20 @@ def render(data,locale):
         chunks.append(f'## {emoji} {g["categories"][category]}\n')
         for c,t in zip(cases,translations):
             if c['category']!=category:continue
+            for alias in c.get('legacy_anchors',[]):chunks.append(f'<a id="{alias}"></a>')
             chunks.append(f'<a id="case-{c["number"]}"></a>\n### {g["case"]} {c["number"]}: [{t[0]}]({c["source_url"]}) ({g["by"]} [@{c["author_handle"]}]({c["author_url"]}))\n\n**{t[1]}**\n\n{t[2]}\n')
             for related in c.get('related_sources',[]):
                 chunks.append(f'([@{related["author_handle"]}]({related["source_url"]}))\n')
             cells=[]
             for index,m in enumerate(c['media'],1):
+                if m.get('presentation')=='source-link':
+                    label=g['video'] if m['type']=='video' else g['image']
+                    chunks.append(f'[{label}]({m["source_media_url"]})\n')
+                    continue
                 url=m.get('playable_url',m.get('image_url',m['source_media_url']));poster=m.get('poster_url',m['poster_path'])
                 label=g['comparison_video'] if m.get('role')=='model-comparison' else (g['video'] if m['type']=='video' else g['image'])
                 cells.append(f'<td align="center"><a href="{url}"><img src="{poster}" alt="{t[0]} — {index}" width="560"></a><br>{label}</td>')
-            chunks.append('<table><tr>'+''.join(cells)+'</tr></table>\n')
-            chunks.append(f'{g["type"]}: {c["type"]} | {g["date"]}: {c["date"]}\n\n---\n')
-    candidates=data.get('candidates',[]);candidate_copy=locale.get('candidates',[])
-    assert len(candidates)==len(candidate_copy)==data.get('candidate_count',0)
-    if candidates:
-        chunks.append(f'<a id="pending-candidates"></a>\n## 🧪 {g["candidates_heading"]}\n\n{g["candidates_notice"]}\n')
-        for index,(c,t) in enumerate(zip(candidates,candidate_copy),1):
-            chunks.append(f'<a id="candidate-{index}"></a>\n### {g["candidate"]} {index}: [{t[0]}]({c["source_url"]}) ({g["by"]} [@{c["author_handle"]}]({c["author_url"]}))\n\n**{g["candidate_status"]}**\n\n{t[1]}\n\n{t[2]}\n')
-            for m in c['media']:
-                label=g['video'] if m['type']=='video' else g['image']
-                chunks.append(f'[{label}]({m["source_media_url"]})\n')
+            if cells:chunks.append('<table><tr>'+''.join(cells)+'</tr></table>\n')
             chunks.append(f'{g["type"]}: {c["type"]} | {g["date"]}: {c["date"]}\n\n---\n')
     chunks.append(f'<a id="related-repositories"></a>\n## {g["related"]}\n\n- [Gemini 3.6 Flash — {nav[1]}](https://github.com/Evolink-AI/awesome-gemini-3.6-flash-guide-and-use-cases)\n- [Gemini Omni — {nav[2]}](https://github.com/Evolink-AI/awesome-gemini-omni-guide-api-and-prompt)\n')
     authors=list(dict.fromkeys((c['author_handle'],c['author_url']) for c in cases))

@@ -24,15 +24,11 @@
     },
     "intro": "A collection of public community demonstrations attributed by their publishers to Gemini 4 Carbon during its early rollout.",
     "purpose": "Explore concrete tasks, visible outputs and practical limits through their original sources.",
-    "stats": "25 usecases across 5 categories. Reposts are grouped with their underlying work; a comparison of an existing output is kept with that case.",
+    "stats": "30 usecases across 5 categories. Reposts are grouped with their underlying work; a comparison of an existing output is kept with that case.",
     "evidence": "Model names, generation times and quality judgments are source-reported. An Arena display name does not establish the backend version. A recording does not prove runnable code, complete interaction or repeatable success.",
     "steps": "1. Choose a task in the Menu.\n2. Open its video or image, then follow the source-linked case title.\n3. Compare the visible result with the stated task and limitations.",
     "thanks": "Thanks to the publishers whose demonstrations make this collection possible:",
-    "corrections": "Attribution follows the linked sources and may need correction. Please open an issue for missing credit, duplicate work, inaccurate claims or removal requests. Third-party media retains its original ownership.",
-    "candidates_heading": "Pending verification candidates",
-    "candidate": "Candidate",
-    "candidate_status": "Pending verification",
-    "candidates_notice": "These five candidates are separate from the 25 curated cases. Their original posts and media have not been independently verified, and visual QA is incomplete. Descriptions reflect source-reported claims. Only original media links are provided; no new media is copied or embedded."
+    "corrections": "Attribution follows the linked sources and may need correction. Please open an issue for missing credit, duplicate work, inaccurate claims or removal requests. Third-party media retains its original ownership."
   },
   "cases": [
     [
@@ -159,9 +155,7 @@
       "Bicycle animation across three models",
       "Compare the source's grouped Carbon, Argon and GPT-6 Astra bicycle outputs.",
       "The recording keeps the model labels and outputs together. The poster prefers Carbon, but shared settings, retries and execution logs are not supplied."
-    ]
-  ],
-  "candidates": [
+    ],
     [
       "Robotic eye with an exploded view",
       "Inspect a robotic-eye demonstration that combines blinking, focusing and an exploded view.",
