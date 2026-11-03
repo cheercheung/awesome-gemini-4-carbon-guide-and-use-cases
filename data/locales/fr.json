@@ -24,7 +24,7 @@
     },
     "intro": "Une collection de démonstrations publiques attribuées par leurs auteurs à Gemini 4 Carbon durant son déploiement initial.",
     "purpose": "Explorez des tâches concrètes, des résultats visibles et des limites pratiques à partir des sources originales.",
-    "stats": "40 cas répartis en 5 catégories. Les republications sont regroupées avec l’œuvre correspondante ; les comparaisons d’un résultat existant restent dans son cas.",
+    "stats": "44 cas répartis en 5 catégories. Les republications sont regroupées avec l’œuvre correspondante ; les comparaisons d’un résultat existant restent dans son cas.",
     "evidence": "Les noms de modèle, durées et jugements de qualité viennent des sources. Le nom affiché dans Arena ne prouve pas la version réelle. Un enregistrement ne démontre ni code exécutable, ni interaction complète, ni réussite reproductible.",
     "steps": "1. Choisissez une tâche dans le sommaire.\n2. Ouvrez sa vidéo ou son image, puis suivez le titre vers la publication originale.\n3. Comparez le résultat visible à la tâche et à ses limites.",
     "thanks": "Merci aux personnes qui ont publié ces démonstrations :",
@@ -230,6 +230,26 @@
       "Comparaison de sites de maisons hantées",
       "Comparez l’ambiance visuelle de deux sites créés pour le même besoin.",
       "Le créateur attribue les deux sites à Carbon et Opus 5.5 avec la même consigne. La distinction entre mignon et effrayant est subjective ; code source, accessibilité et fonctionnement complet n’ont pas été testés indépendamment."
+    ],
+    [
+      "Aigle mécanique avec deux étiquettes de modèle",
+      "Comparez les aigles mécaniques étiquetés Carbon et Argon par la source.",
+      "Les images montrent des conceptions différentes, des positions d’ailes et des angles de caméra variés. L’auteur demande un aigle mécanique en Three.js ; l’identité des modèles et le fonctionnement mécanique restent déclarés par la source."
+    ],
+    [
+      "Rivière nocturne aux lanternes",
+      "Explorez une rivière remplie de lanternes depuis plusieurs points de vue enregistrés.",
+      "Le créateur décrit une scène nocturne avec des lanternes lumineuses et des reflets. Les images montrent ces éléments et une commande d’ajout de lanterne ; l’interaction complète n’a pas été testée."
+    ],
+    [
+      "Voilier sous trois éclairages",
+      "Examinez un voilier de jour, au coucher du soleil et de nuit.",
+      "La source demande un navire historique en pleine mer avec un éclairage changeant. Les images montrent une coque sombre et des voiles blanches dans ces états ; la physique des vagues et l’identité du modèle n’ont pas été testées indépendamment."
+    ],
+    [
+      "Voilier à coque rouge",
+      "Explorez une autre scène de voilier à coque rouge et voiles ocre.",
+      "Les images montrent des vues proches et lointaines, de l’écume et des oiseaux. Coque, ornements et voiles diffèrent du navire aux trois éclairages ; l’attribution à Carbon et l’implémentation complète restent non vérifiées."
     ]
   ]
 }

@@ -26,7 +26,7 @@ Une collection de démonstrations publiques attribuées par leurs auteurs à Gem
 
 ## 📊 Vue d’ensemble
 
-40 cas répartis en 5 catégories. Les republications sont regroupées avec l’œuvre correspondante ; les comparaisons d’un résultat existant restent dans son cas.
+44 cas répartis en 5 catégories. Les republications sont regroupées avec l’œuvre correspondante ; les comparaisons d’un résultat existant restent dans son cas.
 
 > [!NOTE]
 > Les noms de modèle, durées et jugements de qualité viennent des sources. Le nom affiché dans Arena ne prouve pas la version réelle. Un enregistrement ne démontre ni code exécutable, ni interaction complète, ni réussite reproductible.
@@ -82,6 +82,10 @@ Une collection de démonstrations publiques attribuées par leurs auteurs à Gem
 | [38. Moteur deux temps : combustion peu lisible](#case-38) | Comparaison de modèles | Limit |
 | [39. Inspection d’une montre mécanique avec deux modèles](#case-39) | Objets mécaniques et 3D | Evaluation |
 | [40. Comparaison de sites de maisons hantées](#case-40) | Comparaison de modèles | Evaluation |
+| [41. Aigle mécanique avec deux étiquettes de modèle](#case-41) | Objets mécaniques et 3D | Evaluation |
+| [42. Rivière nocturne aux lanternes](#case-42) | Mondes et paysages en voxels | Demo |
+| [43. Voilier sous trois éclairages](#case-43) | Mondes et paysages en voxels | Demo |
+| [44. Voilier à coque rouge](#case-44) | Mondes et paysages en voxels | Demo |
 
 ## ⚙️ Objets mécaniques et 3D
 
@@ -202,6 +206,19 @@ Le créateur indique une consigne identique et un essai avec Carbon et Opus 5.5,
 [Voir la vidéo originale](https://x.com/dromexa/status/2116518366919667775/video/1)
 
 Type: Evaluation | Date: 2026-10-31
+
+---
+
+<a id="case-41"></a>
+### Cas 41: [Aigle mécanique avec deux étiquettes de modèle](https://x.com/srikanthvaluri/status/2116767284618486044) (par [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**Comparez les aigles mécaniques étiquetés Carbon et Argon par la source.**
+
+Les images montrent des conceptions différentes, des positions d’ailes et des angles de caméra variés. L’auteur demande un aigle mécanique en Three.js ; l’identité des modèles et le fonctionnement mécanique restent déclarés par la source.
+
+[Voir la vidéo originale](https://x.com/srikanthvaluri/status/2116767284618486044/video/1)
+
+Type: Evaluation | Date: 2026-11-01
 
 ---
 
@@ -337,6 +354,45 @@ Le créateur présente les mêmes île, château et dragon après la première i
 [Voir la vidéo originale](https://x.com/semichenkko/status/2116198626187706722/video/1)
 
 Type: Evaluation | Date: 2026-10-30
+
+---
+
+<a id="case-42"></a>
+### Cas 42: [Rivière nocturne aux lanternes](https://x.com/pankajkumar_dev/status/2116533017934241886) (par [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+
+**Explorez une rivière remplie de lanternes depuis plusieurs points de vue enregistrés.**
+
+Le créateur décrit une scène nocturne avec des lanternes lumineuses et des reflets. Les images montrent ces éléments et une commande d’ajout de lanterne ; l’interaction complète n’a pas été testée.
+
+[Voir la vidéo originale](https://x.com/pankajkumar_dev/status/2116533017934241886/video/1)
+
+Type: Demo | Date: 2026-10-31
+
+---
+
+<a id="case-43"></a>
+### Cas 43: [Voilier sous trois éclairages](https://x.com/srikanthvaluri/status/2116931901332369894) (par [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**Examinez un voilier de jour, au coucher du soleil et de nuit.**
+
+La source demande un navire historique en pleine mer avec un éclairage changeant. Les images montrent une coque sombre et des voiles blanches dans ces états ; la physique des vagues et l’identité du modèle n’ont pas été testées indépendamment.
+
+[Voir la vidéo originale](https://x.com/srikanthvaluri/status/2116931901332369894/video/1)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-44"></a>
+### Cas 44: [Voilier à coque rouge](https://x.com/doe_naps/status/2116768227275788429) (par [@doe_naps](https://x.com/doe_naps))
+
+**Explorez une autre scène de voilier à coque rouge et voiles ocre.**
+
+Les images montrent des vues proches et lointaines, de l’écume et des oiseaux. Coque, ornements et voiles diffèrent du navire aux trois éclairages ; l’attribution à Carbon et l’implémentation complète restent non vérifiées.
+
+[Voir la vidéo originale](https://x.com/doe_naps/status/2116768227275788429/video/1)
+
+Type: Demo | Date: 2026-11-01
 
 ---
 
@@ -634,6 +690,6 @@ Type: Evaluation | Date: 2026-10-31
 
 Merci aux personnes qui ont publié ces démonstrations :
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri)
 
 L’attribution suit les sources liées et peut nécessiter des corrections. Ouvrez une issue pour signaler un crédit manquant, un doublon, une affirmation incorrecte ou demander un retrait. Les médias tiers restent la propriété de leurs ayants droit.

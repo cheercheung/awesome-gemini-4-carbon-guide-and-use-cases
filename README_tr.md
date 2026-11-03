@@ -26,7 +26,7 @@ Erken kullanıma açılma döneminde paylaşanların Gemini 4 Carbon ile ilişki
 
 ## 📊 Genel bakış
 
-5 kategoride 40 kullanım örneği. Yeniden paylaşımlar ilgili eserle birleştirilir; mevcut çıktının karşılaştırması aynı örnekte tutulur.
+5 kategoride 44 kullanım örneği. Yeniden paylaşımlar ilgili eserle birleştirilir; mevcut çıktının karşılaştırması aynı örnekte tutulur.
 
 > [!NOTE]
 > Model adları, üretim süreleri ve kalite yorumları kaynakların beyanıdır. Arena görünen adı arka uç sürümünü kanıtlamaz. Kayıt, çalıştırılabilir kodu, tüm etkileşimleri veya tekrarlanabilir başarıyı kanıtlamaz.
@@ -82,6 +82,10 @@ Erken kullanıma açılma döneminde paylaşanların Gemini 4 Carbon ile ilişki
 | [38. İki zamanlı motor: belirsiz güç zamanı](#case-38) | Model karşılaştırması | Limit |
 | [39. İki modelle mekanik saat incelemesi](#case-39) | Mekanik ve 3B nesneler | Evaluation |
 | [40. Perili ev web siteleri karşılaştırması](#case-40) | Model karşılaştırması | Evaluation |
+| [41. İki model etiketiyle mekanik kartal](#case-41) | Mekanik ve 3B nesneler | Evaluation |
+| [42. Fenerlerle aydınlanan gece nehri](#case-42) | Voksel dünyalar ve manzaralar | Demo |
+| [43. Üç ışık durumunda yelkenli](#case-43) | Voksel dünyalar ve manzaralar | Demo |
+| [44. Kırmızı gövdeli yelkenli](#case-44) | Voksel dünyalar ve manzaralar | Demo |
 
 ## ⚙️ Mekanik ve 3B nesneler
 
@@ -202,6 +206,19 @@ Tür: Demo | Tarih: 2026-10-31
 [Kaynak videoyu izle](https://x.com/dromexa/status/2116518366919667775/video/1)
 
 Tür: Evaluation | Tarih: 2026-10-31
+
+---
+
+<a id="case-41"></a>
+### Örnek 41: [İki model etiketiyle mekanik kartal](https://x.com/srikanthvaluri/status/2116767284618486044) (paylaşan [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**Kaynağın Carbon ve Argon olarak etiketlediği mekanik kartalları karşılaştırın.**
+
+Örnek kareler farklı tasarımlar, kanat konumları ve kamera açıları gösteriyor. Yazar Three.js ile mekanik kartal istiyor; model kimliği ve mekanik davranış kaynak beyanı olarak kalıyor.
+
+[Kaynak videoyu izle](https://x.com/srikanthvaluri/status/2116767284618486044/video/1)
+
+Tür: Evaluation | Tarih: 2026-11-01
 
 ---
 
@@ -337,6 +354,45 @@ Tür: Demo | Tarih: 2026-10-21
 [Kaynak videoyu izle](https://x.com/semichenkko/status/2116198626187706722/video/1)
 
 Tür: Evaluation | Tarih: 2026-10-30
+
+---
+
+<a id="case-42"></a>
+### Örnek 42: [Fenerlerle aydınlanan gece nehri](https://x.com/pankajkumar_dev/status/2116533017934241886) (paylaşan [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+
+**Fenerlerle dolu nehir sahnesini kaydedilmiş farklı açılardan keşfedin.**
+
+Üretici parlayan fenerler ve su yansımaları içeren gece sahnesi tarif ediyor. Örnek karelerde bu öğeler ve fener ekleme kontrolü görülüyor; uygulamanın tüm etkileşimleri test edilmedi.
+
+[Kaynak videoyu izle](https://x.com/pankajkumar_dev/status/2116533017934241886/video/1)
+
+Tür: Demo | Tarih: 2026-10-31
+
+---
+
+<a id="case-43"></a>
+### Örnek 43: [Üç ışık durumunda yelkenli](https://x.com/srikanthvaluri/status/2116931901332369894) (paylaşan [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**Bir yelkenliyi gündüz, gün batımı ve gece ışığında inceleyin.**
+
+Kaynak, değişen ışıkta açık denizde tarihî bir gemi istiyor. Örnek karelerde bu durumlarda koyu gövde ve beyaz yelkenler görülüyor; dalga fiziği ve model kimliği bağımsız olarak test edilmedi.
+
+[Kaynak videoyu izle](https://x.com/srikanthvaluri/status/2116931901332369894/video/1)
+
+Tür: Demo | Tarih: 2026-11-01
+
+---
+
+<a id="case-44"></a>
+### Örnek 44: [Kırmızı gövdeli yelkenli](https://x.com/doe_naps/status/2116768227275788429) (paylaşan [@doe_naps](https://x.com/doe_naps))
+
+**Kırmızı gövdeli ve açık kahverengi yelkenli başka bir gemi sahnesini keşfedin.**
+
+Örnek karelerde köpük ve kuşlarla yakın ve uzak görünümler var. Gövde, süslemeler ve yelkenler üç ışık durumundaki gemiden farklı; Carbon’a atıf ve uygulamanın tamamı doğrulanmış değil.
+
+[Kaynak videoyu izle](https://x.com/doe_naps/status/2116768227275788429/video/1)
+
+Tür: Demo | Tarih: 2026-11-01
 
 ---
 
@@ -634,6 +690,6 @@ Tür: Evaluation | Tarih: 2026-10-31
 
 Gösterimleri paylaşan şu kişilere teşekkürler:
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri)
 
 Atıflar bağlantılı kaynaklara dayanır ve düzeltilmesi gerekebilir. Eksik atıf, yinelenen eser, yanlış iddia veya kaldırma isteği için issue açın. Üçüncü taraf medyanın hakları sahiplerinde kalır.

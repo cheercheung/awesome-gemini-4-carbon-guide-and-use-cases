@@ -26,7 +26,7 @@
 
 ## 📊 개요
 
-5개 분류의 사례 40개입니다. 재게시물은 해당 작품에 합쳤으며 기존 결과의 비교도 원래 사례에 첨부했습니다.
+5개 분류의 사례 44개입니다. 재게시물은 해당 작품에 합쳤으며 기존 결과의 비교도 원래 사례에 첨부했습니다.
 
 > [!NOTE]
 > 모델명, 생성 시간, 품질 평가는 출처의 주장입니다. Arena 표시명은 실제 백엔드 버전을 입증하지 않습니다. 녹화만으로 코드 실행, 모든 상호작용의 정확성, 재현성을 확인할 수 없습니다.
@@ -82,6 +82,10 @@
 | [38. 2행정 엔진: 불분명한 폭발 행정](#case-38) | 모델 비교 | Limit |
 | [39. 두 모델의 기계식 시계 관찰](#case-39) | 기계와 3D 객체 | Evaluation |
 | [40. 유령의 집 웹사이트 비교](#case-40) | 모델 비교 | Evaluation |
+| [41. 두 모델 이름으로 표시된 기계 독수리](#case-41) | 기계와 3D 객체 | Evaluation |
+| [42. 등불이 흐르는 밤의 강](#case-42) | 복셀 세계와 풍경 | Demo |
+| [43. 세 조명 상태의 범선](#case-43) | 복셀 세계와 풍경 | Demo |
+| [44. 붉은 선체의 범선](#case-44) | 복셀 세계와 풍경 | Demo |
 
 ## ⚙️ 기계와 3D 객체
 
@@ -202,6 +206,19 @@
 [원본 동영상 보기](https://x.com/dromexa/status/2116518366919667775/video/1)
 
 유형: Evaluation | 날짜: 2026-10-31
+
+---
+
+<a id="case-41"></a>
+### 사례 41: [두 모델 이름으로 표시된 기계 독수리](https://x.com/srikanthvaluri/status/2116767284618486044) (작성자 [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**출처가 Carbon과 Argon으로 표시한 기계 독수리를 비교하세요.**
+
+추출 프레임에는 서로 다른 디자인, 날개 위치와 카메라 각도가 보입니다. 작성자의 요청은 Three.js 기계 독수리이며 모델 정체와 기계 동작은 출처의 자체 보고에 머뭅니다.
+
+[원본 동영상 보기](https://x.com/srikanthvaluri/status/2116767284618486044/video/1)
+
+유형: Evaluation | 날짜: 2026-11-01
 
 ---
 
@@ -337,6 +354,45 @@ LuminaBench 사례와 다른 탑 표현입니다. 같은 소재라고 동일 생
 [원본 동영상 보기](https://x.com/semichenkko/status/2116198626187706722/video/1)
 
 유형: Evaluation | 날짜: 2026-10-30
+
+---
+
+<a id="case-42"></a>
+### 사례 42: [등불이 흐르는 밤의 강](https://x.com/pankajkumar_dev/status/2116533017934241886) (작성자 [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+
+**등불로 가득한 강 풍경을 녹화된 여러 시점에서 살펴보세요.**
+
+제작자는 빛나는 등불과 수면 반사가 있는 야경을 요청했습니다. 추출 프레임에는 해당 요소와 등불 추가 버튼이 보이지만 앱의 전체 상호작용은 시험하지 않았습니다.
+
+[원본 동영상 보기](https://x.com/pankajkumar_dev/status/2116533017934241886/video/1)
+
+유형: Demo | 날짜: 2026-10-31
+
+---
+
+<a id="case-43"></a>
+### 사례 43: [세 조명 상태의 범선](https://x.com/srikanthvaluri/status/2116931901332369894) (작성자 [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**낮, 해질녘, 밤의 범선을 살펴보세요.**
+
+출처의 요청은 조명이 바뀌는 바다 위의 역사적 범선입니다. 추출 프레임에서 어두운 선체와 흰 돛이 각 상태로 보이지만 파도 물리와 모델 정체는 독립적으로 시험하지 않았습니다.
+
+[원본 동영상 보기](https://x.com/srikanthvaluri/status/2116931901332369894/video/1)
+
+유형: Demo | 날짜: 2026-11-01
+
+---
+
+<a id="case-44"></a>
+### 사례 44: [붉은 선체의 범선](https://x.com/doe_naps/status/2116768227275788429) (작성자 [@doe_naps](https://x.com/doe_naps))
+
+**붉은 선체와 황갈색 돛을 가진 또 다른 범선 장면을 살펴보세요.**
+
+추출 프레임에는 물거품과 새가 있는 근경 및 원경이 보입니다. 선체, 장식, 돛은 세 조명 상태의 배와 다르지만 제작자의 Carbon 귀속과 전체 구현은 검증하지 않았습니다.
+
+[원본 동영상 보기](https://x.com/doe_naps/status/2116768227275788429/video/1)
+
+유형: Demo | 날짜: 2026-11-01
 
 ---
 
@@ -634,6 +690,6 @@ LuminaBench 사례와 다른 탑 표현입니다. 같은 소재라고 동일 생
 
 데모를 공개한 다음 게시자에게 감사드립니다.
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri)
 
 저자 표기는 연결된 출처를 따르며 수정이 필요할 수 있습니다. 출처 누락, 중복, 잘못된 주장이나 삭제 요청은 issue로 알려주세요. 제3자 미디어의 권리는 원 권리자에게 있습니다.

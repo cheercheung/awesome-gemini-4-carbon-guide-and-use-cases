@@ -2,7 +2,7 @@
   "schema_version": 1,
   "model": "Gemini 4 Carbon",
   "updated_at": "2026-11-03",
-  "case_count": 40,
+  "case_count": 44,
   "cases": [
     {
       "number": 1,
@@ -1609,6 +1609,110 @@
         }
       ],
       "also_reported_by": []
+    },
+    {
+      "id": "carbon-case-041",
+      "source_id": "2116767284618486044",
+      "category": "mechanical",
+      "title": "Mechanical eagle across two model labels",
+      "takeaway": "Compare the source’s Carbon- and Argon-labelled mechanical eagles.",
+      "body_notes": [
+        "Sampled frames show different eagle designs with changing wing positions and camera angles. The author requests a Three.js mechanical eagle; model identity and mechanical behavior remain source-reported."
+      ],
+      "type": "Evaluation",
+      "date": "2026-11-01",
+      "source_url": "https://x.com/srikanthvaluri/status/2116767284618486044",
+      "author_handle": "srikanthvaluri",
+      "author_url": "https://x.com/srikanthvaluri",
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2116766561218527232",
+          "type": "video",
+          "source_media_url": "https://x.com/srikanthvaluri/status/2116767284618486044/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": [],
+      "number": 41
+    },
+    {
+      "id": "carbon-case-042",
+      "source_id": "2116533017934241886",
+      "category": "voxel",
+      "title": "Lantern River Night",
+      "takeaway": "Explore a lantern-filled river scene through several recorded viewpoints.",
+      "body_notes": [
+        "The creator describes a night scene with glowing lanterns and water reflections. Sampled frames show those elements and an add-lantern control; the application’s complete interaction was not tested."
+      ],
+      "type": "Demo",
+      "date": "2026-10-31",
+      "source_url": "https://x.com/pankajkumar_dev/status/2116533017934241886",
+      "author_handle": "pankajkumar_dev",
+      "author_url": "https://x.com/pankajkumar_dev",
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2116532243124695040",
+          "type": "video",
+          "source_media_url": "https://x.com/pankajkumar_dev/status/2116533017934241886/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": [],
+      "number": 42
+    },
+    {
+      "id": "carbon-case-043",
+      "source_id": "2116931901332369894",
+      "category": "voxel",
+      "title": "Sailing ship across three lighting states",
+      "takeaway": "Inspect a sailing ship at daylight, sunset and night.",
+      "body_notes": [
+        "The source requests a historical ship on the open sea with changing lighting. Sampled frames show a dark hull and white sails across those states; wave physics and model identity were not independently tested."
+      ],
+      "type": "Demo",
+      "date": "2026-11-01",
+      "source_url": "https://x.com/srikanthvaluri/status/2116931901332369894",
+      "author_handle": "srikanthvaluri",
+      "author_url": "https://x.com/srikanthvaluri",
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2116930389248032768",
+          "type": "video",
+          "source_media_url": "https://x.com/srikanthvaluri/status/2116931901332369894/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": [],
+      "number": 43
+    },
+    {
+      "id": "carbon-case-044",
+      "source_id": "2116768227275788429",
+      "category": "voxel",
+      "title": "Red-hulled sailing ship",
+      "takeaway": "Explore another sailing-ship scene with a red hull and tan sails.",
+      "body_notes": [
+        "Sampled frames show close and distant views with foam and birds. Its hull, trim and sails differ from the three-lighting-state ship; the creator’s Carbon attribution and full implementation remain unverified."
+      ],
+      "type": "Demo",
+      "date": "2026-11-01",
+      "source_url": "https://x.com/doe_naps/status/2116768227275788429",
+      "author_handle": "doe_naps",
+      "author_url": "https://x.com/doe_naps",
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2116766089783005184",
+          "type": "video",
+          "source_media_url": "https://x.com/doe_naps/status/2116768227275788429/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": [],
+      "number": 44
     }
   ],
   "scope": "Source-attributed community usecases: concrete tasks and visible outputs, without a prompt requirement.",

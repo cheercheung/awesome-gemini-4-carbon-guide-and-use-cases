@@ -26,7 +26,7 @@ Eine Sammlung öffentlicher Community-Demos, die ihre Verfasser während der fr�
 
 ## 📊 Überblick
 
-40 Anwendungsfälle in 5 Kategorien. Weiterveröffentlichungen sind dem jeweiligen Werk zugeordnet; Vergleiche bestehender Ergebnisse bleiben beim ursprünglichen Fall.
+44 Anwendungsfälle in 5 Kategorien. Weiterveröffentlichungen sind dem jeweiligen Werk zugeordnet; Vergleiche bestehender Ergebnisse bleiben beim ursprünglichen Fall.
 
 > [!NOTE]
 > Modellnamen, Erstellungszeiten und Qualitätsurteile sind Angaben der Quellen. Der Anzeigename in Arena belegt keine Backend-Version. Eine Aufnahme beweist weder ausführbaren Code noch vollständige Interaktion oder wiederholbaren Erfolg.
@@ -82,6 +82,10 @@ Eine Sammlung öffentlicher Community-Demos, die ihre Verfasser während der fr�
 | [38. Zweitaktmotor: schlecht sichtbarer Arbeitstakt](#case-38) | Modellvergleich | Limit |
 | [39. Mechanische Uhreninspektion mit zwei Modellen](#case-39) | Mechanische und 3D-Objekte | Evaluation |
 | [40. Vergleich von Spukhaus-Websites](#case-40) | Modellvergleich | Evaluation |
+| [41. Mechanischer Adler mit zwei Modellbezeichnungen](#case-41) | Mechanische und 3D-Objekte | Evaluation |
+| [42. Nächtlicher Fluss mit Laternen](#case-42) | Voxelwelten und Landschaften | Demo |
+| [43. Segelschiff in drei Lichtstimmungen](#case-43) | Voxelwelten und Landschaften | Demo |
+| [44. Segelschiff mit rotem Rumpf](#case-44) | Voxelwelten und Landschaften | Demo |
 
 ## ⚙️ Mechanische und 3D-Objekte
 
@@ -202,6 +206,19 @@ Der Ersteller berichtet von derselben Eingabe und einem Versuch mit Carbon und O
 [Originalvideo ansehen](https://x.com/dromexa/status/2116518366919667775/video/1)
 
 Typ: Evaluation | Datum: 2026-10-31
+
+---
+
+<a id="case-41"></a>
+### Fall 41: [Mechanischer Adler mit zwei Modellbezeichnungen](https://x.com/srikanthvaluri/status/2116767284618486044) (von [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**Vergleiche die von der Quelle als Carbon und Argon beschrifteten mechanischen Adler.**
+
+Die Stichproben zeigen unterschiedliche Entwürfe, Flügelstellungen und Kamerawinkel. Der Autor fordert einen mechanischen Adler in Three.js; Modellidentität und mechanisches Verhalten bleiben Angaben der Quelle.
+
+[Originalvideo ansehen](https://x.com/srikanthvaluri/status/2116767284618486044/video/1)
+
+Typ: Evaluation | Datum: 2026-11-01
 
 ---
 
@@ -337,6 +354,45 @@ Der Ersteller zeigt dieselbe Insel, Burg und denselben Drachen nach dem ersten u
 [Originalvideo ansehen](https://x.com/semichenkko/status/2116198626187706722/video/1)
 
 Typ: Evaluation | Datum: 2026-10-30
+
+---
+
+<a id="case-42"></a>
+### Fall 42: [Nächtlicher Fluss mit Laternen](https://x.com/pankajkumar_dev/status/2116533017934241886) (von [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+
+**Erkunde eine mit Laternen gefüllte Flussszene aus mehreren aufgezeichneten Perspektiven.**
+
+Der Ersteller beschreibt eine Nachtszene mit leuchtenden Laternen und Wasserreflexionen. Die Stichproben zeigen diese Elemente und eine Funktion zum Hinzufügen von Laternen; die vollständige Interaktion wurde nicht getestet.
+
+[Originalvideo ansehen](https://x.com/pankajkumar_dev/status/2116533017934241886/video/1)
+
+Typ: Demo | Datum: 2026-10-31
+
+---
+
+<a id="case-43"></a>
+### Fall 43: [Segelschiff in drei Lichtstimmungen](https://x.com/srikanthvaluri/status/2116931901332369894) (von [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**Untersuche ein Segelschiff bei Tageslicht, Sonnenuntergang und Nacht.**
+
+Die Quelle fordert ein historisches Schiff auf offener See mit wechselndem Licht. Die Stichproben zeigen einen dunklen Rumpf und weiße Segel in diesen Zuständen; Wellenphysik und Modellidentität wurden nicht unabhängig getestet.
+
+[Originalvideo ansehen](https://x.com/srikanthvaluri/status/2116931901332369894/video/1)
+
+Typ: Demo | Datum: 2026-11-01
+
+---
+
+<a id="case-44"></a>
+### Fall 44: [Segelschiff mit rotem Rumpf](https://x.com/doe_naps/status/2116768227275788429) (von [@doe_naps](https://x.com/doe_naps))
+
+**Erkunde eine weitere Segelschiffszene mit rotem Rumpf und hellbraunen Segeln.**
+
+Die Stichproben zeigen nahe und ferne Ansichten mit Schaum und Vögeln. Rumpf, Verzierungen und Segel unterscheiden sich vom Schiff mit drei Lichtstimmungen; Carbon-Zuordnung und vollständige Umsetzung bleiben ungeprüft.
+
+[Originalvideo ansehen](https://x.com/doe_naps/status/2116768227275788429/video/1)
+
+Typ: Demo | Datum: 2026-11-01
 
 ---
 
@@ -634,6 +690,6 @@ Typ: Evaluation | Datum: 2026-10-31
 
 Danke an die folgenden Herausgeber der Demos:
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri)
 
 Die Zuschreibung folgt den verlinkten Quellen und kann Korrekturen erfordern. Bitte melde fehlende Urheberangaben, Duplikate, falsche Aussagen oder Löschwünsche per Issue. Medien Dritter behalten ihre ursprünglichen Rechte.

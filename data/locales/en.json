@@ -24,7 +24,7 @@
     },
     "intro": "A collection of public community demonstrations attributed by their publishers to Gemini 4 Carbon during its early rollout.",
     "purpose": "Explore concrete tasks, visible outputs and practical limits through their original sources.",
-    "stats": "40 usecases across 5 categories. Reposts are grouped with their underlying work; a comparison of an existing output is kept with that case.",
+    "stats": "44 usecases across 5 categories. Reposts are grouped with their underlying work; a comparison of an existing output is kept with that case.",
     "evidence": "Model names, generation times and quality judgments are source-reported. An Arena display name does not establish the backend version. A recording does not prove runnable code, complete interaction or repeatable success.",
     "steps": "1. Choose a task in the Menu.\n2. Open its video or image, then follow the source-linked case title.\n3. Compare the visible result with the stated task and limitations.",
     "thanks": "Thanks to the publishers whose demonstrations make this collection possible:",
@@ -230,6 +230,26 @@
       "Haunted-house website comparison",
       "Compare the visual mood of two websites built for the same brief.",
       "The creator attributes the paired haunted-house websites to Carbon and Opus 5.5 using the same prompt. The cute-versus-frightening distinction is subjective; source code, accessibility and complete website behavior were not independently tested."
+    ],
+    [
+      "Mechanical eagle across two model labels",
+      "Compare the source’s Carbon- and Argon-labelled mechanical eagles.",
+      "Sampled frames show different eagle designs with changing wing positions and camera angles. The author requests a Three.js mechanical eagle; model identity and mechanical behavior remain source-reported."
+    ],
+    [
+      "Lantern River Night",
+      "Explore a lantern-filled river scene through several recorded viewpoints.",
+      "The creator describes a night scene with glowing lanterns and water reflections. Sampled frames show those elements and an add-lantern control; the application’s complete interaction was not tested."
+    ],
+    [
+      "Sailing ship across three lighting states",
+      "Inspect a sailing ship at daylight, sunset and night.",
+      "The source requests a historical ship on the open sea with changing lighting. Sampled frames show a dark hull and white sails across those states; wave physics and model identity were not independently tested."
+    ],
+    [
+      "Red-hulled sailing ship",
+      "Explore another sailing-ship scene with a red hull and tan sails.",
+      "Sampled frames show close and distant views with foam and birds. Its hull, trim and sails differ from the three-lighting-state ship; the creator’s Carbon attribution and full implementation remain unverified."
     ]
   ]
 }

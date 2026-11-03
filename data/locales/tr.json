@@ -24,7 +24,7 @@
     },
     "intro": "Erken kullanıma açılma döneminde paylaşanların Gemini 4 Carbon ile ilişkilendirdiği herkese açık topluluk gösterimlerinden oluşan bir koleksiyon.",
     "purpose": "Özgün kaynaklar üzerinden somut görevleri, görünür çıktıları ve pratik sınırları inceleyin.",
-    "stats": "5 kategoride 40 kullanım örneği. Yeniden paylaşımlar ilgili eserle birleştirilir; mevcut çıktının karşılaştırması aynı örnekte tutulur.",
+    "stats": "5 kategoride 44 kullanım örneği. Yeniden paylaşımlar ilgili eserle birleştirilir; mevcut çıktının karşılaştırması aynı örnekte tutulur.",
     "evidence": "Model adları, üretim süreleri ve kalite yorumları kaynakların beyanıdır. Arena görünen adı arka uç sürümünü kanıtlamaz. Kayıt, çalıştırılabilir kodu, tüm etkileşimleri veya tekrarlanabilir başarıyı kanıtlamaz.",
     "steps": "1. İçindekilerden bir görev seçin.\n2. Video ya da görseli açıp örnek başlığından özgün paylaşıma gidin.\n3. Görünen sonucu görev ve sınırlarla karşılaştırın.",
     "thanks": "Gösterimleri paylaşan şu kişilere teşekkürler:",
@@ -230,6 +230,26 @@
       "Perili ev web siteleri karşılaştırması",
       "Aynı istekle oluşturulan iki web sitesinin görsel atmosferini karşılaştırın.",
       "Üretici aynı istemle hazırlanan iki perili ev sitesini Carbon ve Opus 5.5’e atfediyor. Sevimli veya korkutucu ayrımı özneldir; kaynak kod, erişilebilirlik ve sitenin tüm davranışları bağımsız olarak test edilmedi."
+    ],
+    [
+      "İki model etiketiyle mekanik kartal",
+      "Kaynağın Carbon ve Argon olarak etiketlediği mekanik kartalları karşılaştırın.",
+      "Örnek kareler farklı tasarımlar, kanat konumları ve kamera açıları gösteriyor. Yazar Three.js ile mekanik kartal istiyor; model kimliği ve mekanik davranış kaynak beyanı olarak kalıyor."
+    ],
+    [
+      "Fenerlerle aydınlanan gece nehri",
+      "Fenerlerle dolu nehir sahnesini kaydedilmiş farklı açılardan keşfedin.",
+      "Üretici parlayan fenerler ve su yansımaları içeren gece sahnesi tarif ediyor. Örnek karelerde bu öğeler ve fener ekleme kontrolü görülüyor; uygulamanın tüm etkileşimleri test edilmedi."
+    ],
+    [
+      "Üç ışık durumunda yelkenli",
+      "Bir yelkenliyi gündüz, gün batımı ve gece ışığında inceleyin.",
+      "Kaynak, değişen ışıkta açık denizde tarihî bir gemi istiyor. Örnek karelerde bu durumlarda koyu gövde ve beyaz yelkenler görülüyor; dalga fiziği ve model kimliği bağımsız olarak test edilmedi."
+    ],
+    [
+      "Kırmızı gövdeli yelkenli",
+      "Kırmızı gövdeli ve açık kahverengi yelkenli başka bir gemi sahnesini keşfedin.",
+      "Örnek karelerde köpük ve kuşlarla yakın ve uzak görünümler var. Gövde, süslemeler ve yelkenler üç ışık durumundaki gemiden farklı; Carbon’a atıf ve uygulamanın tamamı doğrulanmış değil."
     ]
   ]
 }

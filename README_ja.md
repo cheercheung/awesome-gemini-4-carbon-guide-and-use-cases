@@ -26,7 +26,7 @@
 
 ## 📊 概要
 
-5分類、40事例。転載は同じ作品にまとめ、既存出力の比較は元の事例に添えています。
+5分類、44事例。転載は同じ作品にまとめ、既存出力の比較は元の事例に添えています。
 
 > [!NOTE]
 > モデル名、生成時間、品質評価は情報源の自己申告です。Arena の表示名ではバックエンドの版を確認できません。録画だけではコードの実行、全操作の正しさ、再現性は証明できません。
@@ -82,6 +82,10 @@
 | [38. 2ストロークエンジン：見えにくい燃焼行程](#case-38) | モデル比較 | Limit |
 | [39. 2モデルによる機械式時計の観察](#case-39) | 機械と3Dオブジェクト | Evaluation |
 | [40. お化け屋敷サイトの比較](#case-40) | モデル比較 | Evaluation |
+| [41. 2つのモデル名による機械のワシ](#case-41) | 機械と3Dオブジェクト | Evaluation |
+| [42. 灯籠が流れる夜の川](#case-42) | ボクセル世界と風景 | Demo |
+| [43. 3つの照明状態の帆船](#case-43) | ボクセル世界と風景 | Demo |
+| [44. 赤い船体の帆船](#case-44) | ボクセル世界と風景 | Demo |
 
 ## ⚙️ 機械と3Dオブジェクト
 
@@ -202,6 +206,19 @@
 [元の動画を見る](https://x.com/dromexa/status/2116518366919667775/video/1)
 
 タイプ: Evaluation | 日付: 2026-10-31
+
+---
+
+<a id="case-41"></a>
+### 事例 41: [2つのモデル名による機械のワシ](https://x.com/srikanthvaluri/status/2116767284618486044) (投稿者 [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**出典でCarbonとArgonのラベルが付いた機械のワシを比較できます。**
+
+抽出フレームでは異なるデザイン、翼の位置、カメラ角度を確認できます。作者の課題はThree.js製の機械のワシであり、モデルの識別と機構の動作は出典側の申告にとどまります。
+
+[元の動画を見る](https://x.com/srikanthvaluri/status/2116767284618486044/video/1)
+
+タイプ: Evaluation | 日付: 2026-11-01
 
 ---
 
@@ -337,6 +354,45 @@ LuminaBench の事例とは異なる塔の映像です。同じ題材でも同�
 [元の動画を見る](https://x.com/semichenkko/status/2116198626187706722/video/1)
 
 タイプ: Evaluation | 日付: 2026-10-30
+
+---
+
+<a id="case-42"></a>
+### 事例 42: [灯籠が流れる夜の川](https://x.com/pankajkumar_dev/status/2116533017934241886) (投稿者 [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+
+**灯籠で満たされた川の風景を録画の複数の視点から確認できます。**
+
+作者は光る灯籠と水面反射のある夜景を指定しています。抽出フレームにはそれらと灯籠を追加する操作が映っていますが、アプリ全体の操作は試験していません。
+
+[元の動画を見る](https://x.com/pankajkumar_dev/status/2116533017934241886/video/1)
+
+タイプ: Demo | 日付: 2026-10-31
+
+---
+
+<a id="case-43"></a>
+### 事例 43: [3つの照明状態の帆船](https://x.com/srikanthvaluri/status/2116931901332369894) (投稿者 [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**昼、夕焼け、夜の帆船を確認できます。**
+
+出典の課題は照明が変わる外洋の歴史的な帆船です。抽出フレームでは暗い船体と白い帆が各状態に映っていますが、波の物理やモデルの識別は独立に試験していません。
+
+[元の動画を見る](https://x.com/srikanthvaluri/status/2116931901332369894/video/1)
+
+タイプ: Demo | 日付: 2026-11-01
+
+---
+
+<a id="case-44"></a>
+### 事例 44: [赤い船体の帆船](https://x.com/doe_naps/status/2116768227275788429) (投稿者 [@doe_naps](https://x.com/doe_naps))
+
+**赤い船体と黄褐色の帆を持つ別の帆船風景を確認できます。**
+
+抽出フレームには泡や鳥を伴う近景と遠景が映っています。船体、装飾、帆は3つの照明状態の船と異なりますが、作者によるCarbonへの帰属と実装全体は未検証です。
+
+[元の動画を見る](https://x.com/doe_naps/status/2116768227275788429/video/1)
+
+タイプ: Demo | 日付: 2026-11-01
 
 ---
 
@@ -634,6 +690,6 @@ LuminaBench の事例とは異なる塔の映像です。同じ題材でも同�
 
 デモを公開した以下の投稿者に感謝します。
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri)
 
 帰属はリンク先の情報に基づき、訂正が必要な場合があります。クレジット漏れ、重複、誤記、削除依頼は issue でお知らせください。第三者のメディアの権利は元の権利者に帰属します。

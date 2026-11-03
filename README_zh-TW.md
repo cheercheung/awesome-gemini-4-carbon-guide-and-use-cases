@@ -26,7 +26,7 @@
 
 ## 📊 概覽
 
-共 40 個 usecase，涵蓋 5 類。轉載歸併到對應作品；既有產物的比較附在原案例內。
+共 44 個 usecase，涵蓋 5 類。轉載歸併到對應作品；既有產物的比較附在原案例內。
 
 > [!NOTE]
 > 型號、生成耗時及品質判斷均來自來源自述。Arena 顯示名稱不能證明後端版本，錄影也不能證明程式碼可執行、完整互動正確或結果可重現。
@@ -82,6 +82,10 @@
 | [38. 二行程引擎：不清楚的做功行程](#case-38) | 模型比較 | Limit |
 | [39. 兩個模型的機械錶觀察](#case-39) | 機械與三維物體 | Evaluation |
 | [40. 鬼屋網站對比](#case-40) | 模型比較 | Evaluation |
+| [41. 兩種模型標籤下的機械鷹](#case-41) | 機械與三維物體 | Evaluation |
+| [42. 燈籠河夜景](#case-42) | 體素世界與風景 | Demo |
+| [43. 三種光照狀態的帆船](#case-43) | 體素世界與風景 | Demo |
+| [44. 紅色船殼的帆船](#case-44) | 體素世界與風景 | Demo |
 
 ## ⚙️ 機械與三維物體
 
@@ -202,6 +206,19 @@
 [觀看來源影片](https://x.com/dromexa/status/2116518366919667775/video/1)
 
 類型: Evaluation | 日期: 2026-10-31
+
+---
+
+<a id="case-41"></a>
+### 案例 41: [兩種模型標籤下的機械鷹](https://x.com/srikanthvaluri/status/2116767284618486044) (作者 [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**比較來源標註為Carbon與Argon的機械鷹。**
+
+抽樣畫面展示不同設計、翅膀姿態及鏡頭角度。作者任務為Three.js機械鷹；模型身分和機械行為仍屬來源自述。
+
+[觀看來源影片](https://x.com/srikanthvaluri/status/2116767284618486044/video/1)
+
+類型: Evaluation | 日期: 2026-11-01
 
 ---
 
@@ -337,6 +354,45 @@
 [觀看來源影片](https://x.com/semichenkko/status/2116198626187706722/video/1)
 
 類型: Evaluation | 日期: 2026-10-30
+
+---
+
+<a id="case-42"></a>
+### 案例 42: [燈籠河夜景](https://x.com/pankajkumar_dev/status/2116533017934241886) (作者 [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+
+**從多個錄影視角查看布滿燈籠的河流場景。**
+
+作者描述發光燈籠及水面反射的夜景。抽樣畫面展示這些元素和新增燈籠控制項；未測試應用的完整互動。
+
+[觀看來源影片](https://x.com/pankajkumar_dev/status/2116533017934241886/video/1)
+
+類型: Demo | 日期: 2026-10-31
+
+---
+
+<a id="case-43"></a>
+### 案例 43: [三種光照狀態的帆船](https://x.com/srikanthvaluri/status/2116931901332369894) (作者 [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**查看白天、日落和夜晚的帆船。**
+
+來源任務為光照變化的外海歷史帆船。抽樣畫面展示各狀態下的深色船殼與白帆；未獨立測試波浪物理或模型身分。
+
+[觀看來源影片](https://x.com/srikanthvaluri/status/2116931901332369894/video/1)
+
+類型: Demo | 日期: 2026-11-01
+
+---
+
+<a id="case-44"></a>
+### 案例 44: [紅色船殼的帆船](https://x.com/doe_naps/status/2116768227275788429) (作者 [@doe_naps](https://x.com/doe_naps))
+
+**查看另一段紅色船殼、棕黃色帆的帆船場景。**
+
+抽樣畫面展示近景、遠景、浪花和鳥群。船殼、裝飾與帆不同於三種光照帆船；作者的Carbon歸屬和完整實作未獲獨立驗證。
+
+[觀看來源影片](https://x.com/doe_naps/status/2116768227275788429/video/1)
+
+類型: Demo | 日期: 2026-11-01
 
 ---
 
@@ -634,6 +690,6 @@
 
 感謝以下公開分享展示的發布者：
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri)
 
 署名依據連結來源，可能需要更正。如有遺漏署名、重複作品、表述錯誤或移除需求，請提交 issue。第三方媒體權利歸原權利人。

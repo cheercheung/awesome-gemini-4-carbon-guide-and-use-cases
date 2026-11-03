@@ -26,7 +26,7 @@ Uma coleção de demonstrações públicas que os seus autores atribuem ao Gemin
 
 ## 📊 Visão geral
 
-40 casos em 5 categorias. Republicações ficam agrupadas com a obra; comparações de um resultado existente permanecem no mesmo caso.
+44 casos em 5 categorias. Republicações ficam agrupadas com a obra; comparações de um resultado existente permanecem no mesmo caso.
 
 > [!NOTE]
 > Nomes de modelos, tempos e avaliações são relatos das fontes. O nome no Arena não comprova a versão interna. Uma gravação não prova código executável, interação completa ou sucesso reproduzível.
@@ -82,6 +82,10 @@ Uma coleção de demonstrações públicas que os seus autores atribuem ao Gemin
 | [38. Motor de dois tempos: combustão pouco visível](#case-38) | Comparação de modelos | Limit |
 | [39. Inspeção de relógio mecânico com dois modelos](#case-39) | Objetos mecânicos e 3D | Evaluation |
 | [40. Comparação de sites de casas assombradas](#case-40) | Comparação de modelos | Evaluation |
+| [41. Águia mecânica com dois rótulos de modelo](#case-41) | Objetos mecânicos e 3D | Evaluation |
+| [42. Noite no rio de lanternas](#case-42) | Mundos e paisagens voxel | Demo |
+| [43. Veleiro com três estados de iluminação](#case-43) | Mundos e paisagens voxel | Demo |
+| [44. Veleiro de casco vermelho](#case-44) | Mundos e paisagens voxel | Demo |
 
 ## ⚙️ Objetos mecânicos e 3D
 
@@ -202,6 +206,19 @@ O criador relata o mesmo prompt e uma tentativa com Carbon e Opus 5.5, incluindo
 [Ver vídeo original](https://x.com/dromexa/status/2116518366919667775/video/1)
 
 Tipo: Evaluation | Data: 2026-10-31
+
+---
+
+<a id="case-41"></a>
+### Caso 41: [Águia mecânica com dois rótulos de modelo](https://x.com/srikanthvaluri/status/2116767284618486044) (por [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**Compare as águias mecânicas identificadas como Carbon e Argon pela fonte.**
+
+Os quadros mostram projetos diferentes, posições de asas e ângulos de câmera variados. O autor pede uma águia mecânica em Three.js; a identidade dos modelos e o comportamento mecânico continuam sendo relatos da fonte.
+
+[Ver vídeo original](https://x.com/srikanthvaluri/status/2116767284618486044/video/1)
+
+Tipo: Evaluation | Data: 2026-11-01
 
 ---
 
@@ -337,6 +354,45 @@ O criador apresenta a mesma ilha, castelo e dragão na primeira instrução e ap
 [Ver vídeo original](https://x.com/semichenkko/status/2116198626187706722/video/1)
 
 Tipo: Evaluation | Data: 2026-10-30
+
+---
+
+<a id="case-42"></a>
+### Caso 42: [Noite no rio de lanternas](https://x.com/pankajkumar_dev/status/2116533017934241886) (por [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+
+**Explore uma cena de rio repleta de lanternas por vários pontos de vista gravados.**
+
+O criador descreve uma cena noturna com lanternas luminosas e reflexos. Os quadros mostram esses elementos e um controle para adicionar lanternas; a interação completa do aplicativo não foi testada.
+
+[Ver vídeo original](https://x.com/pankajkumar_dev/status/2116533017934241886/video/1)
+
+Tipo: Demo | Data: 2026-10-31
+
+---
+
+<a id="case-43"></a>
+### Caso 43: [Veleiro com três estados de iluminação](https://x.com/srikanthvaluri/status/2116931901332369894) (por [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**Examine um veleiro de dia, ao pôr do sol e à noite.**
+
+A fonte pede um navio histórico em mar aberto com iluminação variável. Os quadros mostram casco escuro e velas brancas nesses estados; a física das ondas e a identidade do modelo não foram testadas de forma independente.
+
+[Ver vídeo original](https://x.com/srikanthvaluri/status/2116931901332369894/video/1)
+
+Tipo: Demo | Data: 2026-11-01
+
+---
+
+<a id="case-44"></a>
+### Caso 44: [Veleiro de casco vermelho](https://x.com/doe_naps/status/2116768227275788429) (por [@doe_naps](https://x.com/doe_naps))
+
+**Explore outra cena de veleiro com casco vermelho e velas em tom de areia.**
+
+Os quadros mostram vistas próximas e distantes, espuma e aves. Casco, detalhes e velas diferem do navio com três iluminações; a atribuição a Carbon e a implementação completa continuam sem verificação.
+
+[Ver vídeo original](https://x.com/doe_naps/status/2116768227275788429/video/1)
+
+Tipo: Demo | Data: 2026-11-01
 
 ---
 
@@ -634,6 +690,6 @@ Tipo: Evaluation | Data: 2026-10-31
 
 Agradecemos aos responsáveis pelas demonstrações:
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri)
 
 A atribuição segue as fontes ligadas e pode precisar de correções. Abra uma issue para créditos ausentes, duplicações, afirmações incorretas ou pedidos de remoção. Os direitos dos conteúdos de terceiros permanecem com os seus titulares.
