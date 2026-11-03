@@ -26,7 +26,7 @@ A collection of public community demonstrations attributed by their publishers t
 
 ## 📊 Overview
 
-30 usecases across 5 categories. Reposts are grouped with their underlying work; a comparison of an existing output is kept with that case.
+40 usecases across 5 categories. Reposts are grouped with their underlying work; a comparison of an existing output is kept with that case.
 
 > [!NOTE]
 > Model names, generation times and quality judgments are source-reported. An Arena display name does not establish the backend version. A recording does not prove runnable code, complete interaction or repeatable success.
@@ -72,6 +72,16 @@ A collection of public community demonstrations attributed by their publishers t
 | [28. Rain scene with a music loop](#case-28) | SVG and Interactive Graphics | Demo |
 | [29. Castle and dragon after follow-up prompts](#case-29) | Voxel Worlds and Scenery | Evaluation |
 | [30. Mechanical jaw across three models](#case-30) | Model Comparison | Evaluation |
+| [31. Nine-cylinder radial engine comparison](#case-31) | Model Comparison | Evaluation |
+| [32. Mechanical shark: speed versus internal detail](#case-32) | Model Comparison | Limit |
+| [33. V8 engine inspection across two models](#case-33) | Mechanical and 3D Objects | Evaluation |
+| [34. Cola bottle in a single shader](#case-34) | Mechanical and 3D Objects | Demo |
+| [35. Minecraft-style game in about thirty minutes](#case-35) | Games and Animated Scenes | Demo |
+| [36. Zombie-hand animation: time and cost](#case-36) | Model Comparison | Evaluation |
+| [37. Three-dimensional racing game](#case-37) | Games and Animated Scenes | Demo |
+| [38. Two-stroke engine: unclear power stroke](#case-38) | Model Comparison | Limit |
+| [39. Mechanical watch inspection across two models](#case-39) | Mechanical and 3D Objects | Evaluation |
+| [40. Haunted-house website comparison](#case-40) | Model Comparison | Evaluation |
 
 ## ⚙️ Mechanical and 3D Objects
 
@@ -153,6 +163,45 @@ The publisher reports the same prompt and one attempt per model for X-ray, cutaw
 [Watch source video](https://x.com/dromexa/status/2115802517942497491/video/1)
 
 Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="case-33"></a>
+### Case 33: [V8 engine inspection across two models](https://x.com/dromexa/status/2116927253980594275) (by [@dromexa](https://x.com/dromexa))
+
+**Inspect X-ray, cutaway, exploded and part-by-part engine views.**
+
+The creator reports a shared prompt and one attempt each for Carbon and Opus 5.5. The claimed three-round winning streak is a personal judgment; runnable code and mechanical accuracy were not independently checked.
+
+[Watch source video](https://x.com/dromexa/status/2116927253980594275/video/1)
+
+Type: Evaluation | Date: 2026-11-01
+
+---
+
+<a id="case-34"></a>
+### Case 34: [Cola bottle in a single shader](https://x.com/dummerspast39/status/2116470583097438519) (by [@dummerspast39](https://x.com/dummerspast39))
+
+**Explore a Three.js bottle presented as mathematical shader geometry.**
+
+The creator reports no external models or assets and a 21-tooth cap. This is a shader demonstration, distinct from the earlier SVG bottle; the code, asset dependencies and tooth count were not independently checked.
+
+[Watch source video](https://x.com/dummerspast39/status/2116470583097438519/video/1)
+
+Type: Demo | Date: 2026-10-31
+
+---
+
+<a id="case-39"></a>
+### Case 39: [Mechanical watch inspection across two models](https://x.com/dromexa/status/2116518366919667775) (by [@dromexa](https://x.com/dromexa))
+
+**Inspect a watch through X-ray, cutaway and exploded views.**
+
+The creator reports a shared prompt and one attempt each for Carbon and Opus 5.5, including a ticking balance wheel and correct gear speeds. Gear ratios and timekeeping accuracy were not independently checked.
+
+[Watch source video](https://x.com/dromexa/status/2116518366919667775/video/1)
+
+Type: Evaluation | Date: 2026-10-31
 
 ---
 
@@ -454,6 +503,32 @@ Type: Demo | Date: 2026-10-21
 
 ---
 
+<a id="case-35"></a>
+### Case 35: [Minecraft-style game in about thirty minutes](https://x.com/dummerspast39/status/2116502497158201520) (by [@dummerspast39](https://x.com/dummerspast39))
+
+**Explore a Minecraft-style game recording and its stated development constraints.**
+
+The author reports roughly 30 minutes and approximately one attempt under a poor harness. No runnable project is provided here; interaction, stability and the author’s model ranking were not independently tested.
+
+[Watch source video](https://x.com/dummerspast39/status/2116502497158201520/video/1)
+
+Type: Demo | Date: 2026-10-31
+
+---
+
+<a id="case-37"></a>
+### Case 37: [Three-dimensional racing game](https://x.com/Mr_Salio/status/2116798612361375995) (by [@Mr_Salio](https://x.com/Mr_Salio))
+
+**Inspect a car-racing demonstration attributed to a newer Carbon checkpoint.**
+
+The creator reports a playable game built from one prompt in around 20 minutes. Checkpoint identity, complete asset provenance and playability were not independently verified; a recording alone does not establish a reproducible game.
+
+[Watch source video](https://x.com/Mr_Salio/status/2116798612361375995/video/1)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
 ## 🔬 Model Comparison
 
 <a id="case-25"></a>
@@ -483,6 +558,71 @@ Type: Evaluation | Date: 2026-10-30
 
 ---
 
+<a id="case-31"></a>
+### Case 31: [Nine-cylinder radial engine comparison](https://x.com/olezhavich/status/2116606788241969445) (by [@olezhavich](https://x.com/olezhavich))
+
+**Compare cutaway clarity and engineering detail across four engine animations.**
+
+The author reports a shared prompt and one attempt per model, preferring Carbon’s readability and Opus 5.5’s engineering detail. Firing-order correctness is the author’s assessment, not an independent check.
+
+[Watch source video](https://x.com/olezhavich/status/2116606788241969445/video/1)
+
+Type: Evaluation | Date: 2026-10-31
+
+---
+
+<a id="case-32"></a>
+### Case 32: [Mechanical shark: speed versus internal detail](https://x.com/0xPorterio/status/2116548548334321967) (by [@0xPorterio](https://x.com/0xPorterio))
+
+**Compare assembly effects with the internal structure of a dismantlable shark.**
+
+The author describes Carbon as faster and more visually dramatic, but less detailed internally than Opus 5.5. The reported 77–90 score is a personal rubric; part counts and mechanical correctness remain unverified.
+
+[Watch source video](https://x.com/0xPorterio/status/2116548548334321967/video/1)
+
+Type: Limit | Date: 2026-10-31
+
+---
+
+<a id="case-36"></a>
+### Case 36: [Zombie-hand animation: time and cost](https://x.com/noclipepe/status/2116445289468850366) (by [@noclipepe](https://x.com/noclipepe))
+
+**Compare scene design alongside the reported time and cost of one animation task.**
+
+The author reports Carbon at 1h 23m/$10.2, Opus 5.5 at 1h 6m/$8.1 and GPT-6 Astra at 24m/$5.7, while preferring Carbon’s scene. These are reported task bills, not API unit prices or independently verified costs.
+
+[Watch source video](https://x.com/noclipepe/status/2116445289468850366/video/1)
+
+Type: Evaluation | Date: 2026-10-31
+
+---
+
+<a id="case-38"></a>
+### Case 38: [Two-stroke engine: unclear power stroke](https://x.com/olezhavich/status/2116892619309461745) (by [@olezhavich](https://x.com/olezhavich))
+
+**Check whether an engine animation clearly explains combustion and piston movement.**
+
+In a reported shared-prompt, one-attempt comparison of four models, the author finds Carbon’s flame difficult to see and prefers other outputs for explanation or realism. The judgment is task-specific; physics and repeatability were not independently tested.
+
+[Watch source video](https://x.com/olezhavich/status/2116892619309461745/video/1)
+
+Type: Limit | Date: 2026-11-01
+
+---
+
+<a id="case-40"></a>
+### Case 40: [Haunted-house website comparison](https://x.com/keydol123/status/2116556350130163783) (by [@keydol123](https://x.com/keydol123))
+
+**Compare the visual mood of two websites built for the same brief.**
+
+The creator attributes the paired haunted-house websites to Carbon and Opus 5.5 using the same prompt. The cute-versus-frightening distinction is subjective; source code, accessibility and complete website behavior were not independently tested.
+
+[Watch source video](https://x.com/keydol123/status/2116556350130163783/video/1)
+
+Type: Evaluation | Date: 2026-10-31
+
+---
+
 <a id="related-repositories"></a>
 ## Related Repositories
 
@@ -494,6 +634,6 @@ Type: Evaluation | Date: 2026-10-30
 
 Thanks to the publishers whose demonstrations make this collection possible:
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123)
 
 Attribution follows the linked sources and may need correction. Please open an issue for missing credit, duplicate work, inaccurate claims or removal requests. Third-party media retains its original ownership.

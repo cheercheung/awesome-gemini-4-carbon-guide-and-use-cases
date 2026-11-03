@@ -26,7 +26,7 @@ Erken kullanıma açılma döneminde paylaşanların Gemini 4 Carbon ile ilişki
 
 ## 📊 Genel bakış
 
-5 kategoride 30 kullanım örneği. Yeniden paylaşımlar ilgili eserle birleştirilir; mevcut çıktının karşılaştırması aynı örnekte tutulur.
+5 kategoride 40 kullanım örneği. Yeniden paylaşımlar ilgili eserle birleştirilir; mevcut çıktının karşılaştırması aynı örnekte tutulur.
 
 > [!NOTE]
 > Model adları, üretim süreleri ve kalite yorumları kaynakların beyanıdır. Arena görünen adı arka uç sürümünü kanıtlamaz. Kayıt, çalıştırılabilir kodu, tüm etkileşimleri veya tekrarlanabilir başarıyı kanıtlamaz.
@@ -72,6 +72,16 @@ Erken kullanıma açılma döneminde paylaşanların Gemini 4 Carbon ile ilişki
 | [28. Müzik döngüsüyle yağmur sahnesi](#case-28) | SVG ve etkileşimli grafikler | Demo |
 | [29. Ek istemlerden sonra kale ve ejderha](#case-29) | Voksel dünyalar ve manzaralar | Evaluation |
 | [30. Üç modelle mekanik çene](#case-30) | Model karşılaştırması | Evaluation |
+| [31. Dokuz silindirli yıldız motor karşılaştırması](#case-31) | Model karşılaştırması | Evaluation |
+| [32. Mekanik köpekbalığı: hız ve iç ayrıntılar](#case-32) | Model karşılaştırması | Limit |
+| [33. İki modelle V8 motor incelemesi](#case-33) | Mekanik ve 3B nesneler | Evaluation |
+| [34. Tek shader ile kola şişesi](#case-34) | Mekanik ve 3B nesneler | Demo |
+| [35. Yaklaşık otuz dakikada Minecraft tarzı oyun](#case-35) | Oyunlar ve animasyon sahneleri | Demo |
+| [36. Zombi eli animasyonu: süre ve maliyet](#case-36) | Model karşılaştırması | Evaluation |
+| [37. Üç boyutlu araba yarışı oyunu](#case-37) | Oyunlar ve animasyon sahneleri | Demo |
+| [38. İki zamanlı motor: belirsiz güç zamanı](#case-38) | Model karşılaştırması | Limit |
+| [39. İki modelle mekanik saat incelemesi](#case-39) | Mekanik ve 3B nesneler | Evaluation |
+| [40. Perili ev web siteleri karşılaştırması](#case-40) | Model karşılaştırması | Evaluation |
 
 ## ⚙️ Mekanik ve 3B nesneler
 
@@ -153,6 +163,45 @@ Yayıncı röntgen, kesit ve parçaların ayrıldığı görünümler için ayn�
 [Kaynak videoyu izle](https://x.com/dromexa/status/2115802517942497491/video/1)
 
 Tür: Evaluation | Tarih: 2026-10-29
+
+---
+
+<a id="case-33"></a>
+### Örnek 33: [İki modelle V8 motor incelemesi](https://x.com/dromexa/status/2116927253980594275) (paylaşan [@dromexa](https://x.com/dromexa))
+
+**Motorun X-ray, kesit, patlatılmış ve parça parça görünümlerini inceleyin.**
+
+Üretici Carbon ve Opus 5.5 için aynı istemle birer deneme yaptığını bildiriyor. İddia edilen üç turluk galibiyet serisi kişisel bir yargıdır; çalıştırılabilir kod ve mekanik doğruluk bağımsız olarak kontrol edilmedi.
+
+[Kaynak videoyu izle](https://x.com/dromexa/status/2116927253980594275/video/1)
+
+Tür: Evaluation | Tarih: 2026-11-01
+
+---
+
+<a id="case-34"></a>
+### Örnek 34: [Tek shader ile kola şişesi](https://x.com/dummerspast39/status/2116470583097438519) (paylaşan [@dummerspast39](https://x.com/dummerspast39))
+
+**Matematiksel shader geometrisi olarak sunulan bir Three.js şişesini keşfedin.**
+
+Üretici harici model veya varlık kullanmadığını ve kapakta 21 diş olduğunu bildiriyor. Bu shader gösterimi önceki SVG şişesinden farklıdır; kod, varlık bağımlılıkları ve diş sayısı bağımsız olarak kontrol edilmedi.
+
+[Kaynak videoyu izle](https://x.com/dummerspast39/status/2116470583097438519/video/1)
+
+Tür: Demo | Tarih: 2026-10-31
+
+---
+
+<a id="case-39"></a>
+### Örnek 39: [İki modelle mekanik saat incelemesi](https://x.com/dromexa/status/2116518366919667775) (paylaşan [@dromexa](https://x.com/dromexa))
+
+**Bir saati X-ray, kesit ve patlatılmış görünümlerle inceleyin.**
+
+Üretici Carbon ve Opus 5.5 için aynı istemle birer deneme yaptığını, salınımlı balans çarkını ve doğru dişli hızlarını bildiriyor. Dişli oranları ve zaman tutma doğruluğu bağımsız olarak kontrol edilmedi.
+
+[Kaynak videoyu izle](https://x.com/dromexa/status/2116518366919667775/video/1)
+
+Tür: Evaluation | Tarih: 2026-10-31
 
 ---
 
@@ -454,6 +503,32 @@ Tür: Demo | Tarih: 2026-10-21
 
 ---
 
+<a id="case-35"></a>
+### Örnek 35: [Yaklaşık otuz dakikada Minecraft tarzı oyun](https://x.com/dummerspast39/status/2116502497158201520) (paylaşan [@dummerspast39](https://x.com/dummerspast39))
+
+**Minecraft tarzı bir oyun kaydını ve bildirilen geliştirme koşullarını inceleyin.**
+
+Yazar zayıf bir ajan çalıştırma ortamında yaklaşık 30 dakika ve kabaca tek deneme bildirdi. Burada çalıştırılabilir proje sunulmuyor; etkileşim, kararlılık ve yazarın model sıralaması bağımsız olarak test edilmedi.
+
+[Kaynak videoyu izle](https://x.com/dummerspast39/status/2116502497158201520/video/1)
+
+Tür: Demo | Tarih: 2026-10-31
+
+---
+
+<a id="case-37"></a>
+### Örnek 37: [Üç boyutlu araba yarışı oyunu](https://x.com/Mr_Salio/status/2116798612361375995) (paylaşan [@Mr_Salio](https://x.com/Mr_Salio))
+
+**Daha yeni bir Carbon kontrol noktasına atfedilen yarış gösterimini inceleyin.**
+
+Üretici tek istemle yaklaşık 20 dakikada oynanabilir bir oyun yaptığını bildiriyor. Kontrol noktası kimliği, tüm varlıkların kökeni ve oynanabilirlik bağımsız olarak doğrulanmadı; yalnızca bir kayıt oyunun yeniden üretilebilirliğini kanıtlamaz.
+
+[Kaynak videoyu izle](https://x.com/Mr_Salio/status/2116798612361375995/video/1)
+
+Tür: Demo | Tarih: 2026-11-01
+
+---
+
 ## 🔬 Model karşılaştırması
 
 <a id="case-25"></a>
@@ -483,6 +558,71 @@ Tür: Evaluation | Tarih: 2026-10-30
 
 ---
 
+<a id="case-31"></a>
+### Örnek 31: [Dokuz silindirli yıldız motor karşılaştırması](https://x.com/olezhavich/status/2116606788241969445) (paylaşan [@olezhavich](https://x.com/olezhavich))
+
+**Dört motor animasyonunda kesitlerin anlaşılırlığını ve mühendislik ayrıntılarını karşılaştırın.**
+
+Yazar her modele aynı istemi verip birer kez denediğini, Carbon’ın okunaklılığını ve Opus 5.5’in mühendislik ayrıntılarını tercih ettiğini bildiriyor. Ateşleme sırasının doğruluğu yazarın değerlendirmesidir; bağımsız olarak doğrulanmadı.
+
+[Kaynak videoyu izle](https://x.com/olezhavich/status/2116606788241969445/video/1)
+
+Tür: Evaluation | Tarih: 2026-10-31
+
+---
+
+<a id="case-32"></a>
+### Örnek 32: [Mekanik köpekbalığı: hız ve iç ayrıntılar](https://x.com/0xPorterio/status/2116548548334321967) (paylaşan [@0xPorterio](https://x.com/0xPorterio))
+
+**Sökülebilen bir köpekbalığının montaj efektlerini iç yapısıyla karşılaştırın.**
+
+Yazar Carbon’ı daha hızlı ve gösterişli, ancak iç ayrıntılarda Opus 5.5’ten zayıf olarak tanımlıyor. 77–90 puanı kişisel ölçütlere dayanıyor; parça sayıları ve mekanik doğruluk doğrulanmadı.
+
+[Kaynak videoyu izle](https://x.com/0xPorterio/status/2116548548334321967/video/1)
+
+Tür: Limit | Tarih: 2026-10-31
+
+---
+
+<a id="case-36"></a>
+### Örnek 36: [Zombi eli animasyonu: süre ve maliyet](https://x.com/noclipepe/status/2116445289468850366) (paylaşan [@noclipepe](https://x.com/noclipepe))
+
+**Tek bir animasyon görevinin sahne tasarımını bildirilen süre ve maliyetle birlikte karşılaştırın.**
+
+Yazar Carbon için 1h 23m/$10.2, Opus 5.5 için 1h 6m/$8.1 ve GPT-6 Astra için 24m/$5.7 bildiriyor, ancak Carbon’ın sahnesini tercih ediyor. Bunlar görev bazında bildirilen harcamalardır; API birim fiyatları veya bağımsız doğrulanmış maliyetler değildir.
+
+[Kaynak videoyu izle](https://x.com/noclipepe/status/2116445289468850366/video/1)
+
+Tür: Evaluation | Tarih: 2026-10-31
+
+---
+
+<a id="case-38"></a>
+### Örnek 38: [İki zamanlı motor: belirsiz güç zamanı](https://x.com/olezhavich/status/2116892619309461745) (paylaşan [@olezhavich](https://x.com/olezhavich))
+
+**Motor animasyonunun yanmayı ve piston hareketini açıkça anlatıp anlatmadığını kontrol edin.**
+
+Aynı istemle her modele bir deneme yapılan dört modellik karşılaştırmada yazar Carbon’ın alevini zor görüyor ve anlatım veya gerçekçilik bakımından diğer çıktıları tercih ediyor. Yargı bu göreve özgüdür; fizik ve tekrarlanabilirlik bağımsız olarak test edilmedi.
+
+[Kaynak videoyu izle](https://x.com/olezhavich/status/2116892619309461745/video/1)
+
+Tür: Limit | Tarih: 2026-11-01
+
+---
+
+<a id="case-40"></a>
+### Örnek 40: [Perili ev web siteleri karşılaştırması](https://x.com/keydol123/status/2116556350130163783) (paylaşan [@keydol123](https://x.com/keydol123))
+
+**Aynı istekle oluşturulan iki web sitesinin görsel atmosferini karşılaştırın.**
+
+Üretici aynı istemle hazırlanan iki perili ev sitesini Carbon ve Opus 5.5’e atfediyor. Sevimli veya korkutucu ayrımı özneldir; kaynak kod, erişilebilirlik ve sitenin tüm davranışları bağımsız olarak test edilmedi.
+
+[Kaynak videoyu izle](https://x.com/keydol123/status/2116556350130163783/video/1)
+
+Tür: Evaluation | Tarih: 2026-10-31
+
+---
+
 <a id="related-repositories"></a>
 ## İlgili depolar
 
@@ -494,6 +634,6 @@ Tür: Evaluation | Tarih: 2026-10-30
 
 Gösterimleri paylaşan şu kişilere teşekkürler:
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123)
 
 Atıflar bağlantılı kaynaklara dayanır ve düzeltilmesi gerekebilir. Eksik atıf, yinelenen eser, yanlış iddia veya kaldırma isteği için issue açın. Üçüncü taraf medyanın hakları sahiplerinde kalır.

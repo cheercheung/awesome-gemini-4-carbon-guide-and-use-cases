@@ -24,7 +24,7 @@
     },
     "intro": "A collection of public community demonstrations attributed by their publishers to Gemini 4 Carbon during its early rollout.",
     "purpose": "Explore concrete tasks, visible outputs and practical limits through their original sources.",
-    "stats": "30 usecases across 5 categories. Reposts are grouped with their underlying work; a comparison of an existing output is kept with that case.",
+    "stats": "40 usecases across 5 categories. Reposts are grouped with their underlying work; a comparison of an existing output is kept with that case.",
     "evidence": "Model names, generation times and quality judgments are source-reported. An Arena display name does not establish the backend version. A recording does not prove runnable code, complete interaction or repeatable success.",
     "steps": "1. Choose a task in the Menu.\n2. Open its video or image, then follow the source-linked case title.\n3. Compare the visible result with the stated task and limitations.",
     "thanks": "Thanks to the publishers whose demonstrations make this collection possible:",
@@ -180,6 +180,56 @@
       "Mechanical jaw across three models",
       "Compare mechanical-jaw and moving-tooth demonstrations across Carbon, Opus 5.5 and GPT-6 Astra.",
       "The creator reports a common prompt and individual tooth movement, with times of 29m 9s for Carbon, 35m 17s for Opus 5.5 and 26m 7s for GPT-6 Astra. Timing, model identity and complete interaction remain source-reported and have not been independently reproduced."
+    ],
+    [
+      "Nine-cylinder radial engine comparison",
+      "Compare cutaway clarity and engineering detail across four engine animations.",
+      "The author reports a shared prompt and one attempt per model, preferring Carbon’s readability and Opus 5.5’s engineering detail. Firing-order correctness is the author’s assessment, not an independent check."
+    ],
+    [
+      "Mechanical shark: speed versus internal detail",
+      "Compare assembly effects with the internal structure of a dismantlable shark.",
+      "The author describes Carbon as faster and more visually dramatic, but less detailed internally than Opus 5.5. The reported 77–90 score is a personal rubric; part counts and mechanical correctness remain unverified."
+    ],
+    [
+      "V8 engine inspection across two models",
+      "Inspect X-ray, cutaway, exploded and part-by-part engine views.",
+      "The creator reports a shared prompt and one attempt each for Carbon and Opus 5.5. The claimed three-round winning streak is a personal judgment; runnable code and mechanical accuracy were not independently checked."
+    ],
+    [
+      "Cola bottle in a single shader",
+      "Explore a Three.js bottle presented as mathematical shader geometry.",
+      "The creator reports no external models or assets and a 21-tooth cap. This is a shader demonstration, distinct from the earlier SVG bottle; the code, asset dependencies and tooth count were not independently checked."
+    ],
+    [
+      "Minecraft-style game in about thirty minutes",
+      "Explore a Minecraft-style game recording and its stated development constraints.",
+      "The author reports roughly 30 minutes and approximately one attempt under a poor harness. No runnable project is provided here; interaction, stability and the author’s model ranking were not independently tested."
+    ],
+    [
+      "Zombie-hand animation: time and cost",
+      "Compare scene design alongside the reported time and cost of one animation task.",
+      "The author reports Carbon at 1h 23m/$10.2, Opus 5.5 at 1h 6m/$8.1 and GPT-6 Astra at 24m/$5.7, while preferring Carbon’s scene. These are reported task bills, not API unit prices or independently verified costs."
+    ],
+    [
+      "Three-dimensional racing game",
+      "Inspect a car-racing demonstration attributed to a newer Carbon checkpoint.",
+      "The creator reports a playable game built from one prompt in around 20 minutes. Checkpoint identity, complete asset provenance and playability were not independently verified; a recording alone does not establish a reproducible game."
+    ],
+    [
+      "Two-stroke engine: unclear power stroke",
+      "Check whether an engine animation clearly explains combustion and piston movement.",
+      "In a reported shared-prompt, one-attempt comparison of four models, the author finds Carbon’s flame difficult to see and prefers other outputs for explanation or realism. The judgment is task-specific; physics and repeatability were not independently tested."
+    ],
+    [
+      "Mechanical watch inspection across two models",
+      "Inspect a watch through X-ray, cutaway and exploded views.",
+      "The creator reports a shared prompt and one attempt each for Carbon and Opus 5.5, including a ticking balance wheel and correct gear speeds. Gear ratios and timekeeping accuracy were not independently checked."
+    ],
+    [
+      "Haunted-house website comparison",
+      "Compare the visual mood of two websites built for the same brief.",
+      "The creator attributes the paired haunted-house websites to Carbon and Opus 5.5 using the same prompt. The cute-versus-frightening distinction is subjective; source code, accessibility and complete website behavior were not independently tested."
     ]
   ]
 }
