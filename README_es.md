@@ -26,7 +26,7 @@ Una colección de demostraciones públicas que sus autores atribuyen a Gemini 4 
 
 ## 📊 Resumen
 
-30 casos en 5 categorías. Las republicaciones se agrupan con la obra correspondiente; las comparaciones de un resultado existente permanecen en su caso.
+40 casos en 5 categorías. Las republicaciones se agrupan con la obra correspondiente; las comparaciones de un resultado existente permanecen en su caso.
 
 > [!NOTE]
 > Los nombres de modelo, tiempos y valoraciones proceden de las fuentes. El nombre mostrado en Arena no acredita la versión interna. Una grabación no demuestra código ejecutable, interacción completa ni éxito reproducible.
@@ -72,6 +72,16 @@ Una colección de demostraciones públicas que sus autores atribuyen a Gemini 4 
 | [28. Escena de lluvia con bucle musical](#case-28) | SVG y gráficos interactivos | Demo |
 | [29. Castillo y dragón tras instrucciones adicionales](#case-29) | Mundos y paisajes vóxel | Evaluation |
 | [30. Mandíbula mecánica con tres modelos](#case-30) | Comparación de modelos | Evaluation |
+| [31. Comparación de un motor radial de nueve cilindros](#case-31) | Comparación de modelos | Evaluation |
+| [32. Tiburón mecánico: velocidad frente a detalle interno](#case-32) | Comparación de modelos | Limit |
+| [33. Inspección de un motor V8 con dos modelos](#case-33) | Objetos mecánicos y 3D | Evaluation |
+| [34. Botella de cola con un solo shader](#case-34) | Objetos mecánicos y 3D | Demo |
+| [35. Juego estilo Minecraft en unos treinta minutos](#case-35) | Juegos y escenas animadas | Demo |
+| [36. Animación de una mano zombi: tiempo y coste](#case-36) | Comparación de modelos | Evaluation |
+| [37. Juego de carreras tridimensional](#case-37) | Juegos y escenas animadas | Demo |
+| [38. Motor de dos tiempos: combustión poco clara](#case-38) | Comparación de modelos | Limit |
+| [39. Inspección de un reloj mecánico con dos modelos](#case-39) | Objetos mecánicos y 3D | Evaluation |
+| [40. Comparación de sitios web de casas encantadas](#case-40) | Comparación de modelos | Evaluation |
 
 ## ⚙️ Objetos mecánicos y 3D
 
@@ -153,6 +163,45 @@ El autor declara haber usado la misma instrucción y un intento por modelo para 
 [Ver vídeo original](https://x.com/dromexa/status/2115802517942497491/video/1)
 
 Tipo: Evaluation | Fecha: 2026-10-29
+
+---
+
+<a id="case-33"></a>
+### Caso 33: [Inspección de un motor V8 con dos modelos](https://x.com/dromexa/status/2116927253980594275) (por [@dromexa](https://x.com/dromexa))
+
+**Examine vistas de rayos X, cortes, despieces y componentes del motor.**
+
+El creador afirma haber usado la misma instrucción y un intento con Carbon y Opus 5.5. Las tres victorias que declara son una valoración personal; no se comprobaron de forma independiente el código ejecutable ni la precisión mecánica.
+
+[Ver vídeo original](https://x.com/dromexa/status/2116927253980594275/video/1)
+
+Tipo: Evaluation | Fecha: 2026-11-01
+
+---
+
+<a id="case-34"></a>
+### Caso 34: [Botella de cola con un solo shader](https://x.com/dummerspast39/status/2116470583097438519) (por [@dummerspast39](https://x.com/dummerspast39))
+
+**Explore una botella de Three.js presentada como geometría matemática en un shader.**
+
+El creador afirma no haber usado modelos ni recursos externos y haber incluido 21 dientes en el tapón. Esta demostración de shader es distinta de la botella SVG anterior; no se comprobaron el código, las dependencias ni los dientes.
+
+[Ver vídeo original](https://x.com/dummerspast39/status/2116470583097438519/video/1)
+
+Tipo: Demo | Fecha: 2026-10-31
+
+---
+
+<a id="case-39"></a>
+### Caso 39: [Inspección de un reloj mecánico con dos modelos](https://x.com/dromexa/status/2116518366919667775) (por [@dromexa](https://x.com/dromexa))
+
+**Examine un reloj mediante rayos X, cortes y despieces.**
+
+El creador declara la misma instrucción y un intento con Carbon y Opus 5.5, un volante que oscila y engranajes a velocidades correctas. No se comprobaron de forma independiente las relaciones de transmisión ni la precisión horaria.
+
+[Ver vídeo original](https://x.com/dromexa/status/2116518366919667775/video/1)
+
+Tipo: Evaluation | Fecha: 2026-10-31
 
 ---
 
@@ -454,6 +503,32 @@ Tipo: Demo | Fecha: 2026-10-21
 
 ---
 
+<a id="case-35"></a>
+### Caso 35: [Juego estilo Minecraft en unos treinta minutos](https://x.com/dummerspast39/status/2116502497158201520) (por [@dummerspast39](https://x.com/dummerspast39))
+
+**Explore una grabación de un juego estilo Minecraft y sus condiciones de desarrollo declaradas.**
+
+El autor indica unos 30 minutos y aproximadamente un intento con un entorno de agente deficiente. Aquí no se proporciona un proyecto ejecutable; no se probaron de forma independiente la interacción, la estabilidad ni su clasificación de modelos.
+
+[Ver vídeo original](https://x.com/dummerspast39/status/2116502497158201520/video/1)
+
+Tipo: Demo | Fecha: 2026-10-31
+
+---
+
+<a id="case-37"></a>
+### Caso 37: [Juego de carreras tridimensional](https://x.com/Mr_Salio/status/2116798612361375995) (por [@Mr_Salio](https://x.com/Mr_Salio))
+
+**Examine una demostración de carreras atribuida a un checkpoint más reciente de Carbon.**
+
+El creador afirma haber construido un juego jugable con una instrucción en unos 20 minutos. No se verificaron de forma independiente la identidad del checkpoint, la procedencia completa de los recursos ni la jugabilidad; una grabación no demuestra reproducibilidad.
+
+[Ver vídeo original](https://x.com/Mr_Salio/status/2116798612361375995/video/1)
+
+Tipo: Demo | Fecha: 2026-11-01
+
+---
+
 ## 🔬 Comparación de modelos
 
 <a id="case-25"></a>
@@ -483,6 +558,71 @@ Tipo: Evaluation | Fecha: 2026-10-30
 
 ---
 
+<a id="case-31"></a>
+### Caso 31: [Comparación de un motor radial de nueve cilindros](https://x.com/olezhavich/status/2116606788241969445) (por [@olezhavich](https://x.com/olezhavich))
+
+**Compare la claridad del corte y el detalle técnico de cuatro animaciones de motores.**
+
+El autor afirma haber usado la misma instrucción y un intento por modelo; prefiere la legibilidad de Carbon y el detalle técnico de Opus 5.5. La corrección del orden de encendido es su valoración, sin comprobación independiente.
+
+[Ver vídeo original](https://x.com/olezhavich/status/2116606788241969445/video/1)
+
+Tipo: Evaluation | Fecha: 2026-10-31
+
+---
+
+<a id="case-32"></a>
+### Caso 32: [Tiburón mecánico: velocidad frente a detalle interno](https://x.com/0xPorterio/status/2116548548334321967) (por [@0xPorterio](https://x.com/0xPorterio))
+
+**Compare los efectos de montaje con la estructura interna de un tiburón desmontable.**
+
+El autor describe Carbon como más rápido y vistoso, pero con menos detalle interno que Opus 5.5. La puntuación 77–90 responde a criterios personales; el número de piezas y la corrección mecánica no se verificaron.
+
+[Ver vídeo original](https://x.com/0xPorterio/status/2116548548334321967/video/1)
+
+Tipo: Limit | Fecha: 2026-10-31
+
+---
+
+<a id="case-36"></a>
+### Caso 36: [Animación de una mano zombi: tiempo y coste](https://x.com/noclipepe/status/2116445289468850366) (por [@noclipepe](https://x.com/noclipepe))
+
+**Compare el diseño de escenas con el tiempo y coste declarados de una animación.**
+
+El autor indica Carbon: 1h 23m/$10.2; Opus 5.5: 1h 6m/$8.1; GPT-6 Astra: 24m/$5.7, aunque prefiere la escena de Carbon. Son gastos declarados por tarea, no precios unitarios de API ni costes verificados de forma independiente.
+
+[Ver vídeo original](https://x.com/noclipepe/status/2116445289468850366/video/1)
+
+Tipo: Evaluation | Fecha: 2026-10-31
+
+---
+
+<a id="case-38"></a>
+### Caso 38: [Motor de dos tiempos: combustión poco clara](https://x.com/olezhavich/status/2116892619309461745) (por [@olezhavich](https://x.com/olezhavich))
+
+**Compruebe si la animación explica con claridad la combustión y el movimiento del pistón.**
+
+En una comparación declarada de cuatro modelos con la misma instrucción y un intento, el autor considera difícil ver la llama de Carbon y prefiere otros resultados por su explicación o realismo. La valoración es específica de la tarea; no se probaron la física ni la repetibilidad.
+
+[Ver vídeo original](https://x.com/olezhavich/status/2116892619309461745/video/1)
+
+Tipo: Limit | Fecha: 2026-11-01
+
+---
+
+<a id="case-40"></a>
+### Caso 40: [Comparación de sitios web de casas encantadas](https://x.com/keydol123/status/2116556350130163783) (por [@keydol123](https://x.com/keydol123))
+
+**Compare el ambiente visual de dos sitios web creados para el mismo encargo.**
+
+El creador atribuye los sitios a Carbon y Opus 5.5 con la misma instrucción. La distinción entre adorable y aterrador es subjetiva; no se probaron de forma independiente el código, la accesibilidad ni el funcionamiento completo.
+
+[Ver vídeo original](https://x.com/keydol123/status/2116556350130163783/video/1)
+
+Tipo: Evaluation | Fecha: 2026-10-31
+
+---
+
 <a id="related-repositories"></a>
 ## Repositorios relacionados
 
@@ -494,6 +634,6 @@ Tipo: Evaluation | Fecha: 2026-10-30
 
 Gracias a quienes publicaron estas demostraciones:
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123)
 
 La atribución sigue las fuentes enlazadas y puede necesitar correcciones. Abre un issue para indicar créditos omitidos, duplicados, afirmaciones incorrectas o solicitudes de retirada. Los medios de terceros conservan su titularidad original.

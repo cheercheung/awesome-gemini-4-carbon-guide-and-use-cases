@@ -24,7 +24,7 @@
     },
     "intro": "Eine Sammlung öffentlicher Community-Demos, die ihre Verfasser während der frühen Einführung Gemini 4 Carbon zuschreiben.",
     "purpose": "Erkunde konkrete Aufgaben, sichtbare Ergebnisse und praktische Grenzen anhand der Originalquellen.",
-    "stats": "30 Anwendungsfälle in 5 Kategorien. Weiterveröffentlichungen sind dem jeweiligen Werk zugeordnet; Vergleiche bestehender Ergebnisse bleiben beim ursprünglichen Fall.",
+    "stats": "40 Anwendungsfälle in 5 Kategorien. Weiterveröffentlichungen sind dem jeweiligen Werk zugeordnet; Vergleiche bestehender Ergebnisse bleiben beim ursprünglichen Fall.",
     "evidence": "Modellnamen, Erstellungszeiten und Qualitätsurteile sind Angaben der Quellen. Der Anzeigename in Arena belegt keine Backend-Version. Eine Aufnahme beweist weder ausführbaren Code noch vollständige Interaktion oder wiederholbaren Erfolg.",
     "steps": "1. Wähle eine Aufgabe im Inhaltsverzeichnis.\n2. Öffne Video oder Bild und folge dem Falltitel zum Originalbeitrag.\n3. Vergleiche das sichtbare Ergebnis mit Aufgabe und Einschränkungen.",
     "thanks": "Danke an die folgenden Herausgeber der Demos:",
@@ -180,6 +180,56 @@
       "Mechanischer Kiefer mit drei Modellen",
       "Vergleiche mechanische Kiefer und bewegliche Zähne von Carbon, Opus 5.5 und GPT-6 Astra.",
       "Der Ersteller berichtet von einem gemeinsamen Prompt und einzeln beweglichen Zähnen sowie Zeiten von 29m 9s für Carbon, 35m 17s für Opus 5.5 und 26m 7s für GPT-6 Astra. Zeitangaben, Modellidentität und vollständige Interaktion stammen von der Quelle und wurden nicht unabhängig reproduziert."
+    ],
+    [
+      "Vergleich eines Neunzylinder-Sternmotors",
+      "Vergleichen Sie die Verständlichkeit der Schnittansichten und technische Details von vier Motoranimationen.",
+      "Der Autor berichtet von derselben Eingabe und einem Versuch je Modell; er bevorzugt Carbons Lesbarkeit und die technischen Details von Opus 5.5. Die korrekte Zündfolge ist seine Einschätzung und wurde nicht unabhängig geprüft."
+    ],
+    [
+      "Mechanischer Hai: Tempo und innere Details",
+      "Vergleichen Sie Montageeffekte mit dem Innenaufbau eines zerlegbaren Hais.",
+      "Laut Autor ist Carbon schneller und optisch spektakulärer, innen jedoch weniger detailliert als Opus 5.5. Die Wertung 77–90 beruht auf persönlichen Kriterien; Teilezahlen und mechanische Korrektheit wurden nicht überprüft."
+    ],
+    [
+      "V8-Motorinspektion mit zwei Modellen",
+      "Untersuchen Sie Röntgen-, Schnitt- und Explosionsansichten sowie einzelne Motorteile.",
+      "Der Ersteller berichtet von derselben Eingabe und einem Versuch mit Carbon und Opus 5.5. Die behauptete Siegesserie über drei Runden ist ein persönliches Urteil; ausführbarer Code und mechanische Genauigkeit wurden nicht unabhängig geprüft."
+    ],
+    [
+      "Colaflasche mit einem einzigen Shader",
+      "Erkunden Sie eine Three.js-Flasche, die als mathematische Shader-Geometrie vorgestellt wird.",
+      "Der Ersteller berichtet von keinen externen Modellen oder Assets und einem Verschluss mit 21 Zähnen. Diese Shader-Demonstration unterscheidet sich von der früheren SVG-Flasche; Code, Asset-Abhängigkeiten und Zahnzahl wurden nicht unabhängig geprüft."
+    ],
+    [
+      "Minecraft-artiges Spiel in etwa dreißig Minuten",
+      "Erkunden Sie eine Spielaufnahme im Minecraft-Stil und die angegebenen Entwicklungsbedingungen.",
+      "Der Autor nennt ungefähr 30 Minuten und etwa einen Versuch mit einer schlechten Agentenumgebung. Hier wird kein ausführbares Projekt bereitgestellt; Interaktion, Stabilität und die Modellrangfolge des Autors wurden nicht unabhängig getestet."
+    ],
+    [
+      "Zombiehand-Animation: Zeit und Kosten",
+      "Vergleichen Sie das Szenendesign mit der angegebenen Dauer und den Kosten einer Animationsaufgabe.",
+      "Der Autor nennt Carbon: 1h 23m/$10.2; Opus 5.5: 1h 6m/$8.1; GPT-6 Astra: 24m/$5.7, bevorzugt aber Carbons Szene. Dies sind berichtete Aufgabenkosten, keine API-Einheitspreise oder unabhängig bestätigten Kosten."
+    ],
+    [
+      "Dreidimensionales Autorennspiel",
+      "Untersuchen Sie eine Rennspiel-Demonstration, die einem neueren Carbon-Checkpoint zugeschrieben wird.",
+      "Der Ersteller berichtet von einem spielbaren Spiel aus einer Eingabe in etwa 20 Minuten. Checkpoint-Identität, vollständige Asset-Herkunft und Spielbarkeit wurden nicht unabhängig geprüft; eine Aufnahme belegt kein reproduzierbares Spiel."
+    ],
+    [
+      "Zweitaktmotor: schlecht sichtbarer Arbeitstakt",
+      "Prüfen Sie, ob eine Motoranimation Verbrennung und Kolbenbewegung verständlich erklärt.",
+      "Bei einem berichteten Vergleich mit gleicher Eingabe und einem Versuch pro Modell findet der Autor Carbons Flamme schwer erkennbar und bevorzugt andere Ausgaben wegen Erklärung oder Realismus. Das Urteil gilt für diese Aufgabe; Physik und Wiederholbarkeit wurden nicht unabhängig getestet."
+    ],
+    [
+      "Mechanische Uhreninspektion mit zwei Modellen",
+      "Untersuchen Sie eine Uhr mittels Röntgen-, Schnitt- und Explosionsansichten.",
+      "Der Ersteller berichtet von derselben Eingabe und einem Versuch mit Carbon und Opus 5.5 sowie einer schwingenden Unruh und richtigen Zahnradgeschwindigkeiten. Übersetzungsverhältnisse und Ganggenauigkeit wurden nicht unabhängig geprüft."
+    ],
+    [
+      "Vergleich von Spukhaus-Websites",
+      "Vergleichen Sie die visuelle Stimmung zweier Websites mit derselben Aufgabenstellung.",
+      "Der Ersteller schreibt die beiden Spukhaus-Websites Carbon und Opus 5.5 mit derselben Eingabe zu. Niedlich oder gruselig ist eine subjektive Einordnung; Quellcode, Barrierefreiheit und vollständiges Website-Verhalten wurden nicht unabhängig getestet."
     ]
   ]
 }

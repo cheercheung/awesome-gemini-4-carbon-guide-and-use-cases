@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "model": "Gemini 4 Carbon",
-  "updated_at": "2026-11-02",
-  "case_count": 30,
+  "updated_at": "2026-11-03",
+  "case_count": 40,
   "cases": [
     {
       "number": 1,
@@ -1349,6 +1349,266 @@
       "legacy_anchors": [
         "candidate-5"
       ]
+    },
+    {
+      "id": "carbon-case-031",
+      "number": 31,
+      "source_id": "2116606788241969445",
+      "source_url": "https://x.com/olezhavich/status/2116606788241969445",
+      "author_handle": "olezhavich",
+      "author_url": "https://x.com/olezhavich",
+      "category": "comparison",
+      "type": "Evaluation",
+      "date": "2026-10-31",
+      "title": "Nine-cylinder radial engine comparison",
+      "takeaway": "Compare cutaway clarity and engineering detail across four engine animations.",
+      "body_notes": [
+        "The author reports a shared prompt and one attempt per model, preferring Carbon’s readability and Opus 5.5’s engineering detail. Firing-order correctness is the author’s assessment, not an independent check."
+      ],
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2116604145687818240",
+          "type": "video",
+          "source_media_url": "https://x.com/olezhavich/status/2116606788241969445/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": []
+    },
+    {
+      "id": "carbon-case-032",
+      "number": 32,
+      "source_id": "2116548548334321967",
+      "source_url": "https://x.com/0xPorterio/status/2116548548334321967",
+      "author_handle": "0xPorterio",
+      "author_url": "https://x.com/0xPorterio",
+      "category": "comparison",
+      "type": "Limit",
+      "date": "2026-10-31",
+      "title": "Mechanical shark: speed versus internal detail",
+      "takeaway": "Compare assembly effects with the internal structure of a dismantlable shark.",
+      "body_notes": [
+        "The author describes Carbon as faster and more visually dramatic, but less detailed internally than Opus 5.5. The reported 77–90 score is a personal rubric; part counts and mechanical correctness remain unverified."
+      ],
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2116548445976535040",
+          "type": "video",
+          "source_media_url": "https://x.com/0xPorterio/status/2116548548334321967/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": []
+    },
+    {
+      "id": "carbon-case-033",
+      "number": 33,
+      "source_id": "2116927253980594275",
+      "source_url": "https://x.com/dromexa/status/2116927253980594275",
+      "author_handle": "dromexa",
+      "author_url": "https://x.com/dromexa",
+      "category": "mechanical",
+      "type": "Evaluation",
+      "date": "2026-11-01",
+      "title": "V8 engine inspection across two models",
+      "takeaway": "Inspect X-ray, cutaway, exploded and part-by-part engine views.",
+      "body_notes": [
+        "The creator reports a shared prompt and one attempt each for Carbon and Opus 5.5. The claimed three-round winning streak is a personal judgment; runnable code and mechanical accuracy were not independently checked."
+      ],
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2116927159503659008",
+          "type": "video",
+          "source_media_url": "https://x.com/dromexa/status/2116927253980594275/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": []
+    },
+    {
+      "id": "carbon-case-034",
+      "number": 34,
+      "source_id": "2116470583097438519",
+      "source_url": "https://x.com/dummerspast39/status/2116470583097438519",
+      "author_handle": "dummerspast39",
+      "author_url": "https://x.com/dummerspast39",
+      "category": "mechanical",
+      "type": "Demo",
+      "date": "2026-10-31",
+      "title": "Cola bottle in a single shader",
+      "takeaway": "Explore a Three.js bottle presented as mathematical shader geometry.",
+      "body_notes": [
+        "The creator reports no external models or assets and a 21-tooth cap. This is a shader demonstration, distinct from the earlier SVG bottle; the code, asset dependencies and tooth count were not independently checked."
+      ],
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2116470316448776192",
+          "type": "video",
+          "source_media_url": "https://x.com/dummerspast39/status/2116470583097438519/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": []
+    },
+    {
+      "id": "carbon-case-035",
+      "number": 35,
+      "source_id": "2116502497158201520",
+      "source_url": "https://x.com/dummerspast39/status/2116502497158201520",
+      "author_handle": "dummerspast39",
+      "author_url": "https://x.com/dummerspast39",
+      "category": "games",
+      "type": "Demo",
+      "date": "2026-10-31",
+      "title": "Minecraft-style game in about thirty minutes",
+      "takeaway": "Explore a Minecraft-style game recording and its stated development constraints.",
+      "body_notes": [
+        "The author reports roughly 30 minutes and approximately one attempt under a poor harness. No runnable project is provided here; interaction, stability and the author’s model ranking were not independently tested."
+      ],
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2116501068561453057",
+          "type": "video",
+          "source_media_url": "https://x.com/dummerspast39/status/2116502497158201520/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": []
+    },
+    {
+      "id": "carbon-case-036",
+      "number": 36,
+      "source_id": "2116445289468850366",
+      "source_url": "https://x.com/noclipepe/status/2116445289468850366",
+      "author_handle": "noclipepe",
+      "author_url": "https://x.com/noclipepe",
+      "category": "comparison",
+      "type": "Evaluation",
+      "date": "2026-10-31",
+      "title": "Zombie-hand animation: time and cost",
+      "takeaway": "Compare scene design alongside the reported time and cost of one animation task.",
+      "body_notes": [
+        "The author reports Carbon at 1h 23m/$10.2, Opus 5.5 at 1h 6m/$8.1 and GPT-6 Astra at 24m/$5.7, while preferring Carbon’s scene. These are reported task bills, not API unit prices or independently verified costs."
+      ],
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2116442127278198785",
+          "type": "video",
+          "source_media_url": "https://x.com/noclipepe/status/2116445289468850366/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": []
+    },
+    {
+      "id": "carbon-case-037",
+      "number": 37,
+      "source_id": "2116798612361375995",
+      "source_url": "https://x.com/Mr_Salio/status/2116798612361375995",
+      "author_handle": "Mr_Salio",
+      "author_url": "https://x.com/Mr_Salio",
+      "category": "games",
+      "type": "Demo",
+      "date": "2026-11-01",
+      "title": "Three-dimensional racing game",
+      "takeaway": "Inspect a car-racing demonstration attributed to a newer Carbon checkpoint.",
+      "body_notes": [
+        "The creator reports a playable game built from one prompt in around 20 minutes. Checkpoint identity, complete asset provenance and playability were not independently verified; a recording alone does not establish a reproducible game."
+      ],
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2116798456891138048",
+          "type": "video",
+          "source_media_url": "https://x.com/Mr_Salio/status/2116798612361375995/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": []
+    },
+    {
+      "id": "carbon-case-038",
+      "number": 38,
+      "source_id": "2116892619309461745",
+      "source_url": "https://x.com/olezhavich/status/2116892619309461745",
+      "author_handle": "olezhavich",
+      "author_url": "https://x.com/olezhavich",
+      "category": "comparison",
+      "type": "Limit",
+      "date": "2026-11-01",
+      "title": "Two-stroke engine: unclear power stroke",
+      "takeaway": "Check whether an engine animation clearly explains combustion and piston movement.",
+      "body_notes": [
+        "In a reported shared-prompt, one-attempt comparison of four models, the author finds Carbon’s flame difficult to see and prefers other outputs for explanation or realism. The judgment is task-specific; physics and repeatability were not independently tested."
+      ],
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2116891475229196288",
+          "type": "video",
+          "source_media_url": "https://x.com/olezhavich/status/2116892619309461745/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": []
+    },
+    {
+      "id": "carbon-case-039",
+      "number": 39,
+      "source_id": "2116518366919667775",
+      "source_url": "https://x.com/dromexa/status/2116518366919667775",
+      "author_handle": "dromexa",
+      "author_url": "https://x.com/dromexa",
+      "category": "mechanical",
+      "type": "Evaluation",
+      "date": "2026-10-31",
+      "title": "Mechanical watch inspection across two models",
+      "takeaway": "Inspect a watch through X-ray, cutaway and exploded views.",
+      "body_notes": [
+        "The creator reports a shared prompt and one attempt each for Carbon and Opus 5.5, including a ticking balance wheel and correct gear speeds. Gear ratios and timekeeping accuracy were not independently checked."
+      ],
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2116518287215415296",
+          "type": "video",
+          "source_media_url": "https://x.com/dromexa/status/2116518366919667775/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": []
+    },
+    {
+      "id": "carbon-case-040",
+      "number": 40,
+      "source_id": "2116556350130163783",
+      "source_url": "https://x.com/keydol123/status/2116556350130163783",
+      "author_handle": "keydol123",
+      "author_url": "https://x.com/keydol123",
+      "category": "comparison",
+      "type": "Evaluation",
+      "date": "2026-10-31",
+      "title": "Haunted-house website comparison",
+      "takeaway": "Compare the visual mood of two websites built for the same brief.",
+      "body_notes": [
+        "The creator attributes the paired haunted-house websites to Carbon and Opus 5.5 using the same prompt. The cute-versus-frightening distinction is subjective; source code, accessibility and complete website behavior were not independently tested."
+      ],
+      "model_attribution": "source-reported Carbon; backend version not independently verified",
+      "media": [
+        {
+          "id": "2116556181271658496",
+          "type": "video",
+          "source_media_url": "https://x.com/keydol123/status/2116556350130163783/video/1",
+          "presentation": "source-link"
+        }
+      ],
+      "also_reported_by": []
     }
   ],
   "scope": "Source-attributed community usecases: concrete tasks and visible outputs, without a prompt requirement.",

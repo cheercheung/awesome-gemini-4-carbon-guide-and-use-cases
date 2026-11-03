@@ -24,7 +24,7 @@
     },
     "intro": "Erken kullanıma açılma döneminde paylaşanların Gemini 4 Carbon ile ilişkilendirdiği herkese açık topluluk gösterimlerinden oluşan bir koleksiyon.",
     "purpose": "Özgün kaynaklar üzerinden somut görevleri, görünür çıktıları ve pratik sınırları inceleyin.",
-    "stats": "5 kategoride 30 kullanım örneği. Yeniden paylaşımlar ilgili eserle birleştirilir; mevcut çıktının karşılaştırması aynı örnekte tutulur.",
+    "stats": "5 kategoride 40 kullanım örneği. Yeniden paylaşımlar ilgili eserle birleştirilir; mevcut çıktının karşılaştırması aynı örnekte tutulur.",
     "evidence": "Model adları, üretim süreleri ve kalite yorumları kaynakların beyanıdır. Arena görünen adı arka uç sürümünü kanıtlamaz. Kayıt, çalıştırılabilir kodu, tüm etkileşimleri veya tekrarlanabilir başarıyı kanıtlamaz.",
     "steps": "1. İçindekilerden bir görev seçin.\n2. Video ya da görseli açıp örnek başlığından özgün paylaşıma gidin.\n3. Görünen sonucu görev ve sınırlarla karşılaştırın.",
     "thanks": "Gösterimleri paylaşan şu kişilere teşekkürler:",
@@ -180,6 +180,56 @@
       "Üç modelle mekanik çene",
       "Carbon, Opus 5.5 ve GPT-6 Astra’nın mekanik çene ve hareketli diş gösterimlerini karşılaştırın.",
       "Üretici ortak istem ve bağımsız diş hareketleri bildirdi; süreler Carbon için 29m 9s, Opus 5.5 için 35m 17s, GPT-6 Astra için 26m 7s olarak verildi. Süreler, model kimliği ve tüm etkileşimler kaynağın beyanıdır ve bağımsız olarak tekrarlanmadı."
+    ],
+    [
+      "Dokuz silindirli yıldız motor karşılaştırması",
+      "Dört motor animasyonunda kesitlerin anlaşılırlığını ve mühendislik ayrıntılarını karşılaştırın.",
+      "Yazar her modele aynı istemi verip birer kez denediğini, Carbon’ın okunaklılığını ve Opus 5.5’in mühendislik ayrıntılarını tercih ettiğini bildiriyor. Ateşleme sırasının doğruluğu yazarın değerlendirmesidir; bağımsız olarak doğrulanmadı."
+    ],
+    [
+      "Mekanik köpekbalığı: hız ve iç ayrıntılar",
+      "Sökülebilen bir köpekbalığının montaj efektlerini iç yapısıyla karşılaştırın.",
+      "Yazar Carbon’ı daha hızlı ve gösterişli, ancak iç ayrıntılarda Opus 5.5’ten zayıf olarak tanımlıyor. 77–90 puanı kişisel ölçütlere dayanıyor; parça sayıları ve mekanik doğruluk doğrulanmadı."
+    ],
+    [
+      "İki modelle V8 motor incelemesi",
+      "Motorun X-ray, kesit, patlatılmış ve parça parça görünümlerini inceleyin.",
+      "Üretici Carbon ve Opus 5.5 için aynı istemle birer deneme yaptığını bildiriyor. İddia edilen üç turluk galibiyet serisi kişisel bir yargıdır; çalıştırılabilir kod ve mekanik doğruluk bağımsız olarak kontrol edilmedi."
+    ],
+    [
+      "Tek shader ile kola şişesi",
+      "Matematiksel shader geometrisi olarak sunulan bir Three.js şişesini keşfedin.",
+      "Üretici harici model veya varlık kullanmadığını ve kapakta 21 diş olduğunu bildiriyor. Bu shader gösterimi önceki SVG şişesinden farklıdır; kod, varlık bağımlılıkları ve diş sayısı bağımsız olarak kontrol edilmedi."
+    ],
+    [
+      "Yaklaşık otuz dakikada Minecraft tarzı oyun",
+      "Minecraft tarzı bir oyun kaydını ve bildirilen geliştirme koşullarını inceleyin.",
+      "Yazar zayıf bir ajan çalıştırma ortamında yaklaşık 30 dakika ve kabaca tek deneme bildirdi. Burada çalıştırılabilir proje sunulmuyor; etkileşim, kararlılık ve yazarın model sıralaması bağımsız olarak test edilmedi."
+    ],
+    [
+      "Zombi eli animasyonu: süre ve maliyet",
+      "Tek bir animasyon görevinin sahne tasarımını bildirilen süre ve maliyetle birlikte karşılaştırın.",
+      "Yazar Carbon için 1h 23m/$10.2, Opus 5.5 için 1h 6m/$8.1 ve GPT-6 Astra için 24m/$5.7 bildiriyor, ancak Carbon’ın sahnesini tercih ediyor. Bunlar görev bazında bildirilen harcamalardır; API birim fiyatları veya bağımsız doğrulanmış maliyetler değildir."
+    ],
+    [
+      "Üç boyutlu araba yarışı oyunu",
+      "Daha yeni bir Carbon kontrol noktasına atfedilen yarış gösterimini inceleyin.",
+      "Üretici tek istemle yaklaşık 20 dakikada oynanabilir bir oyun yaptığını bildiriyor. Kontrol noktası kimliği, tüm varlıkların kökeni ve oynanabilirlik bağımsız olarak doğrulanmadı; yalnızca bir kayıt oyunun yeniden üretilebilirliğini kanıtlamaz."
+    ],
+    [
+      "İki zamanlı motor: belirsiz güç zamanı",
+      "Motor animasyonunun yanmayı ve piston hareketini açıkça anlatıp anlatmadığını kontrol edin.",
+      "Aynı istemle her modele bir deneme yapılan dört modellik karşılaştırmada yazar Carbon’ın alevini zor görüyor ve anlatım veya gerçekçilik bakımından diğer çıktıları tercih ediyor. Yargı bu göreve özgüdür; fizik ve tekrarlanabilirlik bağımsız olarak test edilmedi."
+    ],
+    [
+      "İki modelle mekanik saat incelemesi",
+      "Bir saati X-ray, kesit ve patlatılmış görünümlerle inceleyin.",
+      "Üretici Carbon ve Opus 5.5 için aynı istemle birer deneme yaptığını, salınımlı balans çarkını ve doğru dişli hızlarını bildiriyor. Dişli oranları ve zaman tutma doğruluğu bağımsız olarak kontrol edilmedi."
+    ],
+    [
+      "Perili ev web siteleri karşılaştırması",
+      "Aynı istekle oluşturulan iki web sitesinin görsel atmosferini karşılaştırın.",
+      "Üretici aynı istemle hazırlanan iki perili ev sitesini Carbon ve Opus 5.5’e atfediyor. Sevimli veya korkutucu ayrımı özneldir; kaynak kod, erişilebilirlik ve sitenin tüm davranışları bağımsız olarak test edilmedi."
     ]
   ]
 }

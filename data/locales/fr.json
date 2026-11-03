@@ -24,7 +24,7 @@
     },
     "intro": "Une collection de démonstrations publiques attribuées par leurs auteurs à Gemini 4 Carbon durant son déploiement initial.",
     "purpose": "Explorez des tâches concrètes, des résultats visibles et des limites pratiques à partir des sources originales.",
-    "stats": "30 cas répartis en 5 catégories. Les republications sont regroupées avec l’œuvre correspondante ; les comparaisons d’un résultat existant restent dans son cas.",
+    "stats": "40 cas répartis en 5 catégories. Les republications sont regroupées avec l’œuvre correspondante ; les comparaisons d’un résultat existant restent dans son cas.",
     "evidence": "Les noms de modèle, durées et jugements de qualité viennent des sources. Le nom affiché dans Arena ne prouve pas la version réelle. Un enregistrement ne démontre ni code exécutable, ni interaction complète, ni réussite reproductible.",
     "steps": "1. Choisissez une tâche dans le sommaire.\n2. Ouvrez sa vidéo ou son image, puis suivez le titre vers la publication originale.\n3. Comparez le résultat visible à la tâche et à ses limites.",
     "thanks": "Merci aux personnes qui ont publié ces démonstrations :",
@@ -180,6 +180,56 @@
       "Mâchoire mécanique avec trois modèles",
       "Comparez les démonstrations de mâchoire mécanique et de dents mobiles de Carbon, Opus 5.5 et GPT-6 Astra.",
       "Le créateur rapporte une instruction commune et des dents mobiles individuellement, avec des durées de 29m 9s pour Carbon, 35m 17s pour Opus 5.5 et 26m 7s pour GPT-6 Astra. Les durées, l’identité des modèles et l’interaction complète restent des déclarations de la source sans reproduction indépendante."
+    ],
+    [
+      "Comparaison d’un moteur radial à neuf cylindres",
+      "Comparez la lisibilité des coupes et les détails techniques de quatre animations de moteurs.",
+      "L’auteur indique une consigne identique et un essai par modèle, préférant la lisibilité de Carbon et les détails techniques d’Opus 5.5. L’ordre d’allumage correct relève de son appréciation, sans vérification indépendante."
+    ],
+    [
+      "Requin mécanique : vitesse et détails internes",
+      "Comparez les effets d’assemblage à la structure interne d’un requin démontable.",
+      "L’auteur décrit Carbon comme plus rapide et spectaculaire, mais moins détaillé à l’intérieur qu’Opus 5.5. La note 77–90 suit un barème personnel ; le nombre de pièces et la justesse mécanique restent non vérifiés."
+    ],
+    [
+      "Inspection d’un V8 avec deux modèles",
+      "Examinez les vues aux rayons X, en coupe, éclatées et pièce par pièce du moteur.",
+      "Le créateur indique une consigne identique et un essai avec Carbon et Opus 5.5. Les trois victoires revendiquées sont un jugement personnel ; le code exécutable et la précision mécanique n’ont pas été vérifiés indépendamment."
+    ],
+    [
+      "Bouteille de cola dans un seul shader",
+      "Explorez une bouteille Three.js présentée comme une géométrie mathématique de shader.",
+      "Le créateur indique n’utiliser aucun modèle ni ressource externe, avec 21 dents sur la capsule. Cette démonstration de shader diffère de la précédente bouteille SVG ; le code, les dépendances et le nombre de dents n’ont pas été vérifiés indépendamment."
+    ],
+    [
+      "Jeu de type Minecraft en trente minutes environ",
+      "Explorez l’enregistrement d’un jeu de type Minecraft et les contraintes de développement déclarées.",
+      "L’auteur annonce environ 30 minutes et approximativement un essai dans un environnement d’agent médiocre. Aucun projet exécutable n’est fourni ici ; l’interaction, la stabilité et son classement des modèles n’ont pas été testés indépendamment."
+    ],
+    [
+      "Animation de main zombie : durée et coût",
+      "Comparez la mise en scène avec la durée et le coût déclarés d’une tâche d’animation.",
+      "L’auteur annonce Carbon : 1h 23m/$10.2 ; Opus 5.5 : 1h 6m/$8.1 ; GPT-6 Astra : 24m/$5.7, tout en préférant la scène de Carbon. Ce sont des dépenses déclarées par tâche, pas des tarifs unitaires d’API ni des coûts vérifiés indépendamment."
+    ],
+    [
+      "Jeu de course automobile en trois dimensions",
+      "Examinez une démonstration de course attribuée à un checkpoint plus récent de Carbon.",
+      "Le créateur annonce un jeu jouable construit avec une consigne en environ 20 minutes. L’identité du checkpoint, la provenance complète des ressources et la jouabilité n’ont pas été vérifiées indépendamment ; un enregistrement ne prouve pas la reproductibilité."
+    ],
+    [
+      "Moteur deux temps : combustion peu lisible",
+      "Vérifiez si l’animation explique clairement la combustion et le mouvement du piston.",
+      "Dans une comparaison déclarée de quatre modèles avec la même consigne et un essai, l’auteur juge la flamme de Carbon peu visible et préfère d’autres résultats pour l’explication ou le réalisme. L’avis concerne cette tâche ; physique et répétabilité n’ont pas été testées indépendamment."
+    ],
+    [
+      "Inspection d’une montre mécanique avec deux modèles",
+      "Examinez une montre aux rayons X, en coupe et en vue éclatée.",
+      "Le créateur indique une consigne identique et un essai avec Carbon et Opus 5.5, avec un balancier oscillant et des engrenages aux bonnes vitesses. Les rapports d’engrenage et la précision horaire n’ont pas été vérifiés indépendamment."
+    ],
+    [
+      "Comparaison de sites de maisons hantées",
+      "Comparez l’ambiance visuelle de deux sites créés pour le même besoin.",
+      "Le créateur attribue les deux sites à Carbon et Opus 5.5 avec la même consigne. La distinction entre mignon et effrayant est subjective ; code source, accessibilité et fonctionnement complet n’ont pas été testés indépendamment."
     ]
   ]
 }

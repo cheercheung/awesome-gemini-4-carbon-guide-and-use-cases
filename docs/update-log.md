@@ -1,5 +1,12 @@
 # Update log
 
+## 2026-11-03
+
+- Added ten cases from the latest saved community-source batch: radial and two-stroke engines, a mechanical shark, V8 inspection, a single-shader bottle, Minecraft-style and racing games, zombie-hand animation, a mechanical watch, and haunted-house websites. The collection now has 40 cases across five categories in eleven languages.
+- Preserved all 30 previous case records, their anchors, six legacy aliases and existing media. New cases link to their creators’ original videos under the existing source-link presentation policy.
+- Retained source-reported comparison conditions, incomplete interaction and mechanical checks, and task-specific timing/cost limitations. Costs are attributed task reports, not API unit prices. No model code was independently executed.
+- Updated from saved source observations covering October 31–November 2 UTC. This repository update did not perform a new search, refresh engagement metrics or establish continuous coverage.
+
 ## 2026-11-02
 
 - Added five community cases: robotic eye, café racer comparison, rain-and-music loop, castle-and-dragon follow-ups, and mechanical jaw comparison. The collection now displays 30 source-attributed community cases in the Menu and category sections across eleven languages.

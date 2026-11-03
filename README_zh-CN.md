@@ -26,7 +26,7 @@
 
 ## 📊 概览
 
-共 30 个 usecase，覆盖 5 类。转载归并到对应作品；已有产物的对比附在原案例内。
+共 40 个 usecase，覆盖 5 类。转载归并到对应作品；已有产物的对比附在原案例内。
 
 > [!NOTE]
 > 型号、生成耗时和质量判断均来自来源自述。Arena 显示名称不能证明后台版本，录屏也不能证明代码可运行、完整交互正确或结果可重复。
@@ -72,6 +72,16 @@
 | [28. 雨景与音乐循环](#case-28) | SVG 与交互图形 | Demo |
 | [29. 追加提示前后的城堡与龙](#case-29) | 体素世界与风景 | Evaluation |
 | [30. 三种模型的机械下颌](#case-30) | 模型对比 | Evaluation |
+| [31. 九缸星形引擎对比](#case-31) | 模型对比 | Evaluation |
+| [32. 机械鲨鱼：速度与内部细节](#case-32) | 模型对比 | Limit |
+| [33. 两个模型的 V8 引擎观察](#case-33) | 机械与三维物体 | Evaluation |
+| [34. 单个 shader 绘制可乐瓶](#case-34) | 机械与三维物体 | Demo |
+| [35. 约三十分钟制作 Minecraft 风格游戏](#case-35) | 游戏与动画场景 | Demo |
+| [36. 僵尸手动画：耗时与费用](#case-36) | 模型对比 | Evaluation |
+| [37. 三维赛车游戏](#case-37) | 游戏与动画场景 | Demo |
+| [38. 二冲程引擎：不清楚的做功行程](#case-38) | 模型对比 | Limit |
+| [39. 两个模型的机械表观察](#case-39) | 机械与三维物体 | Evaluation |
+| [40. 鬼屋网站对比](#case-40) | 模型对比 | Evaluation |
 
 ## ⚙️ 机械与三维物体
 
@@ -153,6 +163,45 @@
 [观看来源视频](https://x.com/dromexa/status/2115802517942497491/video/1)
 
 类型: Evaluation | 日期: 2026-10-29
+
+---
+
+<a id="case-33"></a>
+### 案例 33: [两个模型的 V8 引擎观察](https://x.com/dromexa/status/2116927253980594275) (作者 [@dromexa](https://x.com/dromexa))
+
+**查看引擎的透视、剖切、爆炸图与逐件拆解视图。**
+
+作者称 Carbon 与 Opus 5.5 使用同一提示、各尝试一次。所谓三轮连胜是个人评价；可运行代码与机械精度未经独立核验。
+
+[观看来源视频](https://x.com/dromexa/status/2116927253980594275/video/1)
+
+类型: Evaluation | 日期: 2026-11-01
+
+---
+
+<a id="case-34"></a>
+### 案例 34: [单个 shader 绘制可乐瓶](https://x.com/dummerspast39/status/2116470583097438519) (作者 [@dummerspast39](https://x.com/dummerspast39))
+
+**查看以数学 shader 几何呈现的 Three.js 瓶子。**
+
+作者称没有使用外部模型或素材，瓶盖有 21 个齿。这是不同于早期 SVG 可乐瓶的 shader 演示；代码、素材依赖与齿数未经独立核验。
+
+[观看来源视频](https://x.com/dummerspast39/status/2116470583097438519/video/1)
+
+类型: Demo | 日期: 2026-10-31
+
+---
+
+<a id="case-39"></a>
+### 案例 39: [两个模型的机械表观察](https://x.com/dromexa/status/2116518366919667775) (作者 [@dromexa](https://x.com/dromexa))
+
+**查看机械表的透视、剖切与爆炸视图。**
+
+作者称 Carbon 与 Opus 5.5 使用同一提示、各尝试一次，并报告摆轮振动及齿轮转速正确。传动比与走时精度未经独立核验。
+
+[观看来源视频](https://x.com/dromexa/status/2116518366919667775/video/1)
+
+类型: Evaluation | 日期: 2026-10-31
 
 ---
 
@@ -454,6 +503,32 @@
 
 ---
 
+<a id="case-35"></a>
+### 案例 35: [约三十分钟制作 Minecraft 风格游戏](https://x.com/dummerspast39/status/2116502497158201520) (作者 [@dummerspast39](https://x.com/dummerspast39))
+
+**查看 Minecraft 风格游戏录像及作者所述的开发条件。**
+
+作者称在较差的代理运行环境中耗时约 30 分钟、大致尝试一次。此处未提供可运行项目；交互、稳定性及作者给出的模型排名未经独立测试。
+
+[观看来源视频](https://x.com/dummerspast39/status/2116502497158201520/video/1)
+
+类型: Demo | 日期: 2026-10-31
+
+---
+
+<a id="case-37"></a>
+### 案例 37: [三维赛车游戏](https://x.com/Mr_Salio/status/2116798612361375995) (作者 [@Mr_Salio](https://x.com/Mr_Salio))
+
+**查看被作者归于较新 Carbon 检查点的赛车演示。**
+
+作者称用一个提示、约 20 分钟制作了可玩的游戏。检查点身份、完整素材来源与可玩性未经独立核验；仅凭录像无法证明游戏可复现。
+
+[观看来源视频](https://x.com/Mr_Salio/status/2116798612361375995/video/1)
+
+类型: Demo | 日期: 2026-11-01
+
+---
+
 ## 🔬 模型对比
 
 <a id="case-25"></a>
@@ -483,6 +558,71 @@
 
 ---
 
+<a id="case-31"></a>
+### 案例 31: [九缸星形引擎对比](https://x.com/olezhavich/status/2116606788241969445) (作者 [@olezhavich](https://x.com/olezhavich))
+
+**比较四段引擎动画的剖面可读性与工程细节。**
+
+作者称各模型使用同一提示、各尝试一次，并偏好 Carbon 的清晰度及 Opus 5.5 的工程细节。点火顺序正确是作者的判断，未经独立核验。
+
+[观看来源视频](https://x.com/olezhavich/status/2116606788241969445/video/1)
+
+类型: Evaluation | 日期: 2026-10-31
+
+---
+
+<a id="case-32"></a>
+### 案例 32: [机械鲨鱼：速度与内部细节](https://x.com/0xPorterio/status/2116548548334321967) (作者 [@0xPorterio](https://x.com/0xPorterio))
+
+**对比分解式鲨鱼的组装特效与内部结构。**
+
+作者称 Carbon 完成更快、特效更突出，但内部细节不如 Opus 5.5。77–90 分来自个人评分标准；零件数量与机械正确性未经核验。
+
+[观看来源视频](https://x.com/0xPorterio/status/2116548548334321967/video/1)
+
+类型: Limit | 日期: 2026-10-31
+
+---
+
+<a id="case-36"></a>
+### 案例 36: [僵尸手动画：耗时与费用](https://x.com/noclipepe/status/2116445289468850366) (作者 [@noclipepe](https://x.com/noclipepe))
+
+**结合单次动画任务所报的时间和费用比较场景设计。**
+
+作者报告 Carbon 为 1h 23m/$10.2、Opus 5.5 为 1h 6m/$8.1、GPT-6 Astra 为 24m/$5.7，同时偏好 Carbon 的场景。这些是任务账单自述，不是 API 单价，也不是独立核验后的费用。
+
+[观看来源视频](https://x.com/noclipepe/status/2116445289468850366/video/1)
+
+类型: Evaluation | 日期: 2026-10-31
+
+---
+
+<a id="case-38"></a>
+### 案例 38: [二冲程引擎：不清楚的做功行程](https://x.com/olezhavich/status/2116892619309461745) (作者 [@olezhavich](https://x.com/olezhavich))
+
+**检查引擎动画是否清楚解释燃烧与活塞运动。**
+
+在据称同提示、各尝试一次的四模型对比中，作者认为 Carbon 的火焰不明显，在解释性或真实感上更偏好其他输出。这是针对该任务的评价；物理正确性与可重复性未经独立测试。
+
+[观看来源视频](https://x.com/olezhavich/status/2116892619309461745/video/1)
+
+类型: Limit | 日期: 2026-11-01
+
+---
+
+<a id="case-40"></a>
+### 案例 40: [鬼屋网站对比](https://x.com/keydol123/status/2116556350130163783) (作者 [@keydol123](https://x.com/keydol123))
+
+**比较两个同题网站的视觉氛围。**
+
+作者将同一提示下制作的两个鬼屋网站归于 Carbon 与 Opus 5.5。可爱与恐怖的区分属于主观评价；源码、无障碍性及网站完整行为未经独立测试。
+
+[观看来源视频](https://x.com/keydol123/status/2116556350130163783/video/1)
+
+类型: Evaluation | 日期: 2026-10-31
+
+---
+
 <a id="related-repositories"></a>
 ## 相关仓库
 
@@ -494,6 +634,6 @@
 
 感谢以下公开分享演示的发布者：
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123)
 
 署名依据所链接来源，可能需要更正。若有遗漏署名、重复作品、表述错误或移除需求，请提交 issue。第三方媒体权利归原权利人。

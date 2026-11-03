@@ -26,7 +26,7 @@
 
 ## 📊 개요
 
-5개 분류의 사례 30개입니다. 재게시물은 해당 작품에 합쳤으며 기존 결과의 비교도 원래 사례에 첨부했습니다.
+5개 분류의 사례 40개입니다. 재게시물은 해당 작품에 합쳤으며 기존 결과의 비교도 원래 사례에 첨부했습니다.
 
 > [!NOTE]
 > 모델명, 생성 시간, 품질 평가는 출처의 주장입니다. Arena 표시명은 실제 백엔드 버전을 입증하지 않습니다. 녹화만으로 코드 실행, 모든 상호작용의 정확성, 재현성을 확인할 수 없습니다.
@@ -72,6 +72,16 @@
 | [28. 음악 루프가 있는 빗속 풍경](#case-28) | SVG와 인터랙티브 그래픽 | Demo |
 | [29. 추가 프롬프트 전후의 성과 용](#case-29) | 복셀 세계와 풍경 | Evaluation |
 | [30. 세 모델의 기계 턱](#case-30) | 모델 비교 | Evaluation |
+| [31. 9기통 성형 엔진 비교](#case-31) | 모델 비교 | Evaluation |
+| [32. 기계 상어: 속도와 내부 세부](#case-32) | 모델 비교 | Limit |
+| [33. 두 모델의 V8 엔진 관찰](#case-33) | 기계와 3D 객체 | Evaluation |
+| [34. 단일 셰이더로 만든 콜라병](#case-34) | 기계와 3D 객체 | Demo |
+| [35. 약 30분 만에 만든 Minecraft풍 게임](#case-35) | 게임과 애니메이션 | Demo |
+| [36. 좀비 손 애니메이션: 시간과 비용](#case-36) | 모델 비교 | Evaluation |
+| [37. 3차원 자동차 경주 게임](#case-37) | 게임과 애니메이션 | Demo |
+| [38. 2행정 엔진: 불분명한 폭발 행정](#case-38) | 모델 비교 | Limit |
+| [39. 두 모델의 기계식 시계 관찰](#case-39) | 기계와 3D 객체 | Evaluation |
+| [40. 유령의 집 웹사이트 비교](#case-40) | 모델 비교 | Evaluation |
 
 ## ⚙️ 기계와 3D 객체
 
@@ -153,6 +163,45 @@
 [원본 동영상 보기](https://x.com/dromexa/status/2115802517942497491/video/1)
 
 유형: Evaluation | 날짜: 2026-10-29
+
+---
+
+<a id="case-33"></a>
+### 사례 33: [두 모델의 V8 엔진 관찰](https://x.com/dromexa/status/2116927253980594275) (작성자 [@dromexa](https://x.com/dromexa))
+
+**엔진의 투시, 단면, 분해도와 개별 부품 보기를 살펴보세요.**
+
+제작자는 Carbon과 Opus 5.5에 같은 프롬프트를 사용해 각각 한 번 시도했다고 보고합니다. 3연승 주장은 개인적인 판단이며 실행 가능한 코드와 기계적 정확성은 독립적으로 확인하지 않았습니다.
+
+[원본 동영상 보기](https://x.com/dromexa/status/2116927253980594275/video/1)
+
+유형: Evaluation | 날짜: 2026-11-01
+
+---
+
+<a id="case-34"></a>
+### 사례 34: [단일 셰이더로 만든 콜라병](https://x.com/dummerspast39/status/2116470583097438519) (작성자 [@dummerspast39](https://x.com/dummerspast39))
+
+**수학적 셰이더 형상으로 소개된 Three.js 병을 살펴보세요.**
+
+제작자는 외부 모델이나 자산을 사용하지 않았으며 병뚜껑에 톱니 21개를 넣었다고 보고합니다. 이전 SVG 병과 다른 셰이더 시연이며 코드, 자산 의존성, 톱니 수는 독립적으로 확인하지 않았습니다.
+
+[원본 동영상 보기](https://x.com/dummerspast39/status/2116470583097438519/video/1)
+
+유형: Demo | 날짜: 2026-10-31
+
+---
+
+<a id="case-39"></a>
+### 사례 39: [두 모델의 기계식 시계 관찰](https://x.com/dromexa/status/2116518366919667775) (작성자 [@dromexa](https://x.com/dromexa))
+
+**시계의 투시, 단면과 분해도를 살펴보세요.**
+
+제작자는 Carbon과 Opus 5.5에 같은 프롬프트로 각각 한 번 시도했으며 밸런스 휠의 진동과 올바른 기어 속도를 보고합니다. 기어비와 시간 측정 정확성은 독립적으로 확인하지 않았습니다.
+
+[원본 동영상 보기](https://x.com/dromexa/status/2116518366919667775/video/1)
+
+유형: Evaluation | 날짜: 2026-10-31
 
 ---
 
@@ -454,6 +503,32 @@ LuminaBench 사례와 다른 탑 표현입니다. 같은 소재라고 동일 생
 
 ---
 
+<a id="case-35"></a>
+### 사례 35: [약 30분 만에 만든 Minecraft풍 게임](https://x.com/dummerspast39/status/2116502497158201520) (작성자 [@dummerspast39](https://x.com/dummerspast39))
+
+**Minecraft풍 게임 녹화와 작성자가 밝힌 개발 조건을 살펴보세요.**
+
+작성자는 열악한 에이전트 실행 환경에서 약 30분, 대략 한 번의 시도로 만들었다고 보고합니다. 여기에는 실행 가능한 프로젝트가 제공되지 않으며 상호작용, 안정성, 작성자의 모델 순위는 독립적으로 시험하지 않았습니다.
+
+[원본 동영상 보기](https://x.com/dummerspast39/status/2116502497158201520/video/1)
+
+유형: Demo | 날짜: 2026-10-31
+
+---
+
+<a id="case-37"></a>
+### 사례 37: [3차원 자동차 경주 게임](https://x.com/Mr_Salio/status/2116798612361375995) (작성자 [@Mr_Salio](https://x.com/Mr_Salio))
+
+**새로운 Carbon 체크포인트의 결과로 소개된 경주 시연을 살펴보세요.**
+
+제작자는 프롬프트 하나로 약 20분 만에 플레이 가능한 게임을 만들었다고 보고합니다. 체크포인트 정체, 전체 자산 출처와 플레이 가능성은 독립적으로 검증하지 않았으며 녹화만으로 재현 가능한 게임임을 입증할 수 없습니다.
+
+[원본 동영상 보기](https://x.com/Mr_Salio/status/2116798612361375995/video/1)
+
+유형: Demo | 날짜: 2026-11-01
+
+---
+
 ## 🔬 모델 비교
 
 <a id="case-25"></a>
@@ -483,6 +558,71 @@ LuminaBench 사례와 다른 탑 표현입니다. 같은 소재라고 동일 생
 
 ---
 
+<a id="case-31"></a>
+### 사례 31: [9기통 성형 엔진 비교](https://x.com/olezhavich/status/2116606788241969445) (작성자 [@olezhavich](https://x.com/olezhavich))
+
+**네 가지 엔진 애니메이션의 단면 가독성과 공학적 세부를 비교하세요.**
+
+작성자는 같은 프롬프트로 모델마다 한 번 시도했으며 Carbon의 가독성과 Opus 5.5의 공학적 세부를 선호한다고 보고합니다. 점화 순서가 정확하다는 평가는 작성자의 판단이며 독립적으로 확인하지 않았습니다.
+
+[원본 동영상 보기](https://x.com/olezhavich/status/2116606788241969445/video/1)
+
+유형: Evaluation | 날짜: 2026-10-31
+
+---
+
+<a id="case-32"></a>
+### 사례 32: [기계 상어: 속도와 내부 세부](https://x.com/0xPorterio/status/2116548548334321967) (작성자 [@0xPorterio](https://x.com/0xPorterio))
+
+**분해 가능한 상어의 조립 효과와 내부 구조를 비교하세요.**
+
+작성자는 Carbon이 더 빠르고 시각 효과가 화려하지만 내부 세부는 Opus 5.5보다 부족하다고 설명합니다. 77–90점은 개인 평가 기준이며 부품 수와 기계적 정확성은 검증하지 않았습니다.
+
+[원본 동영상 보기](https://x.com/0xPorterio/status/2116548548334321967/video/1)
+
+유형: Limit | 날짜: 2026-10-31
+
+---
+
+<a id="case-36"></a>
+### 사례 36: [좀비 손 애니메이션: 시간과 비용](https://x.com/noclipepe/status/2116445289468850366) (작성자 [@noclipepe](https://x.com/noclipepe))
+
+**한 애니메이션 과제의 장면 구성과 보고된 시간 및 비용을 비교하세요.**
+
+작성자는 Carbon 1h 23m/$10.2, Opus 5.5 1h 6m/$8.1, GPT-6 Astra 24m/$5.7로 보고하면서 Carbon의 장면을 선호합니다. 과제별 비용 보고이며 API 단가나 독립적으로 검증한 비용이 아닙니다.
+
+[원본 동영상 보기](https://x.com/noclipepe/status/2116445289468850366/video/1)
+
+유형: Evaluation | 날짜: 2026-10-31
+
+---
+
+<a id="case-38"></a>
+### 사례 38: [2행정 엔진: 불분명한 폭발 행정](https://x.com/olezhavich/status/2116892619309461745) (작성자 [@olezhavich](https://x.com/olezhavich))
+
+**엔진 애니메이션이 연소와 피스톤 운동을 명확하게 설명하는지 확인하세요.**
+
+같은 프롬프트로 네 모델을 한 번씩 시도했다는 비교에서 작성자는 Carbon의 불꽃이 잘 보이지 않으며 설명력이나 사실성에서는 다른 출력을 선호한다고 합니다. 해당 과제에 한정된 평가이며 물리와 반복 가능성은 독립적으로 시험하지 않았습니다.
+
+[원본 동영상 보기](https://x.com/olezhavich/status/2116892619309461745/video/1)
+
+유형: Limit | 날짜: 2026-11-01
+
+---
+
+<a id="case-40"></a>
+### 사례 40: [유령의 집 웹사이트 비교](https://x.com/keydol123/status/2116556350130163783) (작성자 [@keydol123](https://x.com/keydol123))
+
+**같은 요청으로 제작된 두 웹사이트의 시각적 분위기를 비교하세요.**
+
+제작자는 같은 프롬프트로 만든 두 유령의 집 웹사이트를 Carbon과 Opus 5.5의 결과로 소개합니다. 귀여움과 공포의 구분은 주관적이며 소스 코드, 접근성 및 웹사이트 전체 동작은 독립적으로 시험하지 않았습니다.
+
+[원본 동영상 보기](https://x.com/keydol123/status/2116556350130163783/video/1)
+
+유형: Evaluation | 날짜: 2026-10-31
+
+---
+
 <a id="related-repositories"></a>
 ## 관련 저장소
 
@@ -494,6 +634,6 @@ LuminaBench 사례와 다른 탑 표현입니다. 같은 소재라고 동일 생
 
 데모를 공개한 다음 게시자에게 감사드립니다.
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123)
 
 저자 표기는 연결된 출처를 따르며 수정이 필요할 수 있습니다. 출처 누락, 중복, 잘못된 주장이나 삭제 요청은 issue로 알려주세요. 제3자 미디어의 권리는 원 권리자에게 있습니다.

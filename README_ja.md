@@ -26,7 +26,7 @@
 
 ## 📊 概要
 
-5分類、30事例。転載は同じ作品にまとめ、既存出力の比較は元の事例に添えています。
+5分類、40事例。転載は同じ作品にまとめ、既存出力の比較は元の事例に添えています。
 
 > [!NOTE]
 > モデル名、生成時間、品質評価は情報源の自己申告です。Arena の表示名ではバックエンドの版を確認できません。録画だけではコードの実行、全操作の正しさ、再現性は証明できません。
@@ -72,6 +72,16 @@
 | [28. 音楽ループ付きの雨の風景](#case-28) | SVGとインタラクティブ画像 | Demo |
 | [29. 追加プロンプト前後の城とドラゴン](#case-29) | ボクセル世界と風景 | Evaluation |
 | [30. 3モデルによる機械の顎](#case-30) | モデル比較 | Evaluation |
+| [31. 9気筒星型エンジンの比較](#case-31) | モデル比較 | Evaluation |
+| [32. 機械のサメ：速度と内部構造](#case-32) | モデル比較 | Limit |
+| [33. 2モデルによるV8エンジンの観察](#case-33) | 機械と3Dオブジェクト | Evaluation |
+| [34. 単一シェーダーによるコーラ瓶](#case-34) | 機械と3Dオブジェクト | Demo |
+| [35. 約30分で作ったMinecraft風ゲーム](#case-35) | ゲームとアニメーション | Demo |
+| [36. ゾンビの手のアニメーション：時間と費用](#case-36) | モデル比較 | Evaluation |
+| [37. 3Dカーレースゲーム](#case-37) | ゲームとアニメーション | Demo |
+| [38. 2ストロークエンジン：見えにくい燃焼行程](#case-38) | モデル比較 | Limit |
+| [39. 2モデルによる機械式時計の観察](#case-39) | 機械と3Dオブジェクト | Evaluation |
+| [40. お化け屋敷サイトの比較](#case-40) | モデル比較 | Evaluation |
 
 ## ⚙️ 機械と3Dオブジェクト
 
@@ -153,6 +163,45 @@
 [元の動画を見る](https://x.com/dromexa/status/2115802517942497491/video/1)
 
 タイプ: Evaluation | 日付: 2026-10-29
+
+---
+
+<a id="case-33"></a>
+### 事例 33: [2モデルによるV8エンジンの観察](https://x.com/dromexa/status/2116927253980594275) (投稿者 [@dromexa](https://x.com/dromexa))
+
+**エンジンの透視、断面、分解図、部品ごとの表示を確認します。**
+
+作者はCarbonとOpus 5.5に同じプロンプトを与え、それぞれ1回試したと報告しています。3連勝という主張は個人的な評価で、実行可能なコードや機構の精度は独立に確認していません。
+
+[元の動画を見る](https://x.com/dromexa/status/2116927253980594275/video/1)
+
+タイプ: Evaluation | 日付: 2026-11-01
+
+---
+
+<a id="case-34"></a>
+### 事例 34: [単一シェーダーによるコーラ瓶](https://x.com/dummerspast39/status/2116470583097438519) (投稿者 [@dummerspast39](https://x.com/dummerspast39))
+
+**数学的なシェーダー形状として紹介されたThree.jsの瓶を観察します。**
+
+作者は外部モデルや素材を使わず、栓には21個の歯があると述べています。以前のSVG瓶とは別のシェーダー実演で、コード、素材依存関係、歯の数は独立に確認していません。
+
+[元の動画を見る](https://x.com/dummerspast39/status/2116470583097438519/video/1)
+
+タイプ: Demo | 日付: 2026-10-31
+
+---
+
+<a id="case-39"></a>
+### 事例 39: [2モデルによる機械式時計の観察](https://x.com/dromexa/status/2116518366919667775) (投稿者 [@dromexa](https://x.com/dromexa))
+
+**時計の透視、断面、分解図を確認します。**
+
+作者はCarbonとOpus 5.5に同じプロンプトで各1回試し、テンプの振動と正しい速度の歯車を報告しています。歯車比や時計としての精度は独立に確認していません。
+
+[元の動画を見る](https://x.com/dromexa/status/2116518366919667775/video/1)
+
+タイプ: Evaluation | 日付: 2026-10-31
 
 ---
 
@@ -454,6 +503,32 @@ LuminaBench の事例とは異なる塔の映像です。同じ題材でも同�
 
 ---
 
+<a id="case-35"></a>
+### 事例 35: [約30分で作ったMinecraft風ゲーム](https://x.com/dummerspast39/status/2116502497158201520) (投稿者 [@dummerspast39](https://x.com/dummerspast39))
+
+**Minecraft風ゲームの録画と、作者が述べる開発条件を確認します。**
+
+作者は不十分なエージェント実行環境で約30分、ほぼ1回の試行だったと報告しています。実行可能なプロジェクトはここでは提供されておらず、操作性、安定性、作者によるモデル順位は独立に検証していません。
+
+[元の動画を見る](https://x.com/dummerspast39/status/2116502497158201520/video/1)
+
+タイプ: Demo | 日付: 2026-10-31
+
+---
+
+<a id="case-37"></a>
+### 事例 37: [3Dカーレースゲーム](https://x.com/Mr_Salio/status/2116798612361375995) (投稿者 [@Mr_Salio](https://x.com/Mr_Salio))
+
+**新しいCarbonチェックポイントによるものとされるレース実演を確認します。**
+
+作者は1つのプロンプトから約20分で遊べるゲームを作ったと報告しています。チェックポイントの正体、全素材の出所、プレイ可能性は独立に確認しておらず、録画だけではゲームの再現性は証明できません。
+
+[元の動画を見る](https://x.com/Mr_Salio/status/2116798612361375995/video/1)
+
+タイプ: Demo | 日付: 2026-11-01
+
+---
+
 ## 🔬 モデル比較
 
 <a id="case-25"></a>
@@ -483,6 +558,71 @@ LuminaBench の事例とは異なる塔の映像です。同じ題材でも同�
 
 ---
 
+<a id="case-31"></a>
+### 事例 31: [9気筒星型エンジンの比較](https://x.com/olezhavich/status/2116606788241969445) (投稿者 [@olezhavich](https://x.com/olezhavich))
+
+**4種類のエンジンアニメーションで断面の見やすさと工学的な細部を比較します。**
+
+作者は同じプロンプトで各モデル1回ずつ試し、Carbonの見やすさとOpus 5.5の工学的な細部を評価しています。点火順序の正確さは作者の判断であり、独立した確認は行っていません。
+
+[元の動画を見る](https://x.com/olezhavich/status/2116606788241969445/video/1)
+
+タイプ: Evaluation | 日付: 2026-10-31
+
+---
+
+<a id="case-32"></a>
+### 事例 32: [機械のサメ：速度と内部構造](https://x.com/0xPorterio/status/2116548548334321967) (投稿者 [@0xPorterio](https://x.com/0xPorterio))
+
+**分解可能なサメの組み立て演出と内部構造を比較します。**
+
+作者はCarbonの生成が速く演出も派手な一方、内部の細部はOpus 5.5に劣ると述べています。77–90という点数は個人の基準によるもので、部品数や機構の正確さは未検証です。
+
+[元の動画を見る](https://x.com/0xPorterio/status/2116548548334321967/video/1)
+
+タイプ: Limit | 日付: 2026-10-31
+
+---
+
+<a id="case-36"></a>
+### 事例 36: [ゾンビの手のアニメーション：時間と費用](https://x.com/noclipepe/status/2116445289468850366) (投稿者 [@noclipepe](https://x.com/noclipepe))
+
+**あるアニメーション課題の場面構成と、報告された時間・費用を比較します。**
+
+作者はCarbonが1h 23m/$10.2、Opus 5.5が1h 6m/$8.1、GPT-6 Astraが24m/$5.7と報告しつつ、Carbonの場面を好んでいます。課題単位の費用報告であり、API単価でも独立に確認した費用でもありません。
+
+[元の動画を見る](https://x.com/noclipepe/status/2116445289468850366/video/1)
+
+タイプ: Evaluation | 日付: 2026-10-31
+
+---
+
+<a id="case-38"></a>
+### 事例 38: [2ストロークエンジン：見えにくい燃焼行程](https://x.com/olezhavich/status/2116892619309461745) (投稿者 [@olezhavich](https://x.com/olezhavich))
+
+**エンジンのアニメーションが燃焼とピストン運動を明確に説明できているか確認します。**
+
+同じプロンプトで4モデルを各1回試したという比較で、作者はCarbonの炎が見えにくいとし、説明の明快さや写実性では他の出力を好んでいます。この課題に限った評価で、物理的な正確さや再現性は独立に検証していません。
+
+[元の動画を見る](https://x.com/olezhavich/status/2116892619309461745/video/1)
+
+タイプ: Limit | 日付: 2026-11-01
+
+---
+
+<a id="case-40"></a>
+### 事例 40: [お化け屋敷サイトの比較](https://x.com/keydol123/status/2116556350130163783) (投稿者 [@keydol123](https://x.com/keydol123))
+
+**同じ依頼から作られた2つのサイトの視覚的な雰囲気を比較します。**
+
+作者は同じプロンプトによるお化け屋敷サイトをCarbonとOpus 5.5の出力として紹介しています。かわいいか怖いかは主観的な評価で、ソースコード、アクセシビリティ、サイト全体の動作は独立に検証していません。
+
+[元の動画を見る](https://x.com/keydol123/status/2116556350130163783/video/1)
+
+タイプ: Evaluation | 日付: 2026-10-31
+
+---
+
 <a id="related-repositories"></a>
 ## 関連リポジトリ
 
@@ -494,6 +634,6 @@ LuminaBench の事例とは異なる塔の映像です。同じ題材でも同�
 
 デモを公開した以下の投稿者に感謝します。
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123)
 
 帰属はリンク先の情報に基づき、訂正が必要な場合があります。クレジット漏れ、重複、誤記、削除依頼は issue でお知らせください。第三者のメディアの権利は元の権利者に帰属します。
