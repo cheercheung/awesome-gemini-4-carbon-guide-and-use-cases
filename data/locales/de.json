@@ -24,7 +24,7 @@
     },
     "intro": "Eine Sammlung öffentlicher Community-Demos, die ihre Verfasser während der frühen Einführung Gemini 4 Carbon zuschreiben.",
     "purpose": "Erkunde konkrete Aufgaben, sichtbare Ergebnisse und praktische Grenzen anhand der Originalquellen.",
-    "stats": "40 Anwendungsfälle in 5 Kategorien. Weiterveröffentlichungen sind dem jeweiligen Werk zugeordnet; Vergleiche bestehender Ergebnisse bleiben beim ursprünglichen Fall.",
+    "stats": "44 Anwendungsfälle in 5 Kategorien. Weiterveröffentlichungen sind dem jeweiligen Werk zugeordnet; Vergleiche bestehender Ergebnisse bleiben beim ursprünglichen Fall.",
     "evidence": "Modellnamen, Erstellungszeiten und Qualitätsurteile sind Angaben der Quellen. Der Anzeigename in Arena belegt keine Backend-Version. Eine Aufnahme beweist weder ausführbaren Code noch vollständige Interaktion oder wiederholbaren Erfolg.",
     "steps": "1. Wähle eine Aufgabe im Inhaltsverzeichnis.\n2. Öffne Video oder Bild und folge dem Falltitel zum Originalbeitrag.\n3. Vergleiche das sichtbare Ergebnis mit Aufgabe und Einschränkungen.",
     "thanks": "Danke an die folgenden Herausgeber der Demos:",
@@ -230,6 +230,26 @@
       "Vergleich von Spukhaus-Websites",
       "Vergleichen Sie die visuelle Stimmung zweier Websites mit derselben Aufgabenstellung.",
       "Der Ersteller schreibt die beiden Spukhaus-Websites Carbon und Opus 5.5 mit derselben Eingabe zu. Niedlich oder gruselig ist eine subjektive Einordnung; Quellcode, Barrierefreiheit und vollständiges Website-Verhalten wurden nicht unabhängig getestet."
+    ],
+    [
+      "Mechanischer Adler mit zwei Modellbezeichnungen",
+      "Vergleiche die von der Quelle als Carbon und Argon beschrifteten mechanischen Adler.",
+      "Die Stichproben zeigen unterschiedliche Entwürfe, Flügelstellungen und Kamerawinkel. Der Autor fordert einen mechanischen Adler in Three.js; Modellidentität und mechanisches Verhalten bleiben Angaben der Quelle."
+    ],
+    [
+      "Nächtlicher Fluss mit Laternen",
+      "Erkunde eine mit Laternen gefüllte Flussszene aus mehreren aufgezeichneten Perspektiven.",
+      "Der Ersteller beschreibt eine Nachtszene mit leuchtenden Laternen und Wasserreflexionen. Die Stichproben zeigen diese Elemente und eine Funktion zum Hinzufügen von Laternen; die vollständige Interaktion wurde nicht getestet."
+    ],
+    [
+      "Segelschiff in drei Lichtstimmungen",
+      "Untersuche ein Segelschiff bei Tageslicht, Sonnenuntergang und Nacht.",
+      "Die Quelle fordert ein historisches Schiff auf offener See mit wechselndem Licht. Die Stichproben zeigen einen dunklen Rumpf und weiße Segel in diesen Zuständen; Wellenphysik und Modellidentität wurden nicht unabhängig getestet."
+    ],
+    [
+      "Segelschiff mit rotem Rumpf",
+      "Erkunde eine weitere Segelschiffszene mit rotem Rumpf und hellbraunen Segeln.",
+      "Die Stichproben zeigen nahe und ferne Ansichten mit Schaum und Vögeln. Rumpf, Verzierungen und Segel unterscheiden sich vom Schiff mit drei Lichtstimmungen; Carbon-Zuordnung und vollständige Umsetzung bleiben ungeprüft."
     ]
   ]
 }

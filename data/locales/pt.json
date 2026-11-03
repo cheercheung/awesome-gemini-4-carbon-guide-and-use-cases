@@ -24,7 +24,7 @@
     },
     "intro": "Uma coleção de demonstrações públicas que os seus autores atribuem ao Gemini 4 Carbon durante a disponibilização inicial.",
     "purpose": "Explore tarefas concretas, resultados visíveis e limites práticos através das fontes originais.",
-    "stats": "40 casos em 5 categorias. Republicações ficam agrupadas com a obra; comparações de um resultado existente permanecem no mesmo caso.",
+    "stats": "44 casos em 5 categorias. Republicações ficam agrupadas com a obra; comparações de um resultado existente permanecem no mesmo caso.",
     "evidence": "Nomes de modelos, tempos e avaliações são relatos das fontes. O nome no Arena não comprova a versão interna. Uma gravação não prova código executável, interação completa ou sucesso reproduzível.",
     "steps": "1. Escolha uma tarefa no índice.\n2. Abra o vídeo ou a imagem e siga o título até à publicação original.\n3. Compare o resultado visível com a tarefa e as limitações.",
     "thanks": "Agradecemos aos responsáveis pelas demonstrações:",
@@ -230,6 +230,26 @@
       "Comparação de sites de casas assombradas",
       "Compare a atmosfera visual de dois sites criados para o mesmo pedido.",
       "O criador atribui os dois sites a Carbon e Opus 5.5 usando o mesmo prompt. A distinção entre fofo e assustador é subjetiva; código, acessibilidade e funcionamento completo não foram testados de forma independente."
+    ],
+    [
+      "Águia mecânica com dois rótulos de modelo",
+      "Compare as águias mecânicas identificadas como Carbon e Argon pela fonte.",
+      "Os quadros mostram projetos diferentes, posições de asas e ângulos de câmera variados. O autor pede uma águia mecânica em Three.js; a identidade dos modelos e o comportamento mecânico continuam sendo relatos da fonte."
+    ],
+    [
+      "Noite no rio de lanternas",
+      "Explore uma cena de rio repleta de lanternas por vários pontos de vista gravados.",
+      "O criador descreve uma cena noturna com lanternas luminosas e reflexos. Os quadros mostram esses elementos e um controle para adicionar lanternas; a interação completa do aplicativo não foi testada."
+    ],
+    [
+      "Veleiro com três estados de iluminação",
+      "Examine um veleiro de dia, ao pôr do sol e à noite.",
+      "A fonte pede um navio histórico em mar aberto com iluminação variável. Os quadros mostram casco escuro e velas brancas nesses estados; a física das ondas e a identidade do modelo não foram testadas de forma independente."
+    ],
+    [
+      "Veleiro de casco vermelho",
+      "Explore outra cena de veleiro com casco vermelho e velas em tom de areia.",
+      "Os quadros mostram vistas próximas e distantes, espuma e aves. Casco, detalhes e velas diferem do navio com três iluminações; a atribuição a Carbon e a implementação completa continuam sem verificação."
     ]
   ]
 }

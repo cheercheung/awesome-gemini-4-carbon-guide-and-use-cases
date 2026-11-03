@@ -26,7 +26,7 @@
 
 ## 📊 Обзор
 
-40 примеров в 5 категориях. Повторные публикации объединены с соответствующей работой, а сравнения существующего результата оставлены в том же примере.
+44 примеров в 5 категориях. Повторные публикации объединены с соответствующей работой, а сравнения существующего результата оставлены в том же примере.
 
 > [!NOTE]
 > Названия моделей, время генерации и оценки качества сообщены источниками. Имя в Arena не доказывает версию серверной модели. Запись не подтверждает исполняемый код, правильность всех взаимодействий или повторяемость успеха.
@@ -82,6 +82,10 @@
 | [38. Двухтактный двигатель: неясный рабочий ход](#case-38) | Сравнение моделей | Limit |
 | [39. Осмотр механических часов в двух моделях](#case-39) | Механические и трёхмерные объекты | Evaluation |
 | [40. Сравнение сайтов домов с привидениями](#case-40) | Сравнение моделей | Evaluation |
+| [41. Механический орёл с двумя метками моделей](#case-41) | Механические и трёхмерные объекты | Evaluation |
+| [42. Ночная река с фонарями](#case-42) | Воксельные миры и пейзажи | Demo |
+| [43. Парусник при трёх вариантах освещения](#case-43) | Воксельные миры и пейзажи | Demo |
+| [44. Парусник с красным корпусом](#case-44) | Воксельные миры и пейзажи | Demo |
 
 ## ⚙️ Механические и трёхмерные объекты
 
@@ -202,6 +206,19 @@
 [Смотреть исходное видео](https://x.com/dromexa/status/2116518366919667775/video/1)
 
 Тип: Evaluation | Дата: 2026-10-31
+
+---
+
+<a id="case-41"></a>
+### Пример 41: [Механический орёл с двумя метками моделей](https://x.com/srikanthvaluri/status/2116767284618486044) (автор [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**Сравните механических орлов с метками Carbon и Argon в источнике.**
+
+Кадры показывают разные конструкции, положения крыльев и ракурсы. Автор просит механического орла на Three.js; идентичность моделей и работа механики остаются заявлениями источника.
+
+[Смотреть исходное видео](https://x.com/srikanthvaluri/status/2116767284618486044/video/1)
+
+Тип: Evaluation | Дата: 2026-11-01
 
 ---
 
@@ -337,6 +354,45 @@
 [Смотреть исходное видео](https://x.com/semichenkko/status/2116198626187706722/video/1)
 
 Тип: Evaluation | Дата: 2026-10-30
+
+---
+
+<a id="case-42"></a>
+### Пример 42: [Ночная река с фонарями](https://x.com/pankajkumar_dev/status/2116533017934241886) (автор [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+
+**Изучите реку, полную фонарей, с нескольких записанных ракурсов.**
+
+Автор описывает ночную сцену со светящимися фонарями и отражениями. Кадры показывают эти элементы и кнопку добавления фонаря; полное взаимодействие с приложением не тестировалось.
+
+[Смотреть исходное видео](https://x.com/pankajkumar_dev/status/2116533017934241886/video/1)
+
+Тип: Demo | Дата: 2026-10-31
+
+---
+
+<a id="case-43"></a>
+### Пример 43: [Парусник при трёх вариантах освещения](https://x.com/srikanthvaluri/status/2116931901332369894) (автор [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**Изучите парусник днём, на закате и ночью.**
+
+Источник просит исторический корабль в открытом море с меняющимся освещением. Кадры показывают тёмный корпус и белые паруса в этих состояниях; физика волн и идентичность модели независимо не тестировались.
+
+[Смотреть исходное видео](https://x.com/srikanthvaluri/status/2116931901332369894/video/1)
+
+Тип: Demo | Дата: 2026-11-01
+
+---
+
+<a id="case-44"></a>
+### Пример 44: [Парусник с красным корпусом](https://x.com/doe_naps/status/2116768227275788429) (автор [@doe_naps](https://x.com/doe_naps))
+
+**Изучите другую сцену парусника с красным корпусом и бежевыми парусами.**
+
+Кадры показывают близкие и дальние виды с пеной и птицами. Корпус, отделка и паруса отличаются от корабля с тремя освещениями; атрибуция Carbon и полная реализация независимо не подтверждены.
+
+[Смотреть исходное видео](https://x.com/doe_naps/status/2116768227275788429/video/1)
+
+Тип: Demo | Дата: 2026-11-01
 
 ---
 
@@ -634,6 +690,6 @@
 
 Спасибо авторам, опубликовавшим эти демонстрации:
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri)
 
 Атрибуция следует связанным источникам и может нуждаться в исправлении. Сообщайте через issue о пропущенных авторах, дубликатах, неверных утверждениях или просьбах об удалении. Права на сторонние материалы остаются у их владельцев.

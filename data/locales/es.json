@@ -24,7 +24,7 @@
     },
     "intro": "Una colección de demostraciones públicas que sus autores atribuyen a Gemini 4 Carbon durante su despliegue inicial.",
     "purpose": "Explora tareas concretas, resultados visibles y límites prácticos a través de sus fuentes originales.",
-    "stats": "40 casos en 5 categorías. Las republicaciones se agrupan con la obra correspondiente; las comparaciones de un resultado existente permanecen en su caso.",
+    "stats": "44 casos en 5 categorías. Las republicaciones se agrupan con la obra correspondiente; las comparaciones de un resultado existente permanecen en su caso.",
     "evidence": "Los nombres de modelo, tiempos y valoraciones proceden de las fuentes. El nombre mostrado en Arena no acredita la versión interna. Una grabación no demuestra código ejecutable, interacción completa ni éxito reproducible.",
     "steps": "1. Elige una tarea en el índice.\n2. Abre el vídeo o la imagen y sigue el título hasta la publicación original.\n3. Contrasta el resultado visible con la tarea y sus limitaciones.",
     "thanks": "Gracias a quienes publicaron estas demostraciones:",
@@ -230,6 +230,26 @@
       "Comparación de sitios web de casas encantadas",
       "Compare el ambiente visual de dos sitios web creados para el mismo encargo.",
       "El creador atribuye los sitios a Carbon y Opus 5.5 con la misma instrucción. La distinción entre adorable y aterrador es subjetiva; no se probaron de forma independiente el código, la accesibilidad ni el funcionamiento completo."
+    ],
+    [
+      "Águila mecánica con dos etiquetas de modelo",
+      "Compara las águilas mecánicas etiquetadas como Carbon y Argon por la fuente.",
+      "Los fotogramas muestran diseños distintos, posiciones de alas y ángulos de cámara cambiantes. El autor pide un águila mecánica en Three.js; la identidad de los modelos y el comportamiento mecánico siguen siendo datos de la fuente."
+    ],
+    [
+      "Noche en el río de faroles",
+      "Explora una escena fluvial llena de faroles desde varios puntos de vista grabados.",
+      "El creador describe una escena nocturna con faroles luminosos y reflejos. Los fotogramas muestran esos elementos y un control para añadir faroles; no se probó toda la interacción de la aplicación."
+    ],
+    [
+      "Velero con tres estados de iluminación",
+      "Examina un velero de día, al atardecer y de noche.",
+      "La fuente pide un barco histórico en mar abierto con iluminación cambiante. Los fotogramas muestran casco oscuro y velas blancas en esos estados; no se probaron de forma independiente la física del oleaje ni la identidad del modelo."
+    ],
+    [
+      "Velero de casco rojo",
+      "Explora otra escena de un velero con casco rojo y velas color arena.",
+      "Los fotogramas muestran vistas cercanas y lejanas, espuma y aves. Casco, adornos y velas difieren del barco de tres iluminaciones; la atribución a Carbon y la implementación completa siguen sin verificarse."
     ]
   ]
 }

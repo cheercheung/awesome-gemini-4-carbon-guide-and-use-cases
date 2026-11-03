@@ -1,5 +1,10 @@
 # Update log
 
+## 2026-11-03 — Manual supplement
+
+- Added four source-attributed community cases: mechanical eagle, Lantern River Night and two distinct sailing-ship scenes. The collection now contains 44 cases in eleven languages.
+- Preserved the preceding 40 cases and their copy. Reused the completed source-recording frame inspection; no new collection or media acquisition was performed. New entries link only to original media. Model identity, full interaction and engineering correctness are not independently established.
+
 ## 2026-11-03
 
 - Added ten cases from the latest saved community-source batch: radial and two-stroke engines, a mechanical shark, V8 inspection, a single-shader bottle, Minecraft-style and racing games, zombie-hand animation, a mechanical watch, and haunted-house websites. The collection now has 40 cases across five categories in eleven languages.

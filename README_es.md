@@ -26,7 +26,7 @@ Una colección de demostraciones públicas que sus autores atribuyen a Gemini 4 
 
 ## 📊 Resumen
 
-40 casos en 5 categorías. Las republicaciones se agrupan con la obra correspondiente; las comparaciones de un resultado existente permanecen en su caso.
+44 casos en 5 categorías. Las republicaciones se agrupan con la obra correspondiente; las comparaciones de un resultado existente permanecen en su caso.
 
 > [!NOTE]
 > Los nombres de modelo, tiempos y valoraciones proceden de las fuentes. El nombre mostrado en Arena no acredita la versión interna. Una grabación no demuestra código ejecutable, interacción completa ni éxito reproducible.
@@ -82,6 +82,10 @@ Una colección de demostraciones públicas que sus autores atribuyen a Gemini 4 
 | [38. Motor de dos tiempos: combustión poco clara](#case-38) | Comparación de modelos | Limit |
 | [39. Inspección de un reloj mecánico con dos modelos](#case-39) | Objetos mecánicos y 3D | Evaluation |
 | [40. Comparación de sitios web de casas encantadas](#case-40) | Comparación de modelos | Evaluation |
+| [41. Águila mecánica con dos etiquetas de modelo](#case-41) | Objetos mecánicos y 3D | Evaluation |
+| [42. Noche en el río de faroles](#case-42) | Mundos y paisajes vóxel | Demo |
+| [43. Velero con tres estados de iluminación](#case-43) | Mundos y paisajes vóxel | Demo |
+| [44. Velero de casco rojo](#case-44) | Mundos y paisajes vóxel | Demo |
 
 ## ⚙️ Objetos mecánicos y 3D
 
@@ -202,6 +206,19 @@ El creador declara la misma instrucción y un intento con Carbon y Opus 5.5, un 
 [Ver vídeo original](https://x.com/dromexa/status/2116518366919667775/video/1)
 
 Tipo: Evaluation | Fecha: 2026-10-31
+
+---
+
+<a id="case-41"></a>
+### Caso 41: [Águila mecánica con dos etiquetas de modelo](https://x.com/srikanthvaluri/status/2116767284618486044) (por [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**Compara las águilas mecánicas etiquetadas como Carbon y Argon por la fuente.**
+
+Los fotogramas muestran diseños distintos, posiciones de alas y ángulos de cámara cambiantes. El autor pide un águila mecánica en Three.js; la identidad de los modelos y el comportamiento mecánico siguen siendo datos de la fuente.
+
+[Ver vídeo original](https://x.com/srikanthvaluri/status/2116767284618486044/video/1)
+
+Tipo: Evaluation | Fecha: 2026-11-01
 
 ---
 
@@ -337,6 +354,45 @@ El creador presenta la misma isla, castillo y dragón tras la primera instrucci�
 [Ver vídeo original](https://x.com/semichenkko/status/2116198626187706722/video/1)
 
 Tipo: Evaluation | Fecha: 2026-10-30
+
+---
+
+<a id="case-42"></a>
+### Caso 42: [Noche en el río de faroles](https://x.com/pankajkumar_dev/status/2116533017934241886) (por [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+
+**Explora una escena fluvial llena de faroles desde varios puntos de vista grabados.**
+
+El creador describe una escena nocturna con faroles luminosos y reflejos. Los fotogramas muestran esos elementos y un control para añadir faroles; no se probó toda la interacción de la aplicación.
+
+[Ver vídeo original](https://x.com/pankajkumar_dev/status/2116533017934241886/video/1)
+
+Tipo: Demo | Fecha: 2026-10-31
+
+---
+
+<a id="case-43"></a>
+### Caso 43: [Velero con tres estados de iluminación](https://x.com/srikanthvaluri/status/2116931901332369894) (por [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**Examina un velero de día, al atardecer y de noche.**
+
+La fuente pide un barco histórico en mar abierto con iluminación cambiante. Los fotogramas muestran casco oscuro y velas blancas en esos estados; no se probaron de forma independiente la física del oleaje ni la identidad del modelo.
+
+[Ver vídeo original](https://x.com/srikanthvaluri/status/2116931901332369894/video/1)
+
+Tipo: Demo | Fecha: 2026-11-01
+
+---
+
+<a id="case-44"></a>
+### Caso 44: [Velero de casco rojo](https://x.com/doe_naps/status/2116768227275788429) (por [@doe_naps](https://x.com/doe_naps))
+
+**Explora otra escena de un velero con casco rojo y velas color arena.**
+
+Los fotogramas muestran vistas cercanas y lejanas, espuma y aves. Casco, adornos y velas difieren del barco de tres iluminaciones; la atribución a Carbon y la implementación completa siguen sin verificarse.
+
+[Ver vídeo original](https://x.com/doe_naps/status/2116768227275788429/video/1)
+
+Tipo: Demo | Fecha: 2026-11-01
 
 ---
 
@@ -634,6 +690,6 @@ Tipo: Evaluation | Fecha: 2026-10-31
 
 Gracias a quienes publicaron estas demostraciones:
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri)
 
 La atribución sigue las fuentes enlazadas y puede necesitar correcciones. Abre un issue para indicar créditos omitidos, duplicados, afirmaciones incorrectas o solicitudes de retirada. Los medios de terceros conservan su titularidad original.

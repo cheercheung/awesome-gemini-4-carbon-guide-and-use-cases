@@ -26,7 +26,7 @@ A collection of public community demonstrations attributed by their publishers t
 
 ## 📊 Overview
 
-40 usecases across 5 categories. Reposts are grouped with their underlying work; a comparison of an existing output is kept with that case.
+44 usecases across 5 categories. Reposts are grouped with their underlying work; a comparison of an existing output is kept with that case.
 
 > [!NOTE]
 > Model names, generation times and quality judgments are source-reported. An Arena display name does not establish the backend version. A recording does not prove runnable code, complete interaction or repeatable success.
@@ -82,6 +82,10 @@ A collection of public community demonstrations attributed by their publishers t
 | [38. Two-stroke engine: unclear power stroke](#case-38) | Model Comparison | Limit |
 | [39. Mechanical watch inspection across two models](#case-39) | Mechanical and 3D Objects | Evaluation |
 | [40. Haunted-house website comparison](#case-40) | Model Comparison | Evaluation |
+| [41. Mechanical eagle across two model labels](#case-41) | Mechanical and 3D Objects | Evaluation |
+| [42. Lantern River Night](#case-42) | Voxel Worlds and Scenery | Demo |
+| [43. Sailing ship across three lighting states](#case-43) | Voxel Worlds and Scenery | Demo |
+| [44. Red-hulled sailing ship](#case-44) | Voxel Worlds and Scenery | Demo |
 
 ## ⚙️ Mechanical and 3D Objects
 
@@ -202,6 +206,19 @@ The creator reports a shared prompt and one attempt each for Carbon and Opus 5.5
 [Watch source video](https://x.com/dromexa/status/2116518366919667775/video/1)
 
 Type: Evaluation | Date: 2026-10-31
+
+---
+
+<a id="case-41"></a>
+### Case 41: [Mechanical eagle across two model labels](https://x.com/srikanthvaluri/status/2116767284618486044) (by [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**Compare the source’s Carbon- and Argon-labelled mechanical eagles.**
+
+Sampled frames show different eagle designs with changing wing positions and camera angles. The author requests a Three.js mechanical eagle; model identity and mechanical behavior remain source-reported.
+
+[Watch source video](https://x.com/srikanthvaluri/status/2116767284618486044/video/1)
+
+Type: Evaluation | Date: 2026-11-01
 
 ---
 
@@ -337,6 +354,45 @@ The creator presents the same island, castle and dragon on the first prompt and 
 [Watch source video](https://x.com/semichenkko/status/2116198626187706722/video/1)
 
 Type: Evaluation | Date: 2026-10-30
+
+---
+
+<a id="case-42"></a>
+### Case 42: [Lantern River Night](https://x.com/pankajkumar_dev/status/2116533017934241886) (by [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+
+**Explore a lantern-filled river scene through several recorded viewpoints.**
+
+The creator describes a night scene with glowing lanterns and water reflections. Sampled frames show those elements and an add-lantern control; the application’s complete interaction was not tested.
+
+[Watch source video](https://x.com/pankajkumar_dev/status/2116533017934241886/video/1)
+
+Type: Demo | Date: 2026-10-31
+
+---
+
+<a id="case-43"></a>
+### Case 43: [Sailing ship across three lighting states](https://x.com/srikanthvaluri/status/2116931901332369894) (by [@srikanthvaluri](https://x.com/srikanthvaluri))
+
+**Inspect a sailing ship at daylight, sunset and night.**
+
+The source requests a historical ship on the open sea with changing lighting. Sampled frames show a dark hull and white sails across those states; wave physics and model identity were not independently tested.
+
+[Watch source video](https://x.com/srikanthvaluri/status/2116931901332369894/video/1)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-44"></a>
+### Case 44: [Red-hulled sailing ship](https://x.com/doe_naps/status/2116768227275788429) (by [@doe_naps](https://x.com/doe_naps))
+
+**Explore another sailing-ship scene with a red hull and tan sails.**
+
+Sampled frames show close and distant views with foam and birds. Its hull, trim and sails differ from the three-lighting-state ship; the creator’s Carbon attribution and full implementation remain unverified.
+
+[Watch source video](https://x.com/doe_naps/status/2116768227275788429/video/1)
+
+Type: Demo | Date: 2026-11-01
 
 ---
 
@@ -634,6 +690,6 @@ Type: Evaluation | Date: 2026-10-31
 
 Thanks to the publishers whose demonstrations make this collection possible:
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri)
 
 Attribution follows the linked sources and may need correction. Please open an issue for missing credit, duplicate work, inaccurate claims or removal requests. Third-party media retains its original ownership.
