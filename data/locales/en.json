@@ -22,13 +22,21 @@
       "games": "Games and Animated Scenes",
       "comparison": "Model Comparison"
     },
-    "intro": "A collection of public community demonstrations attributed by their publishers to Gemini 4 Carbon during its early rollout.",
+    "intro": "Examples of Gemini 4 Carbon published by the community and Google, alongside evaluations that explain how results were measured.",
     "purpose": "Explore concrete tasks, visible outputs and practical limits through their original sources.",
-    "stats": "44 usecases across 5 categories. Reposts are grouped with their underlying work; a comparison of an existing output is kept with that case.",
+    "stats": "50 use cases across 5 categories. Reposts are grouped with their underlying work; comparisons of the same output are kept with its case.",
     "evidence": "Model names, generation times and quality judgments are source-reported. An Arena display name does not establish the backend version. A recording does not prove runnable code, complete interaction or repeatable success.",
     "steps": "1. Choose a task in the Menu.\n2. Open its video or image, then follow the source-linked case title.\n3. Compare the visible result with the stated task and limitations.",
     "thanks": "Thanks to the publishers whose demonstrations make this collection possible:",
-    "corrections": "Attribution follows the linked sources and may need correction. Please open an issue for missing credit, duplicate work, inaccurate claims or removal requests. Third-party media retains its original ownership."
+    "corrections": "Attribution follows the linked sources and may need correction. Please open an issue for missing credit, duplicate work, inaccurate claims or removal requests. Third-party media retains its original ownership.",
+    "what_it_shows": "What it shows",
+    "section": "Section",
+    "navigation_purpose": "Purpose",
+    "navigation_notes": {
+      "related": "Browse related model repositories.",
+      "quick_start": "Find and inspect a case.",
+      "acknowledge": "See credits and corrections."
+    }
   },
   "cases": [
     [
@@ -250,6 +258,36 @@
       "Red-hulled sailing ship",
       "Explore another sailing-ship scene with a red hull and tan sails.",
       "Sampled frames show close and distant views with foam and birds. Its hull, trim and sails differ from the three-lighting-state ship; the creator’s Carbon attribution and full implementation remain unverified."
+    ],
+    [
+      "Pelican Quest campus game",
+      "Inspect how a multi-agent workflow assembles an explorable campus game.",
+      "Google reports using Antigravity swarm agents to build a Three.js and WebGL game with Blender assets, where a pelican rides a GBike around the Mountain View campus. The published recording shows the scene and its controls. It does not establish that the workflow is reproducible."
+    ],
+    [
+      "Multimodal Knowledge Agent benchmark",
+      "Compare weighted rubric scores for visually complex documents and deliverables.",
+      "Artificial Analysis and Google DeepMind evaluated agents on 200 private tasks across ten industries. The report gives Gemini 4 Carbon High 54% on weighted Climb criteria, compared with 57% for Claude Fable 5.2 Max and 53% for Claude Opus 5.5 Max. These figures describe the Stirrup harness and the stated rubric, not the share of tasks completed."
+    ],
+    [
+      "Eiffel Tower construction model",
+      "Follow the transformation of engineering drawings into an animated 3D construction sequence.",
+      "Google shows how Antigravity agents use historical engineering drawings to model the Eiffel Tower and visualize stages of construction. The clip shows the drawings and the resulting sequence. It does not verify dimensional accuracy against the original plans."
+    ],
+    [
+      "Platform 37 office visualization",
+      "Trace an office design from planning drawings to a rendered exterior.",
+      "Google shows agents reading planning drawings, building geometry, and producing an exterior view of the office with a planted roof. The published clip shows the transition from the drawings to the rendered building. It does not establish that the geometry is suitable for construction."
+    ],
+    [
+      "Tensile knit study",
+      "Inspect a three-dimensional representation of knitted fabric under tension.",
+      "Google shows an interactive visualizer based on a 2026 study of knitted textile mechanics. It depicts 110 fibers under tension. The clip shows the simulation and its plots, without providing physical validation of the material."
+    ],
+    [
+      "Gemini merchandise storefront",
+      "See how brand guidelines become a working storefront with custom visuals.",
+      "Google built the storefront in Antigravity using its frontend design skill. The team attributes the storefront work to Gemini and the generated imagery to Nano Banana. The demo can be opened in AI Studio. It shows a working front end but does not establish a live checkout or fulfillment integration."
     ]
   ]
 }

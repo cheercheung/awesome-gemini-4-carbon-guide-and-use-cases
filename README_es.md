@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://evolink.ai?utm_source=github&utm_medium=banner&utm_campaign=gemini-4-carbon-usecases&utm_content=readme-cover"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/banner/banner-owner-6aea570af8a4.png" alt="Gemini 4 Carbon — Casos de uso de la comunidad" width="760"></a>
+<a href="https://evolink.ai?utm_source=github&utm_medium=banner&utm_campaign=gemini-4-carbon-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/banner/banner-owner-6aea570af8a4.png" alt="Gemini 4 Carbon — Casos de uso de la comunidad" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 
@@ -20,13 +20,13 @@
 
 ## 🍌 Introducción
 
-Una colección de demostraciones públicas que sus autores atribuyen a Gemini 4 Carbon durante su despliegue inicial.
+Ejemplos de Gemini 4 Carbon publicados por la comunidad y por Google, junto con evaluaciones que detallan cómo se midieron los resultados.
 
 **Explora tareas concretas, resultados visibles y límites prácticos a través de sus fuentes originales.**
 
 ## 📊 Resumen
 
-44 casos en 5 categorías. Las republicaciones se agrupan con la obra correspondiente; las comparaciones de un resultado existente permanecen en su caso.
+50 casos en 5 categorías. Las republicaciones se agrupan con el trabajo original y las comparaciones de un resultado se mantienen junto a su caso.
 
 > [!NOTE]
 > Los nombres de modelo, tiempos y valoraciones proceden de las fuentes. El nombre mostrado en Arena no acredita la versión interna. Una grabación no demuestra código ejecutable, interacción completa ni éxito reproducible.
@@ -40,52 +40,64 @@ Una colección de demostraciones públicas que sus autores atribuyen a Gemini 4 
 
 ## 📑 Índice
 
-| Caso | Categoría | Tipo |
-|---|---|---|
-| [1. Flor mecánica](#case-1) | Objetos mecánicos y 3D | Demo |
-| [2. Abeja mecánica](#case-2) | Objetos mecánicos y 3D | Demo |
-| [3. Criaturas mecánicas y telaraña](#case-3) | Objetos mecánicos y 3D | Demo |
-| [4. Cítrico de cristal](#case-4) | Objetos mecánicos y 3D | Demo |
-| [5. Hogwarts en vóxeles](#case-5) | Mundos y paisajes vóxel | Demo |
-| [6. Castillo y paisaje vóxel](#case-6) | Mundos y paisajes vóxel | Demo |
-| [7. Jardín Fuji](#case-7) | Mundos y paisajes vóxel | Demo |
-| [8. Río vóxel y clima](#case-8) | Mundos y paisajes vóxel | Demo |
-| [9. Pagoda vóxel](#case-9) | Mundos y paisajes vóxel | Demo |
-| [10. Pagoda vóxel de cinco pisos](#case-10) | Mundos y paisajes vóxel | Demo |
-| [11. Isla del faro vóxel](#case-11) | Mundos y paisajes vóxel | Demo |
-| [12. Diorama del kraken mecánico](#case-12) | Mundos y paisajes vóxel | Demo |
-| [13. Ciudad ferroviaria en el cielo](#case-13) | Mundos y paisajes vóxel | Demo |
-| [14. Botella de cola en SVG](#case-14) | SVG y gráficos interactivos | Demo |
-| [15. Mando PS5 interactivo](#case-15) | SVG y gráficos interactivos | Demo |
-| [16. Mando de estilo Xbox](#case-16) | SVG y gráficos interactivos | Demo |
-| [17. Coche deportivo en SVG](#case-17) | SVG y gráficos interactivos | Demo |
-| [18. Pelícano ciclista al atardecer](#case-18) | SVG y gráficos interactivos | Demo |
-| [19. Pelícano ciclista en cuatro estaciones](#case-19) | SVG y gráficos interactivos | Demo |
-| [20. Pelícano ciclista en tonos pastel](#case-20) | SVG y gráficos interactivos | Demo |
-| [21. Pelícano del puerto y límites de UI](#case-21) | SVG y gráficos interactivos | Limit |
-| [22. Plataformas al estilo Super Mario](#case-22) | Juegos y escenas animadas | Demo |
-| [23. Mundo de bloques en primera persona](#case-23) | Juegos y escenas animadas | Demo |
-| [24. Rana en monopatín](#case-24) | Juegos y escenas animadas | Demo |
-| [25. Animación ciclista en tres modelos](#case-25) | Comparación de modelos | Evaluation |
-| [26. Ojo robótico con vista despiece](#case-26) | Objetos mecánicos y 3D | Demo |
-| [27. Inspección de una café racer con dos modelos](#case-27) | Objetos mecánicos y 3D | Evaluation |
-| [28. Escena de lluvia con bucle musical](#case-28) | SVG y gráficos interactivos | Demo |
-| [29. Castillo y dragón tras instrucciones adicionales](#case-29) | Mundos y paisajes vóxel | Evaluation |
-| [30. Mandíbula mecánica con tres modelos](#case-30) | Comparación de modelos | Evaluation |
-| [31. Comparación de un motor radial de nueve cilindros](#case-31) | Comparación de modelos | Evaluation |
-| [32. Tiburón mecánico: velocidad frente a detalle interno](#case-32) | Comparación de modelos | Limit |
-| [33. Inspección de un motor V8 con dos modelos](#case-33) | Objetos mecánicos y 3D | Evaluation |
-| [34. Botella de cola con un solo shader](#case-34) | Objetos mecánicos y 3D | Demo |
-| [35. Juego estilo Minecraft en unos treinta minutos](#case-35) | Juegos y escenas animadas | Demo |
-| [36. Animación de una mano zombi: tiempo y coste](#case-36) | Comparación de modelos | Evaluation |
-| [37. Juego de carreras tridimensional](#case-37) | Juegos y escenas animadas | Demo |
-| [38. Motor de dos tiempos: combustión poco clara](#case-38) | Comparación de modelos | Limit |
-| [39. Inspección de un reloj mecánico con dos modelos](#case-39) | Objetos mecánicos y 3D | Evaluation |
-| [40. Comparación de sitios web de casas encantadas](#case-40) | Comparación de modelos | Evaluation |
-| [41. Águila mecánica con dos etiquetas de modelo](#case-41) | Objetos mecánicos y 3D | Evaluation |
-| [42. Noche en el río de faroles](#case-42) | Mundos y paisajes vóxel | Demo |
-| [43. Velero con tres estados de iluminación](#case-43) | Mundos y paisajes vóxel | Demo |
-| [44. Velero de casco rojo](#case-44) | Mundos y paisajes vóxel | Demo |
+| Caso | Categoría | Qué muestra | Tipo |
+|---|---|---|---|
+| [Flor mecánica](#case-1) | Objetos mecánicos y 3D | Observa los materiales, la iluminación y la pequeña abeja de una flor en three.js. | Demo |
+| [Abeja mecánica](#case-2) | Objetos mecánicos y 3D | Observa una abeja mecánica y su movimiento en ocho. | Demo |
+| [Criaturas mecánicas y telaraña](#case-3) | Objetos mecánicos y 3D | Explora una secuencia con criaturas mecánicas, una telaraña y un aparato alado. | Demo |
+| [Cítrico de cristal](#case-4) | Objetos mecánicos y 3D | Observa las capas, luces y vistas animadas de un cítrico interactivo. | Demo |
+| [Hogwarts en vóxeles](#case-5) | Mundos y paisajes vóxel | Recorre vistas interiores y exteriores de un castillo vóxel. | Demo |
+| [Castillo y paisaje vóxel](#case-6) | Mundos y paisajes vóxel | Observa un castillo de día, de noche y desde el aire. | Demo |
+| [Jardín Fuji](#case-7) | Mundos y paisajes vóxel | Explora un jardín japonés en miniatura desde la perspectiva de una mariposa. | Demo |
+| [Río vóxel y clima](#case-8) | Mundos y paisajes vóxel | Observa reflejos y cambios meteorológicos en un valle vóxel. | Demo |
+| [Pagoda vóxel](#case-9) | Mundos y paisajes vóxel | Observa una isla con pagoda bajo distintas iluminaciones. | Demo |
+| [Pagoda vóxel de cinco pisos](#case-10) | Mundos y paisajes vóxel | Observa otra pagoda con luces animadas y primeros planos. | Demo |
+| [Isla del faro vóxel](#case-11) | Mundos y paisajes vóxel | Explora un faro con cambios de día, noche y clima. | Demo |
+| [Diorama del kraken mecánico](#case-12) | Mundos y paisajes vóxel | Observa un kraken de latón y un submarino en una escena vóxel. | Demo |
+| [Ciudad ferroviaria en el cielo](#case-13) | Mundos y paisajes vóxel | Explora una escena fantástica con tren, vías elevadas y torres. | Demo |
+| [Botella de cola en SVG](#case-14) | SVG y gráficos interactivos | Observa una botella tridimensional que el creador describe como SVG. | Demo |
+| [Mando PS5 interactivo](#case-15) | SVG y gráficos interactivos | Observa primeros planos y distintos estados de un mando SVG. | Demo |
+| [Mando de estilo Xbox](#case-16) | SVG y gráficos interactivos | Observa el detalle de un mando de estilo Xbox. | Demo |
+| [Coche deportivo en SVG](#case-17) | SVG y gráficos interactivos | Observa las ruedas y la carrocería de un deportivo blanco de perfil. | Demo |
+| [Pelícano ciclista al atardecer](#case-18) | SVG y gráficos interactivos | Observa un pelícano en bicicleta junto al mar al atardecer. | Demo |
+| [Pelícano ciclista en cuatro estaciones](#case-19) | SVG y gráficos interactivos | Explora cuatro versiones estacionales de un pelícano en bicicleta. | Demo |
+| [Pelícano ciclista en tonos pastel](#case-20) | SVG y gráficos interactivos | Observa las alas en una escena ciclista de colores pastel. | Demo |
+| [Pelícano del puerto y límites de UI](#case-21) | SVG y gráficos interactivos | Observa el SVG del puerto considerando usabilidad y tiempo de respuesta. | Limit |
+| [Plataformas al estilo Super Mario](#case-22) | Juegos y escenas animadas | Observa una partida con zonas exteriores y subterráneas. | Demo |
+| [Mundo de bloques en primera persona](#case-23) | Juegos y escenas animadas | Observa un mundo de estilo Minecraft con barra de bloques. | Demo |
+| [Rana en monopatín](#case-24) | Juegos y escenas animadas | Observa una rana animada sobre un monopatín en un entorno estilizado. | Demo |
+| [Animación ciclista en tres modelos](#case-25) | Comparación de modelos | Compara los resultados agrupados de Carbon, Argon y GPT-6 Astra. | Evaluation |
+| [Ojo robótico con vista despiece](#case-26) | Objetos mecánicos y 3D | Examina una demostración de un ojo robótico que parpadea, enfoca y muestra sus piezas separadas. | Demo |
+| [Inspección de una café racer con dos modelos](#case-27) | Objetos mecánicos y 3D | Compara las demostraciones de inspección de una motocicleta atribuidas a Carbon y Opus 5.5. | Evaluation |
+| [Escena de lluvia con bucle musical](#case-28) | SVG y gráficos interactivos | Explora el bucle de música para dormir en JavaScript con una escena de lluvia SVG de la fuente. | Demo |
+| [Castillo y dragón tras instrucciones adicionales](#case-29) | Mundos y paisajes vóxel | Compara una escena de castillo y dragón antes y después de tres instrucciones adicionales. | Evaluation |
+| [Mandíbula mecánica con tres modelos](#case-30) | Comparación de modelos | Compara las demostraciones de mandíbula mecánica y dientes móviles de Carbon, Opus 5.5 y GPT-6 Astra. | Evaluation |
+| [Comparación de un motor radial de nueve cilindros](#case-31) | Comparación de modelos | Compare la claridad del corte y el detalle técnico de cuatro animaciones de motores. | Evaluation |
+| [Tiburón mecánico: velocidad frente a detalle interno](#case-32) | Comparación de modelos | Compare los efectos de montaje con la estructura interna de un tiburón desmontable. | Limit |
+| [Inspección de un motor V8 con dos modelos](#case-33) | Objetos mecánicos y 3D | Examine vistas de rayos X, cortes, despieces y componentes del motor. | Evaluation |
+| [Botella de cola con un solo shader](#case-34) | Objetos mecánicos y 3D | Explore una botella de Three.js presentada como geometría matemática en un shader. | Demo |
+| [Juego estilo Minecraft en unos treinta minutos](#case-35) | Juegos y escenas animadas | Explore una grabación de un juego estilo Minecraft y sus condiciones de desarrollo declaradas. | Demo |
+| [Animación de una mano zombi: tiempo y coste](#case-36) | Comparación de modelos | Compare el diseño de escenas con el tiempo y coste declarados de una animación. | Evaluation |
+| [Juego de carreras tridimensional](#case-37) | Juegos y escenas animadas | Examine una demostración de carreras atribuida a un checkpoint más reciente de Carbon. | Demo |
+| [Motor de dos tiempos: combustión poco clara](#case-38) | Comparación de modelos | Compruebe si la animación explica con claridad la combustión y el movimiento del pistón. | Limit |
+| [Inspección de un reloj mecánico con dos modelos](#case-39) | Objetos mecánicos y 3D | Examine un reloj mediante rayos X, cortes y despieces. | Evaluation |
+| [Comparación de sitios web de casas encantadas](#case-40) | Comparación de modelos | Compare el ambiente visual de dos sitios web creados para el mismo encargo. | Evaluation |
+| [Águila mecánica con dos etiquetas de modelo](#case-41) | Objetos mecánicos y 3D | Compara las águilas mecánicas etiquetadas como Carbon y Argon por la fuente. | Evaluation |
+| [Noche en el río de faroles](#case-42) | Mundos y paisajes vóxel | Explora una escena fluvial llena de faroles desde varios puntos de vista grabados. | Demo |
+| [Velero con tres estados de iluminación](#case-43) | Mundos y paisajes vóxel | Examina un velero de día, al atardecer y de noche. | Demo |
+| [Velero de casco rojo](#case-44) | Mundos y paisajes vóxel | Explora otra escena de un velero con casco rojo y velas color arena. | Demo |
+| [Juego universitario Pelican Quest](#case-45) | Juegos y escenas animadas | Examina cómo varios agentes construyen un juego que permite recorrer un campus. | Demo |
+| [Evaluación Multimodal Knowledge Agent](#case-46) | Comparación de modelos | Compara puntuaciones ponderadas para documentos y entregables de gran complejidad visual. | Benchmark |
+| [Modelo de construcción de la Torre Eiffel](#case-47) | Objetos mecánicos y 3D | Sigue el paso de los planos de ingeniería a una secuencia animada en 3D. | Demo |
+| [Visualización de las oficinas de Platform 37](#case-48) | Objetos mecánicos y 3D | Sigue un proyecto de oficinas desde los planos hasta la vista exterior renderizada. | Demo |
+| [Estudio de tejido en tensión](#case-49) | Objetos mecánicos y 3D | Observa cómo se representa un tejido tridimensional sometido a tensión. | Demo |
+| [Tienda de productos de Gemini](#case-50) | SVG y gráficos interactivos | Descubre cómo una guía de marca se convierte en una tienda con recursos visuales propios. | Demo |
+
+| Sección | Propósito |
+|---|---|
+| [Repositorios relacionados](#related-repositories) | Consulta repositorios de modelos relacionados. |
+| [Inicio rápido](#quick-start) | Busca un caso y revisa sus pruebas. |
+| [Agradecimientos](#acknowledge) | Consulta los créditos y las correcciones. |
 
 ## ⚙️ Objetos mecánicos y 3D
 
@@ -219,6 +231,45 @@ Los fotogramas muestran diseños distintos, posiciones de alas y ángulos de cá
 [Ver vídeo original](https://x.com/srikanthvaluri/status/2116767284618486044/video/1)
 
 Tipo: Evaluation | Fecha: 2026-11-01
+
+---
+
+<a id="case-47"></a>
+### Caso 47: [Modelo de construcción de la Torre Eiffel](https://www.youtube.com/watch?v=rOVEmjfPmYk) (por [@Google](https://www.youtube.com/@Google))
+
+**Sigue el paso de los planos de ingeniería a una secuencia animada en 3D.**
+
+Google muestra cómo los agentes de Antigravity modelan la Torre Eiffel a partir de planos históricos y visualizan las etapas de construcción. El vídeo enseña los planos y la secuencia resultante, pero no verifica la precisión de las dimensiones.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/eiffel-219200fbc2cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/eiffel-poster-9785df340ffa.jpg" alt="Modelo de construcción de la Torre Eiffel — 1" width="560"></a><br>Ver vídeo original</td></tr></table>
+
+Tipo: Demo | Fecha: 2026-11-10
+
+---
+
+<a id="case-48"></a>
+### Caso 48: [Visualización de las oficinas de Platform 37](https://www.youtube.com/watch?v=1G2j2eA8sew) (por [@Google](https://www.youtube.com/@Google))
+
+**Sigue un proyecto de oficinas desde los planos hasta la vista exterior renderizada.**
+
+Google muestra a los agentes interpretando planos, creando la geometría y renderizando un edificio de oficinas con cubierta vegetal. El vídeo permite ver el paso de los planos al edificio, pero no acredita que la geometría sirva para construirlo.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/platform37-fbbf8bf2f63d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/platform37-poster-c57f77af8cd2.jpg" alt="Visualización de las oficinas de Platform 37 — 1" width="560"></a><br>Ver vídeo original</td></tr></table>
+
+Tipo: Demo | Fecha: 2026-11-10
+
+---
+
+<a id="case-49"></a>
+### Caso 49: [Estudio de tejido en tensión](https://www.youtube.com/watch?v=VDIMa4u9skQ) (por [@Google](https://www.youtube.com/@Google))
+
+**Observa cómo se representa un tejido tridimensional sometido a tensión.**
+
+Google muestra un visualizador interactivo basado en un estudio de 2026 sobre la mecánica de los tejidos de punto. Representa 110 fibras bajo tensión. El vídeo muestra la simulación y sus gráficos, pero no aporta una validación física del material.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/tensile-knit-66c22f5d9e56.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/tensile-knit-poster-241308cc9364.jpg" alt="Estudio de tejido en tensión — 1" width="560"></a><br>Ver vídeo original</td></tr></table>
+
+Tipo: Demo | Fecha: 2026-11-10
 
 ---
 
@@ -518,6 +569,19 @@ Tipo: Demo | Fecha: 2026-10-29
 
 ---
 
+<a id="case-50"></a>
+### Caso 50: [Tienda de productos de Gemini](https://www.youtube.com/watch?v=Y8FA5LhXLdo) (por [@Google](https://www.youtube.com/@Google))
+
+**Descubre cómo una guía de marca se convierte en una tienda con recursos visuales propios.**
+
+Google creó la tienda en Antigravity con su herramienta de diseño de interfaces. La demostración se puede abrir en AI Studio. El equipo atribuye a Gemini el desarrollo de la tienda y a Nano Banana las imágenes generadas. La demostración muestra una interfaz funcional, pero no acredita que haya un sistema de pago o de gestión de pedidos en producción.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/merch-store-8d0b2b41c24f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/merch-store-poster-ce02af10b44d.jpg" alt="Tienda de productos de Gemini — 1" width="560"></a><br>Ver vídeo original</td></tr></table>
+
+Tipo: Demo | Fecha: 2026-11-10
+
+---
+
 ## 🎮 Juegos y escenas animadas
 
 <a id="case-22"></a>
@@ -582,6 +646,19 @@ El creador afirma haber construido un juego jugable con una instrucción en unos
 [Ver vídeo original](https://x.com/Mr_Salio/status/2116798612361375995/video/1)
 
 Tipo: Demo | Fecha: 2026-11-01
+
+---
+
+<a id="case-45"></a>
+### Caso 45: [Juego universitario Pelican Quest](https://www.youtube.com/watch?v=dNbkThtNzS8) (por [@Google](https://www.youtube.com/@Google))
+
+**Examina cómo varios agentes construyen un juego que permite recorrer un campus.**
+
+Google cuenta que utilizó un enjambre de agentes de Antigravity para crear un juego con Three.js, WebGL y recursos de Blender. Un pelícano recorre el campus de Mountain View en una GBike. La grabación muestra la escena y los controles, pero no demuestra que el proceso se pueda reproducir.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/pelican-playable-35bc725f2793.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/pelican-poster-257b69c207e0.jpg" alt="Juego universitario Pelican Quest — 1" width="560"></a><br>Ver vídeo original</td></tr></table>
+
+Tipo: Demo | Fecha: 2026-11-10
 
 ---
 
@@ -679,17 +756,30 @@ Tipo: Evaluation | Fecha: 2026-10-31
 
 ---
 
+<a id="case-46"></a>
+### Caso 46: [Evaluación Multimodal Knowledge Agent](https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent) (por [@ArtificialAnalysis](https://artificialanalysis.ai/))
+
+**Compara puntuaciones ponderadas para documentos y entregables de gran complejidad visual.**
+
+Artificial Analysis y Google DeepMind evaluaron agentes con 200 tareas privadas de diez sectores. Según el informe, Gemini 4 Carbon High obtuvo un 54% en los criterios ponderados de Climb, frente al 57% de Claude Fable 5.2 Max y al 53% de Claude Opus 5.5 Max. Las cifras corresponden al entorno Stirrup y a esa rúbrica; no indican el porcentaje de tareas completadas.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/images/mka-chart-75ea0faed82d.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/images/mka-chart-75ea0faed82d.png" alt="Evaluación Multimodal Knowledge Agent — 1" width="560"></a><br>Abrir imagen original</td></tr></table>
+
+Tipo: Benchmark | Fecha: 2026-11-10
+
+---
+
 <a id="related-repositories"></a>
 ## Repositorios relacionados
 
 - [Gemini 3.6 Flash — Guía y casos de uso](https://github.com/Evolink-AI/awesome-gemini-3.6-flash-guide-and-use-cases)
-- [Gemini Omni — Guía e instrucciones](https://github.com/Evolink-AI/awesome-gemini-omni-guide-api-and-prompt)
+- [Gemini Omni 1.2 Flash — Guía e instrucciones](https://github.com/Evolink-AI/awesome-gemini-omni-1.2-flash-API-guide-and-prompt)
 
 <a id="acknowledge"></a>
 ## 🙏 Agradecimientos
 
 Gracias a quienes publicaron estas demostraciones:
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri), [@Google](https://www.youtube.com/@Google), [@ArtificialAnalysis](https://artificialanalysis.ai/)
 
 La atribución sigue las fuentes enlazadas y puede necesitar correcciones. Abre un issue para indicar créditos omitidos, duplicados, afirmaciones incorrectas o solicitudes de retirada. Los medios de terceros conservan su titularidad original.

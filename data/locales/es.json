@@ -22,13 +22,21 @@
       "games": "Juegos y escenas animadas",
       "comparison": "Comparación de modelos"
     },
-    "intro": "Una colección de demostraciones públicas que sus autores atribuyen a Gemini 4 Carbon durante su despliegue inicial.",
+    "intro": "Ejemplos de Gemini 4 Carbon publicados por la comunidad y por Google, junto con evaluaciones que detallan cómo se midieron los resultados.",
     "purpose": "Explora tareas concretas, resultados visibles y límites prácticos a través de sus fuentes originales.",
-    "stats": "44 casos en 5 categorías. Las republicaciones se agrupan con la obra correspondiente; las comparaciones de un resultado existente permanecen en su caso.",
+    "stats": "50 casos en 5 categorías. Las republicaciones se agrupan con el trabajo original y las comparaciones de un resultado se mantienen junto a su caso.",
     "evidence": "Los nombres de modelo, tiempos y valoraciones proceden de las fuentes. El nombre mostrado en Arena no acredita la versión interna. Una grabación no demuestra código ejecutable, interacción completa ni éxito reproducible.",
     "steps": "1. Elige una tarea en el índice.\n2. Abre el vídeo o la imagen y sigue el título hasta la publicación original.\n3. Contrasta el resultado visible con la tarea y sus limitaciones.",
     "thanks": "Gracias a quienes publicaron estas demostraciones:",
-    "corrections": "La atribución sigue las fuentes enlazadas y puede necesitar correcciones. Abre un issue para indicar créditos omitidos, duplicados, afirmaciones incorrectas o solicitudes de retirada. Los medios de terceros conservan su titularidad original."
+    "corrections": "La atribución sigue las fuentes enlazadas y puede necesitar correcciones. Abre un issue para indicar créditos omitidos, duplicados, afirmaciones incorrectas o solicitudes de retirada. Los medios de terceros conservan su titularidad original.",
+    "what_it_shows": "Qué muestra",
+    "section": "Sección",
+    "navigation_purpose": "Propósito",
+    "navigation_notes": {
+      "related": "Consulta repositorios de modelos relacionados.",
+      "quick_start": "Busca un caso y revisa sus pruebas.",
+      "acknowledge": "Consulta los créditos y las correcciones."
+    }
   },
   "cases": [
     [
@@ -250,6 +258,36 @@
       "Velero de casco rojo",
       "Explora otra escena de un velero con casco rojo y velas color arena.",
       "Los fotogramas muestran vistas cercanas y lejanas, espuma y aves. Casco, adornos y velas difieren del barco de tres iluminaciones; la atribución a Carbon y la implementación completa siguen sin verificarse."
+    ],
+    [
+      "Juego universitario Pelican Quest",
+      "Examina cómo varios agentes construyen un juego que permite recorrer un campus.",
+      "Google cuenta que utilizó un enjambre de agentes de Antigravity para crear un juego con Three.js, WebGL y recursos de Blender. Un pelícano recorre el campus de Mountain View en una GBike. La grabación muestra la escena y los controles, pero no demuestra que el proceso se pueda reproducir."
+    ],
+    [
+      "Evaluación Multimodal Knowledge Agent",
+      "Compara puntuaciones ponderadas para documentos y entregables de gran complejidad visual.",
+      "Artificial Analysis y Google DeepMind evaluaron agentes con 200 tareas privadas de diez sectores. Según el informe, Gemini 4 Carbon High obtuvo un 54% en los criterios ponderados de Climb, frente al 57% de Claude Fable 5.2 Max y al 53% de Claude Opus 5.5 Max. Las cifras corresponden al entorno Stirrup y a esa rúbrica; no indican el porcentaje de tareas completadas."
+    ],
+    [
+      "Modelo de construcción de la Torre Eiffel",
+      "Sigue el paso de los planos de ingeniería a una secuencia animada en 3D.",
+      "Google muestra cómo los agentes de Antigravity modelan la Torre Eiffel a partir de planos históricos y visualizan las etapas de construcción. El vídeo enseña los planos y la secuencia resultante, pero no verifica la precisión de las dimensiones."
+    ],
+    [
+      "Visualización de las oficinas de Platform 37",
+      "Sigue un proyecto de oficinas desde los planos hasta la vista exterior renderizada.",
+      "Google muestra a los agentes interpretando planos, creando la geometría y renderizando un edificio de oficinas con cubierta vegetal. El vídeo permite ver el paso de los planos al edificio, pero no acredita que la geometría sirva para construirlo."
+    ],
+    [
+      "Estudio de tejido en tensión",
+      "Observa cómo se representa un tejido tridimensional sometido a tensión.",
+      "Google muestra un visualizador interactivo basado en un estudio de 2026 sobre la mecánica de los tejidos de punto. Representa 110 fibras bajo tensión. El vídeo muestra la simulación y sus gráficos, pero no aporta una validación física del material."
+    ],
+    [
+      "Tienda de productos de Gemini",
+      "Descubre cómo una guía de marca se convierte en una tienda con recursos visuales propios.",
+      "Google creó la tienda en Antigravity con su herramienta de diseño de interfaces. La demostración se puede abrir en AI Studio. El equipo atribuye a Gemini el desarrollo de la tienda y a Nano Banana las imágenes generadas. La demostración muestra una interfaz funcional, pero no acredita que haya un sistema de pago o de gestión de pedidos en producción."
     ]
   ]
 }

@@ -8,7 +8,7 @@ Each case has a stable `case-N` anchor, source-linked heading, author, bold prac
 
 ## Community cases and original media
 
-All entries are source-attributed community cases in the shared `cases` array and count. Case counts describe the collection, not a count of independently tested or verified outputs. Preserve source-reported limitations and model labels when updating the presentation.
+All entries are source-attributed use cases in the shared `cases` array and count. Case counts describe the collection, not a count of independently tested or verified outputs. Preserve source-reported limitations and model labels when updating the presentation.
 
 Media entries with `presentation: "source-link"` link to the original publisher without copying, embedding or rehosting media. Existing `candidate-N` and section links are retained as invisible `legacy_anchors` beside the corresponding `case-N` anchors. A passing structure check does not establish source validity, repeatability or visual quality.
 

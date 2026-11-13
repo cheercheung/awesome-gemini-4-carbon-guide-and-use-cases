@@ -9,4 +9,5 @@ Describe the concrete task or correction and link the original source.
 - [ ] Model attribution, time, selection and limitations preserve the source's meaning.
 - [ ] All eleven locale files are updated, with matching case ids, media and sources.
 - [ ] README generation and verification pass.
-- [ ] Media and source links are checked in the rendered page.
+- [ ] Media and source links are checked in the rendered page. New hosted images, video posters, and playable videos are verified on R2.
+- [ ] Related repositories remain links to their own documentation; this repository stays focused on use cases.

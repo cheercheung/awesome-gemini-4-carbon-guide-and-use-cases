@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://evolink.ai?utm_source=github&utm_medium=banner&utm_campaign=gemini-4-carbon-usecases&utm_content=readme-cover"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/banner/banner-owner-6aea570af8a4.png" alt="Gemini 4 Carbon — 社区使用案例" width="760"></a>
+<a href="https://evolink.ai?utm_source=github&utm_medium=banner&utm_campaign=gemini-4-carbon-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/banner/banner-owner-6aea570af8a4.png" alt="Gemini 4 Carbon — 社区使用案例" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 
@@ -20,13 +20,13 @@
 
 ## 🍌 介绍
 
-收集创作者在早期灰度阶段公开分享、并标注为 Gemini 4 Carbon 的社区演示。
+收录社区和 Google 发布的 Gemini 4 Carbon 实例，以及说明评分方法的评测。
 
 **通过原始来源了解具体任务、可见产物和实际限制。**
 
 ## 📊 概览
 
-共 44 个 usecase，覆盖 5 类。转载归并到对应作品；已有产物的对比附在原案例内。
+50 个案例，分为 5 类。转载归入原案例，同一成果的对比也保留在对应案例中。
 
 > [!NOTE]
 > 型号、生成耗时和质量判断均来自来源自述。Arena 显示名称不能证明后台版本，录屏也不能证明代码可运行、完整交互正确或结果可重复。
@@ -40,52 +40,64 @@
 
 ## 📑 目录
 
-| 案例 | 分类 | 类型 |
-|---|---|---|
-| [1. 机械花](#case-1) | 机械与三维物体 | Demo |
-| [2. 机械蜜蜂](#case-2) | 机械与三维物体 | Demo |
-| [3. 机械生物与蛛网](#case-3) | 机械与三维物体 | Demo |
-| [4. 水晶柑橘](#case-4) | 机械与三维物体 | Demo |
-| [5. 霍格沃茨体素建筑](#case-5) | 体素世界与风景 | Demo |
-| [6. 体素城堡风景](#case-6) | 体素世界与风景 | Demo |
-| [7. 富士花园](#case-7) | 体素世界与风景 | Demo |
-| [8. 体素河流与天气](#case-8) | 体素世界与风景 | Demo |
-| [9. 体素宝塔](#case-9) | 体素世界与风景 | Demo |
-| [10. 五重体素塔](#case-10) | 体素世界与风景 | Demo |
-| [11. 体素灯塔岛](#case-11) | 体素世界与风景 | Demo |
-| [12. 机械海怪模型](#case-12) | 体素世界与风景 | Demo |
-| [13. 云上列车城市](#case-13) | 体素世界与风景 | Demo |
-| [14. 可乐瓶 SVG](#case-14) | SVG 与交互图形 | Demo |
-| [15. 交互 PS5 手柄](#case-15) | SVG 与交互图形 | Demo |
-| [16. Xbox 风格手柄](#case-16) | SVG 与交互图形 | Demo |
-| [17. 跑车 SVG](#case-17) | SVG 与交互图形 | Demo |
-| [18. 夕阳海岸鹈鹕骑行](#case-18) | SVG 与交互图形 | Demo |
-| [19. 四季鹈鹕骑行](#case-19) | SVG 与交互图形 | Demo |
-| [20. 淡彩鹈鹕骑行](#case-20) | SVG 与交互图形 | Demo |
-| [21. 海港鹈鹕与 UI 局限](#case-21) | SVG 与交互图形 | Limit |
-| [22. 马里奥风格平台游戏](#case-22) | 游戏与动画场景 | Demo |
-| [23. 方块世界沙盒](#case-23) | 游戏与动画场景 | Demo |
-| [24. 青蛙滑板场景](#case-24) | 游戏与动画场景 | Demo |
-| [25. 三模型骑行动画对比](#case-25) | 模型对比 | Evaluation |
-| [26. 机械眼与爆炸视图](#case-26) | 机械与三维物体 | Demo |
-| [27. 两种模型的咖啡赛车拆解](#case-27) | 机械与三维物体 | Evaluation |
-| [28. 雨景与音乐循环](#case-28) | SVG 与交互图形 | Demo |
-| [29. 追加提示前后的城堡与龙](#case-29) | 体素世界与风景 | Evaluation |
-| [30. 三种模型的机械下颌](#case-30) | 模型对比 | Evaluation |
-| [31. 九缸星形引擎对比](#case-31) | 模型对比 | Evaluation |
-| [32. 机械鲨鱼：速度与内部细节](#case-32) | 模型对比 | Limit |
-| [33. 两个模型的 V8 引擎观察](#case-33) | 机械与三维物体 | Evaluation |
-| [34. 单个 shader 绘制可乐瓶](#case-34) | 机械与三维物体 | Demo |
-| [35. 约三十分钟制作 Minecraft 风格游戏](#case-35) | 游戏与动画场景 | Demo |
-| [36. 僵尸手动画：耗时与费用](#case-36) | 模型对比 | Evaluation |
-| [37. 三维赛车游戏](#case-37) | 游戏与动画场景 | Demo |
-| [38. 二冲程引擎：不清楚的做功行程](#case-38) | 模型对比 | Limit |
-| [39. 两个模型的机械表观察](#case-39) | 机械与三维物体 | Evaluation |
-| [40. 鬼屋网站对比](#case-40) | 模型对比 | Evaluation |
-| [41. 两种模型标签下的机械鹰](#case-41) | 机械与三维物体 | Evaluation |
-| [42. 灯笼河夜景](#case-42) | 体素世界与风景 | Demo |
-| [43. 三种光照状态的帆船](#case-43) | 体素世界与风景 | Demo |
-| [44. 红色船壳的帆船](#case-44) | 体素世界与风景 | Demo |
+| 案例 | 分类 | 展示内容 | 类型 |
+|---|---|---|---|
+| [机械花](#case-1) | 机械与三维物体 | 观察 three.js 花朵的材质、光照变化及小蜜蜂。 | Demo |
+| [机械蜜蜂](#case-2) | 机械与三维物体 | 观察机械蜜蜂动画与八字形运动。 | Demo |
+| [机械生物与蛛网](#case-3) | 机械与三维物体 | 观看机械生物、蛛网和带翼装置的多场景视频。 | Demo |
+| [水晶柑橘](#case-4) | 机械与三维物体 | 观察柑橘模型的分层、光照与动画视角。 | Demo |
+| [霍格沃茨体素建筑](#case-5) | 体素世界与风景 | 从内外视角观察体素城堡。 | Demo |
+| [体素城堡风景](#case-6) | 体素世界与风景 | 观察城堡的白天、夜间及俯瞰视角。 | Demo |
+| [富士花园](#case-7) | 体素世界与风景 | 探索微缩日式花园及蝴蝶视角。 | Demo |
+| [体素河流与天气](#case-8) | 体素世界与风景 | 观察体素河谷的反射和天气变化。 | Demo |
+| [体素宝塔](#case-9) | 体素世界与风景 | 观察宝塔浮岛在多种光照下的细节。 | Demo |
+| [五重体素塔](#case-10) | 体素世界与风景 | 观察另一座宝塔的动画光照与近景。 | Demo |
+| [体素灯塔岛](#case-11) | 体素世界与风景 | 观察灯塔场景的昼夜与天气变化。 | Demo |
+| [机械海怪模型](#case-12) | 体素世界与风景 | 观察黄铜机械海怪与潜艇的体素场景。 | Demo |
+| [云上列车城市](#case-13) | 体素世界与风景 | 探索列车、高架轨道和高塔组成的幻想场景。 | Demo |
+| [可乐瓶 SVG](#case-14) | SVG 与交互图形 | 观察创作者称为 SVG 的立体可乐瓶展示。 | Demo |
+| [交互 PS5 手柄](#case-15) | SVG 与交互图形 | 观察手柄 SVG 的近景与不同显示状态。 | Demo |
+| [Xbox 风格手柄](#case-16) | SVG 与交互图形 | 观察细节丰富的 Xbox 风格手柄渲染。 | Demo |
+| [跑车 SVG](#case-17) | SVG 与交互图形 | 观察白色跑车侧面的车轮与车身细节。 | Demo |
+| [夕阳海岸鹈鹕骑行](#case-18) | SVG 与交互图形 | 观察夕阳海岸背景下的鹈鹕骑车动画。 | Demo |
+| [四季鹈鹕骑行](#case-19) | SVG 与交互图形 | 探索鹈鹕骑车的四季画面。 | Demo |
+| [淡彩鹈鹕骑行](#case-20) | SVG 与交互图形 | 观察淡彩鹈鹕自行车场景中的翅膀运动。 | Demo |
+| [海港鹈鹕与 UI 局限](#case-21) | SVG 与交互图形 | 观察海港鹈鹕 SVG，并考虑可用性与响应时间。 | Limit |
+| [马里奥风格平台游戏](#case-22) | 游戏与动画场景 | 观察平台游戏的室外及地下区域录屏。 | Demo |
+| [方块世界沙盒](#case-23) | 游戏与动画场景 | 观察带方块工具栏的 Minecraft 风格第一人称世界。 | Demo |
+| [青蛙滑板场景](#case-24) | 游戏与动画场景 | 观察风格化场景中青蛙踩滑板的动画。 | Demo |
+| [三模型骑行动画对比](#case-25) | 模型对比 | 对照来源组合展示的 Carbon、Argon 与 GPT-6 Astra 骑行动画。 | Evaluation |
+| [机械眼与爆炸视图](#case-26) | 机械与三维物体 | 查看结合眨眼、对焦和零件拆解的机械眼演示。 | Demo |
+| [两种模型的咖啡赛车拆解](#case-27) | 机械与三维物体 | 比较来源展示的Carbon与Opus 5.5摩托车内部观察演示。 | Evaluation |
+| [雨景与音乐循环](#case-28) | SVG 与交互图形 | 查看来源展示的JavaScript助眠音乐循环与SVG雨景。 | Demo |
+| [追加提示前后的城堡与龙](#case-29) | 体素世界与风景 | 比较追加三次提示前后的城堡与龙场景。 | Evaluation |
+| [三种模型的机械下颌](#case-30) | 模型对比 | 比较Carbon、Opus 5.5与GPT-6 Astra的机械下颌及独立牙齿运动演示。 | Evaluation |
+| [九缸星形引擎对比](#case-31) | 模型对比 | 比较四段引擎动画的剖面可读性与工程细节。 | Evaluation |
+| [机械鲨鱼：速度与内部细节](#case-32) | 模型对比 | 对比分解式鲨鱼的组装特效与内部结构。 | Limit |
+| [两个模型的 V8 引擎观察](#case-33) | 机械与三维物体 | 查看引擎的透视、剖切、爆炸图与逐件拆解视图。 | Evaluation |
+| [单个 shader 绘制可乐瓶](#case-34) | 机械与三维物体 | 查看以数学 shader 几何呈现的 Three.js 瓶子。 | Demo |
+| [约三十分钟制作 Minecraft 风格游戏](#case-35) | 游戏与动画场景 | 查看 Minecraft 风格游戏录像及作者所述的开发条件。 | Demo |
+| [僵尸手动画：耗时与费用](#case-36) | 模型对比 | 结合单次动画任务所报的时间和费用比较场景设计。 | Evaluation |
+| [三维赛车游戏](#case-37) | 游戏与动画场景 | 查看被作者归于较新 Carbon 检查点的赛车演示。 | Demo |
+| [二冲程引擎：不清楚的做功行程](#case-38) | 模型对比 | 检查引擎动画是否清楚解释燃烧与活塞运动。 | Limit |
+| [两个模型的机械表观察](#case-39) | 机械与三维物体 | 查看机械表的透视、剖切与爆炸视图。 | Evaluation |
+| [鬼屋网站对比](#case-40) | 模型对比 | 比较两个同题网站的视觉氛围。 | Evaluation |
+| [两种模型标签下的机械鹰](#case-41) | 机械与三维物体 | 比较来源标注为Carbon与Argon的机械鹰。 | Evaluation |
+| [灯笼河夜景](#case-42) | 体素世界与风景 | 从多个录屏视角查看布满灯笼的河流场景。 | Demo |
+| [三种光照状态的帆船](#case-43) | 体素世界与风景 | 查看白天、日落和夜晚的帆船。 | Demo |
+| [红色船壳的帆船](#case-44) | 体素世界与风景 | 查看另一段红色船壳、棕黄色帆的帆船场景。 | Demo |
+| [Pelican Quest 校园游戏](#case-45) | 游戏与动画场景 | 看看多个智能体如何协作搭建一个可以自由探索的校园游戏。 | Demo |
+| [多模态知识智能体基准测试](#case-46) | 模型对比 | 对比复杂视觉文档和交付成果的加权评分。 | Benchmark |
+| [埃菲尔铁塔施工模型](#case-47) | 机械与三维物体 | 观察历史工程图如何转化为三维施工动画。 | Demo |
+| [Platform 37 办公楼可视化](#case-48) | 机械与三维物体 | 跟踪办公楼设计从规划图纸到外观渲染的过程。 | Demo |
+| [张力下的针织结构研究](#case-49) | 机械与三维物体 | 观察受力针织结构的三维呈现。 | Demo |
+| [Gemini 周边商品商店](#case-50) | SVG 与交互图形 | 看看品牌指南如何转化为带有专属图片的可操作商店。 | Demo |
+
+| 章节 | 目的 |
+|---|---|
+| [相关仓库](#related-repositories) | 查看相关模型的仓库。 |
+| [快速开始](#quick-start) | 选择案例并查阅原始证据。 |
+| [致谢](#acknowledge) | 查看贡献者和更正方式。 |
 
 ## ⚙️ 机械与三维物体
 
@@ -219,6 +231,45 @@
 [观看来源视频](https://x.com/srikanthvaluri/status/2116767284618486044/video/1)
 
 类型: Evaluation | 日期: 2026-11-01
+
+---
+
+<a id="case-47"></a>
+### 案例 47: [埃菲尔铁塔施工模型](https://www.youtube.com/watch?v=rOVEmjfPmYk) (作者 [@Google](https://www.youtube.com/@Google))
+
+**观察历史工程图如何转化为三维施工动画。**
+
+Google 演示了 Antigravity 智能体如何根据历史工程图建立埃菲尔铁塔模型，并可视化各个施工阶段。视频展示了原图和动画，但没有验证模型尺寸是否准确。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/eiffel-219200fbc2cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/eiffel-poster-9785df340ffa.jpg" alt="埃菲尔铁塔施工模型 — 1" width="560"></a><br>观看来源视频</td></tr></table>
+
+类型: Demo | 日期: 2026-11-10
+
+---
+
+<a id="case-48"></a>
+### 案例 48: [Platform 37 办公楼可视化](https://www.youtube.com/watch?v=1G2j2eA8sew) (作者 [@Google](https://www.youtube.com/@Google))
+
+**跟踪办公楼设计从规划图纸到外观渲染的过程。**
+
+Google 演示了智能体读取规划图纸、建立几何模型并渲染带绿化屋顶的办公楼外观。视频展示了从图纸到渲染的变化，但没有证明几何模型可用于施工。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/platform37-fbbf8bf2f63d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/platform37-poster-c57f77af8cd2.jpg" alt="Platform 37 办公楼可视化 — 1" width="560"></a><br>观看来源视频</td></tr></table>
+
+类型: Demo | 日期: 2026-11-10
+
+---
+
+<a id="case-49"></a>
+### 案例 49: [张力下的针织结构研究](https://www.youtube.com/watch?v=VDIMa4u9skQ) (作者 [@Google](https://www.youtube.com/@Google))
+
+**观察受力针织结构的三维呈现。**
+
+Google 展示了一个基于 2026 年针织物力学研究的交互可视化工具，呈现 110 根受拉纤维。视频给出了模拟和图表，但没有提供材料的物理验证。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/tensile-knit-66c22f5d9e56.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/tensile-knit-poster-241308cc9364.jpg" alt="张力下的针织结构研究 — 1" width="560"></a><br>观看来源视频</td></tr></table>
+
+类型: Demo | 日期: 2026-11-10
 
 ---
 
@@ -518,6 +569,19 @@
 
 ---
 
+<a id="case-50"></a>
+### 案例 50: [Gemini 周边商品商店](https://www.youtube.com/watch?v=Y8FA5LhXLdo) (作者 [@Google](https://www.youtube.com/@Google))
+
+**看看品牌指南如何转化为带有专属图片的可操作商店。**
+
+Google 在 Antigravity 中使用前端设计技能搭建商店。演示可以在 AI Studio 中打开。团队将商店搭建归功于 Gemini，将生成的图片归功于 Nano Banana。演示展示了可操作的前端，但没有证明已接入实际结账或订单履约系统。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/merch-store-8d0b2b41c24f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/merch-store-poster-ce02af10b44d.jpg" alt="Gemini 周边商品商店 — 1" width="560"></a><br>观看来源视频</td></tr></table>
+
+类型: Demo | 日期: 2026-11-10
+
+---
+
 ## 🎮 游戏与动画场景
 
 <a id="case-22"></a>
@@ -582,6 +646,19 @@
 [观看来源视频](https://x.com/Mr_Salio/status/2116798612361375995/video/1)
 
 类型: Demo | 日期: 2026-11-01
+
+---
+
+<a id="case-45"></a>
+### 案例 45: [Pelican Quest 校园游戏](https://www.youtube.com/watch?v=dNbkThtNzS8) (作者 [@Google](https://www.youtube.com/@Google))
+
+**看看多个智能体如何协作搭建一个可以自由探索的校园游戏。**
+
+Google 称使用 Antigravity 的多个智能体，结合 Three.js、WebGL 和 Blender 素材搭建游戏。玩家操控一只鹈鹕骑着 GBike 穿行在山景城园区。公开视频展示了场景和操控，但不足以证明流程可复现。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/pelican-playable-35bc725f2793.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/pelican-poster-257b69c207e0.jpg" alt="Pelican Quest 校园游戏 — 1" width="560"></a><br>观看来源视频</td></tr></table>
+
+类型: Demo | 日期: 2026-11-10
 
 ---
 
@@ -679,17 +756,30 @@
 
 ---
 
+<a id="case-46"></a>
+### 案例 46: [多模态知识智能体基准测试](https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent) (作者 [@ArtificialAnalysis](https://artificialanalysis.ai/))
+
+**对比复杂视觉文档和交付成果的加权评分。**
+
+Artificial Analysis 与 Google DeepMind 用来自十个行业的 200 项非公开任务评估智能体。报告中，Gemini 4 Carbon High 的 Climb 加权得分为 54%，Claude Fable 5.2 Max 为 57%，Claude Opus 5.5 Max 为 53%。这些分数取决于 Stirrup 测试环境和指定评分规则，不能解读为任务完成比例。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/images/mka-chart-75ea0faed82d.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/images/mka-chart-75ea0faed82d.png" alt="多模态知识智能体基准测试 — 1" width="560"></a><br>查看来源图片</td></tr></table>
+
+类型: Benchmark | 日期: 2026-11-10
+
+---
+
 <a id="related-repositories"></a>
 ## 相关仓库
 
 - [Gemini 3.6 Flash — 指南与使用案例](https://github.com/Evolink-AI/awesome-gemini-3.6-flash-guide-and-use-cases)
-- [Gemini Omni — 指南与提示词](https://github.com/Evolink-AI/awesome-gemini-omni-guide-api-and-prompt)
+- [Gemini Omni 1.2 Flash — 指南与提示词](https://github.com/Evolink-AI/awesome-gemini-omni-1.2-flash-API-guide-and-prompt)
 
 <a id="acknowledge"></a>
 ## 🙏 致谢
 
 感谢以下公开分享演示的发布者：
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri), [@Google](https://www.youtube.com/@Google), [@ArtificialAnalysis](https://artificialanalysis.ai/)
 
 署名依据所链接来源，可能需要更正。若有遗漏署名、重复作品、表述错误或移除需求，请提交 issue。第三方媒体权利归原权利人。

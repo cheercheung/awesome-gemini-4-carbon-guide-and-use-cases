@@ -6,7 +6,7 @@ ROOT=pathlib.Path(__file__).resolve().parents[1]
 LANGS=[('en','English','README.md'),('es','Español','README_es.md'),('pt','Português','README_pt.md'),('ja','日本語','README_ja.md'),('ko','한국어','README_ko.md'),('de','Deutsch','README_de.md'),('fr','Français','README_fr.md'),('tr','Türkçe','README_tr.md'),('zh-TW','繁體中文','README_zh-TW.md'),('zh-CN','简体中文','README_zh-CN.md'),('ru','Русский','README_ru.md')]
 CATEGORIES=[('mechanical','⚙️'),('voxel','🏞️'),('svg','🎨'),('games','🎮'),('comparison','🔬')]
 BADGES='\n'.join(f'[![{name}](https://img.shields.io/badge/{urllib.parse.quote(name)}-2563eb)]({filename})' for _,name,filename in LANGS)
-LANDING='https://evolink.ai?utm_source=github&utm_medium=banner&utm_campaign=gemini-4-carbon-usecases&utm_content=readme-cover'
+LANDING='https://evolink.ai?utm_source=github&utm_medium=banner&utm_campaign=gemini-4-carbon-usecases&utm_content=readme_banner'
 NAV={
  'en':('Community use cases','Guide and Use Cases','Guide and Prompts'),
  'es':('Casos de uso de la comunidad','Guía y casos de uso','Guía e instrucciones'),
@@ -24,8 +24,19 @@ NAV={
 def render(data,locale):
     cases=data['cases'];translations=locale['cases'];g=locale['copy'];nav=NAV[locale['language']];banner=data.get('banner_url','assets/banner.svg')
     assert len(cases)==len(translations)==data['case_count']
-    chunks=[f'<div align="center">\n\n<a href="{LANDING}"><img src="{banner}" alt="Gemini 4 Carbon — {nav[0]}" width="760"></a>\n\n[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)\n\n{BADGES}\n\n</div>\n',f'## 🍌 {g["introduction"]}\n\n{g["intro"]}\n\n**{g["purpose"]}**\n',f'## 📊 {g["overview"]}\n\n{g["stats"]}\n\n> [!NOTE]\n> {g["evidence"]}\n',f'<a id="quick-start"></a>\n## ⚡ {g["quick_start"]}\n\n{g["steps"]}\n',f'## 📑 {g["menu"]}\n\n| {g["case"]} | {g["category"]} | {g["type"]} |\n|---|---|---|']
-    for c,t in zip(cases,translations):chunks.append(f'| [{c["number"]}. {t[0]}](#case-{c["number"]}) | {g["categories"][c["category"]]} | {c["type"]} |')
+    chunks=[f'<div align="center">\n\n<a href="{LANDING}"><img src="{banner}" alt="Gemini 4 Carbon — {nav[0]}" width="760"></a>\n\n[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)\n\n{BADGES}\n\n</div>\n',f'## 🍌 {g["introduction"]}\n\n{g["intro"]}\n\n**{g["purpose"]}**\n',f'## 📊 {g["overview"]}\n\n{g["stats"]}\n\n> [!NOTE]\n> {g["evidence"]}\n',f'<a id="quick-start"></a>\n## ⚡ {g["quick_start"]}\n\n{g["steps"]}\n',f'## 📑 {g["menu"]}\n\n| {g["case"]} | {g["category"]} | {g["what_it_shows"]} | {g["type"]} |\n|---|---|---|---|']
+    for case, translation in zip(cases, translations):
+        number = case['number']
+        title, takeaway, _ = translation
+        category = g['categories'][case['category']]
+        chunks.append(f'| [{title}](#case-{number}) | {category} | {takeaway} | {case["type"]} |')
+    chunks.extend(['', f'| {g["section"]} | {g["navigation_purpose"]} |', '|---|---|'])
+    for anchor, label in (
+        ('related-repositories', 'related'),
+        ('quick-start', 'quick_start'),
+        ('acknowledge', 'acknowledge'),
+    ):
+        chunks.append(f'| [{g[label]}](#{anchor}) | {g["navigation_notes"][label]} |')
     chunks.append('')
     for category,emoji in CATEGORIES:
         chunks.append(f'## {emoji} {g["categories"][category]}\n')
@@ -46,7 +57,7 @@ def render(data,locale):
                 cells.append(f'<td align="center"><a href="{url}"><img src="{poster}" alt="{t[0]} — {index}" width="560"></a><br>{label}</td>')
             if cells:chunks.append('<table><tr>'+''.join(cells)+'</tr></table>\n')
             chunks.append(f'{g["type"]}: {c["type"]} | {g["date"]}: {c["date"]}\n\n---\n')
-    chunks.append(f'<a id="related-repositories"></a>\n## {g["related"]}\n\n- [Gemini 3.6 Flash — {nav[1]}](https://github.com/Evolink-AI/awesome-gemini-3.6-flash-guide-and-use-cases)\n- [Gemini Omni — {nav[2]}](https://github.com/Evolink-AI/awesome-gemini-omni-guide-api-and-prompt)\n')
+    chunks.append(f'<a id="related-repositories"></a>\n## {g["related"]}\n\n- [Gemini 3.6 Flash — {nav[1]}](https://github.com/Evolink-AI/awesome-gemini-3.6-flash-guide-and-use-cases)\n- [Gemini Omni 1.2 Flash — {nav[2]}](https://github.com/Evolink-AI/awesome-gemini-omni-1.2-flash-API-guide-and-prompt)\n')
     authors=list(dict.fromkeys((c['author_handle'],c['author_url']) for c in cases))
     chunks.append(f'<a id="acknowledge"></a>\n## 🙏 {g["acknowledge"]}\n\n{g["thanks"]}\n\n'+', '.join(f'[@{handle}]({url})' for handle,url in authors)+f'\n\n{g["corrections"]}\n')
     return '\n'.join(chunks).rstrip()+'\n'

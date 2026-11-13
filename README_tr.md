@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://evolink.ai?utm_source=github&utm_medium=banner&utm_campaign=gemini-4-carbon-usecases&utm_content=readme-cover"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/banner/banner-owner-6aea570af8a4.png" alt="Gemini 4 Carbon — Topluluk kullanım örnekleri" width="760"></a>
+<a href="https://evolink.ai?utm_source=github&utm_medium=banner&utm_campaign=gemini-4-carbon-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/banner/banner-owner-6aea570af8a4.png" alt="Gemini 4 Carbon — Topluluk kullanım örnekleri" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 
@@ -20,13 +20,13 @@
 
 ## 🍌 Giriş
 
-Erken kullanıma açılma döneminde paylaşanların Gemini 4 Carbon ile ilişkilendirdiği herkese açık topluluk gösterimlerinden oluşan bir koleksiyon.
+Topluluğun ve Google’ın yayımladığı Gemini 4 Carbon örnekleri ile sonuçların nasıl ölçüldüğünü açıklayan değerlendirmeler.
 
 **Özgün kaynaklar üzerinden somut görevleri, görünür çıktıları ve pratik sınırları inceleyin.**
 
 ## 📊 Genel bakış
 
-5 kategoride 44 kullanım örneği. Yeniden paylaşımlar ilgili eserle birleştirilir; mevcut çıktının karşılaştırması aynı örnekte tutulur.
+5 kategoride 50 örnek. Yeniden paylaşımlar özgün çalışmanın, aynı sonuca ilişkin karşılaştırmalar da ilgili örneğin altında toplanır.
 
 > [!NOTE]
 > Model adları, üretim süreleri ve kalite yorumları kaynakların beyanıdır. Arena görünen adı arka uç sürümünü kanıtlamaz. Kayıt, çalıştırılabilir kodu, tüm etkileşimleri veya tekrarlanabilir başarıyı kanıtlamaz.
@@ -40,52 +40,64 @@ Erken kullanıma açılma döneminde paylaşanların Gemini 4 Carbon ile ilişki
 
 ## 📑 İçindekiler
 
-| Örnek | Kategori | Tür |
-|---|---|---|
-| [1. Mekanik çiçek](#case-1) | Mekanik ve 3B nesneler | Demo |
-| [2. Mekanik arı](#case-2) | Mekanik ve 3B nesneler | Demo |
-| [3. Mekanik canlılar ve örümcek ağı](#case-3) | Mekanik ve 3B nesneler | Demo |
-| [4. Kristal narenciye](#case-4) | Mekanik ve 3B nesneler | Demo |
-| [5. Hogwarts voksel yapısı](#case-5) | Voksel dünyalar ve manzaralar | Demo |
-| [6. Voksel kale ve manzara](#case-6) | Voksel dünyalar ve manzaralar | Demo |
-| [7. Fuji bahçesi](#case-7) | Voksel dünyalar ve manzaralar | Demo |
-| [8. Voksel nehir ve hava](#case-8) | Voksel dünyalar ve manzaralar | Demo |
-| [9. Voksel pagoda](#case-9) | Voksel dünyalar ve manzaralar | Demo |
-| [10. Beş katlı voksel pagoda](#case-10) | Voksel dünyalar ve manzaralar | Demo |
-| [11. Voksel deniz feneri adası](#case-11) | Voksel dünyalar ve manzaralar | Demo |
-| [12. Mekanik kraken dioraması](#case-12) | Voksel dünyalar ve manzaralar | Demo |
-| [13. Gökyüzü demiryolu şehri](#case-13) | Voksel dünyalar ve manzaralar | Demo |
-| [14. SVG kola şişesi](#case-14) | SVG ve etkileşimli grafikler | Demo |
-| [15. Etkileşimli PS5 kumandası](#case-15) | SVG ve etkileşimli grafikler | Demo |
-| [16. Xbox tarzı kumanda](#case-16) | SVG ve etkileşimli grafikler | Demo |
-| [17. SVG spor otomobil](#case-17) | SVG ve etkileşimli grafikler | Demo |
-| [18. Gün batımında bisikletli pelikan](#case-18) | SVG ve etkileşimli grafikler | Demo |
-| [19. Dört mevsimde bisikletli pelikan](#case-19) | SVG ve etkileşimli grafikler | Demo |
-| [20. Pastel bisikletli pelikan](#case-20) | SVG ve etkileşimli grafikler | Demo |
-| [21. Liman pelikanı ve arayüz sınırları](#case-21) | SVG ve etkileşimli grafikler | Limit |
-| [22. Super Mario tarzı platform oyunu](#case-22) | Oyunlar ve animasyon sahneleri | Demo |
-| [23. Blok dünyası sanal alanı](#case-23) | Oyunlar ve animasyon sahneleri | Demo |
-| [24. Kaykaylı kurbağa sahnesi](#case-24) | Oyunlar ve animasyon sahneleri | Demo |
-| [25. Üç modelde bisiklet animasyonu](#case-25) | Model karşılaştırması | Evaluation |
-| [26. Patlatılmış görünümü olan robot göz](#case-26) | Mekanik ve 3B nesneler | Demo |
-| [27. İki modelle café racer incelemesi](#case-27) | Mekanik ve 3B nesneler | Evaluation |
-| [28. Müzik döngüsüyle yağmur sahnesi](#case-28) | SVG ve etkileşimli grafikler | Demo |
-| [29. Ek istemlerden sonra kale ve ejderha](#case-29) | Voksel dünyalar ve manzaralar | Evaluation |
-| [30. Üç modelle mekanik çene](#case-30) | Model karşılaştırması | Evaluation |
-| [31. Dokuz silindirli yıldız motor karşılaştırması](#case-31) | Model karşılaştırması | Evaluation |
-| [32. Mekanik köpekbalığı: hız ve iç ayrıntılar](#case-32) | Model karşılaştırması | Limit |
-| [33. İki modelle V8 motor incelemesi](#case-33) | Mekanik ve 3B nesneler | Evaluation |
-| [34. Tek shader ile kola şişesi](#case-34) | Mekanik ve 3B nesneler | Demo |
-| [35. Yaklaşık otuz dakikada Minecraft tarzı oyun](#case-35) | Oyunlar ve animasyon sahneleri | Demo |
-| [36. Zombi eli animasyonu: süre ve maliyet](#case-36) | Model karşılaştırması | Evaluation |
-| [37. Üç boyutlu araba yarışı oyunu](#case-37) | Oyunlar ve animasyon sahneleri | Demo |
-| [38. İki zamanlı motor: belirsiz güç zamanı](#case-38) | Model karşılaştırması | Limit |
-| [39. İki modelle mekanik saat incelemesi](#case-39) | Mekanik ve 3B nesneler | Evaluation |
-| [40. Perili ev web siteleri karşılaştırması](#case-40) | Model karşılaştırması | Evaluation |
-| [41. İki model etiketiyle mekanik kartal](#case-41) | Mekanik ve 3B nesneler | Evaluation |
-| [42. Fenerlerle aydınlanan gece nehri](#case-42) | Voksel dünyalar ve manzaralar | Demo |
-| [43. Üç ışık durumunda yelkenli](#case-43) | Voksel dünyalar ve manzaralar | Demo |
-| [44. Kırmızı gövdeli yelkenli](#case-44) | Voksel dünyalar ve manzaralar | Demo |
+| Örnek | Kategori | Gösterilen | Tür |
+|---|---|---|---|
+| [Mekanik çiçek](#case-1) | Mekanik ve 3B nesneler | three.js çiçeğinin malzemelerini, ışığını ve küçük arısını inceleyin. | Demo |
+| [Mekanik arı](#case-2) | Mekanik ve 3B nesneler | Mekanik arının animasyonunu ve sekiz biçimli hareketini inceleyin. | Demo |
+| [Mekanik canlılar ve örümcek ağı](#case-3) | Mekanik ve 3B nesneler | Mekanik canlılar, örümcek ağı ve kanatlı aygıt içeren video dizisini inceleyin. | Demo |
+| [Kristal narenciye](#case-4) | Mekanik ve 3B nesneler | Etkileşimli narenciye modelinin katmanlarını, ışığını ve hareketli görünümlerini inceleyin. | Demo |
+| [Hogwarts voksel yapısı](#case-5) | Voksel dünyalar ve manzaralar | Voksel kalenin iç ve dış görünümlerini keşfedin. | Demo |
+| [Voksel kale ve manzara](#case-6) | Voksel dünyalar ve manzaralar | Kaleyi gündüz, gece ve havadan inceleyin. | Demo |
+| [Fuji bahçesi](#case-7) | Voksel dünyalar ve manzaralar | Kelebek bakış açısını da içeren minyatür Japon bahçesini keşfedin. | Demo |
+| [Voksel nehir ve hava](#case-8) | Voksel dünyalar ve manzaralar | Voksel vadideki yansımaları ve hava değişimlerini inceleyin. | Demo |
+| [Voksel pagoda](#case-9) | Voksel dünyalar ve manzaralar | Pagoda adasını farklı ışık koşullarında inceleyin. | Demo |
+| [Beş katlı voksel pagoda](#case-10) | Voksel dünyalar ve manzaralar | Başka bir pagodanın ışık animasyonunu ve yakın görünümlerini inceleyin. | Demo |
+| [Voksel deniz feneri adası](#case-11) | Voksel dünyalar ve manzaralar | Deniz fenerini gece, gündüz ve hava değişimlerinde keşfedin. | Demo |
+| [Mekanik kraken dioraması](#case-12) | Voksel dünyalar ve manzaralar | Pirinç mekanik kraken ile denizaltı voksel sahnesini inceleyin. | Demo |
+| [Gökyüzü demiryolu şehri](#case-13) | Voksel dünyalar ve manzaralar | Tren, yükseltilmiş raylar ve kulelerden oluşan fantastik sahneyi keşfedin. | Demo |
+| [SVG kola şişesi](#case-14) | SVG ve etkileşimli grafikler | Üreticinin SVG olarak tanımladığı üç boyutlu kola şişesini inceleyin. | Demo |
+| [Etkileşimli PS5 kumandası](#case-15) | SVG ve etkileşimli grafikler | Kumanda SVG'sinin yakın görünümlerini ve farklı durumlarını inceleyin. | Demo |
+| [Xbox tarzı kumanda](#case-16) | SVG ve etkileşimli grafikler | Ayrıntılı Xbox tarzı kumanda görüntüsünü inceleyin. | Demo |
+| [SVG spor otomobil](#case-17) | SVG ve etkileşimli grafikler | Beyaz spor otomobilin yandan görünümündeki tekerlek ve gövde detaylarını inceleyin. | Demo |
+| [Gün batımında bisikletli pelikan](#case-18) | SVG ve etkileşimli grafikler | Gün batımı kıyısındaki pelikan bisiklet animasyonunu inceleyin. | Demo |
+| [Dört mevsimde bisikletli pelikan](#case-19) | SVG ve etkileşimli grafikler | Bisikletli pelikanın dört mevsim görünümünü keşfedin. | Demo |
+| [Pastel bisikletli pelikan](#case-20) | SVG ve etkileşimli grafikler | Pastel bisiklet sahnesindeki kanat hareketini inceleyin. | Demo |
+| [Liman pelikanı ve arayüz sınırları](#case-21) | SVG ve etkileşimli grafikler | Liman SVG'sini kullanılabilirlik ve yanıt süresi açısından inceleyin. | Limit |
+| [Super Mario tarzı platform oyunu](#case-22) | Oyunlar ve animasyon sahneleri | Açık alan ve yeraltı bölümlerinin kaydını inceleyin. | Demo |
+| [Blok dünyası sanal alanı](#case-23) | Oyunlar ve animasyon sahneleri | Blok araç çubuklu Minecraft tarzı birinci şahıs dünyayı inceleyin. | Demo |
+| [Kaykaylı kurbağa sahnesi](#case-24) | Oyunlar ve animasyon sahneleri | Stilize sahnede kaykay üzerindeki kurbağa animasyonunu inceleyin. | Demo |
+| [Üç modelde bisiklet animasyonu](#case-25) | Model karşılaştırması | Kaynakta birlikte gösterilen Carbon, Argon ve GPT-6 Astra çıktılarını karşılaştırın. | Evaluation |
+| [Patlatılmış görünümü olan robot göz](#case-26) | Mekanik ve 3B nesneler | Göz kırpma, odaklanma ve parçaların ayrıldığı görünümü birleştiren robot göz gösterimini inceleyin. | Demo |
+| [İki modelle café racer incelemesi](#case-27) | Mekanik ve 3B nesneler | Kaynağın Carbon ve Opus 5.5 için sunduğu motosiklet inceleme gösterimlerini karşılaştırın. | Evaluation |
+| [Müzik döngüsüyle yağmur sahnesi](#case-28) | SVG ve etkileşimli grafikler | Kaynağın SVG yağmur sahneli JavaScript uyku müziği döngüsünü keşfedin. | Demo |
+| [Ek istemlerden sonra kale ve ejderha](#case-29) | Voksel dünyalar ve manzaralar | Üç ek istemden önceki ve sonraki kale ve ejderha sahnesini karşılaştırın. | Evaluation |
+| [Üç modelle mekanik çene](#case-30) | Model karşılaştırması | Carbon, Opus 5.5 ve GPT-6 Astra’nın mekanik çene ve hareketli diş gösterimlerini karşılaştırın. | Evaluation |
+| [Dokuz silindirli yıldız motor karşılaştırması](#case-31) | Model karşılaştırması | Dört motor animasyonunda kesitlerin anlaşılırlığını ve mühendislik ayrıntılarını karşılaştırın. | Evaluation |
+| [Mekanik köpekbalığı: hız ve iç ayrıntılar](#case-32) | Model karşılaştırması | Sökülebilen bir köpekbalığının montaj efektlerini iç yapısıyla karşılaştırın. | Limit |
+| [İki modelle V8 motor incelemesi](#case-33) | Mekanik ve 3B nesneler | Motorun X-ray, kesit, patlatılmış ve parça parça görünümlerini inceleyin. | Evaluation |
+| [Tek shader ile kola şişesi](#case-34) | Mekanik ve 3B nesneler | Matematiksel shader geometrisi olarak sunulan bir Three.js şişesini keşfedin. | Demo |
+| [Yaklaşık otuz dakikada Minecraft tarzı oyun](#case-35) | Oyunlar ve animasyon sahneleri | Minecraft tarzı bir oyun kaydını ve bildirilen geliştirme koşullarını inceleyin. | Demo |
+| [Zombi eli animasyonu: süre ve maliyet](#case-36) | Model karşılaştırması | Tek bir animasyon görevinin sahne tasarımını bildirilen süre ve maliyetle birlikte karşılaştırın. | Evaluation |
+| [Üç boyutlu araba yarışı oyunu](#case-37) | Oyunlar ve animasyon sahneleri | Daha yeni bir Carbon kontrol noktasına atfedilen yarış gösterimini inceleyin. | Demo |
+| [İki zamanlı motor: belirsiz güç zamanı](#case-38) | Model karşılaştırması | Motor animasyonunun yanmayı ve piston hareketini açıkça anlatıp anlatmadığını kontrol edin. | Limit |
+| [İki modelle mekanik saat incelemesi](#case-39) | Mekanik ve 3B nesneler | Bir saati X-ray, kesit ve patlatılmış görünümlerle inceleyin. | Evaluation |
+| [Perili ev web siteleri karşılaştırması](#case-40) | Model karşılaştırması | Aynı istekle oluşturulan iki web sitesinin görsel atmosferini karşılaştırın. | Evaluation |
+| [İki model etiketiyle mekanik kartal](#case-41) | Mekanik ve 3B nesneler | Kaynağın Carbon ve Argon olarak etiketlediği mekanik kartalları karşılaştırın. | Evaluation |
+| [Fenerlerle aydınlanan gece nehri](#case-42) | Voksel dünyalar ve manzaralar | Fenerlerle dolu nehir sahnesini kaydedilmiş farklı açılardan keşfedin. | Demo |
+| [Üç ışık durumunda yelkenli](#case-43) | Voksel dünyalar ve manzaralar | Bir yelkenliyi gündüz, gün batımı ve gece ışığında inceleyin. | Demo |
+| [Kırmızı gövdeli yelkenli](#case-44) | Voksel dünyalar ve manzaralar | Kırmızı gövdeli ve açık kahverengi yelkenli başka bir gemi sahnesini keşfedin. | Demo |
+| [Pelican Quest kampüs oyunu](#case-45) | Oyunlar ve animasyon sahneleri | Birden çok ajanın keşfe açık bir kampüs oyununu nasıl oluşturduğunu inceleyin. | Demo |
+| [Multimodal Knowledge Agent karşılaştırması](#case-46) | Model karşılaştırması | Görsel açıdan karmaşık belgeler ve teslim edilen çalışmalar için ağırlıklı puanları karşılaştırın. | Benchmark |
+| [Eyfel Kulesi inşaat modeli](#case-47) | Mekanik ve 3B nesneler | Mühendislik çizimlerinin 3B bir inşaat animasyonuna dönüşümünü izleyin. | Demo |
+| [Platform 37 ofis görselleştirmesi](#case-48) | Mekanik ve 3B nesneler | Ofis tasarımının planlardan dış cephe görseline dönüşümünü izleyin. | Demo |
+| [Gerilim altındaki örgü çalışması](#case-49) | Mekanik ve 3B nesneler | Gerilim altındaki örme kumaşın üç boyutlu temsilini inceleyin. | Demo |
+| [Gemini ürün mağazası](#case-50) | SVG ve etkileşimli grafikler | Marka kılavuzunun özgün görselleri olan bir mağazaya nasıl dönüştüğünü görün. | Demo |
+
+| Bölüm | Amaç |
+|---|---|
+| [İlgili depolar](#related-repositories) | İlgili modellerin depolarına göz atın. |
+| [Hızlı başlangıç](#quick-start) | Bir örnek seçip dayanaklarını inceleyin. |
+| [Teşekkür](#acknowledge) | Katkıda bulunanları ve düzeltme yollarını görün. |
 
 ## ⚙️ Mekanik ve 3B nesneler
 
@@ -219,6 +231,45 @@ Tür: Evaluation | Tarih: 2026-10-31
 [Kaynak videoyu izle](https://x.com/srikanthvaluri/status/2116767284618486044/video/1)
 
 Tür: Evaluation | Tarih: 2026-11-01
+
+---
+
+<a id="case-47"></a>
+### Örnek 47: [Eyfel Kulesi inşaat modeli](https://www.youtube.com/watch?v=rOVEmjfPmYk) (paylaşan [@Google](https://www.youtube.com/@Google))
+
+**Mühendislik çizimlerinin 3B bir inşaat animasyonuna dönüşümünü izleyin.**
+
+Google, Antigravity ajanlarının tarihî mühendislik çizimlerinden Eyfel Kulesi modeli çıkarıp inşaat aşamalarını görselleştirdiğini gösteriyor. Videoda çizimler ve sonuç yer alıyor, ancak ölçü doğruluğu doğrulanmıyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/eiffel-219200fbc2cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/eiffel-poster-9785df340ffa.jpg" alt="Eyfel Kulesi inşaat modeli — 1" width="560"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Demo | Tarih: 2026-11-10
+
+---
+
+<a id="case-48"></a>
+### Örnek 48: [Platform 37 ofis görselleştirmesi](https://www.youtube.com/watch?v=1G2j2eA8sew) (paylaşan [@Google](https://www.youtube.com/@Google))
+
+**Ofis tasarımının planlardan dış cephe görseline dönüşümünü izleyin.**
+
+Google, ajanların planları okuyup geometrisini oluşturduğu ve yeşil çatılı ofisin dış görünüşünü görselleştirdiği bir örnek sunuyor. Video plan ile görsel arasındaki geçişi gösteriyor; geometrinin inşaat için uygunluğunu kanıtlamıyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/platform37-fbbf8bf2f63d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/platform37-poster-c57f77af8cd2.jpg" alt="Platform 37 ofis görselleştirmesi — 1" width="560"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Demo | Tarih: 2026-11-10
+
+---
+
+<a id="case-49"></a>
+### Örnek 49: [Gerilim altındaki örgü çalışması](https://www.youtube.com/watch?v=VDIMa4u9skQ) (paylaşan [@Google](https://www.youtube.com/@Google))
+
+**Gerilim altındaki örme kumaşın üç boyutlu temsilini inceleyin.**
+
+Google, örme kumaş mekaniği üzerine 2026 tarihli bir çalışmaya dayanan etkileşimli bir görselleştirici sunuyor. Araç gerilim altındaki 110 lifi gösteriyor. Videoda simülasyon ve grafikler var; malzemenin fiziksel doğrulaması sunulmuyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/tensile-knit-66c22f5d9e56.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/tensile-knit-poster-241308cc9364.jpg" alt="Gerilim altındaki örgü çalışması — 1" width="560"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Demo | Tarih: 2026-11-10
 
 ---
 
@@ -518,6 +569,19 @@ Tür: Demo | Tarih: 2026-10-29
 
 ---
 
+<a id="case-50"></a>
+### Örnek 50: [Gemini ürün mağazası](https://www.youtube.com/watch?v=Y8FA5LhXLdo) (paylaşan [@Google](https://www.youtube.com/@Google))
+
+**Marka kılavuzunun özgün görselleri olan bir mağazaya nasıl dönüştüğünü görün.**
+
+Google, mağazayı Antigravity’de ön yüz tasarımı özelliğini kullanarak oluşturdu. Demo AI Studio’da açılabiliyor. Ekip, mağazayı Gemini ile geliştirdiğini ve görselleri Nano Banana ile ürettiğini belirtiyor. Demo çalışan bir arayüz gösteriyor; gerçek ödeme veya sipariş işleme bağlantısının kurulduğunu kanıtlamıyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/merch-store-8d0b2b41c24f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/merch-store-poster-ce02af10b44d.jpg" alt="Gemini ürün mağazası — 1" width="560"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Demo | Tarih: 2026-11-10
+
+---
+
 ## 🎮 Oyunlar ve animasyon sahneleri
 
 <a id="case-22"></a>
@@ -582,6 +646,19 @@ Tür: Demo | Tarih: 2026-10-31
 [Kaynak videoyu izle](https://x.com/Mr_Salio/status/2116798612361375995/video/1)
 
 Tür: Demo | Tarih: 2026-11-01
+
+---
+
+<a id="case-45"></a>
+### Örnek 45: [Pelican Quest kampüs oyunu](https://www.youtube.com/watch?v=dNbkThtNzS8) (paylaşan [@Google](https://www.youtube.com/@Google))
+
+**Birden çok ajanın keşfe açık bir kampüs oyununu nasıl oluşturduğunu inceleyin.**
+
+Google, Antigravity ajanlarından oluşan bir ekibin Three.js, WebGL ve Blender öğeleriyle bir oyun geliştirdiğini bildiriyor. Oyunda bir pelikan GBike ile Mountain View kampüsünü dolaşıyor. Kayıt sahneyi ve kontrolleri gösteriyor, ancak sürecin tekrarlanabilirliğini kanıtlamıyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/pelican-playable-35bc725f2793.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/pelican-poster-257b69c207e0.jpg" alt="Pelican Quest kampüs oyunu — 1" width="560"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Demo | Tarih: 2026-11-10
 
 ---
 
@@ -679,17 +756,30 @@ Tür: Evaluation | Tarih: 2026-10-31
 
 ---
 
+<a id="case-46"></a>
+### Örnek 46: [Multimodal Knowledge Agent karşılaştırması](https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent) (paylaşan [@ArtificialAnalysis](https://artificialanalysis.ai/))
+
+**Görsel açıdan karmaşık belgeler ve teslim edilen çalışmalar için ağırlıklı puanları karşılaştırın.**
+
+Artificial Analysis ve Google DeepMind ajanları on sektörden 200 özel görevle değerlendirdi. Rapora göre Climb ölçütlerinin ağırlıklı puanı Gemini 4 Carbon High için %54, Claude Fable 5.2 Max için %57, Claude Opus 5.5 Max için %53. Bu sayılar Stirrup ortamı ve belirlenen ölçütler için geçerlidir; tamamlanan görevlerin oranını göstermez.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/images/mka-chart-75ea0faed82d.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/images/mka-chart-75ea0faed82d.png" alt="Multimodal Knowledge Agent karşılaştırması — 1" width="560"></a><br>Kaynak görseli aç</td></tr></table>
+
+Tür: Benchmark | Tarih: 2026-11-10
+
+---
+
 <a id="related-repositories"></a>
 ## İlgili depolar
 
 - [Gemini 3.6 Flash — Rehber ve kullanım örnekleri](https://github.com/Evolink-AI/awesome-gemini-3.6-flash-guide-and-use-cases)
-- [Gemini Omni — Rehber ve istemler](https://github.com/Evolink-AI/awesome-gemini-omni-guide-api-and-prompt)
+- [Gemini Omni 1.2 Flash — Rehber ve istemler](https://github.com/Evolink-AI/awesome-gemini-omni-1.2-flash-API-guide-and-prompt)
 
 <a id="acknowledge"></a>
 ## 🙏 Teşekkür
 
 Gösterimleri paylaşan şu kişilere teşekkürler:
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri), [@Google](https://www.youtube.com/@Google), [@ArtificialAnalysis](https://artificialanalysis.ai/)
 
 Atıflar bağlantılı kaynaklara dayanır ve düzeltilmesi gerekebilir. Eksik atıf, yinelenen eser, yanlış iddia veya kaldırma isteği için issue açın. Üçüncü taraf medyanın hakları sahiplerinde kalır.
