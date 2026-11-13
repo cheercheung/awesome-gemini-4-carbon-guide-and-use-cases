@@ -1,5 +1,11 @@
 # Update log
 
+## 2026-11-13
+
+- Added 6 use cases: Google’s Pelican Quest, Eiffel Tower, Platform 37, Tensile Knit and merchandise storefront demos, and the Multimodal Knowledge Agent benchmark. The collection now contains 50 cases in eleven languages.
+- Updated the case index to describe what each source shows and restored quick links to the related repositories, quick start and credits. Kept the original case numbers, source links, media and banner.
+- The demos show published outcomes. The benchmark reports rubric scores under a specified setup. Neither establishes independent reproduction of the workflows.
+
 ## 2026-11-03 — Manual supplement
 
 - Added four source-attributed community cases: mechanical eagle, Lantern River Night and two distinct sailing-ship scenes. The collection now contains 44 cases in eleven languages.

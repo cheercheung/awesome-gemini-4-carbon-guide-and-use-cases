@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://evolink.ai?utm_source=github&utm_medium=banner&utm_campaign=gemini-4-carbon-usecases&utm_content=readme-cover"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/banner/banner-owner-6aea570af8a4.png" alt="Gemini 4 Carbon — 커뮤니티 활용 사례" width="760"></a>
+<a href="https://evolink.ai?utm_source=github&utm_medium=banner&utm_campaign=gemini-4-carbon-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/banner/banner-owner-6aea570af8a4.png" alt="Gemini 4 Carbon — 커뮤니티 활용 사례" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 
@@ -20,13 +20,13 @@
 
 ## 🍌 소개
 
-초기 배포 시기에 게시자가 Gemini 4 Carbon 결과로 소개한 공개 커뮤니티 데모 모음입니다.
+커뮤니티와 Google이 공개한 Gemini 4 Carbon 활용 사례와 결과를 어떻게 측정했는지 보여 주는 평가를 모았습니다.
 
 **원본 출처를 통해 구체적인 작업, 눈에 보이는 결과와 실제 한계를 살펴보세요.**
 
 ## 📊 개요
 
-5개 분류의 사례 44개입니다. 재게시물은 해당 작품에 합쳤으며 기존 결과의 비교도 원래 사례에 첨부했습니다.
+5개 분류에 사례 50개를 담았습니다. 재게시물은 원래 사례에 모으고, 같은 결과물을 비교한 자료도 해당 사례에 둡니다.
 
 > [!NOTE]
 > 모델명, 생성 시간, 품질 평가는 출처의 주장입니다. Arena 표시명은 실제 백엔드 버전을 입증하지 않습니다. 녹화만으로 코드 실행, 모든 상호작용의 정확성, 재현성을 확인할 수 없습니다.
@@ -40,52 +40,64 @@
 
 ## 📑 목차
 
-| 사례 | 분류 | 유형 |
-|---|---|---|
-| [1. 기계 꽃](#case-1) | 기계와 3D 객체 | Demo |
-| [2. 기계 벌](#case-2) | 기계와 3D 객체 | Demo |
-| [3. 기계 생물과 거미줄](#case-3) | 기계와 3D 객체 | Demo |
-| [4. 수정 감귤](#case-4) | 기계와 3D 객체 | Demo |
-| [5. 호그와트 복셀 건축](#case-5) | 복셀 세계와 풍경 | Demo |
-| [6. 복셀 성과 풍경](#case-6) | 복셀 세계와 풍경 | Demo |
-| [7. 후지 정원](#case-7) | 복셀 세계와 풍경 | Demo |
-| [8. 복셀 강과 날씨](#case-8) | 복셀 세계와 풍경 | Demo |
-| [9. 복셀 탑](#case-9) | 복셀 세계와 풍경 | Demo |
-| [10. 오층 복셀 탑](#case-10) | 복셀 세계와 풍경 | Demo |
-| [11. 복셀 등대섬](#case-11) | 복셀 세계와 풍경 | Demo |
-| [12. 기계 크라켄 디오라마](#case-12) | 복셀 세계와 풍경 | Demo |
-| [13. 하늘 철도 도시](#case-13) | 복셀 세계와 풍경 | Demo |
-| [14. 콜라병 SVG](#case-14) | SVG와 인터랙티브 그래픽 | Demo |
-| [15. 인터랙티브 PS5 컨트롤러](#case-15) | SVG와 인터랙티브 그래픽 | Demo |
-| [16. Xbox 스타일 컨트롤러](#case-16) | SVG와 인터랙티브 그래픽 | Demo |
-| [17. 스포츠카 SVG](#case-17) | SVG와 인터랙티브 그래픽 | Demo |
-| [18. 석양 해안의 펠리컨 자전거](#case-18) | SVG와 인터랙티브 그래픽 | Demo |
-| [19. 사계절 펠리컨 자전거](#case-19) | SVG와 인터랙티브 그래픽 | Demo |
-| [20. 파스텔 펠리컨 자전거](#case-20) | SVG와 인터랙티브 그래픽 | Demo |
-| [21. 항구 펠리컨과 UI 한계](#case-21) | SVG와 인터랙티브 그래픽 | Limit |
-| [22. 마리오 스타일 플랫폼 게임](#case-22) | 게임과 애니메이션 | Demo |
-| [23. 블록 세계 샌드박스](#case-23) | 게임과 애니메이션 | Demo |
-| [24. 개구리 스케이트보드 장면](#case-24) | 게임과 애니메이션 | Demo |
-| [25. 세 모델 자전거 애니메이션 비교](#case-25) | 모델 비교 | Evaluation |
-| [26. 분해 보기가 있는 로봇 눈](#case-26) | 기계와 3D 객체 | Demo |
-| [27. 두 모델의 카페 레이서 내부 보기](#case-27) | 기계와 3D 객체 | Evaluation |
-| [28. 음악 루프가 있는 빗속 풍경](#case-28) | SVG와 인터랙티브 그래픽 | Demo |
-| [29. 추가 프롬프트 전후의 성과 용](#case-29) | 복셀 세계와 풍경 | Evaluation |
-| [30. 세 모델의 기계 턱](#case-30) | 모델 비교 | Evaluation |
-| [31. 9기통 성형 엔진 비교](#case-31) | 모델 비교 | Evaluation |
-| [32. 기계 상어: 속도와 내부 세부](#case-32) | 모델 비교 | Limit |
-| [33. 두 모델의 V8 엔진 관찰](#case-33) | 기계와 3D 객체 | Evaluation |
-| [34. 단일 셰이더로 만든 콜라병](#case-34) | 기계와 3D 객체 | Demo |
-| [35. 약 30분 만에 만든 Minecraft풍 게임](#case-35) | 게임과 애니메이션 | Demo |
-| [36. 좀비 손 애니메이션: 시간과 비용](#case-36) | 모델 비교 | Evaluation |
-| [37. 3차원 자동차 경주 게임](#case-37) | 게임과 애니메이션 | Demo |
-| [38. 2행정 엔진: 불분명한 폭발 행정](#case-38) | 모델 비교 | Limit |
-| [39. 두 모델의 기계식 시계 관찰](#case-39) | 기계와 3D 객체 | Evaluation |
-| [40. 유령의 집 웹사이트 비교](#case-40) | 모델 비교 | Evaluation |
-| [41. 두 모델 이름으로 표시된 기계 독수리](#case-41) | 기계와 3D 객체 | Evaluation |
-| [42. 등불이 흐르는 밤의 강](#case-42) | 복셀 세계와 풍경 | Demo |
-| [43. 세 조명 상태의 범선](#case-43) | 복셀 세계와 풍경 | Demo |
-| [44. 붉은 선체의 범선](#case-44) | 복셀 세계와 풍경 | Demo |
+| 사례 | 분류 | 내용 | 유형 |
+|---|---|---|---|
+| [기계 꽃](#case-1) | 기계와 3D 객체 | three.js 꽃의 재질, 조명 변화와 작은 벌을 살펴봅니다. | Demo |
+| [기계 벌](#case-2) | 기계와 3D 객체 | 기계 벌의 애니메이션과 8자 움직임을 살펴봅니다. | Demo |
+| [기계 생물과 거미줄](#case-3) | 기계와 3D 객체 | 기계 생물, 거미줄과 날개 달린 장치가 나오는 영상을 살펴봅니다. | Demo |
+| [수정 감귤](#case-4) | 기계와 3D 객체 | 감귤 모델의 층, 조명과 움직이는 시점을 살펴봅니다. | Demo |
+| [호그와트 복셀 건축](#case-5) | 복셀 세계와 풍경 | 내부와 외부 시점에서 복셀 성을 살펴봅니다. | Demo |
+| [복셀 성과 풍경](#case-6) | 복셀 세계와 풍경 | 낮, 밤과 공중 시점에서 성을 살펴봅니다. | Demo |
+| [후지 정원](#case-7) | 복셀 세계와 풍경 | 나비 시점을 포함한 작은 일본식 정원을 탐색합니다. | Demo |
+| [복셀 강과 날씨](#case-8) | 복셀 세계와 풍경 | 복셀 강 풍경의 반사와 날씨 변화를 살펴봅니다. | Demo |
+| [복셀 탑](#case-9) | 복셀 세계와 풍경 | 여러 조명 조건에서 탑이 있는 섬의 세부를 살펴봅니다. | Demo |
+| [오층 복셀 탑](#case-10) | 복셀 세계와 풍경 | 다른 탑의 조명 애니메이션과 근접 화면을 살펴봅니다. | Demo |
+| [복셀 등대섬](#case-11) | 복셀 세계와 풍경 | 등대 장면의 낮과 밤, 날씨 변화를 살펴봅니다. | Demo |
+| [기계 크라켄 디오라마](#case-12) | 복셀 세계와 풍경 | 황동 기계 크라켄과 잠수함의 복셀 장면을 살펴봅니다. | Demo |
+| [하늘 철도 도시](#case-13) | 복셀 세계와 풍경 | 열차, 고가 선로와 탑이 있는 판타지 장면을 탐색합니다. | Demo |
+| [콜라병 SVG](#case-14) | SVG와 인터랙티브 그래픽 | 제작자가 SVG라고 설명한 입체적인 콜라병을 살펴봅니다. | Demo |
+| [인터랙티브 PS5 컨트롤러](#case-15) | SVG와 인터랙티브 그래픽 | 컨트롤러 SVG의 근접 화면과 표시 상태 변화를 살펴봅니다. | Demo |
+| [Xbox 스타일 컨트롤러](#case-16) | SVG와 인터랙티브 그래픽 | 세부를 표현한 Xbox 스타일 컨트롤러를 살펴봅니다. | Demo |
+| [스포츠카 SVG](#case-17) | SVG와 인터랙티브 그래픽 | 흰 스포츠카 측면의 바퀴와 차체 세부를 살펴봅니다. | Demo |
+| [석양 해안의 펠리컨 자전거](#case-18) | SVG와 인터랙티브 그래픽 | 석양 해안을 배경으로 한 펠리컨 자전거 애니메이션을 살펴봅니다. | Demo |
+| [사계절 펠리컨 자전거](#case-19) | SVG와 인터랙티브 그래픽 | 펠리컨 자전거의 사계절 장면을 탐색합니다. | Demo |
+| [파스텔 펠리컨 자전거](#case-20) | SVG와 인터랙티브 그래픽 | 파스텔색 자전거 장면의 날개 움직임을 살펴봅니다. | Demo |
+| [항구 펠리컨과 UI 한계](#case-21) | SVG와 인터랙티브 그래픽 | 항구 펠리컨 SVG를 사용성과 응답 시간 관점에서 살펴봅니다. | Limit |
+| [마리오 스타일 플랫폼 게임](#case-22) | 게임과 애니메이션 | 실외와 지하 구역의 플랫폼 게임 녹화를 살펴봅니다. | Demo |
+| [블록 세계 샌드박스](#case-23) | 게임과 애니메이션 | 블록 도구 모음이 있는 Minecraft 스타일 일인칭 세계를 살펴봅니다. | Demo |
+| [개구리 스케이트보드 장면](#case-24) | 게임과 애니메이션 | 스타일화된 장면에서 스케이트보드를 타는 개구리를 살펴봅니다. | Demo |
+| [세 모델 자전거 애니메이션 비교](#case-25) | 모델 비교 | Carbon, Argon과 GPT-6 Astra의 출력을 함께 보여주는 원본을 비교합니다. | Evaluation |
+| [분해 보기가 있는 로봇 눈](#case-26) | 기계와 3D 객체 | 깜빡임, 초점 조절, 부품 분해 보기를 결합한 로봇 눈 시연을 살펴보세요. | Demo |
+| [두 모델의 카페 레이서 내부 보기](#case-27) | 기계와 3D 객체 | Carbon과 Opus 5.5의 오토바이 내부 보기 시연을 비교하세요. | Evaluation |
+| [음악 루프가 있는 빗속 풍경](#case-28) | SVG와 인터랙티브 그래픽 | SVG 빗속 풍경과 함께 제공되는 JavaScript 수면 음악 루프를 원본에서 살펴보세요. | Demo |
+| [추가 프롬프트 전후의 성과 용](#case-29) | 복셀 세계와 풍경 | 추가 프롬프트 세 번 전후의 성과 용 장면을 비교하세요. | Evaluation |
+| [세 모델의 기계 턱](#case-30) | 모델 비교 | Carbon, Opus 5.5, GPT-6 Astra의 기계 턱과 움직이는 치아 시연을 비교하세요. | Evaluation |
+| [9기통 성형 엔진 비교](#case-31) | 모델 비교 | 네 가지 엔진 애니메이션의 단면 가독성과 공학적 세부를 비교하세요. | Evaluation |
+| [기계 상어: 속도와 내부 세부](#case-32) | 모델 비교 | 분해 가능한 상어의 조립 효과와 내부 구조를 비교하세요. | Limit |
+| [두 모델의 V8 엔진 관찰](#case-33) | 기계와 3D 객체 | 엔진의 투시, 단면, 분해도와 개별 부품 보기를 살펴보세요. | Evaluation |
+| [단일 셰이더로 만든 콜라병](#case-34) | 기계와 3D 객체 | 수학적 셰이더 형상으로 소개된 Three.js 병을 살펴보세요. | Demo |
+| [약 30분 만에 만든 Minecraft풍 게임](#case-35) | 게임과 애니메이션 | Minecraft풍 게임 녹화와 작성자가 밝힌 개발 조건을 살펴보세요. | Demo |
+| [좀비 손 애니메이션: 시간과 비용](#case-36) | 모델 비교 | 한 애니메이션 과제의 장면 구성과 보고된 시간 및 비용을 비교하세요. | Evaluation |
+| [3차원 자동차 경주 게임](#case-37) | 게임과 애니메이션 | 새로운 Carbon 체크포인트의 결과로 소개된 경주 시연을 살펴보세요. | Demo |
+| [2행정 엔진: 불분명한 폭발 행정](#case-38) | 모델 비교 | 엔진 애니메이션이 연소와 피스톤 운동을 명확하게 설명하는지 확인하세요. | Limit |
+| [두 모델의 기계식 시계 관찰](#case-39) | 기계와 3D 객체 | 시계의 투시, 단면과 분해도를 살펴보세요. | Evaluation |
+| [유령의 집 웹사이트 비교](#case-40) | 모델 비교 | 같은 요청으로 제작된 두 웹사이트의 시각적 분위기를 비교하세요. | Evaluation |
+| [두 모델 이름으로 표시된 기계 독수리](#case-41) | 기계와 3D 객체 | 출처가 Carbon과 Argon으로 표시한 기계 독수리를 비교하세요. | Evaluation |
+| [등불이 흐르는 밤의 강](#case-42) | 복셀 세계와 풍경 | 등불로 가득한 강 풍경을 녹화된 여러 시점에서 살펴보세요. | Demo |
+| [세 조명 상태의 범선](#case-43) | 복셀 세계와 풍경 | 낮, 해질녘, 밤의 범선을 살펴보세요. | Demo |
+| [붉은 선체의 범선](#case-44) | 복셀 세계와 풍경 | 붉은 선체와 황갈색 돛을 가진 또 다른 범선 장면을 살펴보세요. | Demo |
+| [캠퍼스 게임 ‘Pelican Quest’](#case-45) | 게임과 애니메이션 | 여러 에이전트가 탐험할 수 있는 캠퍼스 게임을 만드는 과정을 살펴봅니다. | Demo |
+| [멀티모달 지식 에이전트 벤치마크](#case-46) | 모델 비교 | 시각적으로 복잡한 문서와 결과물의 가중 점수를 비교합니다. | Benchmark |
+| [에펠탑 건설 모형](#case-47) | 기계와 3D 객체 | 공학 도면을 3D 건설 애니메이션으로 바꾸는 과정을 따라갑니다. | Demo |
+| [Platform 37 사무실 시각화](#case-48) | 기계와 3D 객체 | 사무용 건물 설계가 도면에서 외관 렌더링으로 바뀌는 과정을 따라갑니다. | Demo |
+| [장력을 받는 편직물 연구](#case-49) | 기계와 3D 객체 | 장력을 받는 편직물을 3차원으로 표현한 결과를 살펴봅니다. | Demo |
+| [Gemini 굿즈 스토어](#case-50) | SVG와 인터랙티브 그래픽 | 브랜드 가이드라인이 자체 이미지를 갖춘 스토어로 바뀌는 과정을 살펴봅니다. | Demo |
+
+| 구역 | 목적 |
+|---|---|
+| [관련 저장소](#related-repositories) | 관련 모델의 저장소를 찾아볼 수 있습니다. |
+| [빠른 시작](#quick-start) | 사례를 골라 근거를 확인할 수 있습니다. |
+| [감사의 말](#acknowledge) | 기여자와 정정 방법을 확인할 수 있습니다. |
 
 ## ⚙️ 기계와 3D 객체
 
@@ -219,6 +231,45 @@
 [원본 동영상 보기](https://x.com/srikanthvaluri/status/2116767284618486044/video/1)
 
 유형: Evaluation | 날짜: 2026-11-01
+
+---
+
+<a id="case-47"></a>
+### 사례 47: [에펠탑 건설 모형](https://www.youtube.com/watch?v=rOVEmjfPmYk) (작성자 [@Google](https://www.youtube.com/@Google))
+
+**공학 도면을 3D 건설 애니메이션으로 바꾸는 과정을 따라갑니다.**
+
+Google은 Antigravity 에이전트가 역사적 공학 도면을 바탕으로 에펠탑을 모델링하고 건설 단계를 시각화하는 사례를 보여 줍니다. 영상에서 도면과 건설 과정을 볼 수 있지만, 치수 정확도는 검증하지 않았습니다.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/eiffel-219200fbc2cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/eiffel-poster-9785df340ffa.jpg" alt="에펠탑 건설 모형 — 1" width="560"></a><br>원본 동영상 보기</td></tr></table>
+
+유형: Demo | 날짜: 2026-11-10
+
+---
+
+<a id="case-48"></a>
+### 사례 48: [Platform 37 사무실 시각화](https://www.youtube.com/watch?v=1G2j2eA8sew) (작성자 [@Google](https://www.youtube.com/@Google))
+
+**사무용 건물 설계가 도면에서 외관 렌더링으로 바뀌는 과정을 따라갑니다.**
+
+Google은 에이전트가 계획 도면을 읽고 형태를 만든 뒤 옥상에 녹지를 둔 사무용 건물의 외관을 렌더링하는 모습을 보여 줍니다. 영상으로 도면과 완성된 외관을 비교할 수 있지만, 형태가 실제 시공에 적합한지는 확인되지 않았습니다.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/platform37-fbbf8bf2f63d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/platform37-poster-c57f77af8cd2.jpg" alt="Platform 37 사무실 시각화 — 1" width="560"></a><br>원본 동영상 보기</td></tr></table>
+
+유형: Demo | 날짜: 2026-11-10
+
+---
+
+<a id="case-49"></a>
+### 사례 49: [장력을 받는 편직물 연구](https://www.youtube.com/watch?v=VDIMa4u9skQ) (작성자 [@Google](https://www.youtube.com/@Google))
+
+**장력을 받는 편직물을 3차원으로 표현한 결과를 살펴봅니다.**
+
+Google은 편직물 역학에 관한 2026년 연구를 바탕으로 장력이 걸린 섬유 110개를 표현한 인터랙티브 시각화 도구를 보여 줍니다. 영상에 시뮬레이션과 그래프가 나오지만, 재료의 물리적 검증 결과는 제시하지 않습니다.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/tensile-knit-66c22f5d9e56.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/tensile-knit-poster-241308cc9364.jpg" alt="장력을 받는 편직물 연구 — 1" width="560"></a><br>원본 동영상 보기</td></tr></table>
+
+유형: Demo | 날짜: 2026-11-10
 
 ---
 
@@ -518,6 +569,19 @@ LuminaBench 사례와 다른 탑 표현입니다. 같은 소재라고 동일 생
 
 ---
 
+<a id="case-50"></a>
+### 사례 50: [Gemini 굿즈 스토어](https://www.youtube.com/watch?v=Y8FA5LhXLdo) (작성자 [@Google](https://www.youtube.com/@Google))
+
+**브랜드 가이드라인이 자체 이미지를 갖춘 스토어로 바뀌는 과정을 살펴봅니다.**
+
+Google은 Antigravity의 프런트엔드 디자인 스킬로 스토어를 만들었습니다. 데모는 AI Studio에서 열 수 있습니다. 팀은 스토어 제작에 Gemini를, 이미지 생성에 Nano Banana를 사용했다고 설명합니다. 작동하는 화면을 볼 수 있지만, 실제 결제나 주문 처리 시스템과 연동되는지는 확인되지 않았습니다.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/merch-store-8d0b2b41c24f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/merch-store-poster-ce02af10b44d.jpg" alt="Gemini 굿즈 스토어 — 1" width="560"></a><br>원본 동영상 보기</td></tr></table>
+
+유형: Demo | 날짜: 2026-11-10
+
+---
+
 ## 🎮 게임과 애니메이션
 
 <a id="case-22"></a>
@@ -582,6 +646,19 @@ LuminaBench 사례와 다른 탑 표현입니다. 같은 소재라고 동일 생
 [원본 동영상 보기](https://x.com/Mr_Salio/status/2116798612361375995/video/1)
 
 유형: Demo | 날짜: 2026-11-01
+
+---
+
+<a id="case-45"></a>
+### 사례 45: [캠퍼스 게임 ‘Pelican Quest’](https://www.youtube.com/watch?v=dNbkThtNzS8) (작성자 [@Google](https://www.youtube.com/@Google))
+
+**여러 에이전트가 탐험할 수 있는 캠퍼스 게임을 만드는 과정을 살펴봅니다.**
+
+Google에 따르면 Antigravity의 여러 에이전트가 Three.js, WebGL, Blender 자료를 사용해 펠리컨이 GBike를 타고 마운틴뷰 캠퍼스를 돌아다니는 게임을 만들었습니다. 공개 영상으로 장면과 조작 방식을 볼 수 있지만, 제작 과정의 재현성을 입증하지는 않습니다.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/videos/pelican-playable-35bc725f2793.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/posters/pelican-poster-257b69c207e0.jpg" alt="캠퍼스 게임 ‘Pelican Quest’ — 1" width="560"></a><br>원본 동영상 보기</td></tr></table>
+
+유형: Demo | 날짜: 2026-11-10
 
 ---
 
@@ -679,17 +756,30 @@ LuminaBench 사례와 다른 탑 표현입니다. 같은 소재라고 동일 생
 
 ---
 
+<a id="case-46"></a>
+### 사례 46: [멀티모달 지식 에이전트 벤치마크](https://artificialanalysis.ai/articles/google-deepmind-multimodal-knowledge-agent) (작성자 [@ArtificialAnalysis](https://artificialanalysis.ai/))
+
+**시각적으로 복잡한 문서와 결과물의 가중 점수를 비교합니다.**
+
+Artificial Analysis와 Google DeepMind는 10개 업계의 비공개 과제 200개로 에이전트를 평가했습니다. Climb 가중 기준에서 Gemini 4 Carbon High는 54%, Claude Fable 5.2 Max는 57%, Claude Opus 5.5 Max는 53%를 기록했습니다. 이 수치는 Stirrup 실행 환경과 정해진 평가 기준에 따른 점수이며, 과제 완료 비율이 아닙니다.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/images/mka-chart-75ea0faed82d.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases/images/mka-chart-75ea0faed82d.png" alt="멀티모달 지식 에이전트 벤치마크 — 1" width="560"></a><br>원본 이미지 보기</td></tr></table>
+
+유형: Benchmark | 날짜: 2026-11-10
+
+---
+
 <a id="related-repositories"></a>
 ## 관련 저장소
 
 - [Gemini 3.6 Flash — 가이드와 활용 사례](https://github.com/Evolink-AI/awesome-gemini-3.6-flash-guide-and-use-cases)
-- [Gemini Omni — 가이드와 프롬프트](https://github.com/Evolink-AI/awesome-gemini-omni-guide-api-and-prompt)
+- [Gemini Omni 1.2 Flash — 가이드와 프롬프트](https://github.com/Evolink-AI/awesome-gemini-omni-1.2-flash-API-guide-and-prompt)
 
 <a id="acknowledge"></a>
 ## 🙏 감사의 말
 
 데모를 공개한 다음 게시자에게 감사드립니다.
 
-[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri)
+[@thtbee_](https://x.com/thtbee_), [@hakmgpt](https://x.com/hakmgpt), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@dummerspast39](https://x.com/dummerspast39), [@Mr_Salio](https://x.com/Mr_Salio), [@doe_naps](https://x.com/doe_naps), [@abhinavflac](https://x.com/abhinavflac), [@LuminaBench](https://x.com/LuminaBench), [@HarshithLucky3](https://x.com/HarshithLucky3), [@SPAC89](https://x.com/SPAC89), [@marcthecreatorr](https://x.com/marcthecreatorr), [@auricxofficial](https://x.com/auricxofficial), [@hamoudi_yo](https://x.com/hamoudi_yo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@noclipepe](https://x.com/noclipepe), [@dromexa](https://x.com/dromexa), [@chetaslua](https://x.com/chetaslua), [@semichenkko](https://x.com/semichenkko), [@olezhavich](https://x.com/olezhavich), [@0xPorterio](https://x.com/0xPorterio), [@keydol123](https://x.com/keydol123), [@srikanthvaluri](https://x.com/srikanthvaluri), [@Google](https://www.youtube.com/@Google), [@ArtificialAnalysis](https://artificialanalysis.ai/)
 
 저자 표기는 연결된 출처를 따르며 수정이 필요할 수 있습니다. 출처 누락, 중복, 잘못된 주장이나 삭제 요청은 issue로 알려주세요. 제3자 미디어의 권리는 원 권리자에게 있습니다.

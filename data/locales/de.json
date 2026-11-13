@@ -22,13 +22,21 @@
       "games": "Spiele und animierte Szenen",
       "comparison": "Modellvergleich"
     },
-    "intro": "Eine Sammlung öffentlicher Community-Demos, die ihre Verfasser während der frühen Einführung Gemini 4 Carbon zuschreiben.",
+    "intro": "Beispiele für Gemini 4 Carbon aus der Community und von Google, ergänzt durch Auswertungen, die erklären, wie die Ergebnisse gemessen wurden.",
     "purpose": "Erkunde konkrete Aufgaben, sichtbare Ergebnisse und praktische Grenzen anhand der Originalquellen.",
-    "stats": "44 Anwendungsfälle in 5 Kategorien. Weiterveröffentlichungen sind dem jeweiligen Werk zugeordnet; Vergleiche bestehender Ergebnisse bleiben beim ursprünglichen Fall.",
+    "stats": "50 Anwendungsfälle in 5 Kategorien. Erneute Veröffentlichungen bleiben beim Original, Vergleiche beim jeweiligen Anwendungsfall.",
     "evidence": "Modellnamen, Erstellungszeiten und Qualitätsurteile sind Angaben der Quellen. Der Anzeigename in Arena belegt keine Backend-Version. Eine Aufnahme beweist weder ausführbaren Code noch vollständige Interaktion oder wiederholbaren Erfolg.",
     "steps": "1. Wähle eine Aufgabe im Inhaltsverzeichnis.\n2. Öffne Video oder Bild und folge dem Falltitel zum Originalbeitrag.\n3. Vergleiche das sichtbare Ergebnis mit Aufgabe und Einschränkungen.",
     "thanks": "Danke an die folgenden Herausgeber der Demos:",
-    "corrections": "Die Zuschreibung folgt den verlinkten Quellen und kann Korrekturen erfordern. Bitte melde fehlende Urheberangaben, Duplikate, falsche Aussagen oder Löschwünsche per Issue. Medien Dritter behalten ihre ursprünglichen Rechte."
+    "corrections": "Die Zuschreibung folgt den verlinkten Quellen und kann Korrekturen erfordern. Bitte melde fehlende Urheberangaben, Duplikate, falsche Aussagen oder Löschwünsche per Issue. Medien Dritter behalten ihre ursprünglichen Rechte.",
+    "what_it_shows": "Beispielinhalt",
+    "section": "Abschnitt",
+    "navigation_purpose": "Zweck",
+    "navigation_notes": {
+      "related": "Repositorys verwandter Modelle durchsuchen.",
+      "quick_start": "Ein Beispiel auswählen und die Belege prüfen.",
+      "acknowledge": "Mitwirkende und Korrekturhinweise ansehen."
+    }
   },
   "cases": [
     [
@@ -250,6 +258,36 @@
       "Segelschiff mit rotem Rumpf",
       "Erkunde eine weitere Segelschiffszene mit rotem Rumpf und hellbraunen Segeln.",
       "Die Stichproben zeigen nahe und ferne Ansichten mit Schaum und Vögeln. Rumpf, Verzierungen und Segel unterscheiden sich vom Schiff mit drei Lichtstimmungen; Carbon-Zuordnung und vollständige Umsetzung bleiben ungeprüft."
+    ],
+    [
+      "Campusspiel Pelican Quest",
+      "Sehen Sie, wie mehrere Agenten ein Spiel bauen, in dem sich ein Campus erkunden lässt.",
+      "Google berichtet, dass ein Schwarm aus Antigravity-Agenten ein Spiel mit Three.js, WebGL und Blender-Elementen erstellt hat. Darin fährt ein Pelikan auf einem GBike über den Campus in Mountain View. Die Aufnahme zeigt die Szene und Steuerung, belegt aber keine Reproduzierbarkeit."
+    ],
+    [
+      "Benchmark Multimodal Knowledge Agent",
+      "Vergleichen Sie gewichtete Bewertungen für visuell komplexe Dokumente und Arbeitsergebnisse.",
+      "Artificial Analysis und Google DeepMind prüften die Agenten mit 200 nicht öffentlichen Aufgaben aus zehn Branchen. Für Gemini 4 Carbon High nennt der Bericht 54% nach den gewichteten Climb-Kriterien, gegenüber 57% für Claude Fable 5.2 Max und 53% für Claude Opus 5.5 Max. Die Werte gelten für die Stirrup-Umgebung und die verwendeten Kriterien. Sie geben nicht den Anteil abgeschlossener Aufgaben an."
+    ],
+    [
+      "Baumodell des Eiffelturms",
+      "Verfolgen Sie, wie aus technischen Zeichnungen eine animierte 3D-Bauabfolge entsteht.",
+      "Google zeigt, wie Antigravity-Agenten aus historischen Zeichnungen ein Modell des Eiffelturms erstellen und die Bauphasen darstellen. Das Video zeigt die Pläne und das Ergebnis, belegt aber keine Maßgenauigkeit."
+    ],
+    [
+      "Visualisierung des Bürogebäudes Platform 37",
+      "Verfolgen Sie den Entwurf eines Bürogebäudes vom Bauplan bis zur gerenderten Außenansicht.",
+      "Google zeigt Agenten, die Pläne lesen, die Geometrie erstellen und ein Bürogebäude mit begrüntem Dach rendern. Das Video zeigt den Übergang vom Plan zum Bild. Es belegt nicht, dass die Geometrie für die Bauausführung geeignet ist."
+    ],
+    [
+      "Studie eines Gestricks unter Spannung",
+      "Sehen Sie, wie ein Gestrick unter Spannung dreidimensional dargestellt wird.",
+      "Google zeigt eine interaktive Visualisierung auf Grundlage einer Studie zur Mechanik von Gestricken aus dem Jahr 2026. Sie stellt 110 Fasern unter Spannung dar. Das Video zeigt die Simulation und ihre Diagramme, liefert aber keine physikalische Validierung des Materials."
+    ],
+    [
+      "Fanartikel-Shop für Gemini",
+      "Sehen Sie, wie aus Markenrichtlinien ein Shop mit eigenen Bildern entsteht.",
+      "Google erstellte den Shop in Antigravity mit dessen Werkzeug für Oberflächendesign. Die Demo lässt sich in AI Studio öffnen. Laut Team stammt die Umsetzung des Shops von Gemini, die generierten Bilder von Nano Banana. Die Demo zeigt eine bedienbare Oberfläche, belegt aber keine Anbindung an ein Live-Bezahl- oder Bestellsystem."
     ]
   ]
 }

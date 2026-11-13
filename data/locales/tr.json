@@ -22,13 +22,21 @@
       "games": "Oyunlar ve animasyon sahneleri",
       "comparison": "Model karşılaştırması"
     },
-    "intro": "Erken kullanıma açılma döneminde paylaşanların Gemini 4 Carbon ile ilişkilendirdiği herkese açık topluluk gösterimlerinden oluşan bir koleksiyon.",
+    "intro": "Topluluğun ve Google’ın yayımladığı Gemini 4 Carbon örnekleri ile sonuçların nasıl ölçüldüğünü açıklayan değerlendirmeler.",
     "purpose": "Özgün kaynaklar üzerinden somut görevleri, görünür çıktıları ve pratik sınırları inceleyin.",
-    "stats": "5 kategoride 44 kullanım örneği. Yeniden paylaşımlar ilgili eserle birleştirilir; mevcut çıktının karşılaştırması aynı örnekte tutulur.",
+    "stats": "5 kategoride 50 örnek. Yeniden paylaşımlar özgün çalışmanın, aynı sonuca ilişkin karşılaştırmalar da ilgili örneğin altında toplanır.",
     "evidence": "Model adları, üretim süreleri ve kalite yorumları kaynakların beyanıdır. Arena görünen adı arka uç sürümünü kanıtlamaz. Kayıt, çalıştırılabilir kodu, tüm etkileşimleri veya tekrarlanabilir başarıyı kanıtlamaz.",
     "steps": "1. İçindekilerden bir görev seçin.\n2. Video ya da görseli açıp örnek başlığından özgün paylaşıma gidin.\n3. Görünen sonucu görev ve sınırlarla karşılaştırın.",
     "thanks": "Gösterimleri paylaşan şu kişilere teşekkürler:",
-    "corrections": "Atıflar bağlantılı kaynaklara dayanır ve düzeltilmesi gerekebilir. Eksik atıf, yinelenen eser, yanlış iddia veya kaldırma isteği için issue açın. Üçüncü taraf medyanın hakları sahiplerinde kalır."
+    "corrections": "Atıflar bağlantılı kaynaklara dayanır ve düzeltilmesi gerekebilir. Eksik atıf, yinelenen eser, yanlış iddia veya kaldırma isteği için issue açın. Üçüncü taraf medyanın hakları sahiplerinde kalır.",
+    "what_it_shows": "Gösterilen",
+    "section": "Bölüm",
+    "navigation_purpose": "Amaç",
+    "navigation_notes": {
+      "related": "İlgili modellerin depolarına göz atın.",
+      "quick_start": "Bir örnek seçip dayanaklarını inceleyin.",
+      "acknowledge": "Katkıda bulunanları ve düzeltme yollarını görün."
+    }
   },
   "cases": [
     [
@@ -250,6 +258,36 @@
       "Kırmızı gövdeli yelkenli",
       "Kırmızı gövdeli ve açık kahverengi yelkenli başka bir gemi sahnesini keşfedin.",
       "Örnek karelerde köpük ve kuşlarla yakın ve uzak görünümler var. Gövde, süslemeler ve yelkenler üç ışık durumundaki gemiden farklı; Carbon’a atıf ve uygulamanın tamamı doğrulanmış değil."
+    ],
+    [
+      "Pelican Quest kampüs oyunu",
+      "Birden çok ajanın keşfe açık bir kampüs oyununu nasıl oluşturduğunu inceleyin.",
+      "Google, Antigravity ajanlarından oluşan bir ekibin Three.js, WebGL ve Blender öğeleriyle bir oyun geliştirdiğini bildiriyor. Oyunda bir pelikan GBike ile Mountain View kampüsünü dolaşıyor. Kayıt sahneyi ve kontrolleri gösteriyor, ancak sürecin tekrarlanabilirliğini kanıtlamıyor."
+    ],
+    [
+      "Multimodal Knowledge Agent karşılaştırması",
+      "Görsel açıdan karmaşık belgeler ve teslim edilen çalışmalar için ağırlıklı puanları karşılaştırın.",
+      "Artificial Analysis ve Google DeepMind ajanları on sektörden 200 özel görevle değerlendirdi. Rapora göre Climb ölçütlerinin ağırlıklı puanı Gemini 4 Carbon High için %54, Claude Fable 5.2 Max için %57, Claude Opus 5.5 Max için %53. Bu sayılar Stirrup ortamı ve belirlenen ölçütler için geçerlidir; tamamlanan görevlerin oranını göstermez."
+    ],
+    [
+      "Eyfel Kulesi inşaat modeli",
+      "Mühendislik çizimlerinin 3B bir inşaat animasyonuna dönüşümünü izleyin.",
+      "Google, Antigravity ajanlarının tarihî mühendislik çizimlerinden Eyfel Kulesi modeli çıkarıp inşaat aşamalarını görselleştirdiğini gösteriyor. Videoda çizimler ve sonuç yer alıyor, ancak ölçü doğruluğu doğrulanmıyor."
+    ],
+    [
+      "Platform 37 ofis görselleştirmesi",
+      "Ofis tasarımının planlardan dış cephe görseline dönüşümünü izleyin.",
+      "Google, ajanların planları okuyup geometrisini oluşturduğu ve yeşil çatılı ofisin dış görünüşünü görselleştirdiği bir örnek sunuyor. Video plan ile görsel arasındaki geçişi gösteriyor; geometrinin inşaat için uygunluğunu kanıtlamıyor."
+    ],
+    [
+      "Gerilim altındaki örgü çalışması",
+      "Gerilim altındaki örme kumaşın üç boyutlu temsilini inceleyin.",
+      "Google, örme kumaş mekaniği üzerine 2026 tarihli bir çalışmaya dayanan etkileşimli bir görselleştirici sunuyor. Araç gerilim altındaki 110 lifi gösteriyor. Videoda simülasyon ve grafikler var; malzemenin fiziksel doğrulaması sunulmuyor."
+    ],
+    [
+      "Gemini ürün mağazası",
+      "Marka kılavuzunun özgün görselleri olan bir mağazaya nasıl dönüştüğünü görün.",
+      "Google, mağazayı Antigravity’de ön yüz tasarımı özelliğini kullanarak oluşturdu. Demo AI Studio’da açılabiliyor. Ekip, mağazayı Gemini ile geliştirdiğini ve görselleri Nano Banana ile ürettiğini belirtiyor. Demo çalışan bir arayüz gösteriyor; gerçek ödeme veya sipariş işleme bağlantısının kurulduğunu kanıtlamıyor."
     ]
   ]
 }
